@@ -1,6 +1,6 @@
 # owncraft
 
-Compilation of resources and methods used for that own.
+My compilation of resources and methods used for that own.
 
 ## Struct
 
