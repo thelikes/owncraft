@@ -1,8 +1,10 @@
 # owncraft
 
-My compilation of resources and methods used for that own.
+Miscellaneous notes containing resources, techniques, methods, and attacks for
+ethical hacking purposes. 
 
-## Struct
+---
 
-* resources- - links to guides, techniques, tools, etc for owning
-* methods- commands
+Files starting with the word 'resource' will contain links to resources and
+files starting with the word 'method' will contain applicable methods,
+commands, etc.
