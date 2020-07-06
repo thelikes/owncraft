@@ -9,6 +9,7 @@
 * [red team infrastructure - bluescreenofjeff](https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki#phishing-setup)
 
 ### Techniques
+
 * [htmlsmuggling - outflank](https://outflank.nl/blog/2018/08/14/html-smuggling-explained/)
 
 ### gophish setup
@@ -19,6 +20,8 @@
 
 
 ## Tools
+
+* [Complete IP Check for Sending Mailservers](http://multirbl.valli.org/)
 
 ### NG Phishing (2fa)
 
