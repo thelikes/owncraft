@@ -2,7 +2,11 @@
 
 ## Misc Tricks
 
-* Mount internal NFS share through pivot:
+### NFS Proxy Mount
+
+tags: nfs, proxy, proxychains, mount, reverse tunnle, ssh
+
+Mount internal NFS share through pivot:
 
 After compromising a host as a low-priv user, if the system has access to local NFS shares, the shares can be mounted via a proxy. One method is to create a SSH proxy and mount the NFS share on the remote attack box. In the easiest of cases, the below is all that is required.
 
