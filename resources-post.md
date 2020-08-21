@@ -10,6 +10,9 @@
 * [Linux (gtfobins)](https://gtfobins.github.io/)
 * [Windows (lolbas)](https://lolbas-project.github.io/)
 
+#### Tools
+* [Windows File Type Manager](https://www.nirsoft.net/utils/file_types_manager.html)
+
 ## Post Pivot Resources
 
 > "A tarball containing a statically linked copy of nmap and all its scripts that you can upload and run on any box is very useful for this. The various nfs-* and especially smb-* scripts nmap has will be extremely useful." - Phineas Fisher
