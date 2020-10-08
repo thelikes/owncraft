@@ -28,3 +28,6 @@
 * [SCANNING EFFECTIVELY THROUGH A SOCKS PIVOT WITH NMAP AND PROXYCHAINS](https://cybersyndicates.com/2015/12/nmap-and-proxychains-scanning-through-a-socks-piviot/)
 * [dynamic port forwarding](https://netsec.ws/?p=278)
 * [nmap + tor + proxychains](https://www.shellhacks.com/anonymous-port-scanning-nmap-tor-proxychains/)
+
+## Tips & Tricks
+- [the-hackers-choice (thc) favourite tips, tricks, and hacks](https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet)

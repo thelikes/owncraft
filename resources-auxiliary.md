@@ -15,3 +15,6 @@ Useful services for Out of Band exploitation.
 4. https://canarytokens.org/generate
 5. http://dnsbin.zhack.ca
 6. https://ngrok.com
+
+## Misc
+- [Nmap limit the scan rate for each host, without limiting the scan rate for the scan as a whole](https://github.com/nmap/nmap/issues/1360#issuecomment-431233462)

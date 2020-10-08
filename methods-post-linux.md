@@ -76,3 +76,31 @@ cat /mnt/jane/.ssh/id_rsa
 * Select module (must be proxy aware)
     * `use auxiliary/scanner/ssh/ssh_login`
     * `set Proxies socks4:127.0.0.1:1050`
+
+## THC
+
+Nabbed from [The Hackers Choice](https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet)
+
+* Hide Commands
+
+```
+$ export HISTFILE=/dev/null
+```
+
+* Commit Suicide 
+
+```
+#alias exit='kill -9 $$'```
+```
+
+* Commands starting with a space will not get logged to history
+
+```
+$  id
+```
+
+* Almost invisible SSH
+
+```
+$ ssh -o UserKnownHostsFile=/dev/null -T user@server.org "bash -i"
+```

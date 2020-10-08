@@ -7,3 +7,6 @@
 - [Mubix Interesting Repos](https://github.com/mubix/repos)
 - [Pentest-Tools (S3cur3Th1sSh1t)](https://github.com/S3cur3Th1sSh1t/Pentest-Tools)
 - [HackTricks (GOLD!) - Carlos Polop](https://book.hacktricks.xyz/)
+
+## Misc
+- [Redis SSH authorized_keys Exploit](https://github.com/psmiraglia/ctf/blob/master/kevgir/000-redis.md)
