@@ -10,6 +10,10 @@
 * [Linux (gtfobins)](https://gtfobins.github.io/)
 * [Windows (lolbas)](https://lolbas-project.github.io/)
 
+### Leveraging Password Hashes
+- [Practical Usage of NTLM Hashes](https://blog.ropnop.com/practical-usage-of-ntlm-hashes/)
+- [Dumping Domain Password Hashes (pentestlab.blog)](https://pentestlab.blog/2018/07/04/dumping-domain-password-hashes/)
+
 #### Tools
 * [Windows File Type Manager](https://www.nirsoft.net/utils/file_types_manager.html)
 
