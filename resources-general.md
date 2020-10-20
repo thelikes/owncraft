@@ -10,3 +10,9 @@
 
 ## Misc
 - [Redis SSH authorized_keys Exploit](https://github.com/psmiraglia/ctf/blob/master/kevgir/000-redis.md)
+- [Best java/class/jar/war decompiler - CFR](https://www.benf.org/other/cfr/)
+
+### Static Analysis
+* [RIPS](https://www.ripstech.com/)
+* [PSALM](https://psalm.dev/)
+* [RCEScanner](https://github.com/mhaskar/RCEScanner)

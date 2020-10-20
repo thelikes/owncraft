@@ -49,3 +49,23 @@ admin:admin
 root:toor
 adm:12345
 ```
+
+### Prince (undocumented) flags
+
+[Found here](https://github.com/openwall/john/issues/1428)
+
+```
+PRINCE mode options:
+--prince-loopback[=FILE]  fetch words from a .pot file
+--prince-elem-cnt-min=N   minimum number of elements per chain (1)
+--prince-elem-cnt-max=N   maximum number of elements per chain (8)
+--prince-skip=N           initial skip
+--prince-limit=N          limit number of candidates generated
+--prince-wl-dist-len      calculate length distribution from wordlist
+                          instead of using built-in table
+--prince-wl-max=N         load only N words from input wordlist
+--prince-case-permute     permute case of first letter
+--prince-mmap             memory-map infile (not available when permuting case)
+--prince-keyspace         just show total keyspace that would be produced
+                          (disregarding skip and limit)
+```
