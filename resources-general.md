@@ -16,3 +16,4 @@
 * [RIPS](https://www.ripstech.com/)
 * [PSALM](https://psalm.dev/)
 * [RCEScanner](https://github.com/mhaskar/RCEScanner)
+* [SonarCube](https://www.sonarqube.org)
