@@ -3,8 +3,10 @@
 ## Local Privilege Escalation
 
 ### Guides
-* [g0tmi1k](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
-* [Windows Privilege Escalation Fundamentals](http://www.fuzzysecurity.com/tutorials/16.html]) 
+* Linux
+    * [g0tmi1k](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
+* Windows
+    * [Windows Privilege Escalation Fundamentals](http://www.fuzzysecurity.com/tutorials/16.html]) 
 
 ### Living Off the Land
 * [Linux (gtfobins)](https://gtfobins.github.io/)
@@ -16,6 +18,8 @@
 
 #### Tools
 * [Windows File Type Manager](https://www.nirsoft.net/utils/file_types_manager.html)
+* [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) [blog post](https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/)
+    - alternatives: {hot,juicy}Potato, [RoguePotato](https://github.com/antonioCoco/RoguePotato), [SweetPotato](https://github.com/CCob/SweetPotato)
 
 ## Post Pivot Resources
 
