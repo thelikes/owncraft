@@ -13,9 +13,10 @@
 ## Misc
 - [Redis SSH authorized_keys Exploit](https://github.com/psmiraglia/ctf/blob/master/kevgir/000-redis.md)
 - [Best java/class/jar/war decompiler - CFR](https://www.benf.org/other/cfr/)
+- [Password Cracking 201: Beyond the Basics - Royce Williams](https://www.youtube.com/watch?v=cSOjQI0qbuU)
 
 ### Static Analysis
-* [RIPS](https://www.ripstech.com/)
-* [PSALM](https://psalm.dev/)
-* [RCEScanner](https://github.com/mhaskar/RCEScanner)
-* [SonarCube](https://www.sonarqube.org)
+- [RIPS](https://www.ripstech.com/)
+- [PSALM](https://psalm.dev/)
+- [RCEScanner](https://github.com/mhaskar/RCEScanner)
+- [SonarCube](https://www.sonarqube.org)
