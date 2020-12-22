@@ -20,3 +20,7 @@
 - [PSALM](https://psalm.dev/)
 - [RCEScanner](https://github.com/mhaskar/RCEScanner)
 - [SonarCube](https://www.sonarqube.org)
+
+#### decompile
+- [CFR - java decompiler](https://www.benf.org/other/cfr/)
+- [JustDecompile .NET Assembly Decompiler](https://www.telerik.com/products/decompiler.aspx)

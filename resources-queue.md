@@ -6,3 +6,4 @@
 - [sshgobrute - golang ssh brute](https://github.com/aldenso/sshgobrute)
 - [FireEye's Red Team Tools - TTPs (PICUS)](https://www.picussecurity.com/resource/blog/techniques-tactics-procedures-utilized-by-fireeye-red-team-tools)
 - [DecryptAutoLogon (securesean)](https://github.com/securesean/DecryptAutoLogon) - cobaltstrike autologon extractor
+- [Word Doc Video Embed EXE PoC (rvrsh3ll)](https://github.com/rvrsh3ll/Word-Doc-Video-Embed-EXE-POC)
