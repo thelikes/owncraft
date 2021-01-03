@@ -40,6 +40,7 @@
 * [practical guide to NTML relaying](https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html)
 * [No PSExec Needed](https://www.trustedsec.com/june-2015/no_psexec_needed/)
 * [pedantic guide to pivoting - part 1](https://www.jollyfrogs.com/jollyfrogs-pedantic-guide-to-pivoting-part-1-ssh-local-port-forwarding/)
+* [Offensive Lateral Movement (SpecterOps)](https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f)
 
 #### port forwarding / proxies
 
