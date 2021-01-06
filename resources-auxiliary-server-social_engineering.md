@@ -11,6 +11,7 @@
 ### Techniques
 
 * [htmlsmuggling - outflank](https://outflank.nl/blog/2018/08/14/html-smuggling-explained/)
+* [Fun with ClickOnce](http://blog.redxorblue.com/2020/07/one-click-to-compromise-fun-with.html)
 
 ### gophish setup
 
@@ -22,6 +23,9 @@
 ## Tools
 
 * [Complete IP Check for Sending Mailservers](http://multirbl.valli.org/)
+* [SpoofCheck](https://github.com/BishopFox/spoofcheck)
+
+## Tools
 
 ### NG Phishing (2fa)
 

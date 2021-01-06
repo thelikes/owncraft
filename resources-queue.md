@@ -1,10 +1,14 @@
 # Tagged + Uncategorized
 
 ## Issue 2 - Jan 2020
-- (Sys Whispers2](https://github.com/jthuraisamy/SysWhispers2)
+- (SysWhispers2](https://github.com/jthuraisamy/SysWhispers2)
     - AV/EDR evasion via direct system calls
 - [Red Team Tactics: Utilizing Syscalls in C# - Writing The Code](https://jhalon.github.io/utilizing-syscalls-in-csharp-2/)
-
+- [CrackQ](https://github.com/f0cker/crackq)
+    - Web GUI & API for queuing hashcat jobs
+- [SharpHandler](https://github.com/jfmaes/SharpHandler)
+    - Reuses open handles to lsass to parse or minidump lsass
+    
 ## Issue 1 - Dec 2020
 - [Purgalicious VBA](https://www.fireeye.com/blog/threat-research/2020/11/purgalicious-vba-macro-obfuscation-with-vba-purging.html) - inverse VBA stomping for Office maldocs
 - [netbiosX/Checklists - RedTeam & PenTest Checklists (mostly outdated)](https://github.com/netbiosX/Checklists)
