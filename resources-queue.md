@@ -8,7 +8,13 @@
     - Web GUI & API for queuing hashcat jobs
 - [SharpHandler](https://github.com/jfmaes/SharpHandler)
     - Reuses open handles to lsass to parse or minidump lsass
-    
+- [wraith](https://github.com/N0MoreSecr3ts/wraith)
+    - Digital Secret finder in golang
+- [burp-send-to](https://github.com/bytebutcher/burp-send-to)
+    - Customizable 'Send to' context menu
+- [New year, new anti-debug: Don't Thread On Me](https://secret.club/2021/01/04/thread-stuff.html)
+    - Windows, debugging
+
 ## Issue 1 - Dec 2020
 - [Purgalicious VBA](https://www.fireeye.com/blog/threat-research/2020/11/purgalicious-vba-macro-obfuscation-with-vba-purging.html) - inverse VBA stomping for Office maldocs
 - [netbiosX/Checklists - RedTeam & PenTest Checklists (mostly outdated)](https://github.com/netbiosX/Checklists)
