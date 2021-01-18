@@ -34,6 +34,13 @@
 - [SharpShares](https://github.com/mez-0/SharpShares)
     - .NET 4.0 Share Hunting and ACL Mapping 
     - tags: windows, post
+- [UltimateWDACBypassList](https://github.com/bohops/UltimateWDACBypassList)
+    - A centralized resource for previously documented WDAC bypass techniques 
+    - tags: windows, post
+    - Related: https://swapcontext.blogspot.com/2020/10/uacme-35-wd-and-ways-of-mitigation.html
+    - Related: https://swapcontext.blogspot.com/2020/11/uac-bypasses-from-comautoapprovallist.html
+- [Using a C# shellcode runner and confuserex to Bypass uac while evading av](https://hausec.com/2020/10/30/using-a-c-shellcode-runner-and-confuserex-to-bypass-uac-while-evading-av/)
+    - tags: windows, post
 
 ## Issue 2 - Jan 2021 pt1
 - (SysWhispers2](https://github.com/jthuraisamy/SysWhispers2)

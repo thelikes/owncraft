@@ -18,3 +18,5 @@
     - bueller, cdolla, compromised_log, credpocalypse, export TSv, leave_no_trace, portscan_results, save_log
 - [AggressorCollection (invokethreatguy)](https://github.com/invokethreatguy/AggressorCollection)
     - Collection of others' AggressorScripts repositories
+- [Aggressor-Scripts (chryzsh)](https://github.com/chryzsh/Aggressor-Scripts)
+    - UAC Bypass Aggressor Script

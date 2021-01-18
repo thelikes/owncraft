@@ -25,7 +25,9 @@
 
 * [Linux (gtfobins)](https://gtfobins.github.io/)
 * [Windows (lolbas)](https://lolbas-project.github.io/)
-
+* [UACME](https://github.com/hfiref0x/UACME#usage)
+    * Defeating Windows User Account Control 
+    
 ### Leveraging Password Hashes
 
 - [Practical Usage of NTLM Hashes](https://blog.ropnop.com/practical-usage-of-ntlm-hashes/)
