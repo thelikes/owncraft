@@ -3,10 +3,37 @@
 ## Issue 3 - Jan 2021 pt2
 - [NetNTLMtoSilverTicket](https://github.com/NotMedic/NetNTLMtoSilverTicket)
     - SpoolSample -> Responder w/NetNTLM Downgrade -> NetNTLMv1 -> NTLM -> Kerberos Silver Ticket
+    - tags: windows, post
 - [emp3r0r](https://github.com/jm33-m0/emp3r0r)
     - linux post-exploitation framework made by linux user 
+    - tags: linux, post
 - [SprayKatz](https://github.com/aas-n/spraykatz)
-    - Credentials gathering tool automating remote procdump and parse of lsass process. 
+    - Credentials gathering tool automating remote procdump and parse of lsass process.
+    - tags: windows, post
+- [burp-piper-custom-scripts](https://github.com/righettod/burp-piper-custom-scripts)
+    - Custom scripts for the PIPER Burp extensions. 
+    - tags: web
+- [muraena](https://github.com/muraenateam/muraena)
+    - an almost-transparent reverse proxy aimed at automating phishing and post-phishing activities
+    - tags: utilities
+- [BOFs (ajpc500)](https://github.com/ajpc500/BOFs)
+    - Collection of Beacon Object Files 
+    - tags: cstrike
+- [RogueWinRm (antonioCoco)](https://github.com/antonioCoco/RogueWinRM)
+    -  Windows Local Privilege Escalation from Service Account to System. Use if WinRM service is not running (default on Win10 but NOT on Windows Server 2019).
+    - tags: windows, post
+- [CS-Situational-Awareness-BOF (trustedsec)](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
+    - Situational Awareness commands implemented using Beacon Object Files
+    - tags: cstrike
+- [terraform-phishing (boh)](https://github.com/boh/terraform-phishing)
+    - Build a phishing server (Gophish) together with SMTP-redirector (Postfix) automatically in Digital Ocean with terraform and ansible.. 
+    - tags: initial compromise, phishing, infra
+- [Red-Terroir](https://github.com/b3n-j4m1n/Red-Terroir)
+    - Terraform resources for building HTTP, DNS, phishing, and mail server red team infrastructure 
+    - tags: initial compromise, phishing, infra
+- [SharpShares](https://github.com/mez-0/SharpShares)
+    - .NET 4.0 Share Hunting and ACL Mapping 
+    - tags: windows, post
 
 ## Issue 2 - Jan 2021 pt1
 - (SysWhispers2](https://github.com/jthuraisamy/SysWhispers2)

