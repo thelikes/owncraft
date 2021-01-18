@@ -41,6 +41,7 @@
 * [No PSExec Needed](https://www.trustedsec.com/june-2015/no_psexec_needed/)
 * [pedantic guide to pivoting - part 1](https://www.jollyfrogs.com/jollyfrogs-pedantic-guide-to-pivoting-part-1-ssh-local-port-forwarding/)
 * [Offensive Lateral Movement (SpecterOps)](https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f)
+* [WMI Persistence (fireeye)](https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-windows-management-instrumentation.pdf)
 
 #### port forwarding / proxies
 

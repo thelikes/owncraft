@@ -1,6 +1,14 @@
 # Tagged + Uncategorized
 
-## Issue 2 - Jan 2020
+## Issue 3 - Jan 2021 pt2
+- [NetNTLMtoSilverTicket](https://github.com/NotMedic/NetNTLMtoSilverTicket)
+    - SpoolSample -> Responder w/NetNTLM Downgrade -> NetNTLMv1 -> NTLM -> Kerberos Silver Ticket
+- [emp3r0r](https://github.com/jm33-m0/emp3r0r)
+    - linux post-exploitation framework made by linux user 
+- [SprayKatz](https://github.com/aas-n/spraykatz)
+    - Credentials gathering tool automating remote procdump and parse of lsass process. 
+
+## Issue 2 - Jan 2021 pt1
 - (SysWhispers2](https://github.com/jthuraisamy/SysWhispers2)
     - AV/EDR evasion via direct system calls
 - [Red Team Tactics: Utilizing Syscalls in C# - Writing The Code](https://jhalon.github.io/utilizing-syscalls-in-csharp-2/)
