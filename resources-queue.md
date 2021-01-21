@@ -41,6 +41,9 @@
     - Related: https://swapcontext.blogspot.com/2020/11/uac-bypasses-from-comautoapprovallist.html
 - [Using a C# shellcode runner and confuserex to Bypass uac while evading av](https://hausec.com/2020/10/30/using-a-c-shellcode-runner-and-confuserex-to-bypass-uac-while-evading-av/)
     - tags: windows, post
+- [SharpClipHistory](https://github.com/FSecureLABS/SharpClipHistory)
+    - C# program used to read contents of a user's clipboard starting from Win 10 1809 build
+    - tags: windows, post
 
 ## Issue 2 - Jan 2021 pt1
 - (SysWhispers2](https://github.com/jthuraisamy/SysWhispers2)

@@ -3,7 +3,7 @@
 ## General
 - [cobaltstrike v4 profiles writeup - @bigb0ss](https://medium.com/@bigb0ss/red-team-cobalt-strike-4-0-malleable-c2-profile-guideline-eb3eeb219a7c)
 - [cobaltstrike v4 profile exhaustive reference](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
-- [c2concealer (fortynorth) cobalstrike profiler generator]([200~https://github.com/FortyNorthSecurity/C2concealer)
+- [c2concealer (fortynorth) cobalstrike profiler generator](200~https://github.com/FortyNorthSecurity/C2concealer)
 
 ## Aggressor Repos
 - [CSSG](https://github.com/RCStep/CSSG)
@@ -20,3 +20,5 @@
     - Collection of others' AggressorScripts repositories
 - [Aggressor-Scripts (chryzsh)](https://github.com/chryzsh/Aggressor-Scripts)
     - UAC Bypass Aggressor Script
+- [AggressorScripts (bluescreenofjeff)](https://github.com/bluscreenofjeff/AggressorScripts)
+    - Collection of Aggressor scripts for use with Cobalt Strike 3.0+
