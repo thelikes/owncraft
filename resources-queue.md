@@ -1,5 +1,17 @@
 # Tagged + Uncategorized
 
+## Issue 4 - Jan 2021 pt3
+- [VBA-Macro-Reverse-Shell](https://github.com/JohnWoodman/VBA-Macro-Reverse-Shell)
+    - pure VBA rev shell, no shellcode injection or powershell
+    - tags: windows, exploit, phish
+- [Enemies Of Symfony (EOS)](https://github.com/synacktiv/eos)
+    - Enemies Of Symfony - Debug mode Symfony looter 
+    - tags: web, exploit
+- [SpooNmap (trustedsec)](https://github.com/trustedsec/spoonmap)
+    - IDS-evading nmap wrapper written in python3
+    - related: [https://www.trustedsec.com/blog/get-to-hacking-massively-faster-the-release-of-spoonmap/](https://www.trustedsec.com/blog/get-to-hacking-massively-faster-the-release-of-spoonmap/)
+    - tags: enumeration, recon
+
 ## Issue 3 - Jan 2021 pt2
 - [NetNTLMtoSilverTicket](https://github.com/NotMedic/NetNTLMtoSilverTicket)
     - SpoolSample -> Responder w/NetNTLM Downgrade -> NetNTLMv1 -> NTLM -> Kerberos Silver Ticket
