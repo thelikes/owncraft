@@ -22,3 +22,7 @@
     - UAC Bypass Aggressor Script
 - [AggressorScripts (bluescreenofjeff)](https://github.com/bluscreenofjeff/AggressorScripts)
     - Collection of Aggressor scripts for use with Cobalt Strike 3.0+
+
+## BOF Repos
+* [CS Situational Awareness BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
+* [Extended Process List BOF](https://github.com/thesnoom/extps-cobalt-strike-bof)

@@ -12,6 +12,7 @@
 
 * [WinPwn (S3cur3Th1sSh1t)](https://github.com/S3cur3Th1sSh1t/WinPwn)
 * [PEAS (carlospolop)](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite)
+* [PrivEscCheck (itm4n)](https://github.com/itm4n/PrivescCheck)
 
 #### Misc
 * [pspy - linux process monitoring](https://github.com/DominicBreuker/pspy)
