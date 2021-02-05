@@ -1,5 +1,24 @@
 # Tagged + Uncategorized
 
+## Issue 5 - Feb 2021 pt1
+
+### writeups
+- [Blind SSRF Chains (assetnote)](https://blog.assetnote.io/2021/01/13/blind-ssrf-chains/)
+    - tags: web, exploit
+
+### tools
+- [ComputerDefaults.exe UAC Bypass](https://github.com/0xyg3n/UAC_Exploit)
+    - tags:F windows, post
+- [The Secret Parameter - LFR & Potential RCE in NodeJS Apps](https://blog.shoebpatel.com/2021/01/23/The-Secret-Parameter-LFR-and-Potential-RCE-in-NodeJS-Apps/)
+    - tags: web, exploit
+- [RedTeamCCode (Mr-Un1c0d3r)](https://github.com/Mr-Un1k0d3r/RedTeamCCode)
+    - tags: windows, exploit, post
+- [ScareCrow](https://github.com/optiv/ScareCrow)
+    - tags: windows, exploit, redteam
+- [microsubs](https://github.com/codingo/microsubs)
+    - Collection for interacting with API sources for recon
+    - tags: web, recon
+
 ## Issue 4 - Jan 2021 pt3
 - [VBA-Macro-Reverse-Shell](https://github.com/JohnWoodman/VBA-Macro-Reverse-Shell)
     - pure VBA rev shell, no shellcode injection or powershell
@@ -24,7 +43,7 @@
     - tags: windows, post
 - [burp-piper-custom-scripts](https://github.com/righettod/burp-piper-custom-scripts)
     - Custom scripts for the PIPER Burp extensions. 
-    - tags: web
+    - tags: web, tools
 - [muraena](https://github.com/muraenateam/muraena)
     - an almost-transparent reverse proxy aimed at automating phishing and post-phishing activities
     - tags: utilities
