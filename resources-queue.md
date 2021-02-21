@@ -39,7 +39,7 @@
     - tags: windows, malwaredev
 - [Relay Attacks via Cobalt Strike Beacons](https://pkb1s.github.io/Relay-attacks-via-Cobalt-Strike-beacons/)
     - tags: windows, exploit
-- 
+
 ### tools
 - [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
     - tags: windows, devops
