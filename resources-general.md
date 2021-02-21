@@ -9,6 +9,7 @@
 - [HackTricks (GOLD!) - Carlos Polop](https://book.hacktricks.xyz/)
 - [Offensive Security Cheatsheet (haax.fr)](https://cheatsheet.haax.fr/)
 - [ired.team](https://www.ired.team/)
+- [InfoSec Reference (gold)](https://rmusser.net/docs/index.html)
 
 ## Misc
 - [Redis SSH authorized_keys Exploit](https://github.com/psmiraglia/ctf/blob/master/kevgir/000-redis.md)

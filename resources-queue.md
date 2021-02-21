@@ -5,12 +5,25 @@
 ### writeups
 - [Blind SSRF Chains (assetnote)](https://blog.assetnote.io/2021/01/13/blind-ssrf-chains/)
     - tags: web, exploit
+- [The Secret Parameter - LFR & Potential RCE in NodeJS Apps](https://blog.shoebpatel.com/2021/01/23/The-Secret-Parameter-LFR-and-Potential-RCE-in-NodeJS-Apps/)
+    - tags: web, exploit
+- [Relaying 101 (Luemmelsec)](https://luemmelsec.github.io/Relaying-101/)
+    - tags: windows, exploit
+- [MSBuild without MSBuild](https://www.trustedsec.com/blog/msbuild-a-profitable-sidekick/)
+    - tags: windows, exploit
+- [Some Ways to Dump Lsass](https://medium.com/@markmotig/some-ways-to-dump-lsass-exe-c4a75fdc49bf)
+    - tags: windows, post
+- [Malicious VBA Macros Trials and Tribulations](https://john-woodman.com/research/malicious-vba-macros-trials-tribulations/)
+    - tags: windows, phish
+- [One thousand and one ways to copy your shellcode to memory](https://adepts.of0x.cc/alternatives-copy-shellcode/)
+    - tags: windows, exploit
+- [Malware-Dev Course](https://silentbreaksecurity.com/training/malware-dev/)
+- [Laravel <= v8.4.2 debug mode: Remote code execution (ambionics.io)](https://www.ambionics.io/blog/laravel-debug-rce)
+    - tags: web, exploit
 
 ### tools
 - [ComputerDefaults.exe UAC Bypass](https://github.com/0xyg3n/UAC_Exploit)
     - tags:F windows, post
-- [The Secret Parameter - LFR & Potential RCE in NodeJS Apps](https://blog.shoebpatel.com/2021/01/23/The-Secret-Parameter-LFR-and-Potential-RCE-in-NodeJS-Apps/)
-    - tags: web, exploit
 - [RedTeamCCode (Mr-Un1c0d3r)](https://github.com/Mr-Un1k0d3r/RedTeamCCode)
     - tags: windows, exploit, post
 - [ScareCrow](https://github.com/optiv/ScareCrow)
@@ -18,6 +31,14 @@
 - [microsubs](https://github.com/codingo/microsubs)
     - Collection for interacting with API sources for recon
     - tags: web, recon
+- [link (rust-based c2)](https://github.com/postrequest/link/)
+    - tags: windows, post, future
+- [Dumping Lsass with MiniDumpWriteDump](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsass-passwords-without-mimikatz-minidumpwritedump-av-signature-bypass)
+    - tags: windows, post
+- [physmem2profit (minidump of a target hosts' LSASS process by analysing physical memory remotely )](https://github.com/FSecureLABS/physmem2profit)
+    - tags: windows, post
+- [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
+    - tags: windows, devops
 
 ## Issue 4 - Jan 2021 pt3
 - [VBA-Macro-Reverse-Shell](https://github.com/JohnWoodman/VBA-Macro-Reverse-Shell)

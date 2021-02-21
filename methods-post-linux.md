@@ -61,6 +61,7 @@ cat /mnt/jane/.ssh/id_rsa
 ### Socket Hijack
 
 From: https://twitter.com/REPTILEHAUS/status/1347103391961505792
+Also: https://gist.github.com/int0x80/9e7b096684dd37c478198404d171aa3f
 
 ```
 root@bastation: $ find /tmp/ssh-* -type s
