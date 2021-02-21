@@ -39,7 +39,7 @@
     - tags: windows, malwaredev
 - [Relay Attacks via Cobalt Strike Beacons](https://pkb1s.github.io/Relay-attacks-via-Cobalt-Strike-beacons/)
     - tags: windows, exploit
-
+- 
 ### tools
 - [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
     - tags: windows, devops
@@ -66,6 +66,9 @@
 - [Mose](https://github.com/master-of-servers/mose)
     - Ansible/Puppet/Chef/Salt Post Exploitation Framework
     - tags: exploit, post
+- [trigen](https://github.com/karttoon/trigen)
+    - Trigen is a Python script which uses different combinations of Win32 function calls in generated VBA to execute shellcode. 
+    - tags: windows, phish
 
 ## Issue 5 - Feb 2021 pt1
 
