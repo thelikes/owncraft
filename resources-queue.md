@@ -1,5 +1,72 @@
 # Tagged + Uncategorized
 
+## Issue 6 - Feb 2021 pt2
+
+### writeups
+- [One thousand and one ways to copy your shellcode to memory](https://adepts.of0x.cc/alternatives-copy-shellcode/)
+    - tags: windows, exploit
+- [Malware-Dev Course](https://silentbreaksecurity.com/training/malware-dev/)
+- [Laravel <= v8.4.2 debug mode: Remote code execution (ambionics.io)](https://www.ambionics.io/blog/laravel-debug-rce)
+    - tags: web, exploit
+- [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
+    - related: https://github.com/visma-prodsec/confused
+    - tags: web, exploit
+- [Exploiting Out-of-Band XXE](https://dhiyaneshgeek.github.io/web/security/2021/02/19/exploiting-out-of-band-xxe/)
+    - exploiting XXE out-of-band with DAV, LOCK methods
+    - tags: web, exploit
+- [What Should a Hacker Know about WebDav](https://www.slideshare.net/0ang3el/what-should-a-hacker-know-about-webdav)
+    - tags: web, exploit
+- [UsefulSources (malwarehenri)](https://github.com/malwarehenri/UsefulSources)
+    - collection of interesting, malware related, resources
+    - tags: malware, collection
+- [Middleware Misconfigurations (detectify)](https://labs.detectify.com/2021/02/18/middleware-middleware-everywhere-and-lots-of-misconfigurations-to-fix/)
+    - nginx proxy misconfigurations
+    - tags: web, exploit
+- [Hijacking connections without injections: a ShadowMoving approach to the art of pivoting](https://adepts.of0x.cc/shadowmove-hijack-socket/)
+    - 'ShadowMove' novel technique for alternative to process injection
+    - tags: windows, post
+- [Lone SharePoint](https://www.crummie5.club/the-lone-sharepoint/)
+    - tags: windows, web, exploit
+- [Hacking Chess.com (samcurry)](https://samcurry.net/hacking-chesscom/)
+    - tags: web, exploit
+- [Active C2 IOCs](https://github.com/carbonblack/active_c2_ioc_public)
+    - tags: windows, redteam
+- [The Anatomy of Deserialization Attacks](https://blog.cobalt.io/the-anatomy-of-deserialization-attacks-b90b56328766)
+    - tags: web, exploit
+- [OffSecOps Stage Two](https://blog.xenoscr.net/OffSecOps-Stage-Two/)
+    - Offensive Pipeline Development
+    - related: [OffSecOps Basic Setup](https://blog.xenoscr.net/OffSecOps-Basic-Setup/)
+    - tags: windows, malwaredev
+- [Relay Attacks via Cobalt Strike Beacons](https://pkb1s.github.io/Relay-attacks-via-Cobalt-Strike-beacons/)
+    - tags: windows, exploit
+
+### tools
+- [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
+    - tags: windows, devops
+- [PEzor Custom Cobalt Strike Artifacts](https://iwantmore.pizza/posts/PEzor3.html)
+    - tags: windows, redteam, malwaredev
+- [SharpLAPS](https://github.com/swisskyrepo/SharpLAPS)
+    - C# for Abusing LAPS
+    - tags: windows, post
+- [CIMplant (fortynorth)](https://github.com/FortyNorthSecurity/CIMplant)
+    - C# port of WMImplant which uses either CIM or WMI to query remote systems
+    - tags: windows, exploit
+    - related: [CIMplant Part 1: Detection of a C# Implementation of WMImplant](https://fortynorthsecurity.com/blog/cimplant-part-1-detections/)
+- [VBA-Macro-Projects](https://github.com/JohnWoodman/VBA-Macro-Projects)
+    - Collection of malicious VBA projects
+    - tags: windows, exploit, phish
+- [SharpEDR](https://github.com/PwnDexter/SharpEDRChecker)
+    - C# Port to enumerate EDR present on system
+    - tags: windows, post
+- [MimiDumpWriteDump BOF](https://github.com/rookuu/BOFs)
+    - tags: windows, post
+- [SharpSecDump](https://github.com/G0ldenGunSec/SharpSecDump)
+    - .Net port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py 
+    - tags: windows, post
+- [Mose](https://github.com/master-of-servers/mose)
+    - Ansible/Puppet/Chef/Salt Post Exploitation Framework
+    - tags: exploit, post
+
 ## Issue 5 - Feb 2021 pt1
 
 ### writeups
@@ -15,11 +82,6 @@
     - tags: windows, post
 - [Malicious VBA Macros Trials and Tribulations](https://john-woodman.com/research/malicious-vba-macros-trials-tribulations/)
     - tags: windows, phish
-- [One thousand and one ways to copy your shellcode to memory](https://adepts.of0x.cc/alternatives-copy-shellcode/)
-    - tags: windows, exploit
-- [Malware-Dev Course](https://silentbreaksecurity.com/training/malware-dev/)
-- [Laravel <= v8.4.2 debug mode: Remote code execution (ambionics.io)](https://www.ambionics.io/blog/laravel-debug-rce)
-    - tags: web, exploit
 
 ### tools
 - [ComputerDefaults.exe UAC Bypass](https://github.com/0xyg3n/UAC_Exploit)
@@ -37,8 +99,6 @@
     - tags: windows, post
 - [physmem2profit (minidump of a target hosts' LSASS process by analysing physical memory remotely )](https://github.com/FSecureLABS/physmem2profit)
     - tags: windows, post
-- [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
-    - tags: windows, devops
 
 ## Issue 4 - Jan 2021 pt3
 - [VBA-Macro-Reverse-Shell](https://github.com/JohnWoodman/VBA-Macro-Reverse-Shell)

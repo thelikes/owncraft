@@ -9,6 +9,7 @@
 ## Profiles
 - [cobaltstrike v4 profiles writeup - @bigb0ss](https://medium.com/@bigb0ss/red-team-cobalt-strike-4-0-malleable-c2-profile-guideline-eb3eeb219a7c)
 - [cobaltstrike v4 profile exhaustive reference](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
+- [Malleable C2 Profiles (BC-SECURITY)](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
 
 ## Aggressor Repos
 - [CSSG](https://github.com/RCStep/CSSG)
@@ -32,3 +33,4 @@
 * [CS Situational Awareness BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
 * [Extended Process List BOF](https://github.com/thesnoom/extps-cobalt-strike-bof)
 * [Collection of BOFs (ajpc500)](https://github.com/ajpc500/BOFs)
+* [MimiDumpWriteDump BOF](https://github.com/rookuu/BOFs)
