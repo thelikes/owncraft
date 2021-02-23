@@ -6,6 +6,7 @@
 - [One thousand and one ways to copy your shellcode to memory](https://adepts.of0x.cc/alternatives-copy-shellcode/)
     - tags: windows, exploit
 - [Malware-Dev Course](https://silentbreaksecurity.com/training/malware-dev/)
+    - tags: malwaredev
 - [Laravel <= v8.4.2 debug mode: Remote code execution (ambionics.io)](https://www.ambionics.io/blog/laravel-debug-rce)
     - tags: web, exploit
 - [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
@@ -39,6 +40,8 @@
     - tags: windows, malwaredev
 - [Relay Attacks via Cobalt Strike Beacons](https://pkb1s.github.io/Relay-attacks-via-Cobalt-Strike-beacons/)
     - tags: windows, exploit
+- [Farmer for Red Teams: Harvesting NetNTLM (MDSEC)](https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/)
+    - tags: windows, exploit
 
 ### tools
 - [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
@@ -69,6 +72,18 @@
 - [trigen](https://github.com/karttoon/trigen)
     - Trigen is a Python script which uses different combinations of Win32 function calls in generated VBA to execute shellcode. 
     - tags: windows, phish
+- [Neo-reGeorg](https://github.com/L-codes/Neo-reGeorg/blob/master/README-en.md)
+    - web shell proxy
+    - tags: windows, exploit, post
+- [RunasCs](https://github.com/antonioCoco/RunasCs)
+    - impersonate user in a non-interactive environment
+    - tags: windows, exploit, post
+- [ThrowBack (silentbreaksec)](https://github.com/silentbreaksec/Throwback)
+    - HTTP/S Beaconing Implant 
+    - tags: windows, malwaredev
+- [Mono](https://github.com/mono/mono)
+    - Open Source ECMA CLI, C# and .NET Implementation
+    - tags: windows, utilities
 
 ## Issue 5 - Feb 2021 pt1
 

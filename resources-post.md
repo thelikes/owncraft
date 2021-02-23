@@ -21,6 +21,7 @@
     - alternatives: {hot,juicy}Potato, [RoguePotato](https://github.com/antonioCoco/RoguePotato), [SweetPotato](https://github.com/CCob/SweetPotato)
 * [Hwacha (linux ssh swiss army knife)](https://github.com/n00py/Hwacha)
 * [sshgobrute (static binary for ssh brute)](https://github.com/aldenso/sshgobrute)
+* [recipeforroot.com](https://recipeforroot.com/)
 
 #### Living Off the Land
 
@@ -33,7 +34,6 @@
 
 - [Practical Usage of NTLM Hashes](https://blog.ropnop.com/practical-usage-of-ntlm-hashes/)
 - [Dumping Domain Password Hashes (pentestlab.blog)](https://pentestlab.blog/2018/07/04/dumping-domain-password-hashes/)
-
 
 ## Post Pivot Resources
 
