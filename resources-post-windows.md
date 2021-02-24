@@ -14,6 +14,7 @@
     * impersonate user in a non-interactive environment
 * [physmem2profit](https://github.com/FSecureLABS/physmem2profit)
 * [PowerMAD](https://github.com/Kevin-Robertson/Powermad)
+* [TikiTorch](https://github.com/rasta-mouse/TikiTorch)
 
 ## Recon
 * [GOLD enum cmd - Active Directory Reconnaissance ](https://bitvijays.github.io/LFF-IPS-P3-Exploitation.html)

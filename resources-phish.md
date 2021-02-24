@@ -36,6 +36,7 @@
 * [Demiguise -HTA Encryption Tool](https://github.com/nccgroup/demiguise)
 * [Macro Pack](https://github.com/sevagas/macro_pack)
 * [EXCELntDonut](https://github.com/FortyNorthSecurity/EXCELntDonut)
+* [NameMash](https://gist.github.com/superkojiman/11076951)
 
 ### Keyying Payloads
 

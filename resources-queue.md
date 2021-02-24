@@ -42,6 +42,9 @@
     - tags: windows, exploit
 - [Farmer for Red Teams: Harvesting NetNTLM (MDSEC)](https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/)
     - tags: windows, exploit
+- [A Journey Combining Web Hacking and Binary Exploitation in Real World!](https://blog.orange.tw/2021/02/a-journey-combining-web-and-binary-exploitation.html)
+    - PHPWind binary exploitation
+    - tags: web, exploit
 
 ### tools
 - [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
@@ -84,6 +87,9 @@
 - [Mono](https://github.com/mono/mono)
     - Open Source ECMA CLI, C# and .NET Implementation
     - tags: windows, utilities
+- [NTLMRecon](https://github.com/pwnfoo/NTLMRecon)
+    - Enumerate information from NTLM authentication enabled web endpoints (OWA)
+    - tags: windows, exploit, web, recon
 
 ## Issue 5 - Feb 2021 pt1
 

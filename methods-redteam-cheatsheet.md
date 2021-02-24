@@ -277,6 +277,8 @@ jboden@vault.io
 boden.joe@vault.io
 [...]
 ```
+#### Resources
+- https://gist.github.com/superkojiman/11076951
 
 ### Spray
 
