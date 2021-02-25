@@ -1,5 +1,33 @@
 # Tagged + Uncategorized
 
+## Issue 7 - Feb 2021 pt3
+
+### writeups
+- [Relay Attacks via Cobalt Strike Beacons](https://pkb1s.github.io/Relay-attacks-via-Cobalt-Strike-beacons/)
+    - tags: windows, exploit
+- [Farmer for Red Teams: Harvesting NetNTLM (MDSEC)](https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/)
+    - tags: windows, exploit
+- [A Journey Combining Web Hacking and Binary Exploitation in Real World!](https://blog.orange.tw/2021/02/a-journey-combining-web-and-binary-exploitation.html)
+    - PHPWind binary exploitation
+    - tags: web, exploit
+- [Unauthorized RCE in VMware vCenter (PT SWARM)](https://swarm.ptsecurity.com/unauth-rce-vmware/)
+    - vcenter rce
+    - tags: web, exploit
+- [Coff Builder (trustedsec blog)](https://www.trustedsec.com/blog/coffloader-building-your-own-in-memory-loader-or-how-to-run-bofs/?utm_campaign=Blog%20Posts&utm_content=155025415&utm_medium=social&utm_source=twitter&hss_channel=tw-403811306)
+    - BOFs without Cobalt Strike
+    - tags: windows, exploit, redteamf
+
+### tools
+- [CVE-2021-1727 PoC](https://github.com/klinix5/CVE-2021-1727)
+    - warning: possibly backdoored
+    - tags: windows, privesc
+- [MaliciousClickOnceMSBuild](https://github.com/hausec/MaliciousClickOnceMSBuild)
+    - C# automated ClickOnce builder using MSBuild as payload
+    - tags: windows, exploit, phish
+- [WinAPI-Tricks](https://github.com/vxunderground/WinAPI-Tricks)
+    - Collection of WINAPI tricks used by malware
+    - tags: windows, exploit, malwaredev
+
 ## Issue 6 - Feb 2021 pt2
 
 ### writeups
@@ -38,13 +66,6 @@
     - Offensive Pipeline Development
     - related: [OffSecOps Basic Setup](https://blog.xenoscr.net/OffSecOps-Basic-Setup/)
     - tags: windows, malwaredev
-- [Relay Attacks via Cobalt Strike Beacons](https://pkb1s.github.io/Relay-attacks-via-Cobalt-Strike-beacons/)
-    - tags: windows, exploit
-- [Farmer for Red Teams: Harvesting NetNTLM (MDSEC)](https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/)
-    - tags: windows, exploit
-- [A Journey Combining Web Hacking and Binary Exploitation in Real World!](https://blog.orange.tw/2021/02/a-journey-combining-web-and-binary-exploitation.html)
-    - PHPWind binary exploitation
-    - tags: web, exploit
 
 ### tools
 - [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
@@ -90,6 +111,9 @@
 - [NTLMRecon](https://github.com/pwnfoo/NTLMRecon)
     - Enumerate information from NTLM authentication enabled web endpoints (OWA)
     - tags: windows, exploit, web, recon
+- [LsassSilentProcessExit](https://github.com/deepinstinct/LsassSilentProcessExit)
+    - Dump LSASS memory to disk via SilentProcessExit 
+    - tags: windows, post
 
 ## Issue 5 - Feb 2021 pt1
 

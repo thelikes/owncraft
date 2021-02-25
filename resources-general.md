@@ -21,6 +21,7 @@
 - [PSALM](https://psalm.dev/)
 - [RCEScanner](https://github.com/mhaskar/RCEScanner)
 - [SonarCube](https://www.sonarqube.org)
+- [phpstan](https://github.com/phpstan/phpstan)
 
 #### decompile
 - [CFR - java decompiler](https://www.benf.org/other/cfr/)

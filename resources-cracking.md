@@ -10,3 +10,4 @@
 * [4n4nk3 wordlister - pw mutegen](https://github.com/4n4nk3/Wordlister)
 * [pretty cool fuzzy guesser](https://github.com/lakiw/pcfg_cracker)
 * [Cisco Password Cracking and Decrypting Guide](https://www.infosecmatter.com/cisco-password-cracking-and-decrypting-guide/)
+* [ciphey](https://github.com/Ciphey/Ciphey)

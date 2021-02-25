@@ -31,3 +31,7 @@ po=p.getOutputStream(),so=s.getOutputStream();while(!s.isClosed()){while(pi.avai
 
 Source: https://gist.github.com/frohoff/fed1ffaab9b9beeb1c76
 
+## Tools
+- https://github.com/SecurityRiskAdvisors/cmd.jsp
+- https://github.com/gellin/bantam
+- https://github.com/antonioCoco/SharPyShell
