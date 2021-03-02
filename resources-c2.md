@@ -42,7 +42,11 @@
     - Collection of Aggressor scripts for use with Cobalt Strike 3.0+
 - [cobalt-arsenal](https://github.com/mgeeky/cobalt-arsenal)
     - Collection of battle tested aggressor scripts
-
+- [cobalt_strike_extension_kit (josephkingstone)](https://github.com/josephkingstone/cobalt_strike_extension_kit)
+    - All in one Agressor repo
+- [AggressivbeGadgetToJScript](https://github.com/EncodeGroup/AggressiveGadgetToJScript)
+    - Cobalt Strike GadgetToJScript Agressor script
+    
 ### BOF Repos
 * [CS Situational Awareness BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
 * [Extended Process List BOF](https://github.com/thesnoom/extps-cobalt-strike-bof)

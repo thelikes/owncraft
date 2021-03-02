@@ -15,11 +15,16 @@
     - tags: web, exploit
 - [Coff Builder (trustedsec blog)](https://www.trustedsec.com/blog/coffloader-building-your-own-in-memory-loader-or-how-to-run-bofs/?utm_campaign=Blog%20Posts&utm_content=155025415&utm_medium=social&utm_source=twitter&hss_channel=tw-403811306)
     - BOFs without Cobalt Strike
-    - tags: windows, exploit, redteamf
+    - tags: windows, exploit, redteam
+- [Lsass Memory Dumps Stealthier than Ever Before Pt2 (deepinstinct)](https://www.deepinstinct.com/2021/02/16/lsass-memory-dumps-are-stealthier-than-ever-before-part-2/)
+    - tags: windows, post, redteam
 
 ### tools
-- [CVE-2021-1727 PoC](https://github.com/klinix5/CVE-2021-1727)
+- [CVE-2021-1727 PoC (klinix5)](https://github.com/klinix5/CVE-2021-1727)
     - warning: possibly backdoored
+    - tags: windows, privesc
+- [CVE-2021-1727 PoC (horizon3ai)](https://github.com/horizon3ai/CVE-2021-21972)
+    - better
     - tags: windows, privesc
 - [MaliciousClickOnceMSBuild](https://github.com/hausec/MaliciousClickOnceMSBuild)
     - C# automated ClickOnce builder using MSBuild as payload
@@ -27,6 +32,23 @@
 - [WinAPI-Tricks](https://github.com/vxunderground/WinAPI-Tricks)
     - Collection of WINAPI tricks used by malware
     - tags: windows, exploit, malwaredev
+- [BadOutlook](https://github.com/S4R1N/BadOutlook)
+    - Outlook Application Interface (COM Interface) execution
+    - tags: windows, exploit, redteam
+- [tinyPEgen](https://github.com/0xGilda/tinyPEgen)
+    - webservice to create tiny windows dropper executables with arbitrary commands using http://winExecGen.py
+    - tags: windows, exploit, redteam
+- [Callback Shellcode Injection PoC Collection](https://github.com/ChaitanyaHaritash/Callback_Shellcode_Injection)
+    - PoC shellcode injection via Callbacks
+    - tags: windows, exploit
+- [juicy_2 (decoder-it)](https://github.com/decoder-it/juicy_2)
+    - tags: windows, post
+- [cobalt_strike_extension_kit](https://github.com/josephkingstone/cobalt_strike_extension_kit)
+    - All in one Agressor repo
+    - tags: windows, redteam
+- [AggressivbeGadgetToJScript](https://github.com/EncodeGroup/AggressiveGadgetToJScript)
+    - Cobalt Strike GadgetToJScript Agressor script
+    - tags: windows, exploit, redteam
 
 ## Issue 6 - Feb 2021 pt2
 
