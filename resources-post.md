@@ -13,6 +13,15 @@
 * [WinPwn (S3cur3Th1sSh1t)](https://github.com/S3cur3Th1sSh1t/WinPwn)
 * [PEAS (carlospolop)](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite)
 * [PrivEscCheck (itm4n)](https://github.com/itm4n/PrivescCheck)
+* [linuxprivescchecker](https://github.com/sleventyeleven/linuxprivchecker)
+    * http://www.securitysift.com/download/linuxprivchecker.py
+    * https://gist.github.com/sh1n0b1/e2e1a5f63fbec3706123
+* [LinEnum](https://github.com/rebootuser/LinEnum)
+* [linux local enumeration script](https://github.com/Arr0way/linux-local-enumeration-script)
+* [linux exploit suggestor](https://github.com/InteliSecureLabs/Linux_Exploit_Suggester)
+* [unix privesc check (pentestmonkey)](https://github.com/pentestmonkey/unix-privesc-check)
+* [PEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/)
+* [linux smart enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 
 #### Misc
 * [pspy - linux process monitoring](https://github.com/DominicBreuker/pspy)

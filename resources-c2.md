@@ -9,6 +9,8 @@
 * [faction c2 framework](https://github.com/FactionC2/Faction)
 * [silver c2 (bishopfox](https://github.com/BishopFox/sliver)
 * [mwrlabs c3](https://github.com/mwrlabs/C3)
+* [pupy](https://github.com/n1nj4sec/pupy)
+* [PoshC2](https://github.com/nettitude/PoshC2)
 
 ## Cobalt Strike
 
@@ -46,7 +48,7 @@
     - All in one Agressor repo
 - [AggressivbeGadgetToJScript](https://github.com/EncodeGroup/AggressiveGadgetToJScript)
     - Cobalt Strike GadgetToJScript Agressor script
-    
+
 ### BOF Repos
 * [CS Situational Awareness BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
 * [Extended Process List BOF](https://github.com/thesnoom/extps-cobalt-strike-bof)

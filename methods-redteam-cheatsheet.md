@@ -173,6 +173,9 @@ powershell Get-MpComputerStatus
 PS> $Cred = New-Object System.Management.Automation.PSCredential('vault.io\s.morese', $SecPassword) 
 [...]
 PS> [...] -Credential $Cred
+
+# list pipes
+PS> [System.IO.Directory]::GetFiles("\\.\\pipe\\")
 ```
 
 ### Proxies

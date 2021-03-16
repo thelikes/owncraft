@@ -10,6 +10,7 @@
 * [Silencing Cylance - A Case Study](https://www.mdsec.co.uk/2019/03/silencing-cylance-a-case-study-in-modern-edrs/)
 * [Spear Phishing Red Team Techniques](https://blog.sublimesecurity.com/red-team-techniques-gaining-access-on-an-external-engagement-through-spear-phishing/)
 * [Parent Process Spoof](https://blog.christophetd.fr/building-an-office-macro-to-spoof-process-parent-and-command-line/)
+* [Various Visual Basic Macros (rvrsh3ll)](https://gist.github.com/rvrsh3ll/e60073fabf46f380f75773fd865dfd07)
 
 ### Techniques
 

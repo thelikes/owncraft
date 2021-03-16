@@ -3,6 +3,24 @@
 ## Issue 7 - Feb 2021 pt3
 
 ### writeups
+
+### tools
+- [DoppleGate](https://github.com/asaurusrex/DoppelGate)
+    - reading ntdll on disk to grab syscall stubs, and patches these syscall stubs into desired functions 
+    - tags: windows, exploit, malwaredev, redteam
+- [Mod_Rewrite_Automation](https://github.com/cedowens/Mod_Rewrite_Automation)
+    - Scripts to automate standing up apache2 with mod_rewrite
+    - tags: redteam
+- [RunDLL.Net](https://github.com/p3nt4/RunDLL.Net)
+    - Execute .NET assemblies using Rundll32.exe
+    - tags: windows, exploit, malwaredev
+- [AlternativeShellcodeExec](https://github.com/S4R1N/AlternativeShellcodeExec)
+    - Alternative Shellcode Execution Via Callbacks
+    - tags: exploit, windows, malwaredev
+
+## Issue 7 - Feb 2021 pt3
+
+### writeups
 - [Relay Attacks via Cobalt Strike Beacons](https://pkb1s.github.io/Relay-attacks-via-Cobalt-Strike-beacons/)
     - tags: windows, exploit
 - [Farmer for Red Teams: Harvesting NetNTLM (MDSEC)](https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/)
@@ -49,6 +67,9 @@
 - [AggressivbeGadgetToJScript](https://github.com/EncodeGroup/AggressiveGadgetToJScript)
     - Cobalt Strike GadgetToJScript Agressor script
     - tags: windows, exploit, redteam
+- [Priv2Admin](https://github.com/gtworek/Priv2Admin)
+    - Exploitation paths abusing Windows privs
+    - tags: windows, exploit, privesc
 
 ## Issue 6 - Feb 2021 pt2
 
