@@ -1,8 +1,29 @@
 # Tagged + Uncategorized
 
-## Issue 7 - Feb 2021 pt3
+### tools
+- [fireELF](https://github.com/rek7/fireELF)
+    - Fileless Linux Malware Framework 
+    - tags: linux, exploit
+- [puredns](https://github.com/d3mondev/puredns)
+    - fast & accurate dns resolve
+    - tags: recon, web
+    
+## Issue 7 - Mar 2021 pt1
 
 ### writeups
+- [UuidFromStringA VBA Shellcode Exec (RIFT)](https://research.nccgroup.com/2021/01/23/rift-analysing-a-lazarus-shellcode-execution-method/)
+    - alternative method of executing shellcode in VBA
+    - tags: windows, redteam
+- [Most Common On Premise Vulns & Misconfigs (s3cur3th1sh1t)](https://s3cur3th1ssh1t.github.io/The-most-common-on-premise-vulnerabilities-and-misconfigurations/)
+    - most common methods for domain compromise
+    - tags: windows, exploit
+- [Silencing the EDR](https://www.matteomalvica.com/blog/2020/07/15/silencing-the-edr/)
+    - Disable process, threads, and image-loading detection callbacks
+    - tags: windows, malwaredev
+    - related: http://deniable.org/windows/windows-callbacks
+- [Malware Development Part 8](https://0xpat.github.io/Malware_development_part_8/)
+    - Malicious software development series
+    - tags: windows, malwaredev
 
 ### tools
 - [DoppleGate](https://github.com/asaurusrex/DoppelGate)
@@ -17,6 +38,12 @@
 - [AlternativeShellcodeExec](https://github.com/S4R1N/AlternativeShellcodeExec)
     - Alternative Shellcode Execution Via Callbacks
     - tags: exploit, windows, malwaredev
+- [CredBandit](https://github.com/anthemtotheego/CredBandit)
+    - BOF , syscall , MiniDumpWriteDump
+    - tags: exploit, windows, post
+- [resh.now.sh](https://resh.now.sh/)
+    - reverse shell script generation for auto testing
+    - tags: exploit
 
 ## Issue 7 - Feb 2021 pt3
 

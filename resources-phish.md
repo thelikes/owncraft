@@ -38,6 +38,10 @@
 * [Macro Pack](https://github.com/sevagas/macro_pack)
 * [EXCELntDonut](https://github.com/FortyNorthSecurity/EXCELntDonut)
 * [NameMash](https://gist.github.com/superkojiman/11076951)
+* [IPVoid](https://www.ipvoid.com/)
+    - Various IP/domain check tools
+* [Bluecoat Lookup](https://sitereview.bluecoat.com/)
+    - domain safety check
 
 ### Keyying Payloads
 
