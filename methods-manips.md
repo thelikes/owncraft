@@ -69,3 +69,11 @@ PRINCE mode options:
 --prince-keyspace         just show total keyspace that would be produced
                           (disregarding skip and limit)
 ```
+
+### Print NMAP Top Ports
+
+To print the top 1,000 ports
+
+```
+nmap --top-ports 1000 -v -oG -
+```
