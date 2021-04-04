@@ -13,3 +13,6 @@
 * [ciphey](https://github.com/Ciphey/Ciphey)
 * [Search That Hash](https://github.com/HashPals/Search-That-Hash)
     * Tool to search hashes across various hashing services
+
+## Wordlists
+* [Kaonashi Wordlists](https://github.com/kaonashi-passwords/Kaonashi)
