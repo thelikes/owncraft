@@ -11,3 +11,5 @@
 * [pretty cool fuzzy guesser](https://github.com/lakiw/pcfg_cracker)
 * [Cisco Password Cracking and Decrypting Guide](https://www.infosecmatter.com/cisco-password-cracking-and-decrypting-guide/)
 * [ciphey](https://github.com/Ciphey/Ciphey)
+* [Search That Hash](https://github.com/HashPals/Search-That-Hash)
+    * Tool to search hashes across various hashing services
