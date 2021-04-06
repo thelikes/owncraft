@@ -1,5 +1,14 @@
 # Tagged + Uncategorized
 
+## Issue 8 - Apr 2021 pt1
+
+### writeups
+
+### tools
+- [cook](https://github.com/giteshnxtlvl/cook)
+    - A customizable wordlist and password generator. 
+    - tags: utilities
+
 ## Issue 7 - Mar 2021 pt1
 
 ### writeups
@@ -120,7 +129,7 @@
     - tags: web, exploit
 - [UsefulSources (malwarehenri)](https://github.com/malwarehenri/UsefulSources)
     - collection of interesting, malware related, resources
-    - tags: malware, collection
+    - tags: malwaredev, collection
 - [Middleware Misconfigurations (detectify)](https://labs.detectify.com/2021/02/18/middleware-middleware-everywhere-and-lots-of-misconfigurations-to-fix/)
     - nginx proxy misconfigurations
     - tags: web, exploit
@@ -142,7 +151,7 @@
 
 ### tools
 - [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
-    - tags: windows, devops
+    - tags: windows, malwaredev
 - [PEzor Custom Cobalt Strike Artifacts](https://iwantmore.pizza/posts/PEzor3.html)
     - tags: windows, redteam, malwaredev
 - [SharpLAPS](https://github.com/swisskyrepo/SharpLAPS)
@@ -206,7 +215,7 @@
 
 ### tools
 - [ComputerDefaults.exe UAC Bypass](https://github.com/0xyg3n/UAC_Exploit)
-    - tags:F windows, post
+    - tags: windows, post
 - [RedTeamCCode (Mr-Un1c0d3r)](https://github.com/Mr-Un1k0d3r/RedTeamCCode)
     - tags: windows, exploit, post
 - [ScareCrow](https://github.com/optiv/ScareCrow)
@@ -245,7 +254,7 @@
     - tags: windows, post
 - [burp-piper-custom-scripts](https://github.com/righettod/burp-piper-custom-scripts)
     - Custom scripts for the PIPER Burp extensions. 
-    - tags: web, tools
+    - tags: web, utilities
 - [muraena](https://github.com/muraenateam/muraena)
     - an almost-transparent reverse proxy aimed at automating phishing and post-phishing activities
     - tags: utilities
@@ -260,10 +269,10 @@
     - tags: cstrike
 - [terraform-phishing (boh)](https://github.com/boh/terraform-phishing)
     - Build a phishing server (Gophish) together with SMTP-redirector (Postfix) automatically in Digital Ocean with terraform and ansible.. 
-    - tags: initial compromise, phishing, infra
+    - tags: phish, utilities
 - [Red-Terroir](https://github.com/b3n-j4m1n/Red-Terroir)
     - Terraform resources for building HTTP, DNS, phishing, and mail server red team infrastructure 
-    - tags: initial compromise, phishing, infra
+    - tags: phish, utilities
 - [SharpShares](https://github.com/mez-0/SharpShares)
     - .NET 4.0 Share Hunting and ACL Mapping 
     - tags: windows, post
