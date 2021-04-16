@@ -23,6 +23,12 @@
 - [dnsx](https://github.com/projectdiscovery/dnsx)
     - dnsprobe sucessor
     - tags: web, recon
+- [EvasiveProcessHollowing](https://github.com/reevesrs24/EvasiveProcessHollowing)
+    - evasive process hollowing techniques
+    - tags: windows, malwaredev
+- [Sim](https://github.com/IceMoonHSV/Sim)
+    - C# User Simulation 
+    - tags: windows
 
 ## Issue 7 - Mar 2021 pt1
 
