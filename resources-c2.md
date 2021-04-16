@@ -48,6 +48,8 @@
     - All in one Agressor repo
 - [AggressivbeGadgetToJScript](https://github.com/EncodeGroup/AggressiveGadgetToJScript)
     - Cobalt Strike GadgetToJScript Agressor script
+- [AngryPuppy](https://github.com/vysecurity/ANGRYPUPPY)
+    - Bloodhound integration for Cobalt Strike
 
 ### BOF Repos
 * [CS Situational Awareness BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)

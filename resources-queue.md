@@ -8,6 +8,21 @@
 - [cook](https://github.com/giteshnxtlvl/cook)
     - A customizable wordlist and password generator. 
     - tags: utilities
+- [lunar](https://github.com/Dewera/Lunar)
+    - DLL mapping library that supports mapping directly from memory
+    - tags: malwaredev
+- [kiterunner](https://github.com/assetnote/kiterunner)
+    - Contextual content discovery
+    - tags: recon, web
+- [NPK](https://github.com/c6fc/npk)
+    - AWS serverless distributed hash cracking platform
+    - tags: cracking
+- [PyMailSniper](https://github.com/foofus-sph1nx/PyMailSniper)
+    - Python port of MailSniper
+    - tags: windows, redteam, phish
+- [dnsx](https://github.com/projectdiscovery/dnsx)
+    - dnsprobe sucessor
+    - tags: web, recon
 
 ## Issue 7 - Mar 2021 pt1
 

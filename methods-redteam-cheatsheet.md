@@ -17,6 +17,8 @@
 - [Lateral Movement (specterOps)](https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f)
 - [Offensive Kerberose (specterOps)](https://posts.specterops.io/kerberosity-killed-the-domain-an-offensive-kerberos-overview-eb04b1402c61)
 - [How Attackers Use Silver Tickets](https://adsecurity.org/?p=2011)
+- [Active Directory Exploitation Cheat Sheet (S1ckB0y1337)](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet)
+- [Cobalt Strike Cheat Sheet (S1ckB0y1337)](https://github.com/S1ckB0y1337/Cobalt-Strike-CheatSheet)
 
 ## Misc Commands
 
