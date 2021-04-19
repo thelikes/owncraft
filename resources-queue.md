@@ -3,6 +3,11 @@
 ## Issue 8 - Apr 2021 pt1
 
 ### writeups
+- [A Beginner’s Guide to Windows Shellcode Execution Techniques](https://www.contextis.com/en/blog/a-beginners-guide-to-windows-shellcode-execution-techniques)
+- [A Journey Into the Beauty of DNSRebinding - Part 1](https://blog.mindedsecurity.com/2021/02/journey-into-beauty-of-dnsrebinding.html)
+- [Executing Shellcode via Callbacks](https://osandamalith.com/2021/04/01/executing-shellcode-via-callbacks/)
+    - evasion via function pointer execution
+    - tags: windows, malwaredev
 
 ### tools
 - [cook](https://github.com/giteshnxtlvl/cook)
@@ -29,6 +34,27 @@
 - [Sim](https://github.com/IceMoonHSV/Sim)
     - C# User Simulation 
     - tags: windows
+- [Internal Monologue](https://github.com/eladshamir/Internal-Monologue)
+    - Retrieving NTLM Hashes without Touching LSASS
+    - tags: windows, 
+- [MineSweeper](https://github.com/ars3n11/MineSweeper)
+    - User-land hooks manipulation tool
+    - tags: windows, malwaredev
+- [weirdhta](https://github.com/felamos/weirdhta)
+    - generate obfuscated hta
+    - tags: windows, exploit
+- [ZoomPersistence](https://github.com/S4R1N/ZoomPersistence)
+    - Zoom Persistence Aggressor and Handler 
+    - tags: windows, exploit
+- [remote-method-guesser](https://github.com/qtc-de/remote-method-guesser)
+    - Java RMI Vulnerability Scanner 
+    - tags: exploit, infra
+- [universal-syscall-64](https://github.com/jackullrich/universal-syscall-64)
+    - Resolve syscall numbers at runtime for all Windows versions. 
+    - tags: windows, malwaredev
+- [spacerunner](https://github.com/Mr-B0b/SpaceRunner)
+    - C# exec PowerShell code, without launching PowerShell processes through the use of runspace
+    - tags: windows, exploit
 
 ## Issue 7 - Mar 2021 pt1
 

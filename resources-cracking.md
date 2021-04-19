@@ -16,3 +16,4 @@
 
 ## Wordlists
 * [Kaonashi Wordlists](https://github.com/kaonashi-passwords/Kaonashi)
+* [password-list](https://github.com/scipag/password-list)
