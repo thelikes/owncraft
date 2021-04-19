@@ -55,6 +55,12 @@
 - [spacerunner](https://github.com/Mr-B0b/SpaceRunner)
     - C# exec PowerShell code, without launching PowerShell processes through the use of runspace
     - tags: windows, exploit
+- [dll-exports](https://github.com/magnusstubman/dll-exports)
+    - Collection of DLL function export forwards for DLL export function proxying
+    - tags: windows, malwaredev
+- [leaky-paths](https://github.com/ayoubfathi/leaky-paths)
+    - Special content discovery paths
+    - tags: web, recon
 
 ## Issue 7 - Mar 2021 pt1
 
