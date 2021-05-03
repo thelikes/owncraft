@@ -19,6 +19,7 @@
 - [How Attackers Use Silver Tickets](https://adsecurity.org/?p=2011)
 - [Active Directory Exploitation Cheat Sheet (S1ckB0y1337)](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet)
 - [Cobalt Strike Cheat Sheet (S1ckB0y1337)](https://github.com/S1ckB0y1337/Cobalt-Strike-CheatSheet)
+- [harmj0y's PowerView Tricks Cheatsheet](https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993)
 
 ## Misc Commands
 
@@ -47,6 +48,8 @@ Windows save to file
 
 ```
 [System.IO.File]::WriteAllBytes("C:\Users\<user>\Desktop\da.kirbi", [System.Convert]::FromBase64String("doIFGjCCBRagAwIBBaEDAgEWooIE[...snip...]E6A0Z3QbDUNZQkVSQk9USUMuSU8="))
+
+[System.Convert]::ToBase64String([System.IO.File]::ReadAllBytes("C:\windows\tasks\golden.kirbi")) | Out-File -Filepath c:\windows\tasks\golden.kirbi.b64
 ```
 
 ### whoami

@@ -61,6 +61,18 @@
 - [leaky-paths](https://github.com/ayoubfathi/leaky-paths)
     - Special content discovery paths
     - tags: web, recon
+- [RemotePotato0](https://github.com/antonioCoco/RemotePotato0)
+    - Just another "Won't Fix" Windows Privilege Escalation from User to Domain Admin. 
+    - tags: windows, exploit
+- [TransactedSharpMiniDump](https://github.com/PorLaCola25/TransactedSharpMiniDump)
+    - SharpMiniDump using NTFS transactions to avoid writting the minidump to disk and exfiltrating it via HTTPS using sockets.
+    - tags:, windows, post
+- [DripLoader](https://github.com/xinbailu/DripLoader)
+    - Evasive shellcode loader for bypassing event-based injection detection (PoC)
+    - tags: windows, malwaredev
+- [DoUCMe](https://github.com/ben0xa/doucme)
+    - NetUserAdd Win32API to add machine accounts instead of user. Generates a 4741, not a 4720
+    - tags: windows, post
 
 ## Issue 7 - Mar 2021 pt1
 
