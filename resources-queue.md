@@ -1,5 +1,20 @@
 # Tagged + Uncategorized
 
+## Issue 9 - May 2021 pt1
+
+### writeups
+
+### tools
+- [SharpNamedPipePTH](https://github.com/S3cur3Th1sSh1t/SharpNamedPipePTH)
+    - Pass the Hash to a named pipe for token Impersonation
+    - tags: windows, post
+- [Nebula](https://github.com/gl4ssesbo1/Nebula)
+    - Cloud C2 Framework, which at the moment offers reconnaissance, enumeration, exploitation, post exploitation on AWS
+    - tags: cloud
+- [adsec](https://github.com/cfalta/adsec)
+    - An introduction to Active Directory security 
+    - tags: windows, exploit, homelab
+
 ## Issue 8 - Apr 2021 pt1
 
 ### writeups
