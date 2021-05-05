@@ -12,6 +12,11 @@
 * [pupy](https://github.com/n1nj4sec/pupy)
 * [PoshC2](https://github.com/nettitude/PoshC2)
 
+## Infra
+- [cs2modrewrite](https://github.com/threatexpress/cs2modrewrite)
+- [overlord](https://github.com/qsecure-labs/overlord)
+- [ red baron](https://github.com/Coalfire-Research/Red-Baron)
+
 ## Cobalt Strike
 
 ### General

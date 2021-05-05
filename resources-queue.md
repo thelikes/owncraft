@@ -3,7 +3,9 @@
 ## Issue 9 - May 2021 pt1
 
 ### writeups
-
+- [Weird Ways to Run Unmanaged Code in .NET](https://blog.xpnsec.com/weird-ways-to-execute-dotnet/)
+    -  benign looking functions to achieve unmanaged code execution in weird ways
+    
 ### tools
 - [SharpNamedPipePTH](https://github.com/S3cur3Th1sSh1t/SharpNamedPipePTH)
     - Pass the Hash to a named pipe for token Impersonation
@@ -14,6 +16,15 @@
 - [adsec](https://github.com/cfalta/adsec)
     - An introduction to Active Directory security 
     - tags: windows, exploit, homelab
+- [SharpTransactedLoad](https://github.com/G0ldenGunSec/SharpTransactedLoad)
+    - Load .net assemblies from memory while having them appear to be loaded from an on-disk location. 
+    - tags: windows, malwaredev
+- [Awesome_Firebase_DomainFront](https://github.com/shantanu561993/Awesome_Firebase_DomainFront)
+    - Firebase Domain Front Code 
+    - tags: redteam
+- [NautilusProject](https://github.com/xpn/NautilusProject)
+    - Collection of weird ways to execute unmanaged code in .NET
+    - tags: windows, malwaredev
 
 ## Issue 8 - Apr 2021 pt1
 
