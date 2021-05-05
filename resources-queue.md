@@ -26,7 +26,10 @@
 - [NautilusProject](https://github.com/xpn/NautilusProject)
     - Collection of weird ways to execute unmanaged code in .NET
     - tags: windows, malwaredev
-
+- [rewolf-wow64ext](https://github.com/rwfpl/rewolf-wow64ext)
+    - library for x86 programs that runs under WOW64 layer on x64 windows
+    - tags: windows, malwaredev
+    
 ## Issue 8 - Apr 2021 pt1
 
 ### writeups
