@@ -5,7 +5,8 @@
 ### writeups
 - [Weird Ways to Run Unmanaged Code in .NET](https://blog.xpnsec.com/weird-ways-to-execute-dotnet/)
     -  benign looking functions to achieve unmanaged code execution in weird ways
-    
+    - tags: windows, malwaredev
+
 ### tools
 - [SharpNamedPipePTH](https://github.com/S3cur3Th1sSh1t/SharpNamedPipePTH)
     - Pass the Hash to a named pipe for token Impersonation
