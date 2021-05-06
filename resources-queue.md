@@ -6,6 +6,9 @@
 - [Weird Ways to Run Unmanaged Code in .NET](https://blog.xpnsec.com/weird-ways-to-execute-dotnet/)
     -  benign looking functions to achieve unmanaged code execution in weird ways
     - tags: windows, malwaredev
+- [Domain Borrowing: Catch My C2 Traffic if You Can](http://i.blackhat.com/asia-21/Thursday-Handouts/as-21-Ding-Domain-Borrowing-Catch-My-C2-Traffic-If-You-Can.pdf)
+    - new method to hide your C2 traffic with CDN to circumvent censorship
+    - tags: redteam
 
 ### tools
 - [SharpNamedPipePTH](https://github.com/S3cur3Th1sSh1t/SharpNamedPipePTH)
@@ -29,6 +32,9 @@
 - [rewolf-wow64ext](https://github.com/rwfpl/rewolf-wow64ext)
     - library for x86 programs that runs under WOW64 layer on x64 windows
     - tags: windows, malwaredev
+- [](https://github.com/Dliv3/DomainBorrowing)
+    - new method to hide your C2 traffic with CDN to circumvent censorship
+    - tags: redteam
     
 ## Issue 8 - Apr 2021 pt1
 

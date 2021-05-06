@@ -566,6 +566,9 @@ beacon> powershell Get-DomainGroupMember -Identity 'Domain Admins' | Select-Obje
 # All GPO
 beacon> powershell Get-DomainGPO -Properties DisplayName | Sort-Object -Property DisplayName
 
+# Local GPO Groups
+Get-DomainGPOLocalGroup -ResolveMembersToSIDs
+
 # Specific Computer
 beacon> powershell Get-DomainGPO -Properties DisplayName -ComputerIdentity s-east-05| Sort-Object -Property Display
 
