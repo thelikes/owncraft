@@ -32,10 +32,13 @@
 - [rewolf-wow64ext](https://github.com/rwfpl/rewolf-wow64ext)
     - library for x86 programs that runs under WOW64 layer on x64 windows
     - tags: windows, malwaredev
-- [](https://github.com/Dliv3/DomainBorrowing)
+- [DomainBorrowing](https://github.com/Dliv3/DomainBorrowing)
     - new method to hide your C2 traffic with CDN to circumvent censorship
     - tags: redteam
-    
+- [RunasCs](https://github.com/antonioCoco/RunasCs)
+    - RunAs C#
+    - tags: windows, post
+
 ## Issue 8 - Apr 2021 pt1
 
 ### writeups
