@@ -38,6 +38,15 @@
 - [RunasCs](https://github.com/antonioCoco/RunasCs)
     - RunAs C#
     - tags: windows, post
+- [SharpNukeEventLog](https://github.com/jfmaes/SharpNukeEventLog)
+    - nuke that event log using some epic dinvoke fu
+    - tags: windows, malwaredewv
+- [Dent](https://github.com/optiv/Dent)
+    -  framework for creating COM-based bypasses utilizing vulnerabilities in Microsoft's WDAPT sensors
+    - tags: windows, malwaredev
+- [charlotte](https://github.com/9emin1/charlotte)
+    - c++ fully undetected shellcode launcher
+    - tags: malwaredev
 
 ## Issue 8 - Apr 2021 pt1
 

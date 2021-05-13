@@ -10,3 +10,9 @@
 
 ### DevOps
 - [Overlord](https://github.com/qsecure-labs/overlord)
+
+## Labs
+- [BadBlood](https://github.com/davidprowe/badblood)
+- [Blacksmith](https://github.com/OTRF/Blacksmith)
+- [DetectionLab](https://github.com/clong/DetectionLab)
+- [Vulnerable-AD](https://github.com/WazeHell/vulnerable-AD)
