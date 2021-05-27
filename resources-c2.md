@@ -29,6 +29,7 @@
 - [cobaltstrike v4 profiles writeup - @bigb0ss](https://medium.com/@bigb0ss/red-team-cobalt-strike-4-0-malleable-c2-profile-guideline-eb3eeb219a7c)
 - [cobaltstrike v4 profile exhaustive reference](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
 - [Malleable C2 Profiles (BC-SECURITY)](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
+- [malleable-c2 (threatexpress)](https://github.com/threatexpress/malleable-c2)
 
 ### Aggressor Repos
 - [CSSG](https://github.com/RCStep/CSSG)

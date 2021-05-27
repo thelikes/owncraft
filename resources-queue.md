@@ -1,5 +1,17 @@
 # Tagged + Uncategorized
 
+## Issue 10 - May 2021 pt2
+
+### writeups
+
+### tools
+- [DomainBorrowingC2](https://github.com/Cerbersec/DomainBorrowingC2)
+    - method to hide C2 traffic using CDN
+    - tags: windows, redteam
+- [AMSI-Provider](https://github.com/netbiosX/AMSI-Provider)
+    - A fake AMSI Provider which can be used for persistence. 
+    - tags: windows, redteam
+
 ## Issue 9 - May 2021 pt1
 
 ### writeups

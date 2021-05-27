@@ -4,6 +4,7 @@
 * [purple rain attack](https://www.netmux.com/blog/purple-rain-attack)
 * [PCAP NTLM Cracking](https://research.801labs.org/cracking-an-ntlmv2-hash/)
 * [Practice ntds.dit File Part 5: Password Cracking With hashcat – LM NTLM](https://blog.didierstevens.com/2016/07/18/practice-ntds-dit-file-part-5-password-cracking-with-hashcat-lm-ntlm/)
+* [5MCT - Esoteric Hashcat Attacks](https://blog.kedeshur.com/2019/03/5mct-esoteric-hashcat-attacks.html)
 
 ## Tools
 * [KWProcessor - Keyboard Walk Wordlist Generation](https://github.com/hashcat/kwprocessor)
