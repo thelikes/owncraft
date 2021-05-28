@@ -3,6 +3,23 @@
 ## Issue 10 - May 2021 pt2
 
 ### writeups
+- [AV Evasion - a PE injection method ](https://blackcloud.me/av-evasion-1/)
+    - Malware Development by Sektor7 exercise writeup
+    - tags: malwaredev
+    - related: [sektor7 templates (cpp)](https://github.com/bolonobolo/av_evasion)
+- [Unveiling DNSStager: A tool to hide your payload in DNS](https://shells.systems/unveiling-dnsstager-a-tool-to-hide-your-payload-in-dns/)
+    - DNSStager is is an open-source tool used to help Pentesters/RedTeamers to hide their payload in DNS and resolve it based on multiple DNS records
+    - tags: redteam
+- [Dumping Stored Credentials with SeTrustedCredmanAccessPrivilege](https://www.tiraniddo.dev/2021/05/dumping-stored-credentials-with.html?m=1)
+    - SeTrustedCredmanAccessPrivilege Research - "Access Credential Manager as a trusted caller"
+- [Episode 1. Mr Un1k0d3r and his Fur Coat](https://www.buzzsprout.com/1732762/8525992)
+    - Mr Un1k0d3r talks hacking, imposter syndrome, CTF's and learning.
+    - tags: redteam
+- [What the F#*%](https://fortynorthsecurity.com/blog/what-the-f/)
+    - F# injection routines, evasion techniques, and an unmanaged F# loader
+    - tags: malwaredev, windows, exploit
+- [Abusing LNK "Features" for Initial Access and Persistence](https://v3ded.github.io/redteam/abusing-lnk-features-for-initial-access-and-persistence)
+    - tags: redteam
 
 ### tools
 - [DomainBorrowingC2](https://github.com/Cerbersec/DomainBorrowingC2)
@@ -11,6 +28,15 @@
 - [AMSI-Provider](https://github.com/netbiosX/AMSI-Provider)
     - A fake AMSI Provider which can be used for persistence. 
     - tags: windows, redteam
+- [Suspending-Techniques](https://github.com/diversenok/Suspending-Techniques)
+    - Comparing, discussing, and bypassing various techniques for suspending and freezing processes on Windows. 
+    - tags: malwaredev
+- [UnhookMe](https://github.com/mgeeky/UnhookMe)
+    - Windows API resolver & unhooker addressing problem of invoking unmonitored system calls 
+    - tags: malwaredev
+- [SharpRDPDump](https://github.com/jfmaes/SharpRDPDump)
+    - Create a minidump of TermService for clear text pw extraction 
+    - tags: windows
 
 ## Issue 9 - May 2021 pt1
 

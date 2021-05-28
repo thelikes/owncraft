@@ -62,3 +62,4 @@
 * [Extended Process List BOF](https://github.com/thesnoom/extps-cobalt-strike-bof)
 * [Collection of BOFs (ajpc500)](https://github.com/ajpc500/BOFs)
 * [MimiDumpWriteDump BOF](https://github.com/rookuu/BOFs)
+* [unhook-bof](https://github.com/rsmudge/unhook-bof)
