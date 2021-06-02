@@ -19,7 +19,7 @@
     - F# injection routines, evasion techniques, and an unmanaged F# loader
     - tags: malwaredev, windows, exploit
 - [Abusing LNK "Features" for Initial Access and Persistence](https://v3ded.github.io/redteam/abusing-lnk-features-for-initial-access-and-persistence)
-    - tags: redteam
+    - tags: redteam, phish
 
 ### tools
 - [DomainBorrowingC2](https://github.com/Cerbersec/DomainBorrowingC2)
@@ -37,7 +37,9 @@
 - [SharpRDPDump](https://github.com/jfmaes/SharpRDPDump)
     - Create a minidump of TermService for clear text pw extraction 
     - tags: windows
-
+- [SimulateInternetZoneTest.ps1 ](https://gist.github.com/mgraeber-rc/a780834c983bc0d53121c39c276bd9f3)
+    - SmartScreen evasion because Mark-of-the-Web (MOTW) cannot be applied to non NTFS volumes via ISO/IMG as a delivery mechanism
+    - tags: redteam
 ## Issue 9 - May 2021 pt1
 
 ### writeups

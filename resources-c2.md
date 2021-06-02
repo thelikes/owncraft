@@ -15,8 +15,12 @@
 ## Infra
 - [cs2modrewrite](https://github.com/threatexpress/cs2modrewrite)
 - [overlord](https://github.com/qsecure-labs/overlord)
-- [ red baron](https://github.com/Coalfire-Research/Red-Baron)
+- [red baron](https://github.com/Coalfire-Research/Red-Baron)
 
+### tools
+- [Sephiroth](https://github.com/0xdade/sephiroth)
+    -  The Cloud Blocker
+    
 ## Cobalt Strike
 
 ### General
