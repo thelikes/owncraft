@@ -60,6 +60,8 @@
     - Cobalt Strike GadgetToJScript Agressor script
 - [AngryPuppy](https://github.com/vysecurity/ANGRYPUPPY)
     - Bloodhound integration for Cobalt Strike
+- [aggrokatz](https://github.com/sec-consult/aggrokatz)
+    - pypykatz beacon interface to parse LSASS
 
 ### BOF Repos
 * [CS Situational Awareness BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
@@ -67,3 +69,4 @@
 * [Collection of BOFs (ajpc500)](https://github.com/ajpc500/BOFs)
 * [MimiDumpWriteDump BOF](https://github.com/rookuu/BOFs)
 * [unhook-bof](https://github.com/rsmudge/unhook-bof)
+* [CredBandit](https://github.com/xforcered/CredBandit)

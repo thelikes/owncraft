@@ -15,6 +15,8 @@
 - [Redis SSH authorized_keys Exploit](https://github.com/psmiraglia/ctf/blob/master/kevgir/000-redis.md)
 - [Best java/class/jar/war decompiler - CFR](https://www.benf.org/other/cfr/)
 - [Password Cracking 201: Beyond the Basics - Royce Williams](https://www.youtube.com/watch?v=cSOjQI0qbuU)
+- [Networking VMs for HTB](https://0xdf.gitlab.io/2021/05/04/networking-vms-for-htb.html)
+    - Setting up private lan to reach targets via Linux VPN from Windows
 
 ### Static Analysis
 - [RIPS](https://www.ripstech.com/)

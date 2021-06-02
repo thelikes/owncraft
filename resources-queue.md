@@ -1,5 +1,11 @@
 # Tagged + Uncategorized
 
+## Issue 11 - June 2021 pt1
+
+### writeups
+
+### tools
+
 ## Issue 10 - May 2021 pt2
 
 ### writeups
@@ -25,6 +31,9 @@
 - [WeaponisingCSharp-Fundamentals](https://github.com/fozavci/WeaponisingCSharp-Fundamentals)
     - Weaponising C# - Fundamentals Training Content
     - tags: windows, malwaredev
+- [Relaying Potatoes: Another Unexpected Privilege Escalation Vulnerability in Windows RPC Protocol](https://labs.sentinelone.com/relaying-potatoes-dce-rpc-ntlm-relay-eop/)
+    - NTLM Relay Privilege Escalation
+    - tags: windows, exploit, privesc
 
 ### tools
 - [DomainBorrowingC2](https://github.com/Cerbersec/DomainBorrowingC2)
@@ -55,6 +64,12 @@
 - [SyscallAmsiScanBufferBypass](https://github.com/S3cur3Th1sSh1t/SyscallAmsiScanBufferBypass)
     - AmsiScanBufferBypass using D/Invoke 
     - tags: windows, malwaredev
+- [whoamsi](https://github.com/subat0mik/whoamsij)
+    - An effort to track security vendors' use of Microsoft's Antimalware Scan Interface 
+    - tags: windows, exploit
+- [forkatz](https://github.com/Barbarisch/forkatz)
+    - SeTrustedCredmanAccessPrivilege credential dump
+    - tags: windows, post
 
 ## Issue 9 - May 2021 pt1
 
