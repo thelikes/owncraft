@@ -20,6 +20,11 @@
     - tags: malwaredev, windows, exploit
 - [Abusing LNK "Features" for Initial Access and Persistence](https://v3ded.github.io/redteam/abusing-lnk-features-for-initial-access-and-persistence)
     - tags: redteam, phish
+- [Cracking NetNTLMv1/v2 using NT hashes](https://github.com/hashcat/hashcat/pull/2607)
+    - tags: windows
+- [WeaponisingCSharp-Fundamentals](https://github.com/fozavci/WeaponisingCSharp-Fundamentals)
+    - Weaponising C# - Fundamentals Training Content
+    - tags: windows, malwaredev
 
 ### tools
 - [DomainBorrowingC2](https://github.com/Cerbersec/DomainBorrowingC2)
@@ -40,6 +45,17 @@
 - [SimulateInternetZoneTest.ps1 ](https://gist.github.com/mgraeber-rc/a780834c983bc0d53121c39c276bd9f3)
     - SmartScreen evasion because Mark-of-the-Web (MOTW) cannot be applied to non NTFS volumes via ISO/IMG as a delivery mechanism
     - tags: redteam
+- [vCenter RCE PoC (CVE-2021-21985)](https://github.com/alt3kx/CVE-2021-21985_PoC)
+- [Candy Potato (Caramelized Juicy Potato)](https://github.com/klezVirus/CandyPotato)
+    - Pure C++, weaponized, fully automated implementation of RottenPotatoNG 
+    - tags: windows, exploit
+- [CheeseTools](https://github.com/klezVirus/CheeseTools)
+    - Tools for Lateral Movement/Code Execution (based on Rasta's MiscTools)
+    - tags: windows, exploit
+- [SyscallAmsiScanBufferBypass](https://github.com/S3cur3Th1sSh1t/SyscallAmsiScanBufferBypass)
+    - AmsiScanBufferBypass using D/Invoke 
+    - tags: windows, malwaredev
+
 ## Issue 9 - May 2021 pt1
 
 ### writeups
