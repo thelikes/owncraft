@@ -16,7 +16,7 @@
 - [Best java/class/jar/war decompiler - CFR](https://www.benf.org/other/cfr/)
 - [Password Cracking 201: Beyond the Basics - Royce Williams](https://www.youtube.com/watch?v=cSOjQI0qbuU)
 - [Networking VMs for HTB](https://0xdf.gitlab.io/2021/05/04/networking-vms-for-htb.html)
-    - Setting up private lan to reach targets via Linux VPN from Windows
+- [SSH Konami Code](https://www.sans.org/blog/using-the-ssh-konami-code-ssh-control-sequences/)
 
 ### Static Analysis
 - [RIPS](https://www.ripstech.com/)

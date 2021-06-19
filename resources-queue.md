@@ -3,8 +3,71 @@
 ## Issue 11 - June 2021 pt1
 
 ### writeups
+- [Click your shortcut and… you got pwned.](https://redteamer.tips/click-your-shortcut-and-you-got-pwned/)
+    - tool: [SharpLNKGen-UI](https://github.com/jfmaes/SharpLNKGen-UI)
+    - Malicious LNK generator
+    - tags: redteam, phishing, exploit, windows
+- [Another Delegation Edge Case](https://exploit.ph/another-delegation-edge-case.html)
+    - S4U Edge Case exploitation
+    - tags: windows, exploit, redteam
+- [Active Directory forest trusts part 2 - Trust transitivity and finding a trust bypass ](https://dirkjanm.io/active-directory-forest-trusts-part-two-trust-transitivity/)
+    - CVE-2020-0665 SID filtering bypass
+    - related: [forest-trust-tools](https://github.com/dirkjanm/forest-trust-tools)
+    - tags: windows, redteam
+- [What you need to know about Process Ghosting](https://www.elastic.co/blog/process-ghosting-a-new-executable-image-tampering-attack)
+    - New Executable Image Tampering Attack
+    - tags: malwaredev
+- [ASP.NET Cryptography for Pentesters](https://blog.liquidsec.net/2021/06/01/asp-net-cryptography-for-pentesters/)
+    - practical exploitation ASP.NET cryptography
+    - tags: web, exploit
 
 ### tools
+- [polkadots](https://github.com/swapravo/polkadots)
+    - CVE-2021-3560 Local PrivEsc Exploit
+    - tags: privesc, linux, exploit
+https://github.com/passthehashbrowns/hiding-your-syscalls
+- [pywerview](https://github.com/the-useless-one/pywerview)
+    - A (partial) Python rewriting of PowerSploit's PowerView 
+    - tags: windows
+- [StandIn](https://github.com/FuzzySecurity/StandIn)
+    - StandIn is a small .NET35/45 AD post-exploitation toolkit 
+    - tags: windows, post, redteam
+- [hiding-your-syscalls](https://github.com/passthehashbrowns/hiding-your-syscalls)
+    - Detection  bypass for using SysCalls in loaded copy of NTDLL
+    - tags: malwaredev
+- [ForgeCert](https://github.com/GhostPack/ForgeCert)
+    - "Certified Pre-Owned: Abusing Active Directory Certificate Services" tool
+    - tags: windows, redteam
+- [sRDI](https://github.com/monoxgas/sRDI)
+    - Shellcode implementation of Reflective DLL Injection. Convert DLLs to position independent shellcode  
+    - tags: malwaredev
+- [transacted_hollowing](https://github.com/hasherezade/transacted_hollowing)
+    - Transacted Hollowing - a PE injection technique, hybrid between ProcessHollowing and ProcessDoppelgänging 
+    - tags: malwaredev
+- [Zolom](https://github.com/checkymander/Zolom)
+    - C# Executable with embedded Python that can be used reflectively to run python code on systems without Python installed
+    - tags: malwaredev
+- [SharpUnhooker](https://github.com/GetRektBoy724/SharpUnhooker)
+    - C# Based Universal API Unhooker 
+    - tags: malwaredev
+- [openedr](https://github.com/ComodoSecurity/openedr)
+    - Open EDR public repository 
+    - tags: malwaredev, redteam
+- [SharpWebServer](https://github.com/mgeeky/SharpWebServer)
+    - Red Team oriented C# Simple HTTP & WebDAV Server with Net-NTLM hashes capture
+    - tags: windows, exploit, redteam
+- [KnockOutlook](https://github.com/eksperience/KnockOutlook)
+    - A little tool to play with Outlook 
+    - tags: windows, post, redteam
+- [siemsframework](https://github.com/ElevenPaths/siemframework)
+    - MultiSIEM Modular Python3 Attack Framework
+    - tags: exploit
+- [page-fetch](https://github.com/detectify/page-fetch)
+    -  Fetch web pages using headless Chrome, storing all fetched resources including JavaScript files. Run arbitrary JavaScript on many web pages and see the returned values 
+    - tags: exploit, web
+- [HookDump](https://github.com/zeroperil/HookDump)
+    - Security product hook detection 
+    - tags: malwaredev
 
 ## Issue 10 - May 2021 pt2
 

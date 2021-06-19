@@ -70,3 +70,4 @@
 * [MimiDumpWriteDump BOF](https://github.com/rookuu/BOFs)
 * [unhook-bof](https://github.com/rsmudge/unhook-bof)
 * [CredBandit](https://github.com/xforcered/CredBandit)
+* [CredManBof](https://github.com/jsecu/CredManBOF)
