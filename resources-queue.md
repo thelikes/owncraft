@@ -20,6 +20,13 @@
 - [ASP.NET Cryptography for Pentesters](https://blog.liquidsec.net/2021/06/01/asp-net-cryptography-for-pentesters/)
     - practical exploitation ASP.NET cryptography
     - tags: web, exploit
+- [Certified Pre-Owned](https://posts.specterops.io/certified-pre-owned-d95910965cd2)
+    - Active Directory Certificate Services research & exploitation
+    - [Related: PSPKIAudit](https://github.com/GhostPack/PSPKIAudit)
+    - tags: windows, redteam
+- [AD CS relay attack - practical guide](https://www.exandroid.dev/2021/06/23/ad-cs-relay-attack-practical-guide/)
+    - Active Directory Certificate Services + PrinterBug
+    - tags: windows, redteam
 
 ### tools
 - [polkadots](https://github.com/swapravo/polkadots)
@@ -68,6 +75,12 @@ https://github.com/passthehashbrowns/hiding-your-syscalls
 - [HookDump](https://github.com/zeroperil/HookDump)
     - Security product hook detection 
     - tags: malwaredev
+- [Whisker](https://github.com/eladshamir/Whisker)
+    - manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account. 
+    - tags: windows, redteam
+- [CornerShot](https://github.com/zeronetworks/cornershot)
+    - Amplify network visibility from multiple POV of other hosts 
+    - tags: recon
 
 ## Issue 10 - May 2021 pt2
 
