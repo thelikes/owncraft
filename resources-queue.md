@@ -27,6 +27,12 @@
 - [AD CS relay attack - practical guide](https://www.exandroid.dev/2021/06/23/ad-cs-relay-attack-practical-guide/)
     - Active Directory Certificate Services + PrinterBug
     - tags: windows, redteam
+- [Potatoes - Windows Privilege Escalation](https://jlajara.gitlab.io/others/2020/11/22/Potatoes_Windows_Privesc.html)
+    - Overview of LPE Potatos
+    - tags: windows, exploit, privesc
+- [Bypassing Image Load Kernel Callbacks (DarkLoadLibrary Introduction)](https://www.mdsec.co.uk/2021/06/bypassing-image-load-kernel-callbacks/)
+    - Introduction of DarkLoadLibrary
+    - tags: malwaredev
 
 ### tools
 - [polkadots](https://github.com/swapravo/polkadots)
@@ -81,6 +87,14 @@ https://github.com/passthehashbrowns/hiding-your-syscalls
 - [CornerShot](https://github.com/zeronetworks/cornershot)
     - Amplify network visibility from multiple POV of other hosts 
     - tags: recon
+https://www.youtube.com/watch?v=jGpgreUY4H8
+- [shosubgo](https://github.com/r00td3v/shosubgo)
+    - Small tool to Grab subdomains using Shodan api. 
+    - tags: recon
+- [dementor](https://github.com/thau0x01/dementor)
+    - Python Print Bug
+    - related: [printerbuy.py](https://github.com/dirkjanm/krbrelayx/blob/master/printerbug.py)
+    - tags: exploit, windows
 
 ## Issue 10 - May 2021 pt2
 

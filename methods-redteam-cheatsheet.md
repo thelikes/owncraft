@@ -612,6 +612,12 @@ beacon> powershell Get-DomainUser -PreauthNotRequired -Properties SamAccountName
 
 # unconstrained delecation computers
 beacon> powershell Get-DomainComputer -Unconstrained -Properties DnsHostName
+
+# retrieve *most* users who can perform DC replication for dev.testlab.local (i.e. DCsync)
+Get-DomainObjectAcl "dc=dev,dc=testlab,dc=local" -ResolveGUIDs | ? { ($_.ObjectType -match 'replication-get') -or ($_.ActiveDirectoryRights -match 'GenericAll') }
+
+# list users with dcsync rights
+Get-ObjectACL -DistinguishedName "dc=companyx,dc=com" -ResolveGUIDs | ? { ($_.ObjectType -match 'replication-get') -or ($_.ActiveDirectoryRights -match 'GenericAll') } | select IdentityReference
 ```
 
 ### Resources
