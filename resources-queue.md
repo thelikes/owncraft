@@ -1,5 +1,17 @@
 # Tagged + Uncategorized
 
+## Issue 12 - July 2021 pt1
+
+### writeups
+- [Anatomy of a Red-Team exercise – Chapter 3](https://ictexpertsluxembourg.lu/technical-corner/anatomy-of-a-red-team-exercise-chapter-3/)
+    - Continuation of 'Anatomy of a Red-Team exercise' series
+    - tags: redteam
+
+### tools
+- [The Extended BApp Store](https://apps.burpsuite.guide/)
+    - One stop shop for burp extensions
+    - tags: web
+
 ## Issue 11 - June 2021 pt1
 
 ### writeups
@@ -95,6 +107,9 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - Python Print Bug
     - related: [printerbuy.py](https://github.com/dirkjanm/krbrelayx/blob/master/printerbug.py)
     - tags: exploit, windows
+- [SharpHose](https://github.com/rvrsh3ll/SharpHose)
+    - Asynchronous Password Spraying Tool in C# for Windows Environments 
+    - tags: windows, exploit, redteam
 
 ## Issue 10 - May 2021 pt2
 
