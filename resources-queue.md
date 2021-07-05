@@ -11,6 +11,9 @@
 - [The Extended BApp Store](https://apps.burpsuite.guide/)
     - One stop shop for burp extensions
     - tags: web
+- [CVE-2021-3156 LPE POC (kill sudo)](https://github.com/worawit/CVE-2021-3156)
+    - Python LPE POC
+    - tags: privesc, linux
 
 ## Issue 11 - June 2021 pt1
 
