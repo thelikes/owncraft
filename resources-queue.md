@@ -4,16 +4,57 @@
 
 ### writeups
 - [Anatomy of a Red-Team exercise – Chapter 3](https://ictexpertsluxembourg.lu/technical-corner/anatomy-of-a-red-team-exercise-chapter-3/)
-    - Continuation of 'Anatomy of a Red-Team exercise' series
+    - desc: Continuation of 'Anatomy of a Red-Team exercise' series
     - tags: redteam
+- [Initial Access: Macro Cheat sheet](https://lsteelo.medium.com/initial-access-macro-cheat-sheet-bcbaf3e5c981)
+    - desc: Descriptions of various Macro techniques
+    - tags: redteam, phish
+- [Get a Windows 10 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
+    - desc: free win 10 dev VMs
+    - tags: windows
 
 ### tools
 - [The Extended BApp Store](https://apps.burpsuite.guide/)
-    - One stop shop for burp extensions
+    - desc: One stop shop for burp extensions
     - tags: web
 - [CVE-2021-3156 LPE POC (kill sudo)](https://github.com/worawit/CVE-2021-3156)
-    - Python LPE POC
+    - desc: Python LPE POC
     - tags: privesc, linux
+- [dnMerge](https://github.com/CCob/dnMerge)
+    - desc: A lightweight .NET assembly dependency merger that uses dnLib and 7zip's LZMA SDK for compressing dependant assemblies. 
+    - tags: malwaredev
+    - more: [dnMerge intro](https://ethicalchaos.dev/2021/07/04/merging-c-assemblies-using-dnmerge/)
+- [Print Nightmare](https://github.com/afwu/PrintNightmare)
+    - desc: C++ version of PrintNightmare
+    - tags: windows, exploit
+- [Impacket Print Nightmare](https://github.com/cube0x0/CVE-2021-1675)
+    - desc: impacket version of PrintNightmare
+    - tags: windows, exploit
+- [Injector](https://github.com/0xDivyanshu/Injector)
+    - desc: Complete arsenal of memory injection techniques
+    - tags: malwaredev
+- [Invoke-Nightmare](https://github.com/calebstewart/CVE-2021-1675)
+    - desc: powershell PrintNightmare
+    - tags: windows, exploit
+- [Docker-PrintNightmare](https://github.com/real-acmkan/docker-printernightmare)
+    - desc: docker image for PrintNightmare
+    - tags: windows, exploit
+- [spoofing-office-macro](https://github.com/christophetd/spoofing-office-macro)
+    - desc: PoC of a VBA macro spawning a process with a spoofed parent and command line. 
+    - tags: redteam, phish
+- [bflat](https://github.com/MichalStrehovsky/bflat)
+    - desc: C# as you know it but with Go-inspired tooling
+    - tags: malwaredev
+- [PayloadAutomation](https://github.com/emcghee/PayloadAutomation)
+    - desc: Runner/dropper payload automation framework
+    - tags: malwaredev
+    - more: [Introducing Striker and the Payload Automation Libraries](http://blog.redxorblue.com/2021/06/introducing-striker-and-payload.html)
+- [Evasor](https://github.com/cyberark/Evasor)
+    - desc: A tool to be used in post exploitation phase for blue and red teams to bypass APPLICATIONCONTROL policies 
+    - tags: redteam, windows, exploit, malwaredev
+- [Backstab](https://github.com/Yaxser/Backstab)
+    - desc: A tool to kill antimalware protected processes 
+    - tags: malwaredev
 
 ## Issue 11 - June 2021 pt1
 

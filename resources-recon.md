@@ -56,6 +56,7 @@ Useful services for Out of Band exploitation.
 * [shodan](shodan.io)
 * [censys](censys.io)
 * [binaryedge](https://app.binaryedge.io/)
+* [DNSGrep](https://github.com/erbbysam/DNSGrep)
 
 ### Content Discovery
 * [LinkFinder](https://github.com/anshumanbh/LinkFinder)
@@ -66,11 +67,12 @@ Useful services for Out of Band exploitation.
 * [photon](https://github.com/s0md3v/Photon)
 * [recursive-gobuster](https://github.com/epi052/recursive-gobuster)
 
-### Wordlists
-## Tools
+## Wordlists
+
+### Tools
 * [CommonSpeak - Wordlists Generation](https://github.com/pentester-io/commonspeak)
 * [CommonSpeak2 - Wordlists Generation](https://github.com/assetnote/commonspeak2)
 * [Assetnote Wordlists](https://wordlists.assetnote.io/)
 
-### Misc
+## Misc
 * [FireProx - AWS Proxy for WAF Evasion](https://github.com/ustayready/fireprox)

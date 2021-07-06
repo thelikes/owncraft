@@ -18,6 +18,12 @@
 - [Networking VMs for HTB](https://0xdf.gitlab.io/2021/05/04/networking-vms-for-htb.html)
 - [SSH Konami Code](https://www.sans.org/blog/using-the-ssh-konami-code-ssh-control-sequences/)
 
+## Tools
+
+### Reverse Shells
+- [Reverse Shell Generator](https://www.revshells.com/)
+- [Reverse Shell as a Service](https://resh.vercel.app/)
+
 ### Static Analysis
 - [RIPS](https://www.ripstech.com/)
 - [PSALM](https://psalm.dev/)
