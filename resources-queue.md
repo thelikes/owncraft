@@ -15,7 +15,22 @@
 - [Process Creation is Dead, Long Live Process Creation — Adding BOFs Support to PEzor](https://iwantmore.pizza/posts/PEzor4.html)
     - desc: PEzor BOF
     - tags: malwaredev
-
+- [Don’t Be Rude, Stay: Avoiding Fork&Run .NET Execution With InlineExecute-Assembly](https://securityintelligence.com/posts/net-execution-inlineexecute-assembly/)
+    - desc:
+    - tags: redteam, malwaredev
+- [Abusing Resource-Based Constrained Delegation (RBCD) using Linux](https://www.alteredsecurity.com/post/resource-based-constrained-delegation-rbcd)
+    - desc: RBCD with Linux
+    - tags: redteam, windows, exploit
+ - [Obtaining LAPS Passwords Through LDAP Relaying Attacks](https://www.praetorian.com/blog/obtaining-laps-passwords-through-ldap-relaying-attacks/)
+    - desc: Stealing LAPS creds
+    - tags: windows, exploit, redteam
+- [Evasive Maneuvers | Massive IcedID Campaign Aims For Stealth with Benign Macros](https://labs.sentinelone.com/evasive-maneuvers-massive-icedid-campaign-aims-for-stealth-with-benign-macros/)
+    - desc: evasive macro research
+    - tags: exploit, windows, redteam, phish
+- [Red Team Privilege Escalation – RBCD Based Privilege Escalation – Part 2](https://www.praetorian.com/blog/red-team-privilege-escalation-rbcd-based-privilege-escalation-part-2/)
+    - desc: Resource Based Constrained Delegation
+    - tags: windows, exploit, redteam
+    
 ### tools
 - [The Extended BApp Store](https://apps.burpsuite.guide/)
     - desc: One stop shop for burp extensions

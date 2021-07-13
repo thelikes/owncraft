@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>digitalgangster.com - Index page</title>
+<link rel="alternate" type="application/atom+xml" title="Feed - digitalgangster.com" href="/7um/app.php/feed?sid=d078d6ebf2db40e6c373324518787bef"> <link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="/7um/app.php/feed/topics?sid=d078d6ebf2db40e6c373324518787bef">
+
+<link href="./assets/css/font-awesome.min.css?assets_version=3" rel="stylesheet">
+<link href="./styles/black_green/theme/stylesheet.css?assets_version=3" rel="stylesheet">
+<!--[if lte IE 9]>
+	<link href="./styles/black_green/theme/tweaks.css?assets_version=3" rel="stylesheet">
+<![endif]-->
+</head>
+<body id="phpbb" class="nojs notouch section-index ltr " data-online-text="Online">
+<div id="body-wrapper">
+<a id="top" class="top-anchor" accesskey="t"></a>
+<div id="page-header" class="page-width">
+<div class="headerbar" role="banner">
+<div class="inner">
+<div id="site-description" class="site-description">
+<a id="logo" class="logo" href="./index.php?sid=d078d6ebf2db40e6c373324518787bef" title="Board index">
+
+<img src="https://digitalgangster.com/6um/img/dgpixel-6um.gif">
+</a>
+<p class="sitename">digitalgangster.com</p>
+<p>DG4E</p>
+<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="wrap" class="page-width">
+<div>
+<div class="navbar tabbed not-static" role="navigation">
+<div class="inner page-width">
+<div class="nav-tabs" data-current-page="index">
+<ul class="leftside">
+<li id="quick-links" class="quick-links tab responsive-menu dropdown-container empty">
+<a href="#" class="nav-link dropdown-trigger">Quick links</a>
+<div class="dropdown">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents" role="menu">
+</ul>
+</div>
+</li>
+<li class="tab forums selected" data-responsive-class="small-icon icon-forums">
+<a class="nav-link" href="./index.php?sid=d078d6ebf2db40e6c373324518787bef">Forums</a>
+</li>
+</ul>
+<ul class="rightside" role="menu">
+<li class="tab faq" data-select-match="faq" data-responsive-class="small-icon icon-faq">
+<a class="nav-link" href="/7um/app.php/help/faq?sid=d078d6ebf2db40e6c373324518787bef" rel="help" title="Frequently Asked Questions" role="menuitem">
+<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i><span>FAQ</span>
+</a>
+</li>
+<li class="tab login" data-skip-responsive="true" data-select-match="login"><a class="nav-link" href="./ucp.php?mode=login&amp;redirect=index.php&amp;sid=d078d6ebf2db40e6c373324518787bef" title="Login" accesskey="x" role="menuitem">Login</a></li>
+<li class="tab register" data-skip-responsive="true" data-select-match="register"><a class="nav-link" href="./ucp.php?mode=register&amp;sid=d078d6ebf2db40e6c373324518787bef" role="menuitem">Register</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar secondary">
+<ul role="menubar">
+<li class="small-icon icon-login"><a href="./ucp.php?mode=login&amp;redirect=index.php&amp;sid=d078d6ebf2db40e6c373324518787bef" title="Login">Login</a></li>
+<li class="small-icon icon-register"><a href="./ucp.php?mode=register&amp;sid=d078d6ebf2db40e6c373324518787bef">Register</a></li>
+</ul>
+</div>
+<div class="navbar">
+<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+<span class="crumb" itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="./index.php?sid=d078d6ebf2db40e6c373324518787bef" itemtype="https://schema.org/Thing" itemscope itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Board index</span></a><meta itemprop="position" content="1" /></span>
+</li>
+<li class="rightside dropdown-container icon-only">
+<a href="#" class="dropdown-trigger time" title="It is currently Tue Jul 13, 2021 3:00 am"><i class="fa fa-clock-o"></i></a>
+<div class="dropdown">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents">
+<li>It is currently Tue Jul 13, 2021 3:00 am</li>
+<li>All times are <span title="UTC">UTC</span></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<a id="start_here" class="top-anchor"></a>
+<div id="page-body" class="page-body" role="main">
+<div class="forabg category-1" data-hide-description="0">
+<div class="inner">
+<ul class="topiclist">
+<li class="header">
+<dl class="row-item">
+<dt><div class="list-inner"><a href="./viewforum.php?f=1&amp;sid=d078d6ebf2db40e6c373324518787bef" data-id="1">be a digital gangster</a></div></dt>
+<dd class="topics">Topics</dd>
+<dd class="posts">Posts</dd>
+<dd class="lastpost"><span>Last post</span></dd>
+</dl>
+</li>
+</ul>
+<ul class="topiclist forums">
+<li class="row forum-2">
+<dl class="row-item forum_read">
+<dt title="No unread posts">
+<div class="list-inner">
+
+<a href="./viewforum.php?f=2&amp;sid=d078d6ebf2db40e6c373324518787bef" class="forumtitle" data-id="2">vamos a la playa</a>
+<div class="forum-description">it's like the feeling you get when everyone except for you gets sick with coronavirus.</div>
+<div class="forum-moderators"><strong>Moderators:</strong> <a href="./memberlist.php?mode=viewprofile&amp;u=888&amp;sid=d078d6ebf2db40e6c373324518787bef" class="username">chadiLLac</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=53&amp;sid=d078d6ebf2db40e6c373324518787bef" class="username">Moony</a></div>
+<div class="responsive-show" style="display: none;">
+Topics: <strong>61387</strong>
+</div>
+<div class="forum-lastpost" style="display: none;">
+<span><strong>Last post:</strong> <a href="./viewtopic.php?f=2&amp;p=64636&amp;sid=d078d6ebf2db40e6c373324518787bef#p64636" title="HYPACK v2020" class="lastsubject">HYPACK v2020</a></span>
+<span>by <a href="./memberlist.php?mode=viewprofile&amp;u=1601&amp;sid=d078d6ebf2db40e6c373324518787bef" class="username">carleast13</a>, Tue Jul 13, 2021 2:58 am</span>
+</div>
+</div>
+</dt>
+<dd class="topics">61387 <dfn>Topics</dfn></dd>
+<dd class="posts">63698 <dfn>Posts</dfn></dd>
+<dd class="lastpost">
+<span>
+<dfn>Last post</dfn>
+<a href="./viewtopic.php?f=2&amp;p=64636&amp;sid=d078d6ebf2db40e6c373324518787bef#p64636" title="HYPACK v2020" class="lastsubject">HYPACK v2020</a> <br />
+by <a href="./memberlist.php?mode=viewprofile&amp;u=1601&amp;sid=d078d6ebf2db40e6c373324518787bef" class="username">carleast13</a> <a href="./viewtopic.php?f=2&amp;p=64636&amp;sid=d078d6ebf2db40e6c373324518787bef#p64636" title="View the latest post">
+<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+</a>
+<br /><time datetime="2021-07-13T02:58:41+00:00">Tue Jul 13, 2021 2:58 am</time>
+</span>
+</dd>
+</dl>
+</li>
+<li class="row forum-6">
+<dl class="row-item forum_read">
+<dt title="No unread posts">
+<div class="list-inner">
+
+<a href="./viewforum.php?f=6&amp;sid=d078d6ebf2db40e6c373324518787bef" class="forumtitle" data-id="6">margorp/whywork</a>
+<div class="forum-description">very serious spam money internet bitcorn forum</div>
+<div class="forum-moderators"><strong>Moderators:</strong> <a href="./memberlist.php?mode=viewprofile&amp;u=888&amp;sid=d078d6ebf2db40e6c373324518787bef" class="username">chadiLLac</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=53&amp;sid=d078d6ebf2db40e6c373324518787bef" class="username">Moony</a></div>
+<div class="responsive-show" style="display: none;">
+Topics: <strong>24</strong>
+</div>
+<div class="forum-lastpost" style="display: none;">
+<span><strong>Last post:</strong> <a href="./viewtopic.php?f=6&amp;p=33254&amp;sid=d078d6ebf2db40e6c373324518787bef#p33254" title="" class="lastsubject"></a></span>
+<span>by <a href="./memberlist.php?mode=viewprofile&amp;u=1517&amp;sid=d078d6ebf2db40e6c373324518787bef" class="username">mrseo12</a>, Wed May 12, 2021 6:52 pm</span>
+</div>
+</div>
+</dt>
+<dd class="topics">24 <dfn>Topics</dfn></dd>
+<dd class="posts">124 <dfn>Posts</dfn></dd>
+<dd class="lastpost">
+<span>
+<dfn>Last post</dfn>
+by <a href="./memberlist.php?mode=viewprofile&amp;u=1517&amp;sid=d078d6ebf2db40e6c373324518787bef" class="username">mrseo12</a> <a href="./viewtopic.php?f=6&amp;p=33254&amp;sid=d078d6ebf2db40e6c373324518787bef#p33254" title="View the latest post">
+<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+</a>
+<br /><time datetime="2021-05-12T18:52:59+00:00">Wed May 12, 2021 6:52 pm</time>
+</span>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<form method="post" action="./ucp.php?mode=login&amp;sid=d078d6ebf2db40e6c373324518787bef" class="headerspace">
+<h3><a href="./ucp.php?mode=login&amp;redirect=index.php&amp;sid=d078d6ebf2db40e6c373324518787bef">Login</a>&nbsp; &bull; &nbsp;<a href="./ucp.php?mode=register&amp;sid=d078d6ebf2db40e6c373324518787bef">Register</a></h3>
+<fieldset class="quick-login">
+<label for="username"><span>Username:</span> <input type="text" tabindex="1" name="username" id="username" size="10" class="inputbox" title="Username" /></label>
+<label for="password"><span>Password:</span> <input type="password" tabindex="2" name="password" id="password" size="10" class="inputbox" title="Password" autocomplete="off" /></label>
+<a href="./ucp.php?mode=sendpassword&amp;sid=d078d6ebf2db40e6c373324518787bef">I forgot my password</a>
+<span class="responsive-hide">|</span> <label for="autologin">Remember me <input type="checkbox" tabindex="4" name="autologin" id="autologin" /></label>
+<input type="submit" tabindex="5" name="login" value="Login" class="button2" />
+<input type="hidden" name="redirect" value="./index.php?sid=d078d6ebf2db40e6c373324518787bef" />
+<input type="hidden" name="creation_time" value="1626145220" />
+<input type="hidden" name="form_token" value="da5db42b4669b08291cecee1439f4df475db19eb" />
+</fieldset>
+</form>
+<div class="stat-block online-list">
+ <h3>Who is online</h3> <p>
+In total there are <strong>31</strong> users online :: 3 registered, 0 hidden and 28 guests (based on users active over the past 5 minutes)<br />Most users ever online was <strong>502</strong> on Tue Mar 31, 2020 1:08 am<br />
+</p>
+</div>
+<div class="stat-block statistics">
+<h3>Statistics</h3>
+<p>
+Total posts <strong>63887</strong> &bull; Total topics <strong>61432</strong> &bull; Total members <strong>1241</strong> &bull; Our newest member <strong><a href="./memberlist.php?mode=viewprofile&amp;u=1759&amp;sid=d078d6ebf2db40e6c373324518787bef" class="username">anisajohn</a></strong>
+</p>
+</div>
+</div>
+<div class="navbar" role="navigation">
+<div class="inner">
+<ul id="nav-footer" class="nav-footer linklist" role="menubar">
+<li class="breadcrumbs">
+<span class="crumb"><a href="./index.php?sid=d078d6ebf2db40e6c373324518787bef" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span> </li>
+<li class="rightside">All times are <span title="UTC">UTC</span></li>
+<li class="rightside">
+<a href="./ucp.php?mode=delete_cookies&amp;sid=d078d6ebf2db40e6c373324518787bef" data-ajax="true" data-refresh="true" role="menuitem">
+<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+</a>
+</li>
+<li class="rightside" data-last-responsive="true">
+<a href="./memberlist.php?mode=contactadmin&amp;sid=d078d6ebf2db40e6c373324518787bef" role="menuitem">
+<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="page-footer" class="page-width" role="contentinfo">
+<div class="copyright">
+<p class="footer-row">
+<span class="footer-copyright">Powered by <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Limited</span>
+</p>
+<p class="footer-row">
+<span class="footer-copyright">Style by <a href="https://www.artodia.com/">Arty</a> - phpBB 3.3 by MrGaby</span>
+</p>
+<p class="footer-row" role="menu">
+<a class="footer-link" href="./ucp.php?mode=privacy&amp;sid=d078d6ebf2db40e6c373324518787bef" title="Privacy" role="menuitem">
+<span class="footer-link-text">Privacy</span>
+</a>
+|
+<a class="footer-link" href="./ucp.php?mode=terms&amp;sid=d078d6ebf2db40e6c373324518787bef" title="Terms" role="menuitem">
+<span class="footer-link-text">Terms</span>
+</a>
+</p>
+</div>
+<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+<div id="darken" class="darken">&nbsp;</div>
+</div>
+<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+<a href="#" class="alert_close">
+</a>
+<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+</div>
+<div id="phpbb_confirm" class="phpbb_alert">
+<a href="#" class="alert_close">
+</a>
+<div class="alert_text"></div>
+</div>
+</div>
+<div>
+<a id="bottom" class="top-anchor" accesskey="z"></a>
+<img src="/7um/app.php/cron/cron.task.core.tidy_warnings?sid=d078d6ebf2db40e6c373324518787bef" width="1" height="1" alt="cron" /></div>
+<script src="./assets/javascript/jquery-3.4.1.min.js?assets_version=3" type="aa1a0d5671b75f028ea60ebd-text/javascript"></script>
+<script src="./assets/javascript/core.js?assets_version=3" type="aa1a0d5671b75f028ea60ebd-text/javascript"></script>
+<script src="./styles/black/template/forum_fn.js?assets_version=3" type="aa1a0d5671b75f028ea60ebd-text/javascript"></script>
+<script src="./styles/black/template/ajax.js?assets_version=3" type="aa1a0d5671b75f028ea60ebd-text/javascript"></script>
+</div>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="aa1a0d5671b75f028ea60ebd-|49" defer=""></script></body>
+</html>
