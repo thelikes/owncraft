@@ -11,6 +11,7 @@
 * [mwrlabs c3](https://github.com/mwrlabs/C3)
 * [pupy](https://github.com/n1nj4sec/pupy)
 * [PoshC2](https://github.com/nettitude/PoshC2)
+* [shad0w](https://github.com/bats3c/shad0w)
 
 ## Infra
 - [cs2modrewrite](https://github.com/threatexpress/cs2modrewrite)

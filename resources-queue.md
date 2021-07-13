@@ -76,7 +76,13 @@
 - [SharpPhish](https://github.com/Yaxser/SharpPhish)
     - desc:  outlook COM objects to create convincing phishing emails without the user noticing
     - tags: redteam, phish
-    
+- [hakrawlerx8chain](https://github.com/improphethacker/hakrawlerx8chain)
+    - desc: wrapper around hakrawler that implements data sanitization and parameter discovery (x8)
+    - tags: web, recon
+- [x8](https://github.com/Sh1Yo/x8)
+    - Rust-based parameter discovery tool
+    - tags: web, recon, exploit
+
 ## Issue 11 - June 2021 pt1
 
 ### writeups
@@ -283,7 +289,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - nuke that event log using some epic dinvoke fu
     - tags: windows, malwaredewv
 - [Dent](https://github.com/optiv/Dent)
-    -  framework for creating COM-based bypasses utilizing vulnerabilities in Microsoft's WDAPT sensors
+    - framework for creating COM-based bypasses utilizing vulnerabilities in Microsoft's WDAPT sensors
     - tags: windows, malwaredev
 - [charlotte](https://github.com/9emin1/charlotte)
     - c++ fully undetected shellcode launcher
