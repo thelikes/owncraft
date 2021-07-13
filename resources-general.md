@@ -2,6 +2,9 @@
 
 ## Guides
 - [Attacking MS Exchange Web Interfaces (PT SWARM)](https://swarm.ptsecurity.com/attacking-ms-exchange-web-interfaces/)
+- [MITRE ATT&CK](https://attack.mitre.org/)
+- [MITRE Adversary Emulation Plans](https://attack.mitre.org/resources/adversary-emulation-plans/)
+- [The Unified Kill Chain](https://www.unifiedkillchain.com/assets/The-Unified-Kill-Chain.pdf)
 
 ## Collections
 - [Mubix Interesting Repos](https://github.com/mubix/repos)

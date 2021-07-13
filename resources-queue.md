@@ -12,6 +12,9 @@
 - [Get a Windows 10 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
     - desc: free win 10 dev VMs
     - tags: windows
+- [Process Creation is Dead, Long Live Process Creation — Adding BOFs Support to PEzor](https://iwantmore.pizza/posts/PEzor4.html)
+    - desc: PEzor BOF
+    - tags: malwaredev
 
 ### tools
 - [The Extended BApp Store](https://apps.burpsuite.guide/)
@@ -55,7 +58,25 @@
 - [Backstab](https://github.com/Yaxser/Backstab)
     - desc: A tool to kill antimalware protected processes 
     - tags: malwaredev
-
+- [InlineExecute-Assembly](https://github.com/anthemtotheego/InlineExecute-Assembly)
+    - desc: BOF to perform in process .NET assembly execution
+    - tags: redteam
+- [Invoke-BuildAnonymousSMBServer](https://github.com/3gstudent/Invoke-BuildAnonymousSMBServer)
+    - desc: Use to build an anonymous SMB file server. 
+    - tags: windows, utils
+- [TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
+    - desc: Azure JWT Token Manipulation Toolset
+    - tags: exploit, cloud
+ - [gMSADumper](https://github.com/micahvandeusen/gMSADumper)
+    - desc: Reads any gMSA password blobs the user can access and parses the values. 
+    - tags: redteam
+- [msspray.py](https://github.com/SecurityRiskAdvisors/msspray)
+    - desc: Password attacks and MFA validation against various endpoints in Azure and Office 365
+    - tags: redteam, windows, exploit
+- [SharpPhish](https://github.com/Yaxser/SharpPhish)
+    - desc:  outlook COM objects to create convincing phishing emails without the user noticing
+    - tags: redteam, phish
+    
 ## Issue 11 - June 2021 pt1
 
 ### writeups
@@ -102,7 +123,7 @@ https://github.com/passthehashbrowns/hiding-your-syscalls
     - StandIn is a small .NET35/45 AD post-exploitation toolkit 
     - tags: windows, post, redteam
 - [hiding-your-syscalls](https://github.com/passthehashbrowns/hiding-your-syscalls)
-    - Detection  bypass for using SysCalls in loaded copy of NTDLL
+    - Detection bypass for using SysCalls in loaded copy of NTDLL
     - tags: malwaredev
 - [ForgeCert](https://github.com/GhostPack/ForgeCert)
     - "Certified Pre-Owned: Abusing Active Directory Certificate Services" tool
