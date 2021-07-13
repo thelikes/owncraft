@@ -20,6 +20,21 @@ Useful services for Out of Band exploitation.
 5. http://dnsbin.zhack.ca
 6. https://ngrok.com
 
+### DNS
+* [rusolver](https://github.com/Edu4rdSHL/rusolver)
+* [puredns](https://github.com/d3mondev/puredns)
+* [wzrd python3 resolver](https://github.com/thelikes/wzrd/blob/master/dns/wzrd-resolve.py)
+* [dnsx](https://github.com/projectdiscovery/dnsx)
+* [dnsvalidator](https://github.com/vortexau/dnsvalidator)
+* [altdns](https://github.com/infosec-au/altdns)
+* [goaltdns](https://github.com/subfinder/goaltdns)
+* [dnsgen](https://github.com/ProjectAnte/dnsgen)
+
+### Services
+* [RustScan](https://github.com/RustScan/RustScan)
+* [naabu](https://github.com/projectdiscovery/naabu)
+* [fi6s](https://github.com/sfan5/fi6s)
+
 ### Web
 * [bluto](https://github.com/darryllane/Bluto)
 * [SubDomainizer - search HTML for secrets](https://github.com/nsonaniya2010/SubDomainizer)
@@ -39,7 +54,6 @@ Useful services for Out of Band exploitation.
 * [ODIN](https://github.com/chrismaddalena/ODIN)
 * [list of osint tools - darkweb](https://tomokodiscovery.com/free-tools-osint-socmint-dark-web-darknet-tor-bitcoin/)
 * [dnstwist - twist domain name to generate phishing URLs](https://github.com/elceef/dnstwist)
-
 
 ### WAF
 * [crimeflare - clouldflare origin search](http://www.crimeflare.biz:82/cfs.htm)

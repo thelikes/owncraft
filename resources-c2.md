@@ -28,7 +28,7 @@
 - [Cheat Sheet (PayloadAllTheThings)](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Cobalt%20Strike%20-%20Cheatsheet.md)
 - [SharPersist (fireeye)](https://github.com/fireeye/SharPersist)
 - [MoveKit (0xthirteen)](https://github.com/0xthirteen/MoveKit)
-- - [c2concealer (fortynorth) cobalstrike profiler generator](200~https://github.com/FortyNorthSecurity/C2concealer)
+- [c2concealer (fortynorth) cobalstrike profiler generator](https://github.com/FortyNorthSecurity/C2concealer)
 
 ### Profiles
 - [cobaltstrike v4 profiles writeup - @bigb0ss](https://medium.com/@bigb0ss/red-team-cobalt-strike-4-0-malleable-c2-profile-guideline-eb3eeb219a7c)

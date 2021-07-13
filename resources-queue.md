@@ -1,5 +1,21 @@
 # Tagged + Uncategorized
 
+## Issue 12 - July 2021 pt2
+
+### writeups
+
+### tools
+- [SharpImpersonation](https://github.com/S3cur3Th1sSh1t/SharpImpersonation)
+    - desc: A User Impersonation tool - via Token or Shellcode injection
+    - tags: windows, exploit, redteam
+    - more: [Intro Blog](https://s3cur3th1ssh1t.github.io/SharpImpersonation-Introduction/)
+- [ADHuntTool](https://github.com/Mr-Un1k0d3r/ADHuntTool)
+    - desc: official report for the AdHuntTool (part of the old RedTeamCSharpScripts 
+    - tags: redteam
+- [PlumHound](https://github.com/PlumHound/PlumHound)
+    - desc: Bloodhound for Blue and Purple Teams
+    - tags: redteam
+
 ## Issue 12 - July 2021 pt1
 
 ### writeups
@@ -30,7 +46,7 @@
 - [Red Team Privilege Escalation – RBCD Based Privilege Escalation – Part 2](https://www.praetorian.com/blog/red-team-privilege-escalation-rbcd-based-privilege-escalation-part-2/)
     - desc: Resource Based Constrained Delegation
     - tags: windows, exploit, redteam
-    
+
 ### tools
 - [The Extended BApp Store](https://apps.burpsuite.guide/)
     - desc: One stop shop for burp extensions
