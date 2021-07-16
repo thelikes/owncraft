@@ -32,6 +32,7 @@
 
 ### Misc
 - [InlineExecute-Assembly](https://github.com/xforcered/InlineExecute-Assembly)
+- [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
 
 ### Profiles
 - [cobaltstrike v4 profiles writeup - @bigb0ss](https://medium.com/@bigb0ss/red-team-cobalt-strike-4-0-malleable-c2-profile-guideline-eb3eeb219a7c)

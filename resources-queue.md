@@ -58,6 +58,12 @@
 - [SharpTransactedLoad](https://github.com/G0ldenGunSec/SharpTransactedLoad)
     - desc: Load .net assemblies from memory while having them appear to be loaded from an on-disk location. 
     - tags: malwaredev
+- [LoGiC.NET](https://github.com/AnErrupTion/LoGiC.NET)
+    - desc: A more advanced free and open .NET obfuscator using dnlib.
+    - tags: malwaredev
+- [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
+    - desc: Cobalt Strike script for ScareCrow payloads 
+    - tags: redteam, malwaredev
 
 ## Issue 12 - July 2021 pt1
 
