@@ -30,6 +30,9 @@
 - [MoveKit (0xthirteen)](https://github.com/0xthirteen/MoveKit)
 - [c2concealer (fortynorth) cobalstrike profiler generator](https://github.com/FortyNorthSecurity/C2concealer)
 
+### Misc
+- [InlineExecute-Assembly](https://github.com/xforcered/InlineExecute-Assembly)
+
 ### Profiles
 - [cobaltstrike v4 profiles writeup - @bigb0ss](https://medium.com/@bigb0ss/red-team-cobalt-strike-4-0-malleable-c2-profile-guideline-eb3eeb219a7c)
 - [cobaltstrike v4 profile exhaustive reference](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)

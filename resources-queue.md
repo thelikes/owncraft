@@ -3,6 +3,9 @@
 ## Issue 12 - July 2021 pt2
 
 ### writeups
+- [FuzzySecurity Presentations](https://github.com/FuzzySecurity/Presentations)
+    - desc: Collection of presentation resources.
+    - tags: exploit
 
 ### tools
 - [SharpImpersonation](https://github.com/S3cur3Th1sSh1t/SharpImpersonation)
@@ -12,9 +15,49 @@
 - [ADHuntTool](https://github.com/Mr-Un1k0d3r/ADHuntTool)
     - desc: official report for the AdHuntTool (part of the old RedTeamCSharpScripts 
     - tags: redteam
+- [EDD](https://github.com/FortyNorthSecurity/EDD)
+    - desc: .NET to enumerate domain data
+    - tags: redteam
 - [PlumHound](https://github.com/PlumHound/PlumHound)
     - desc: Bloodhound for Blue and Purple Teams
     - tags: redteam
+- [SpoolSploit](https://github.com/BeetleChunks/SpoolSploit)
+    - desc: Docker PrintNightmare
+    - tags: exploit, windows
+- [Nobelium-PdfDLRunAesShellcode](https://github.com/boku7/Nobelium-PdfDLRunAesShellcode)
+    - desc: A recreation of the "Nobelium" malware based on Microsofts Malware analysis - Part 1: PDF2Pwn 
+    - tags: phish, redteam
+- [CS-BOFs](https://github.com/pwn1sher/CS-BOFs)
+    - desc: collection of BOFs
+    - tags: redteam
+- [pybeacon](https://github.com/nccgroup/pybeacon)
+    - desc: collection of scripts for dealing with a beacon
+    - tags: blue
+- [PowerShellArmoury](https://github.com/cfalta/PowerShellArmoury)
+    - desc: A PowerShell armoury for penetration testers or other random security guys
+    - tags: windows, redteam
+- [Phant0m](https://github.com/hlldz/Phant0m)
+    - desc: Windows Event Log Killer
+    - tags: windows, exploit, redteam
+- [Vanara](https://github.com/dahall/Vanara)
+    - desc: A set of .NET libraries for Windows implementing PInvoke calls to many native Windows APIs with supporting wrappers. 
+    - tags: malwaredev
+- [Offensive VBA and XLS Entanglement](https://github.com/BC-SECURITY/Offensive-VBA-and-XLS-Entanglement)
+    - desc: Offensive VBA examples
+    - tags: phish, redteam
+    - more: [intro blog](https://www.bc-security.org/post/xls-entanglement/)
+- [gotator](https://github.com/Josue87/gotator)
+    - desc: Gotator is a tool to generate DNS wordlists through permutations.
+    - tags: recon
+- [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
+    - desc: A curated list of delightful PowerShell modules and resources
+    - tags: util
+- [SharpSword](https://github.com/OG-Sadpanda/SharpSword)
+    - desc: Read the contents of DOCX files using Cobalt Strike's Execute-Assembly 
+    - tags: windows, redteam
+- [SharpTransactedLoad](https://github.com/G0ldenGunSec/SharpTransactedLoad)
+    - desc: Load .net assemblies from memory while having them appear to be loaded from an on-disk location. 
+    - tags: malwaredev
 
 ## Issue 12 - July 2021 pt1
 
@@ -32,7 +75,7 @@
     - desc: PEzor BOF
     - tags: malwaredev
 - [Don’t Be Rude, Stay: Avoiding Fork&Run .NET Execution With InlineExecute-Assembly](https://securityintelligence.com/posts/net-execution-inlineexecute-assembly/)
-    - desc:
+    - desc: BOF/Inline execute-assembly
     - tags: redteam, malwaredev
 - [Abusing Resource-Based Constrained Delegation (RBCD) using Linux](https://www.alteredsecurity.com/post/resource-based-constrained-delegation-rbcd)
     - desc: RBCD with Linux
