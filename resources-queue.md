@@ -6,6 +6,15 @@
 - [FuzzySecurity Presentations](https://github.com/FuzzySecurity/Presentations)
     - desc: Collection of presentation resources.
     - tags: exploit
+- [CredBandit (In memory BOF MiniDump) – Tool review – Part 1](https://blog.cobaltstrike.com/2021/07/13/credbandit-a-review-of-a-tool-developed-built-by-the-cobalt-strike-user-community/)
+    - desc: CS BOF of CredBandit
+    - tags: redteam
+- [Hide-HTA-window-for-RedTeam](https://blog.sevagas.com/?Hide-HTA-window-for-RedTeam)
+    - desc: hide hta windows
+    - tags: phish, redteam, windows, exploit
+- [Ten process injection techniques: A technical survey of common and trending process injection techniques](https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process)
+    - desc: 10 proc injection techniques
+    - tags: malwaredev
 
 ### tools
 - [SharpImpersonation](https://github.com/S3cur3Th1sSh1t/SharpImpersonation)
@@ -64,6 +73,27 @@
 - [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
     - desc: Cobalt Strike script for ScareCrow payloads 
     - tags: redteam, malwaredev
+- [bof-spawnSuspendedProcess](https://github.com/boku7/bof-spawnSuspendedProcess)
+    - desc: CS BOF suspended state spawn
+    - tags: redteam
+- [redirect.rules](https://github.com/0xZDH/redirect.rules)
+    - desc: Quick and dirty dynamic redirect.rules generator 
+    - tags: phish, redteam
+- [PetitPotam](https://github.com/topotam/PetitPotam)
+    - desc: PoC ntlm auth via MS-EFSRPC EfsRpcOpenFileRaw function
+    - tags: windows, exploit
+- [CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
+    - desc: priv esc poc
+    - tags: linux, exploit
+- [Awesome-CobaltStrike](https://github.com/zer0yu/Awesome-CobaltStrike)
+    - desc: list of awesome cobalt strike resources
+    - tags: redteam
+- [DcRat](https://github.com/qwqdanchun/DcRat)
+    - desc: simple c# implant / c2
+    - tags: redteam
+- [sns](https://github.com/sw33tLie/sns)
+    - desc: golang shortscan
+    - tags: recon, web
 
 ## Issue 12 - July 2021 pt1
 

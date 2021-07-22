@@ -19,3 +19,4 @@
 * [Kaonashi Wordlists](https://github.com/kaonashi-passwords/Kaonashi)
 * [password-list](https://github.com/scipag/password-list)
 * [weakpasswords.net](http://weakpasswords.net/)
+* [PasswordList (Cyb3r4rch3r)](https://github.com/Cyb3r4rch3r/PasswordList)
