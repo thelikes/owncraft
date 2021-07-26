@@ -15,6 +15,18 @@
 - [Ten process injection techniques: A technical survey of common and trending process injection techniques](https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process)
     - desc: 10 proc injection techniques
     - tags: malwaredev
+- [On Disk, The Devil’s In The Details](https://www.solomonsklash.io/devils-in-the-details.html)
+    - desc: data about data
+    - tags: malwaredev
+- [A guide to non-conventional WAF/IDS evasion techniques](https://blog.0xffff.info/2021/07/24/a-guide-to-non-conventional-waf-ids-evasion-techniques/)
+    - desc: waf bypass techniques
+    - tags: web
+- [Shellcoding: Process Injection with Assembly](https://blog.xenoscr.net/2021/07/26/Process-Injection-with-Assembly.html)
+    - desc: analysis and study of SK Chong’s work that was published in issue 62 of Prack in 2001
+    - tags: malwaredev
+- [Introduction to Threat Intelligence ETW](https://undev.ninja/introduction-to-threat-intelligence-etw/)
+    - desc: A quick look into ETW capabilities against malicious API calls.
+    - tags: malwaredev, windows, redteam
 
 ### tools
 - [SharpImpersonation](https://github.com/S3cur3Th1sSh1t/SharpImpersonation)
@@ -94,6 +106,18 @@
 - [sns](https://github.com/sw33tLie/sns)
     - desc: golang shortscan
     - tags: recon, web
+- [violentfungus-c2](https://github.com/sogonsec/ViolentFungus-C2)
+    - desc: Violent Fungus is a command and control (C2) software suite, providing red teams post-exploitation persistence and other juicy stuff
+    - tags: redteam
+- [BadAssMacros](https://github.com/Inf0secRabbit/BadAssMacros)
+    - desc: BadAssMacros - C# based automated Malicous Macro Generator. 
+    - tags: phish, redteam
+- [hivenightmare](https://github.com/FireFart/hivenightmare)
+    - desc: unprotected hive exploitation
+    - tags: windows, privesc
+- [MMInject](https://github.com/SDXT/MMInject)
+    - desc: Kernel DLL Injector using NX Bit Swapping and VAD hide for hiding injected DLL
+    - tags: malwaredev
 
 ## Issue 12 - July 2021 pt1
 
