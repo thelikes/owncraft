@@ -27,6 +27,24 @@
 - [Introduction to Threat Intelligence ETW](https://undev.ninja/introduction-to-threat-intelligence-etw/)
     - desc: A quick look into ETW capabilities against malicious API calls.
     - tags: malwaredev, windows, redteam
+- [Representing Password Reuse in BloodHound](https://porterhau5.com/blog/representing-password-reuse-in-bloodhound/)
+    - desc: password reuse bloodhound paths
+    - tags: windows, redteam
+- [Introducing Mimikatz Kit](https://blog.cobaltstrike.com/2021/07/29/introducing-mimikatz-kit/)
+    - desc: Cobalt Strike updated Mimikatz
+    - tags: redteam
+- [CredPhish](https://github.com/tokyoneon/CredPhish)
+    - desc: CredPhish is a PowerShell script designed to invoke legitimate credential prompts and exfiltrate passwords over DNS. 
+    - tags: windows, exploit, redteam
+- [NTLM Relaying via Cobalt Strike](https://rastamouse.me/ntlm-relaying-via-cobalt-strike/)
+    - desc: relay via c2
+    - tags: redteam
+- [NTLM relaying to AD CS - On certificates, printers and a little hippo ](https://dirkjanm.io/ntlm-relaying-to-ad-certificate-services/)
+    - desc: ADCS, printers, petit
+    - tags: windows, exploit, redteam
+- [Fantastic Windows Logon types and Where to Find Credentials in Them](https://www.alteredsecurity.com/post/fantastic-windows-logon-types-and-where-to-find-credentials-in-them)
+    - desc: Windows Logon Research
+    - tags: windows, exploit, redteam
 
 ### tools
 - [SharpImpersonation](https://github.com/S3cur3Th1sSh1t/SharpImpersonation)
@@ -117,6 +135,16 @@
     - tags: windows, privesc
 - [MMInject](https://github.com/SDXT/MMInject)
     - desc: Kernel DLL Injector using NX Bit Swapping and VAD hide for hiding injected DLL
+    - tags: malwaredev
+- [PKINIT tools](https://github.com/dirkjanm/PKINITtools)
+    - desc: Tools for Kerberos PKINIT and relaying to AD CS 
+    - tags: windows, exploit, redteam
+- [Windows Command-Line Obfuscation](https://github.com/wietze/windows-command-line-obfuscation)
+    - desc: Project for identifying executables that have command-line options that can be obfuscated, possibly bypassing detection rules. 
+    - tags: exploit, windows, redteam
+    - blog: https://www.wietzebeukema.nl/blog/windows-command-line-obfuscation
+- [GoPEInjection](https://github.com/malware-unicorn/GoPEInjection)
+    - desc: Golang PE injection on windows 
     - tags: malwaredev
 
 ## Issue 12 - July 2021 pt1
