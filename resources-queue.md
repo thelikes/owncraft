@@ -146,6 +146,9 @@
 - [GoPEInjection](https://github.com/malware-unicorn/GoPEInjection)
     - desc: Golang PE injection on windows 
     - tags: malwaredev
+- [Cent](https://github.com/xm1k3/cent)
+    - desc:  Community edition nuclei templates, a simple tool that allows you to organize all the Nuclei templates offered by the community in one place 
+    - tags: web
 
 ## Issue 12 - July 2021 pt1
 
@@ -343,6 +346,9 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
 - [SharpHose](https://github.com/rvrsh3ll/SharpHose)
     - Asynchronous Password Spraying Tool in C# for Windows Environments 
     - tags: windows, exploit, redteam
+- [ worawit/CVE-2021-3156](https://github.com/worawit/CVE-2021-3156/)
+    - desc: Sudo Baron Samedit Exploit 
+    - tags: linux, privesc
 
 ## Issue 10 - May 2021 pt2
 

@@ -29,7 +29,9 @@
 - [SharPersist (fireeye)](https://github.com/fireeye/SharPersist)
 - [MoveKit (0xthirteen)](https://github.com/0xthirteen/MoveKit)
 - [c2concealer (fortynorth) cobalstrike profiler generator](https://github.com/FortyNorthSecurity/C2concealer)
-
+- [Cobalt Strike and Tradecraft](https://hausec.com/2021/07/26/cobalt-strike-and-tradecraft/)
+    - desc: various CS commands' opsec considerations
+    
 ### Misc
 - [InlineExecute-Assembly](https://github.com/xforcered/InlineExecute-Assembly)
 - [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
