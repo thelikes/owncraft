@@ -1,5 +1,12 @@
 # Tagged + Uncategorized
 
+## Issue 13 - Aug 2021 pt1
+
+### writeups
+- [Cobalt Strike and Tradecraft](https://hausec.com/2021/07/26/cobalt-strike-and-tradecraft/)
+    - desc: various CS commands' opsec considerations
+    - tags: redteam
+
 ## Issue 12 - July 2021 pt2
 
 ### writeups
@@ -348,8 +355,11 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, exploit, redteam
 - [ worawit/CVE-2021-3156](https://github.com/worawit/CVE-2021-3156/)
     - desc: Sudo Baron Samedit Exploit 
-    - tags: linux, privesc
-
+    - tags: linux, privesc  
+- [ADCSPwn](https://github.com/bats3c/ADCSPwn)
+    - desc: A tool to escalate privileges in an active directory network by coercing authenticate from machine accounts and relaying to the certificate service. 
+    - tags: windows, privesc, exploit, redteam
+    
 ## Issue 10 - May 2021 pt2
 
 ### writeups
