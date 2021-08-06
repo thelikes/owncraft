@@ -25,6 +25,7 @@
 ## Cobalt Strike
 
 ### General
+- [community_kit](https://cobalt-strike.github.io/community_kit/)
 - [Cheat Sheet (PayloadAllTheThings)](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Cobalt%20Strike%20-%20Cheatsheet.md)
 - [SharPersist (fireeye)](https://github.com/fireeye/SharPersist)
 - [MoveKit (0xthirteen)](https://github.com/0xthirteen/MoveKit)
@@ -71,10 +72,11 @@
     - pypykatz beacon interface to parse LSASS
 
 ### BOF Repos
-* [CS Situational Awareness BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
-* [Extended Process List BOF](https://github.com/thesnoom/extps-cobalt-strike-bof)
-* [Collection of BOFs (ajpc500)](https://github.com/ajpc500/BOFs)
-* [MimiDumpWriteDump BOF](https://github.com/rookuu/BOFs)
-* [unhook-bof](https://github.com/rsmudge/unhook-bof)
-* [CredBandit](https://github.com/xforcered/CredBandit)
-* [CredManBof](https://github.com/jsecu/CredManBOF)
+* [trustedsec/CS-Situational-Awareness-BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
+* [thesnoom/Extended Process List BOF](https://github.com/thesnoom/extps-cobalt-strike-bof)
+* [ajpc500/Collection of BOFs (ajpc500)](https://github.com/ajpc500/BOFs)
+* [rookuu/MimiDumpWriteDump BOF](https://github.com/rookuu/BOFs)
+* [rsmudge/unhook-bof](https://github.com/rsmudge/unhook-bof)
+* [xforcered/CredBandit](https://github.com/xforcered/CredBandit)
+* [jsecu/CredManBof](https://github.com/jsecu/CredManBOF)
+* [boku7/injectAmsiBypass](https://github.com/boku7/injectAmsiBypass)
