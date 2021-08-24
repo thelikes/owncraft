@@ -37,6 +37,9 @@
 - [InlineExecute-Assembly](https://github.com/xforcered/InlineExecute-Assembly)
 - [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
 
+### Tweakj
+- [magic_mz_x86 and magic_mz_x64](https://www.redteam.cafe/red-team/shellcode-injection/magic_mz_x86-and-magic_mz_x64)
+
 ### Profiles
 - [cobaltstrike v4 profiles writeup - @bigb0ss](https://medium.com/@bigb0ss/red-team-cobalt-strike-4-0-malleable-c2-profile-guideline-eb3eeb219a7c)
 - [cobaltstrike v4 profile exhaustive reference](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)

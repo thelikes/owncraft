@@ -147,7 +147,11 @@
 - [Evading EDR in 15 Minutes with ScareCrow](https://adamsvoboda.net/evading-edr-with-scarecrow/)
     - desc: edr/av evasion
     - tags: malwaredev
-    
+- [Finding and Exploiting Unintended Functionality in Main Web App APIs](https://bendtheory.medium.com/finding-and-exploiting-unintended-functionality-in-main-web-app-apis-6eca3ef000af)
+- [The dying knight in the shiny armour](https://aptw.tf/2021/08/21/killing-defender.html)
+    - desc: killing defender
+    - tags: windows
+
 ### tools
 - [sensepost/assless-chaps](https://github.com/sensepost/assless-chaps)
     - desc: Crack MSCHAPv2 challenge/responses quickly using a database of NT hashes
@@ -186,7 +190,28 @@
 - [community_kit](https://cobalt-strike.github.io/community_kit/)
     - desc: currated community addons
     - tags: redteam
-
+- [Greenwolf/ntlm_theft](https://github.com/Greenwolf/ntlm_theft)
+    - desc: generate ntlm stealing files
+    - tags: windows, redteam
+- [outflanknl/WdToggle](https://github.com/outflanknl/WdToggle)
+    - desc: WDigest cred caching BOF
+    - tags: redteam
+- [outflanknl/RedFil](https://github.com/outflanknl/RedFile)
+    - desc: Serving files with conditions, serverside keying and more. 
+    - tags: phishing
+- [jfmaes/Invoke-DLLClone](https://github.com/jfmaes/Invoke-DLLClone)
+    - desc: dll side-load generator
+    - tags: malwaredev
+- [IlanKalendarov/PyHook](https://github.com/IlanKalendarov/PyHook)
+    - desc: offensive API hooking tool written in python designed to catch various credentials
+    - tags: windows, redteam
+- [puzzlepeaches/sneaky_gophish](https://github.com/puzzlepeaches/sneaky_gophish)
+    - desc: hiding gophish
+    - tags: phishing
+- [KoreLogicSecurity/wmkick](https://github.com/KoreLogicSecurity/wmkick)
+    - desc: MITM tool that targets NTLM authentication message flows in WMI (135/tcp) and Powershell-Remoting/WSMan/WinRM (5985/tcp) to capture NetNTLMv2 hashes
+    - tags: redteam
+    
 ## Issue 12 - July 2021 pt2
 
 ### writeups

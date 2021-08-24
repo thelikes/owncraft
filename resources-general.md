@@ -33,7 +33,14 @@
 - [RCEScanner](https://github.com/mhaskar/RCEScanner)
 - [SonarCube](https://www.sonarqube.org)
 - [phpstan](https://github.com/phpstan/phpstan)
+- [CodeQL](https://securitylab.github.com/tools/codeql/)
+- [semgrep](https://github.com/returntocorp/semgrep)
+- [graudit](https://github.com/wireghoul/graudit)
 
 #### decompile
 - [CFR - java decompiler](https://www.benf.org/other/cfr/)
 - [JustDecompile .NET Assembly Decompiler](https://www.telerik.com/products/decompiler.aspx)
+
+### Git Secrets
+- [truffleHo](https://github.com/trufflesecurity/truffleHog)
+- [eth0izzle/shhgit](https://github.com/eth0izzle/shhgit)
