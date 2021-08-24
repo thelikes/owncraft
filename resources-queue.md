@@ -211,7 +211,10 @@
 - [KoreLogicSecurity/wmkick](https://github.com/KoreLogicSecurity/wmkick)
     - desc: MITM tool that targets NTLM authentication message flows in WMI (135/tcp) and Powershell-Remoting/WSMan/WinRM (5985/tcp) to capture NetNTLMv2 hashes
     - tags: redteam
-    
+- [DamonMohammadbagher/ETWProcessMon2](https://github.com/DamonMohammadbagher/ETWProcessMon2)
+    - desc: ETWProcessMon2 is for Monitoring Process/Thread/Memory/Imageloads/TCPIP via ETW + Detection for Remote-Thread-Injection & Payload Detection by VirtualMemAlloc Events (in-memory) etc. 
+    - tags: malwaredev, redteam
+
 ## Issue 12 - July 2021 pt2
 
 ### writeups
