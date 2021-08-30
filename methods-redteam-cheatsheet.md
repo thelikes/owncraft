@@ -2606,6 +2606,7 @@ beacon> pth WKSTN-3\Administrator ccbe70d463aef35efd3cdf0d71416b82
 - https://github.com/GhostPack/SharpWMI
 - https://github.com/Hackplayers/evil-winrm
 - https://github.com/rasta-mouse/MiscTools
+- https://github.com/iomoath/sharpstrike
 
 ## SharpShell
 
@@ -3145,6 +3146,10 @@ $Descriptor = New-Object Security.AccessControl.RawSecurityDescriptor -ArgumentL
 
 $Descriptor.DiscretionaryAcl
 ```
+
+#### Resources
+- [RBCD_takeover_example.ps1 - harmj0y](https://gist.github.com/HarmJ0y/a1ae1cf09e5ac89ee15fb3da25dcb10a)
+- [Delegating Like a Boss: Abusing Kerberos Delegation in Active Directory](https://www.guidepointsecurity.com/blog/delegating-like-a-boss-abusing-kerberos-delegation-in-active-directory/)
 
 ### Forests and Trusts
 

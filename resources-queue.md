@@ -26,6 +26,18 @@
 - [Powershell Logging: Obfuscation and Some Newe (ish) Bypasses Part 2](https://www.bc-security.org/post/powershell-logging-obfuscation-and-some-newish-bypasses-part-2/)
     - desc: powershell evasion
     - tags: windows, exploit, redteam
+- [Companies hiring remote](https://github.com/jaegeral/companies-hiring-security-remote)
+    - desc: remote jobs
+    - tags: utilities
+- [Pre-Auth RCE in ManageEngine OPManager](https://haxolot.com/posts/2021/manageengine_opmanager_pre_auth_rce/)
+    - desc: manage engine opmanger pre-auth rce writeup
+    - tags: web, exploit
+- [HTML Maldoc Remote Macro Injection](https://micahvandeusen.com/html-maldoc-remote-macro-injection/)
+    - desc: load macros remotely in html
+    - tags: phishing
+- [Golden Certificate and OCSP](https://cloudbrothers.info/en/golden-certificate-ocsp/)
+    - desc: Certified Pre-Owned DPERSIST1 mitigation investigation
+    - tags: windows
 
 ### tools
 - [j3ssie/govervie](https://github.com/j3ssie/goverview)
@@ -94,7 +106,31 @@
 - [Mattiwatti/PPLKiller](https://github.com/Mattiwatti/PPLKiller)
     - desc: protected process killer
     - tags: windows, exploit, redteam
-
+- [tokyoneon/CredPhish](https://github.com/tokyoneon/CredPhish)
+    - desc: powershell password prompts
+    - tags: redteam, phish
+- [capt-meelo/Beaconator](https://github.com/capt-meelo/Beaconator)
+    - desc: Alaris, PEzor, & ScareCrow generator
+    - tags: redteam, malwaredev
+- [signedsecurity/sigurlfind3r](https://github.com/signedsecurity/sigurlfind3r)
+    - desc: passively fetch known URLs for a host
+    - tags: web
+- [mxrch/GHunt](https://github.com/mxrch/GHunt)
+    - desc: gmail/gdocs osint
+    - tags: osint
+- [p3nt4/Nuages](https://github.com/p3nt4/Nuages)
+    - desc: modular c2
+    - tags: redteam, malwaredev
+- [Ne0nd0g/go-shellcode](https://github.com/Ne0nd0g/go-shellcode)
+    - desc: extensive golang shellcode generator
+    - tags: malwaredev
+- [iomoath/sharpstrike](https://github.com/iomoath/sharpstrike)
+    - desc: c# wmi/cim queries and command exec
+    - tags: windows, exploit, postex, redteam
+- [hpthreatresearch/subcrawl](https://github.com/hpthreatresearch/subcrawl)
+    - desc: SubCrawl is a modular framework for discovering open directories
+    - tags: web
+    
 ## Issue 014 - Aug 2021
 
 ### writeups
