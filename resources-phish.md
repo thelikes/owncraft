@@ -29,6 +29,9 @@
 - [Never had a bad day phishing. How to set up GoPhish to evade security controls](https://www.sprocketsecurity.com/blog/never-had-a-bad-day-phishing-how-to-set-up-gophish-to-evade-security-controls)
     - [puzzlepeaches/sneaky_gophish](https://github.com/puzzlepeaches/sneaky_gophish)
 
+### Mail
+- [Email Security (SPF, DKIM, and DMARC)](https://www.praetorian.com/blog/email-security/)
+
 ## Tools
 
 * [Complete IP Check for Sending Mailservers](http://multirbl.valli.org/)
@@ -44,8 +47,3 @@
     - Various IP/domain check tools
 * [Bluecoat Lookup](https://sitereview.bluecoat.com/)
     - domain safety check
-
-### Keyying Payloads
-
-* [Keying Payloads for Scripting Languages](https://adapt-and-attack.com/2017/11/15/keying-payloads-for-scripting-languages/)
-* [keyring](https://github.com/leoloobeek/keyring)

@@ -83,3 +83,5 @@
 * [xforcered/CredBandit](https://github.com/xforcered/CredBandit)
 * [jsecu/CredManBof](https://github.com/jsecu/CredManBOF)
 * [boku7/injectAmsiBypass](https://github.com/boku7/injectAmsiBypass)
+* [CCob/BOF.NET](https://github.com/CCob/BOF.NET)
+* [boku7/spawn](https://github.com/boku7/spawn)
