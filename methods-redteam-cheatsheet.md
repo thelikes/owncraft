@@ -1387,6 +1387,9 @@ bloodhound-python
 ```
 # from linux terminal
 $ bloodhound-python -c All -u j.smith -p Passw0rd -d vault.io -dc 10.0.0.1
+
+# via proxy
+proxychains bloodhound-python -u robert.lanza -p 'U=zk1J.TYruU*' -d inception.local -ns 10.9.40.5 -dc indc.inception.local --dns-tcp -c All,LoggedOn
 ```
 
 ### Resources
