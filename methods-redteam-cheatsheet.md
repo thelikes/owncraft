@@ -86,9 +86,20 @@ Use with msf
 set HandlerSSLCert /home/kali/self_cert/yolo.pem
 ```
 
+### Create Network Share
+
+```
+beacon> shell mkdir c:\likes
+
+beacon> shell net share DataShare=c:\likes
+
+# access
+> dir \\host\datashare
+```
+
 ---
 
-## 3. Reconnaissance
+## 2. Reconnaissance
 
 ### DNS
 
