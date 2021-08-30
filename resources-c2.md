@@ -12,6 +12,8 @@
 * [pupy](https://github.com/n1nj4sec/pupy)
 * [PoshC2](https://github.com/nettitude/PoshC2)
 * [shad0w](https://github.com/bats3c/shad0w)
+* [SharpC2](https://github.com/SharpC2/SharpC2)
+* [Mythic](https://github.com/its-a-feature/)
 
 ## Infra
 - [cs2modrewrite](https://github.com/threatexpress/cs2modrewrite)
@@ -37,8 +39,9 @@
 - [InlineExecute-Assembly](https://github.com/xforcered/InlineExecute-Assembly)
 - [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
 
-### Tweakj
+### Tweak
 - [magic_mz_x86 and magic_mz_x64](https://www.redteam.cafe/red-team/shellcode-injection/magic_mz_x86-and-magic_mz_x64)
+- [Tylous/SourcePoint](https://github.com/Tylous/SourcePoint)
 
 ### Profiles
 - [cobaltstrike v4 profiles writeup - @bigb0ss](https://medium.com/@bigb0ss/red-team-cobalt-strike-4-0-malleable-c2-profile-guideline-eb3eeb219a7c)
@@ -47,8 +50,9 @@
 - [malleable-c2 (threatexpress)](https://github.com/threatexpress/malleable-c2)
 
 ### Aggressor Repos
-- [CSSG](https://github.com/RCStep/CSSG)
-    - Cobalt Strike Shellcode Generator
+
+### Quality of Life
+
 - [AggressorScripts (offsecginger)](https://github.com/offsecginger/AggressorScripts)
     - custom payload generator - msbuild , jsc .js, jscript, jsp, tomcat war, aes powershell, etc
 - [AggressorScripts (harleyQu1nn)](https://github.com/harleyQu1nn/AggressorScripts)
@@ -74,6 +78,12 @@
 - [aggrokatz](https://github.com/sec-consult/aggrokatz)
     - pypykatz beacon interface to parse LSASS
 
+### Heavy Lifting
+- [CSSG](https://github.com/RCStep/CSSG)
+    - Cobalt Strike Shellcode Generator
+- [capt-meelo/Beaconator](https://github.com/capt-meelo/Beaconator)
+    - Alaris, PEzor, & ScareCrow generator
+
 ### BOF Repos
 * [trustedsec/CS-Situational-Awareness-BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
 * [thesnoom/Extended Process List BOF](https://github.com/thesnoom/extps-cobalt-strike-bof)
@@ -83,3 +93,5 @@
 * [xforcered/CredBandit](https://github.com/xforcered/CredBandit)
 * [jsecu/CredManBof](https://github.com/jsecu/CredManBOF)
 * [boku7/injectAmsiBypass](https://github.com/boku7/injectAmsiBypass)
+* [CCob/BOF.NET](https://github.com/CCob/BOF.NET)
+* [boku7/spawn](https://github.com/boku7/spawn)

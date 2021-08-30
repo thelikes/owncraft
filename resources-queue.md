@@ -1,6 +1,137 @@
 # Tagged + Uncategorized
+## Issue 015 - Sep 2021
 
-## Issue 14 - Aug 2021 pt 2
+### writeups
+- [Operation Bypass Catch My Payload If You Can - Matthew Eidelberg](https://www.youtube.com/watch?v=JXKNdWUs77w)
+    - desc: av/edr evasion, ScareCrow & SourcePoint
+    - tags: malwaredev
+- [Blinding EDR On Windows](https://synzack.github.io/Blinding-EDR-On-Windows/)
+    - desc: EDR intro 
+    - tags: redteam, malwaredev
+- [AWS ReadOnlyAccess: Not Even Once - SpecterOps](https://posts.specterops.io/aws-readonlyaccess-not-even-once-ffbceb9fc908)
+    - desc: AWS exploitation
+    - tags: cloud
+- [Fetching SharpHound data entirely in-memory (no dropped ZIP or JSON files) using BOF.NET and Cobalt Strike](https://williamknowles.io/fetching-sharphound-data-entirely-in-memory-no-dropped-zip-or-json-files-using-bof-net-and-cobalt-strike/)
+    - desc: in-memory sharphound collection
+    - tags: redteam
+- [Workstation Takeover](https://gist.github.com/gladiatx0r/1ffe59031d42c08603a3bde0ff678feb)
+    - desc: petit walkthrough
+    - tags: windows, exploit
+- [Email Security (SPF, DKIM, and DMARC)](https://www.praetorian.com/blog/email-security/)
+    - desc: email security overview
+    - tags: phishing
+- [SAML is insecure by design - joonas](https://joonas.fi/2021/08/saml-is-insecure-by-design/)
+    - desc: saml investigation
+    - tags: web
+- [Powershell Logging: Obfuscation and Some Newe (ish) Bypasses Part 2](https://www.bc-security.org/post/powershell-logging-obfuscation-and-some-newish-bypasses-part-2/)
+    - desc: powershell evasion
+    - tags: windows, exploit, redteam
+- [Companies hiring remote](https://github.com/jaegeral/companies-hiring-security-remote)
+    - desc: remote jobs
+    - tags: utilities
+- [Pre-Auth RCE in ManageEngine OPManager](https://haxolot.com/posts/2021/manageengine_opmanager_pre_auth_rce/)
+    - desc: manage engine opmanger pre-auth rce writeup
+    - tags: web, exploit
+- [HTML Maldoc Remote Macro Injection](https://micahvandeusen.com/html-maldoc-remote-macro-injection/)
+    - desc: load macros remotely in html
+    - tags: phishing
+- [Golden Certificate and OCSP](https://cloudbrothers.info/en/golden-certificate-ocsp/)
+    - desc: Certified Pre-Owned DPERSIST1 mitigation investigation
+    - tags: windows
+
+### tools
+- [j3ssie/govervie](https://github.com/j3ssie/goverview)
+    - desc: golang url overview tools
+    - tags: web
+- [RiccardoAncarani/BOFs](https://github.com/RiccardoAncarani/BOFs)
+    - desc: collection of BOFs
+    - tags: redteam
+- [mobdk/Upsilon](https://github.com/mobdk/Upsilon)
+    - desc: syscall shellcode limited apis
+    - tags: malwaredev
+- [stacscan/stacs](https://github.com/stacscan/stacs)
+    - desc: secrets static code analyzer
+    - tags: utilities, web
+- [Marshall-Hallenbeck/red_team_attack_lab](https://github.com/Marshall-Hallenbeck/red_team_attack_lab)
+    - desc: auto ad lab deployment
+    - tags: windows, redteam
+- [itm4n/VBA-RunPE](https://github.com/itm4n/VBA-RunPE)
+    - desc: vba pe runner
+    - tags: redteam, phishing
+- [geeknik/nuclei-templates](https://github.com/geeknik/nuclei-templates)
+    - desc: Community edition nuclei templates, a simple tool that allows you to organize all the Nuclei templates offered by the community in one place 
+    - tags: web
+- [CMatri/Gotato](https://github.com/CMatri/Gotato)
+    - desc: golang GenericPotato
+    - tags: windows, exploit, lpe
+- [frkngksl/Huan](https://github.com/frkngksl/Huan)
+    - desc: encrypted pe loader
+    - tags: malwaredev
+- [rulz.py - silentbreak](https://gist.githubusercontent.com/monoxgas/7fec9ec0f3ab405773fc/raw/52bf6638e7214db40c383bf13582dd4c45c3e00b/Rulz.py)
+    - desc: malicious Exchange rules generator
+    - tags: redteam
+- [evilsocket/medusa](https://github.com/evilsocket/medusa)
+    - desc: rust honeypot
+    - tags: utilities
+- [rootsecdev/Azure-Red-Team](https://github.com/rootsecdev/Azure-Red-Team)
+    - desc: Azure pentest/redteam resources
+    - tags: cloud
+- [ernw/static-toolbox](https://github.com/ernw/static-toolbox)
+    - desc: collection of statically compiled tools such as nmap and socat
+    - tags: recon, utilities
+- [t3hbb/NSGenCS](https://github.com/t3hbb/NSGenCS)
+    - desc: AV/EDR evasion framework
+    - tags: malwaredev
+- [connormcgarr/LittleCorporal](https://github.com/connormcgarr/LittleCorporal)
+    - desc: c# maldoc generator
+    - tags: phishing
+- [daffainfo/Key-Checker](https://github.com/daffainfo/Key-Checker)
+    - desc: golang api key etc checker
+    - tags: web
+- [armosec/kubescape](https://github.com/armosec/kubescape)
+    - desc: kubernetes vuln scanner
+    - tags: cloud
+- [Fahrj/reverse-ssh](https://github.com/Fahrj/reverse-ssh)
+    - desc: ssh for shells
+    - tags: postex
+- [skelsec/aiosmb](https://github.com/skelsec/aiosmb)
+    - desc: full smb server in python
+    - tags: utilities
+- [zcgonvh/EfsPotato](https://github.com/zcgonvh/EfsPotato)
+    - desc: EfsPotato exploit
+    - tags: lpe, windows
+- [boku7/spawn](https://github.com/boku7/spawn)
+    - desc: CS BOF souped-up spawn
+    - tags: windows, exploit, redteam
+- [Mattiwatti/PPLKiller](https://github.com/Mattiwatti/PPLKiller)
+    - desc: protected process killer
+    - tags: windows, exploit, redteam
+- [tokyoneon/CredPhish](https://github.com/tokyoneon/CredPhish)
+    - desc: powershell password prompts
+    - tags: redteam, phish
+- [capt-meelo/Beaconator](https://github.com/capt-meelo/Beaconator)
+    - desc: Alaris, PEzor, & ScareCrow generator
+    - tags: redteam, malwaredev
+- [signedsecurity/sigurlfind3r](https://github.com/signedsecurity/sigurlfind3r)
+    - desc: passively fetch known URLs for a host
+    - tags: web
+- [mxrch/GHunt](https://github.com/mxrch/GHunt)
+    - desc: gmail/gdocs osint
+    - tags: osint
+- [p3nt4/Nuages](https://github.com/p3nt4/Nuages)
+    - desc: modular c2
+    - tags: redteam, malwaredev
+- [Ne0nd0g/go-shellcode](https://github.com/Ne0nd0g/go-shellcode)
+    - desc: extensive golang shellcode generator
+    - tags: malwaredev
+- [iomoath/sharpstrike](https://github.com/iomoath/sharpstrike)
+    - desc: c# wmi/cim queries and command exec
+    - tags: windows, exploit, postex, redteam
+- [hpthreatresearch/subcrawl](https://github.com/hpthreatresearch/subcrawl)
+    - desc: SubCrawl is a modular framework for discovering open directories
+    - tags: web
+    
+## Issue 014 - Aug 2021
 
 ### writeups
 - [Java giving more shells on everything](https://cornerpirate.com/2021/08/06/java-giving-more-shells-on-everything/)

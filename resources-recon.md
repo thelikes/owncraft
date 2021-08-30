@@ -10,6 +10,12 @@
 
 ## Tools
 
+### map
+* [nmap](https://nmap.org/)
+* [xmap](https://github.com/idealeer/xmap)
+* [fi6s](https://github.com/sfan5/fi6s)
+* [naabu](https://github.com/projectdiscovery/naabu)
+
 ### Call/Ping Back
 
 Useful services for Out of Band exploitation.
@@ -87,6 +93,9 @@ Useful services for Out of Band exploitation.
 * [CommonSpeak - Wordlists Generation](https://github.com/pentester-io/commonspeak)
 * [CommonSpeak2 - Wordlists Generation](https://github.com/assetnote/commonspeak2)
 * [Assetnote Wordlists](https://wordlists.assetnote.io/)
+* [fuzzdb](https://github.com/tennc/fuzzdb)
+* [alert.js - tomnomnom ways to xss](https://gist.github.com/tomnomnom/14a918f707ef0685fdebd90545580309)
+* [random-robbie/bruteforce-lists](https://github.com/random-robbie/bruteforce-lists)
 
 ## Misc
 * [FireProx - AWS Proxy for WAF Evasion](https://github.com/ustayready/fireprox)
