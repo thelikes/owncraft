@@ -38,7 +38,28 @@
 - [Golden Certificate and OCSP](https://cloudbrothers.info/en/golden-certificate-ocsp/)
     - desc: Certified Pre-Owned DPERSIST1 mitigation investigation
     - tags: windows
-
+- [CVE-2021-26084 Remote Code Execution on Confluence Servers](https://github.com/httpvoid/writeups/blob/main/Confluence-RCE.md)
+    - desc: Confluence Nday
+    - tags: web
+- [The Art of the Device Code Phish ](https://0xboku.com/2021/07/12/ArtOfDeviceCodePhish.html)
+    - desc: Azure Device Code Phishing attack
+    - tags: cloud, windows
+- [rootsecdev/Azure-Red-Team](https://github.com/rootsecdev/Azure-Red-Team)
+    - desc: Azure sec notes & resources
+    - tags: cloud, windows
+- [Exploiting GraphQL](https://blog.assetnote.io/2021/08/29/exploiting-graphql/)
+    - desc: Exploiting GraphQL
+    - tags: web
+- [Offensive WMI - The Basics (Part 1)](https://0xinfection.github.io/posts/wmi-basics-part-1/)
+    - desc: intro to wmi offensive use
+    - tags: windows, redteam, postex
+- [Understanding Cobalt Strike Profiles](https://blog.zsec.uk/cobalt-strike-profiles/)
+    - desc: CS profile overview
+    - tags: redteam
+- [Blinding EDR On Windows ](https://synzack.github.io/Blinding-EDR-On-Windows/)
+    - desc: EDR evasion research
+    - tags: malwaredev
+    
 ### tools
 - [j3ssie/govervie](https://github.com/j3ssie/goverview)
     - desc: golang url overview tools
@@ -130,7 +151,16 @@
 - [hpthreatresearch/subcrawl](https://github.com/hpthreatresearch/subcrawl)
     - desc: SubCrawl is a modular framework for discovering open directories
     - tags: web
-    
+- [RiccardoAncarani/LiquidSnake](https://github.com/RiccardoAncarani/LiquidSnake)
+    - desc: WMI Event Subscriptions and GadgetToJScript lateral movement
+    - tags: redteam
+- [antman1p/Jir-Thief](https://github.com/antman1p/Jir-Thief)
+    - desc: Jira exfil
+    - tags: web
+- [pwn.college](https://pwn.college/)
+    - desc: pwn dev beginner's course
+    - tags: malwaredev
+
 ## Issue 014 - Aug 2021
 
 ### writeups

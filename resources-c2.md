@@ -38,6 +38,7 @@
 ### Misc
 - [InlineExecute-Assembly](https://github.com/xforcered/InlineExecute-Assembly)
 - [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
+- [mgeeky/RedWarden](https://github.com/mgeeky/RedWarden)
 
 ### Tweak
 - [magic_mz_x86 and magic_mz_x64](https://www.redteam.cafe/red-team/shellcode-injection/magic_mz_x86-and-magic_mz_x64)
