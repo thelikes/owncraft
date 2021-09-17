@@ -1,5 +1,14 @@
 # Tagged + Uncategorized
 
+## Issue 017 - Sep 2021
+
+### writeups
+
+### tools
+- [btbd/access](https://github.com/btbd/access)
+    - desc: Access without a real handle 
+    - tags: malwaredev
+
 ## Issue 016 - Sep 2021
 
 ### writeups
@@ -122,7 +131,7 @@
 - [rexguowork/phantom-attack](https://github.com/rexguowork/phantom-attack)
     - desc: Phantom Attack (Linux post evasion)
     - tags: linux, post
-    
+
 ## Issue 015 - Sep 2021
 
 ### writeups
@@ -183,7 +192,7 @@
 - [Blinding EDR On Windows ](https://synzack.github.io/Blinding-EDR-On-Windows/)
     - desc: EDR evasion research
     - tags: malwaredev
-
+    
 ### tools
 - [j3ssie/govervie](https://github.com/j3ssie/goverview)
     - desc: golang url overview tools
