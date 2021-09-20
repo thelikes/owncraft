@@ -96,6 +96,7 @@ Useful services for Out of Band exploitation.
 * [fuzzdb](https://github.com/tennc/fuzzdb)
 * [alert.js - tomnomnom ways to xss](https://gist.github.com/tomnomnom/14a918f707ef0685fdebd90545580309)
 * [random-robbie/bruteforce-lists](https://github.com/random-robbie/bruteforce-lists)
+* [the-xentropy/samlists](https://github.com/the-xentropy/samlists)
 
 ## Misc
 * [FireProx - AWS Proxy for WAF Evasion](https://github.com/ustayready/fireprox)
