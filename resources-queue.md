@@ -1,5 +1,77 @@
 # Tagged + Uncategorized
 
+## Issue 018 - Oct 2021
+
+### writeups
+- [CodeQL as an Audit Oracle (workshop) by Alvaro Muñoz during HacktivityCon 2021](https://www.youtube.com/watch?v=-bJ2Ioi7Icg)
+    - desc: CodeQL as an Audit Oracle (workshop) [more](https://github.com/github/codeql-dubbo-workshop) [more](https://securitylab.github.com/research/apache-dubbo/)
+    - tags: exploit
+- [Full-Spectrum Cobalt Strike Detection](https://go.recordedfuture.com/hubfs/reports/mtp-2021-0914.pdf)
+    - desc: cobalt strike detection
+    - tags: blue
+- [The discovery of Gatekeeper bypass CVE-2021-1810](https://labs.f-secure.com/blog/the-discovery-of-cve-2021-1810/)
+    - desc: uncovering the gatekeeper cve-2021-1810 vuln
+    - tags: apple, exploit
+
+### tools
+- [bharadwajyas/ppdump-public](https://github.com/bharadwajyas/ppdump-public)
+    - desc: Uses Zemana AntiMalware Engine To Open a Privileged Handle to a PP/PPL Process And Inject MiniDumpWriteDump() Shellcode 
+    - tags: windows, redteam
+- [rvrsh3ll/BOF-ForeignLsass](https://github.com/rvrsh3ll/BOF-ForeignLsass)
+    - desc: LSASS dumping with foreign handles
+    - tags: redteam
+- [ovotech/gitoops/](https://github.com/ovotech/gitoops/)
+    - desc: abusing CI/CD pipelines and GitHub access controls
+    - tags: redteam, exploit
+- [tnpitsecurity/ligolo-ng](https://github.com/tnpitsecurity/ligolo-ng)
+    - desc: tun0 vpn-esq tunneling
+    - tags: redteam
+- [tanc7/EXOCET-AV-Evasion](https://github.com/tanc7/EXOCET-AV-Evasion)
+    - desc: AV-evading, undetectable, payload delivery tool 
+    - tags: malwaredev
+- [trickster0/OffensiveRust](https://github.com/trickster0/OffensiveRust)
+    - desc: Rust Weaponization for Red Team Engagements. 
+    - tags: malwaredev
+- [nyxgeek/AzureAD_Autologon_Brute](https://github.com/nyxgeek/AzureAD_Autologon_Brute)
+    - desc: Brute force attack tool for Azure AD Autologon/Seamless SSO
+    - tags: cloud, redteam
+- [sensepost/offensive-rpc](https://github.com/sensepost/offensive-rpc)
+    - desc: Offensive RPC PoC 
+    - tags: redteam, windows
+- [jfmaes/DeepSleep](https://github.com/jfmaes/DeepSleep)
+    - desc: shellcode sleeper
+    - tags: malwaredev
+- [Flangvik/RosFuscator](https://github.com/Flangvik/RosFuscator)
+    - desc: project for obfuscating C# source code using Roslyn 
+    - tags: malwaredev
+- [mgeeky/ShellcodeFluctuation](https://github.com/mgeeky/ShellcodeFluctuation)
+    - desc: A PoC implementation for an another in-memory evasion technique
+    - tags: malwaredev
+- [Unknow101/FuckThatSmuggler](https://github.com/Unknow101/FuckThatSmuggler)
+    - desc: html smuggle generator
+    - tags: redteam, phish
+- [tufanbarisyildirim/gonginx](https://github.com/tufanbarisyildirim/gonginx)
+    - desc: golang nginx conf parser/generator
+    - tags: phish, redteam
+- [xforcered/InvisibilityCloak](https://github.com/xforcered/InvisibilityCloak)
+    - desc: Proof-of-concept obfuscation toolkit for C# post-exploitation tools
+    - tags: redteam
+- [w1u0u1/minidump](https://github.com/w1u0u1/minidump)
+    - desc: Custom implementation of DbgHelp's MiniDumpWriteDump function. Uses static syscalls to replace low-level functions like NtReadVirtualMemory
+    - tags: redteam, malwaredev
+- [Orange-Cyberdefense/arsenal](https://github.com/Orange-Cyberdefense/arsenal)
+    - desc: Arsenal is just a quick inventory and launcher for hacking programs 
+    - tags: utility
+- [GetRektBoy724/TripleS](https://github.com/GetRektBoy724/TripleS)
+    - desc: Syscall Stub Stealer - Freshly steal Syscall stub straight from the disk, DInvoke-esq
+    - tags: malwaredev
+- [EspressoCake/PPLDump_BOF](https://github.com/EspressoCake/PPLDump_BOF)
+    - desc: faithful transposition of the key features/functionality of @itm4n's PPLDump project as a BOF
+    - tags: redteam
+- [hosch3n/ProxyVulns](https://github.com/hosch3n/ProxyVulns)
+    - desc: exchange proxy* PoCs
+    - tags: exploit, windows
+
 ## Issue 017 - Sep 2021
 
 ### writeups
@@ -254,7 +326,7 @@
     - tags: malwaredev
     
 ### tools
-- [j3ssie/govervie](https://github.com/j3ssie/goverview)
+- [j3ssie/goverview](https://github.com/j3ssie/goverview)
     - desc: golang url overview tools
     - tags: web
 - [RiccardoAncarani/BOFs](https://github.com/RiccardoAncarani/BOFs)

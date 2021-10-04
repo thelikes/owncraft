@@ -43,7 +43,13 @@
 * [Macro Pack](https://github.com/sevagas/macro_pack)
 * [EXCELntDonut](https://github.com/FortyNorthSecurity/EXCELntDonut)
 * [NameMash](https://gist.github.com/superkojiman/11076951)
+
+### Lookup
+* [Free Online Tools for Looking up Potentially Malicious Websites - zeltser](https://zeltser.com/lookup-malicious-websites/)
+    - compilation of various tools for lookups
 * [IPVoid](https://www.ipvoid.com/)
     - Various IP/domain check tools
 * [Bluecoat Lookup](https://sitereview.bluecoat.com/)
     - domain safety check
+* [checkphish.ai](https://checkphish.ai/)
+* [urlvoid.com](https://www.urlvoid.com/)
