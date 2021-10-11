@@ -1,5 +1,89 @@
 # Tagged + Uncategorized
 
+## Issue 019 - Oct 2021
+
+### writeups
+- [Exploiting Jinja SSTI with limited payload size. - niebardzo](https://niebardzo.github.io/2020-11-23-exploiting-jinja-ssti/)
+    - desc: exploit jinja ssti with small payload
+    - tags: web
+- [Disclosure of three 0-day iOS vulnerabilities and critique of Apple Security Bounty program - Habr](https://habr.com/en/post/579714/)
+    - desc: ios 0day disclosure
+    - tags: mobile
+- [Socially Acceptable Methods to Walk in the Front Door - rvrsh3ll/bhis](https://www.slideshare.net/MichaelFelch/socially-acceptable-methods-to-walk-in-the-front-door)
+    - desc: initial access
+    - tags: phish, redteam
+- [Chasing a Dream :: Pre-authenticated Remote Code Execution in Dedecms - srcincite](https://srcincite.io/blog/2021/09/30/chasing-a-dream-pwning-the-biggest-cms-in-china.html)
+    - desc: dedecms 0day
+    - tags: web
+- [Resetting Expired Passwords Remotely - n00py](https://www.n00py.io/2021/09/resetting-expired-passwords-remotely/)
+    - desc: remote pw reset
+    - tags: windows, postex, redteam
+- [Javascript Anti Debugging - Some Next Level Stuff (Part 1 - Abusing SourceMappingURL) - perimeterx](https://www.perimeterx.com/tech-blog/2019/javascript-anti-debugging-1/)
+    - desc: js antidebug
+    - tags: web
+- [Pre-Auth SSRF To Full MailBox Access (Microsoft Exchange Server Exploit) - vanshal gaur](https://vanshal.medium.com/pre-auth-ssrf-to-full-mailbox-access-microsoft-exchange-server-exploit-a62c8ac04b47)
+    - desc: Pre-Auth SSRF To Full MailBox Access (Microsoft Exchange Server Exploit)
+    - tags: windows, web
+- [CVE-2021-26420: Remote Code Execution in SharePoint via Workflow Compilation - zerodayinitiative](https://www.zerodayinitiative.com/blog/2021/10/5/cve-2021-26420-remote-code-execution-in-sharepoint-via-workflow-compilation)
+    - desc: a remote code execution bug in the supported versions of Microsoft SharePoint Server
+    - tags: windows, exploit
+- [The fugitive in Java: Escaping to Java to escape the Chrome sandbox - man yue mo](https://securitylab.github.com/research/chrome_sbx_java/)
+    - desc: chrome sbox escape
+    - tags: web, exploit
+- [Backdoor .NET assemblies with… dnSpy 🤔  - Rasta Mouse](https://rastamouse.me/backdoor-net-assemblies-with-dnspy-%F0%9F%A4%94/)
+    - desc: backdoor .net
+    - tags: malwaredev
+- [gcpHound : A Swiss Army Knife Offensive Toolkit for Google Cloud Platform (GCP) - desi-jarvis](https://desi-jarvis.medium.com/compromised-endpoint-to-compromised-gcp-gone-in-60-seconds-3229cc185863)
+    - desc: gcp priv esc
+    - tags: cloud
+
+### tools
+- [dnSpyEx/dnSpy](https://github.com/dnSpyEx/dnSpy)
+    - desc: Revival of the well known .NET debugger and assembly editor, dnSpy 
+    - tags: malwaredev, reverse
+- [klezVirus/CandyPotato](https://github.com/klezVirus/CandyPotato)
+    - desc: Pure C++, weaponized, fully automated implementation of RottenPotatoNG 
+    - tags: windows, postex
+- [Deserialization on Rails - zenn](https://zenn-dev.translate.goog/ooooooo_q/books/rails_deserialize?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui,sc)
+    - desc: Rails deserialization
+    - tags: web, exploit
+- [hotnops/gtunnel](https://github.com/hotnops/gtunnel)
+    - desc: golang tunnel proxy
+    - tags: postex
+- [0xrawsec/whids](https://github.com/0xrawsec/whids)
+    - desc: foss edr
+    - tags: redteam, malwaredev
+- [postrequest/link](https://github.com/postrequest/link)
+    - desc: rust c2
+    - tags: redteam
+- [N1ght-W0lf/WinDbgCheatSheet](https://github.com/N1ght-W0lf/WinDbgCheatSheet)
+    - desc: windbg cheatsheet
+    - tags: malwaredev, reverse
+- [snovvcrash/GetZip.py](https://gist.github.com/snovvcrash/56c12d76628eafd4b82f09cc27687429)
+    - desc: remote lsass
+    - tags: windows, postex
+- [NotSoSecure/SerializedPayloadGenerator](https://github.com/NotSoSecure/SerializedPayloadGenerator)
+    - desc: Web Interface to generate payload using various deserialization exploitation framework
+    - tags: web
+- [nyxgeek/o365recon](https://github.com/nyxgeek/o365recon)
+    - desc: retrieve info via o365/azure
+    - tags: windows, redteam
+- [mm0r1/exploits](https://github.com/mm0r1/exploits)
+    - desc: php filter bypasses
+    - tags: web
+- [r3nt0n/bopscrk](https://github.com/r3nt0n/bopscrk)
+    - desc: wordlist generator
+    - tags: utilities
+- [Dewera/Pluto](https://github.com/Dewera/Pluto)
+    - desc: A manual system call library that supports functions from both ntdll.dll and win32u.dll 
+    - tags: malwaredev
+- [FunnyWolf/Viper](https://github.com/FunnyWolf/Viper)
+    - desc: Intranet pentesting tool with webui
+    - tags: redteam
+- [Kudaes/DInvoke_rs](https://github.com/Kudaes/DInvoke_rs)
+    - desc: rustlang dinvoke
+    - tags: malwaredev
+
 ## Issue 018 - Oct 2021
 
 ### writeups
@@ -12,6 +96,10 @@
 - [The discovery of Gatekeeper bypass CVE-2021-1810](https://labs.f-secure.com/blog/the-discovery-of-cve-2021-1810/)
     - desc: uncovering the gatekeeper cve-2021-1810 vuln
     - tags: apple, exploit
+- [Life is Pane: Persistence via Preview Handlers - SpecterOps](https://posts.specterops.io/life-is-pane-persistence-via-preview-handlers-3c0216c5ef9e)
+- [XSS to RCE - WhyNotSecurity](https://whynotsecurity.com/blog/xss-to-rce/)
+    - desc: xss to rce
+    - tags: web, redteam
 
 ### tools
 - [bharadwajyas/ppdump-public](https://github.com/bharadwajyas/ppdump-public)
@@ -61,7 +149,7 @@
     - tags: redteam, malwaredev
 - [Orange-Cyberdefense/arsenal](https://github.com/Orange-Cyberdefense/arsenal)
     - desc: Arsenal is just a quick inventory and launcher for hacking programs 
-    - tags: utility
+    - tags: utilities
 - [GetRektBoy724/TripleS](https://github.com/GetRektBoy724/TripleS)
     - desc: Syscall Stub Stealer - Freshly steal Syscall stub straight from the disk, DInvoke-esq
     - tags: malwaredev
@@ -71,6 +159,30 @@
 - [hosch3n/ProxyVulns](https://github.com/hosch3n/ProxyVulns)
     - desc: exchange proxy* PoCs
     - tags: exploit, windows
+- [codewhitesec/HandleKatz](https://github.com/codewhitesec/HandleKatz)
+    - desc: PIC lsass dumper using cloned handles
+    - tags: windows, postex
+- [ollypwn/Certipy](https://github.com/ollypwn/Certipy)
+    - desc: python version of certify
+    - tags: windows, redteam
+- [as0ler/r2flutch](https://github.com/as0ler/r2flutch)
+    - desc: Tool to decrypt iOS apps using r2frida 
+    - tags: mobile
+- [boku7/Ninja_UUID_Dropper](https://github.com/boku7/Ninja_UUID_Dropper)
+    - desc: Module Stomping, No New Thread, HellsGate syscaller, UUID Dropper for x64 Windows 10! 
+    - tags: malwaredev
+- [vyrus001/go-mimikatz](https://github.com/vyrus001/go-mimikatz)
+    - desc: A wrapper around a pre-compiled version of the Mimikatz executable for the purpose of anti-virus evasion. 
+    - tags: windows, postex
+- [theepicpowner/dcom_av_exec](https://gitlab.com/theepicpowner/dcom_av_exec)
+    - desc: "diskless" lateral movement to a target on the same network via DCOM
+    - tags: malwaredev
+- [rvrsh3ll/Nobelium-PdfDLRunAesShellcode](https://github.com/rvrsh3ll/Nobelium-PdfDLRunAesShellcode)
+    - desc: A recreation of the "Nobelium" malware based on Microsofts Malware analysis - Part 1: PDF2Pwn 
+    - tags: phish, redteam
+- [ReverendThing/Carnivore](https://github.com/ReverendThing/Carnivore)
+    - desc: Microsoft External attack tool
+    - tags: phish, recon, web
 
 ## Issue 017 - Sep 2021
 

