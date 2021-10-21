@@ -1,5 +1,17 @@
 # Tagged + Uncategorized
 
+## Issue 020 - Oct 2021
+
+### writeups
+
+### tools
+- [neex/ghostinthepdf](https://github.com/neex/ghostinthepdf)
+    - desc: GhostScript PDF payload generator
+    - tags: web, exploit
+- [Tyrrrz/CliFx](https://github.com/Tyrrrz/CliFx)
+    - desc: Declarative framework for building command line interfaces 
+    - tags: utilities
+
 ## Issue 019 - Oct 2021
 
 ### writeups
