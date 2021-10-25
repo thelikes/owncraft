@@ -98,3 +98,4 @@
 * [boku7/injectAmsiBypass](https://github.com/boku7/injectAmsiBypass)
 * [CCob/BOF.NET](https://github.com/CCob/BOF.NET)
 * [boku7/spawn](https://github.com/boku7/spawn)
+- [EncodeGroup/BOF-RegSave](https://github.com/EncodeGroup/BOF-RegSave)
