@@ -1,5 +1,64 @@
 # Tagged + Uncategorized
 
+## Issue 021 - Nov 2021
+
+### writeups
+- [A Primer for Testing the Security of GraphQL APIs - forceunseen](https://blog.forcesunseen.com/a-primer-for-testing-the-security-of-graphql-apis)
+    - desc: GraphQL exploitation
+    - tags: web
+- [CVE-2021-34484 bypass as 0day](https://twitter.com/wdormann/status/1451672354241777667?t=oGnRSe40TYEeMTkkcw60vg&s=19)
+    - desc: CVE-2021-34484 poc
+    - tags: lpe
+
+### tools
+- [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
+    - desc: Exploit for CVE-2021-40449 - Win32k Elevation of Privilege Vulnerability (LPE) 
+    - tags: windows, lpe
+- [qwqdanchum/MultiRDP](https://github.com/qwqdanchum/MultiRDP)
+    - desc: consosle application to make multiple RDP (Remote Desktop) sessions possible by patching termsrv.dll correctly
+    - tags: windows, redteam
+- [Rices/Phishious](https://github.com/Rices/Phishious)
+    - desc: An open-source Secure Email Gateway (SEG) evaluation toolkit designed for red-teamers.
+    - tags: redteam, phish
+- [lkarlslund/adalanche](https://github.com/lkarlslund/adalanche)
+    - desc: Active Directory ACL Visualizer and Explorer 
+    - tags: windows, redteam
+- [klezVirus/SharpSelfDelete](https://github.com/klezVirus/SharpSelfDelete)
+    - desc: C# implementation of the research by @jonaslyk and the drafted PoC from @LloydLabs self delete runner
+    - tags: malwaredev
+- [klezVirus/inceptor](https://github.com/klezVirus/inceptor)
+    - desc: template driven av/edr evasion framework
+    - tags: malwaredev
+- [rvrsh3ll/TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
+    - desc: Azure JWT Token Manipulation Toolset 
+    - tags: cloud, web
+- [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
+    - desc: PrintNightmare python scanner
+    - tags: windows, exploit, redteam
+- [dev-2null/ADCollector](https://github.com/dev-2null/ADCollector)
+    - desc: lightweight tool to quickly extract valuable information from the Active Directory
+    - tags: windows, redteam
+- [matterpreter/OffensiveCSharp](https://github.com/matterpreter/OffensiveCSharp)
+    - desc: Collection of Offensive C# Tooling
+    - tags: windows, redteam
+- [cube0x0/SharpMapModules](https://github.com/cube0x0/SharpMapModules)
+    - desc: c# recon modules
+    - tags: redteam
+- [rasta-mouse/DInvoke](https://github.com/rasta-mouse/DInvoke)
+    - desc: minimalist DInvoke
+    - tags: malwaredev
+- [michaelweber/Macrome](https://github.com/michaelweber/Macrome)
+    - desc: Excel Macro Document Reader/Writer for Red Teamers & Analysts 
+    - tags: malwaredev, phish
+- [N7WEra/SharpAllTheThings](https://github.com/N7WEra/SharpAllTheThings)
+    - desc: collection of c# cobalt strike related projects
+    - tags: redteam
+- [NetSPI/ESC](https://github.com/NetSPI/ESC)
+    - desc: evil sql client
+    - tags: windows, post
+- [1modm/petereport](https://github.com/1modm/petereport)
+    - desc: vulnerability reporting tool
+    - tags: utility
 ## Issue 020 - Oct 2021
 
 ### writeups
