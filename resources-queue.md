@@ -8,12 +8,55 @@
     - tags: web
 - [CVE-2021-34484 bypass as 0day](https://twitter.com/wdormann/status/1451672354241777667?t=oGnRSe40TYEeMTkkcw60vg&s=19)
     - desc: CVE-2021-34484 poc
-    - tags: lpe
+    - tags: privesc
+- [What’s New in Impacket Release v0.9.24? - SecureAuth](https://www.secureauth.com/blog/impacket-v0-9-24-released/)
+    - desc: impacket release notes
+    - tags: windows, exploit
+- [Create a proxy DLL with artifact kit - CobaltStrike](https://blog.cobaltstrike.com/2021/10/29/create-a-proxy-dll-with-artifact-kit/)
+- [Revisiting Unconstrained Delegation - Microsoft 365 Security](https://m365internals.com/2021/10/27/revisiting-unconstrained-delegation/)
+    - desc: Unconstrained Delegation research
+    - tags: windows, redteam
+- [SpoolSample -> NetNTLMv1 -> NTLM -> Silver Ticket - NotMedic](https://github.com/NotMedic/NetNTLMtoSilverTicket)
+    - desc: SpoolSample -> NetNTLMv1 -> NTLM -> Silver Ticket
+    - tags: windows, exploit
+- [PHP-FPM local root vulnerability - ambionics](https://www.ambionics.io/blog/php-fpm-local-root)
+    - desc: PHP-FPM lpe
+    - tags: web, privesc
+- [Formalized Curiosity - SpecterOps](https://posts.specterops.io/formalized-curiosity-3c550ece803e)
+    - desc: notes on how to research
+    - tags: research
+- [Pentest Deep-Dive: Custom RUNAS - dolosgroup](https://dolosgroup.io/blog/2019/1/30/pentest-deep-dive-custom-runas)
+    - desc: runas research
+    - tags: research, windows
+- [Tortellini in Brodobuf - aptwtf](https://aptw.tf/2021/10/27/exploiting-protobuf-webapps.html)
+    - desc: How serializing data using Google’s Protobuf is not protecting your web app
+    - tags: web, exploit
+- [Agent 007: Pre-Auth Takeover of Build Pipelines in GoCD - SonarSource](https://blog.sonarsource.com/gocd-pre-auth-pipeline-takeover?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sonar+%28SonarSource+Blog%29)
+    - desc: GoCD exploitation research
+    - tags: web, exploit
+- [Cobalt Strike: Using Known Private Keys To Decrypt Traffic – Part 2 - Nvisio Labs](https://blog.nviso.eu/2021/10/27/cobalt-strike-using-known-private-keys-to-decrypt-traffic-part-2/)
+    - desc: Decrypting CS traffic
+    - tags: malwaredev, redteam, research
+- [Zimbra “zmslapd” Local Root Exploit - darren martyn](https://darrenmartyn.ie/2021/10/27/zimbra-zmslapd-local-root-exploit/)
+    - desc: Zimbra LPE
+    - tags: privesc
+- [AWS WAF's Dangerous Defaults - Osama Elnaggar](https://osamaelnaggar.com/blog/aws_waf_dangerous_defaults/)
+    - desc: aws waf research
+    - tags: web, research
+- [All Your (d)Base Are Belong To Us, Part 2: Code Execution in Microsoft Office (CVE-2021–38646) - Eugene Lim](https://medium.com/csg-govtech/all-your-d-base-are-belong-to-us-part-2-code-execution-in-microsoft-office-cve-2021-38646-fa6e70362162)
+    - desc: office 0day writeup
+    - tags: research, windows, exploit
+- [Windows User Profile Service 0day LPE - halov](https://halove23.blogspot.com/2021/10/windows-user-profile-service-0day.html)
+    - desc: windows privesc 0day writeup
+    - tags: windows, privesc
+- [GO Reverse Engineering Tool Kit - go-re.tk](https://go-re.tk/)
+    - desc: go reverse framework
+    - tags: utility
 
 ### tools
 - [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
     - desc: Exploit for CVE-2021-40449 - Win32k Elevation of Privilege Vulnerability (LPE) 
-    - tags: windows, lpe
+    - tags: windows, privesc
 - [qwqdanchum/MultiRDP](https://github.com/qwqdanchum/MultiRDP)
     - desc: consosle application to make multiple RDP (Remote Desktop) sessions possible by patching termsrv.dll correctly
     - tags: windows, redteam
@@ -59,6 +102,28 @@
 - [1modm/petereport](https://github.com/1modm/petereport)
     - desc: vulnerability reporting tool
     - tags: utility
+- [DarkCoderSc/PowerAssembly](https://github.com/DarkCoderSc/PowerAssembly)
+    - desc: Map remote .NET assemblies to memory for further invocation
+    - tags: malwaredev
+- [VoidSec/DriverBuddyReloaded](https://github.com/VoidSec/DriverBuddyReloaded)
+    - desc: Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks
+    - tags: utility
+- [blurbdust/ldd2bh](https://github.com/blurbdust/ldd2bh)
+    - desc: Convert ldapdomaindump to Bloodhound 
+    - tags: redteam, utility
+- [gtworek/PSBits](https://github.com/gtworek/PSBits)
+    - desc: AMSI persistence research/poc
+    - tags: redteam, windows
+- [praetorian-inc/snowcat](https://github.com/praetorian-inc/snowcat)
+    - desc: tool to audit istio service mesh
+    - tags: exploit
+- [morph3/crawpy](https://github.com/morph3/crawpy)
+    - desc: content discovery tool
+    - tags: web, recon
+- [ceres-c/bulldozer](https://github.com/ceres-c/bulldozer)
+    - desc: javascript decompiler
+    - tags: utility
+
 ## Issue 020 - Oct 2021
 
 ### writeups
@@ -93,13 +158,13 @@
     - tags: web, exploit
 - [Tyrrrz/CliFx](https://github.com/Tyrrrz/CliFx)
     - desc: Declarative framework for building command line interfaces 
-    - tags: utilities
+    - tags: utility
 - [improsec/ImproHound](https://github.com/improsec/ImproHound)
     - desc: Identify the attack paths in BloodHound breaking your AD tiering 
     - tags: windows, redteam
 - [johnnypea/useful-one-liners.sh](https://gist.github.com/johnnypea/b0cd77e5734d65691fa21d93274b305b)
     - desc: collection of 1-liners
-    - tags: utilities
+    - tags: utility
 - [aead/minisign](https://github.com/aead/minisign)
     - desc: A dead simple tool to sign files and verify digital signatures. 
     - tags: malwaredev
@@ -111,10 +176,10 @@
     - tags: redteam, windows, exploit, postex
 - [CCob/Jboss-Wilfly-Hashes-to-Hashcat](https://github.com/CCob/Jboss-Wilfly-Hashes-to-Hashcat)
     - desc: Converts JBoss/Wildfly management users properties file to hashcat format compatible with mode 20 
-    - tags: utilities
+    - tags: utility
 - [rasta-mouse/EncryptedKeyExchange](https://github.com/rasta-mouse/EncryptedKeyExchange)
     - desc: Encrypted Key Exchange in .NET
-    - tags: redteam, utilities
+    - tags: redteam, utility
 - [aaaddress1/Skrull](https://github.com/aaaddress1/Skrull)
     - desc: DRM malware, process ghosting
     - tags: malwaredev
@@ -123,7 +188,7 @@
     - tags: web
 - [kitabisa/teler](https://github.com/kitabisa/teler)
     - desc: real-time HTTP intrusion detection
-    - tags: utilities
+    - tags: utility
 - [looCiprian/GC2-sheet](https://github.com/looCiprian/GC2-sheet)
     - desc: google sheets c2
     - tags: redteam
@@ -144,7 +209,7 @@
     - tags: malwaredev
 - [im2nguyen/rover](https://github.com/im2nguyen/rover)
     - desc: terraform visualization
-    - tags: utilities
+    - tags: utility
 - [LuemmelSec/SAML2Spray](https://github.com/LuemmelSec/SAML2Spray)
     - desc: Python Script for SAML2 Authentication Passwordspray 
     - tags: exploit, web
@@ -171,7 +236,7 @@
     - tags: redteam, windows
 - [pry0cc/gorgo](https://github.com/pry0cc/gorgo)
     - desc: A multi-threaded password sprayer based on Medusa, built for distributed spraying. 
-    - tags: utilities
+    - tags: utility
 
 ## Issue 019 - Oct 2021
 
@@ -246,7 +311,7 @@
     - tags: web
 - [r3nt0n/bopscrk](https://github.com/r3nt0n/bopscrk)
     - desc: wordlist generator
-    - tags: utilities
+    - tags: utility
 - [Dewera/Pluto](https://github.com/Dewera/Pluto)
     - desc: A manual system call library that supports functions from both ntdll.dll and win32u.dll 
     - tags: malwaredev
@@ -322,7 +387,7 @@
     - tags: redteam, malwaredev
 - [Orange-Cyberdefense/arsenal](https://github.com/Orange-Cyberdefense/arsenal)
     - desc: Arsenal is just a quick inventory and launcher for hacking programs 
-    - tags: utilities
+    - tags: utility
 - [GetRektBoy724/TripleS](https://github.com/GetRektBoy724/TripleS)
     - desc: Syscall Stub Stealer - Freshly steal Syscall stub straight from the disk, DInvoke-esq
     - tags: malwaredev
@@ -418,7 +483,7 @@
     - tags: redteam, blue
 - [vikmik/scratch](https://github.com/vikmik/scratch)
     - desc: no consequences shell
-    - tags: utilities
+    - tags: utility
 - [D4Vinci/elpscrk](https://github.com/D4Vinci/elpscrk)
     - desc: intelligent wordlist generator
     - tags: web, exploit
@@ -578,7 +643,7 @@
     - tags: windows, exploit, redteam
 - [Companies hiring remote](https://github.com/jaegeral/companies-hiring-security-remote)
     - desc: remote jobs
-    - tags: utilities
+    - tags: utility
 - [Pre-Auth RCE in ManageEngine OPManager](https://haxolot.com/posts/2021/manageengine_opmanager_pre_auth_rce/)
     - desc: manage engine opmanger pre-auth rce writeup
     - tags: web, exploit
@@ -622,7 +687,7 @@
     - tags: malwaredev
 - [stacscan/stacs](https://github.com/stacscan/stacs)
     - desc: secrets static code analyzer
-    - tags: utilities, web
+    - tags: utility, web
 - [Marshall-Hallenbeck/red_team_attack_lab](https://github.com/Marshall-Hallenbeck/red_team_attack_lab)
     - desc: auto ad lab deployment
     - tags: windows, redteam
@@ -634,7 +699,7 @@
     - tags: web
 - [CMatri/Gotato](https://github.com/CMatri/Gotato)
     - desc: golang GenericPotato
-    - tags: windows, exploit, lpe
+    - tags: windows, exploit, privesc
 - [frkngksl/Huan](https://github.com/frkngksl/Huan)
     - desc: encrypted pe loader
     - tags: malwaredev
@@ -643,13 +708,13 @@
     - tags: redteam
 - [evilsocket/medusa](https://github.com/evilsocket/medusa)
     - desc: rust honeypot
-    - tags: utilities
+    - tags: utility
 - [rootsecdev/Azure-Red-Team](https://github.com/rootsecdev/Azure-Red-Team)
     - desc: Azure pentest/redteam resources
     - tags: cloud
 - [ernw/static-toolbox](https://github.com/ernw/static-toolbox)
     - desc: collection of statically compiled tools such as nmap and socat
-    - tags: recon, utilities
+    - tags: recon, utility
 - [t3hbb/NSGenCS](https://github.com/t3hbb/NSGenCS)
     - desc: AV/EDR evasion framework
     - tags: malwaredev
@@ -667,10 +732,10 @@
     - tags: postex
 - [skelsec/aiosmb](https://github.com/skelsec/aiosmb)
     - desc: full smb server in python
-    - tags: utilities
+    - tags: utility
 - [zcgonvh/EfsPotato](https://github.com/zcgonvh/EfsPotato)
     - desc: EfsPotato exploit
-    - tags: lpe, windows
+    - tags: privesc, windows
 - [boku7/spawn](https://github.com/boku7/spawn)
     - desc: CS BOF souped-up spawn
     - tags: windows, exploit, redteam
@@ -781,7 +846,7 @@
     - tags: redteam
 - [damienvanrobaeys/Run-in-Sandbox](https://github.com/damienvanrobaeys/Run-in-Sandbox)
     - desc: Run PS1, VBS, EXE, MSI in Windows Sandbox very quickly
-    - tags: utilities
+    - tags: utility
 - [boku7/CobaltStrikeReflectiveLoader](https://github.com/boku7/CobaltStrikeReflectiveLoader)
     - desc: CS User-Defined Reflective Loader written in Assembly & C 
     - tags: redteam
@@ -1404,7 +1469,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
 ### tools
 - [cook](https://github.com/giteshnxtlvl/cook)
     - A customizable wordlist and password generator. 
-    - tags: utilities
+    - tags: utility
 - [lunar](https://github.com/Dewera/Lunar)
     - DLL mapping library that supports mapping directly from memory
     - tags: malwaredev
@@ -1646,7 +1711,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, malwaredev
 - [Mono](https://github.com/mono/mono)
     - Open Source ECMA CLI, C# and .NET Implementation
-    - tags: windows, utilities
+    - tags: windows, utility
 - [NTLMRecon](https://github.com/pwnfoo/NTLMRecon)
     - Enumerate information from NTLM authentication enabled web endpoints (OWA)
     - tags: windows, exploit, web, recon
@@ -1711,10 +1776,10 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, post
 - [burp-piper-custom-scripts](https://github.com/righettod/burp-piper-custom-scripts)
     - Custom scripts for the PIPER Burp extensions. 
-    - tags: web, utilities
+    - tags: web, utility
 - [muraena](https://github.com/muraenateam/muraena)
     - an almost-transparent reverse proxy aimed at automating phishing and post-phishing activities
-    - tags: utilities
+    - tags: utility
 - [BOFs (ajpc500)](https://github.com/ajpc500/BOFs)
     - Collection of Beacon Object Files 
     - tags: cstrike
@@ -1726,10 +1791,10 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: cstrike
 - [terraform-phishing (boh)](https://github.com/boh/terraform-phishing)
     - Build a phishing server (Gophish) together with SMTP-redirector (Postfix) automatically in Digital Ocean with terraform and ansible.. 
-    - tags: phish, utilities
+    - tags: phish, utility
 - [Red-Terroir](https://github.com/b3n-j4m1n/Red-Terroir)
     - Terraform resources for building HTTP, DNS, phishing, and mail server red team infrastructure 
-    - tags: phish, utilities
+    - tags: phish, utility
 - [SharpShares](https://github.com/mez-0/SharpShares)
     - .NET 4.0 Share Hunting and ACL Mapping 
     - tags: windows, post
