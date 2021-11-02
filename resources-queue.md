@@ -1,5 +1,17 @@
 # Tagged + Uncategorized
 
+## Issue 022 - Nov 2021
+
+### writeups
+- [Moodle - Stored XSS and blind SSRF possible via feedback answer text - r0.haxor.org](https://r0.haxors.org/posts?id=20)
+    - desc: moodle exploitation
+    - tags: web
+
+### tools
+- [gwen001/DataExtractor](https://github.com/gwen001/DataExtractor)
+    - desc: burp extension to extract datas from source code
+    - tags: web
+
 ## Issue 021 - Nov 2021
 
 ### writeups

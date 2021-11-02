@@ -11,6 +11,7 @@
 * [Spear Phishing Red Team Techniques](https://blog.sublimesecurity.com/red-team-techniques-gaining-access-on-an-external-engagement-through-spear-phishing/)
 * [Parent Process Spoof](https://blog.christophetd.fr/building-an-office-macro-to-spoof-process-parent-and-command-line/)
 * [Various Visual Basic Macros (rvrsh3ll)](https://gist.github.com/rvrsh3ll/e60073fabf46f380f75773fd865dfd07)
+* [The Art of the Device Code Phish - Bobby Cooke](https://0xboku.com/2021/07/12/ArtOfDeviceCodePhish.html)
 
 ### Techniques
 
@@ -43,6 +44,7 @@
 * [Macro Pack](https://github.com/sevagas/macro_pack)
 * [EXCELntDonut](https://github.com/FortyNorthSecurity/EXCELntDonut)
 * [NameMash](https://gist.github.com/superkojiman/11076951)
+* [www.mail-tester.com - Test the Spammyness of your Emails](https://www.mail-tester.com/)
 
 ### Lookup
 * [Free Online Tools for Looking up Potentially Malicious Websites - zeltser](https://zeltser.com/lookup-malicious-websites/)
