@@ -6,11 +6,38 @@
 - [Moodle - Stored XSS and blind SSRF possible via feedback answer text - r0.haxor.org](https://r0.haxors.org/posts?id=20)
     - desc: moodle exploitation
     - tags: web
-
+- [Interview with Kajit - vx-underground](https://papers.vx-underground.org/papers/VXUG/Exclusive/Interviews/InterviewWithKajit.pdf)
+    - desc: crowd-sourced interview with ransomware operator
+    - tags: misc
+- [Process Hollowing explanation](https://github.com/m0n0ph1/Process-Hollowing)
+    - desc: process hollowing explanation
+    - tags: malwaredev
+    
 ### tools
 - [gwen001/DataExtractor](https://github.com/gwen001/DataExtractor)
     - desc: burp extension to extract datas from source code
     - tags: web
+- [NetSPI/MicroBurst](https://github.com/NetSPI/MicroBurst)
+    - desc: A collection of scripts for assessing Microsoft Azure security 
+    - tags: cloud
+- [optiv/Go365](https://github.com/optiv/Go365)
+    - desc: o365 user attack tool
+    - tags: cloud
+- [Binject/forger](https://github.com/Binject/forger)
+    - desc: varios code signing attacks against multiple byte binary types
+    - tags: malwaredev
+- [kkrypt0nn/Wordlists](https://github.com/kkrypt0nn/Wordlists)
+    - desc: collection of wordlists
+    - tags: utility
+- [ByteJunkies-co-uk/Metsubushi](https://github.com/ByteJunkies-co-uk/Metsubushi)
+    - desc: go packer
+    - tags: malwaredev
+- [EspressoCake/DLL-Hijack-Search-Order-BOF](https://github.com/EspressoCake/DLL-Hijack-Search-Order-BOF)
+    - desc: DLL Hijack Search Order Enumeration BOF
+    - tags: redteam, windows
+- [plackyhacker/Sys-Calls](https://github.com/plackyhacker/Sys-Calls)
+    - desc: c# syscall runner PoC
+    - tags: malwaredev
 
 ## Issue 021 - Nov 2021
 
