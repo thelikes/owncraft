@@ -12,7 +12,7 @@
 - [Process Hollowing explanation](https://github.com/m0n0ph1/Process-Hollowing)
     - desc: process hollowing explanation
     - tags: malwaredev
-    
+
 ### tools
 - [gwen001/DataExtractor](https://github.com/gwen001/DataExtractor)
     - desc: burp extension to extract datas from source code
@@ -38,6 +38,9 @@
 - [plackyhacker/Sys-Calls](https://github.com/plackyhacker/Sys-Calls)
     - desc: c# syscall runner PoC
     - tags: malwaredev
+- [evilsocket/ditto](https://github.com/evilsocket/ditto)
+    - desc: tool for IDN homograph attacks and detection
+    - tags: utility, phish, redteam
 
 ## Issue 021 - Nov 2021
 

