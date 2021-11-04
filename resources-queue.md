@@ -12,6 +12,14 @@
 - [Process Hollowing explanation](https://github.com/m0n0ph1/Process-Hollowing)
     - desc: process hollowing explanation
     - tags: malwaredev
+- [Windows & Active Directory Exploitation Cheat Sheet and Command Reference - casvancooten](https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/)
+    - desc: ad cheatsheet
+    - tags: redteam, windows
+- [lolbin cmdl32.exe download - @elliotkillick](https://twitter.com/ElliotKillick/status/1455897435063074824)
+- [cmd.exe shortname command obfuscation - @jonaslyk](https://twitter.com/jonasLyk/status/1455386495871750147)
+- [Sitecore Experience Platform Pre-Auth RCE - assetnote](https://blog.assetnote.io/2021/11/02/sitecore-rce/)
+    - desc: 0day writeup
+    - tags: web, exploit
 
 ### tools
 - [gwen001/DataExtractor](https://github.com/gwen001/DataExtractor)
@@ -41,6 +49,18 @@
 - [evilsocket/ditto](https://github.com/evilsocket/ditto)
     - desc: tool for IDN homograph attacks and detection
     - tags: utility, phish, redteam
+- [3ndG4me/AutoBlue-MS17-010](https://github.com/3ndG4me/AutoBlue-MS17-010)
+    - desc: auto eternal blue
+    - tags: exploit, windows
+- [mez-0/CSharpWinRM](https://github.com/mez-0/CSharpWinRM)
+    - desc: .NET 4.0 WinRM API Command Execution
+    - tags: windows, redteam
+- [iangcarroll/cookiemonster/](https://github.com/iangcarroll/cookiemonster/)
+    - desc: cookie auditor
+    - tags: web
+- [gfek/Lepus](https://github.com/gfek/Lepus)
+    - desc: Subdomain finder 
+    - tags: web
 
 ## Issue 021 - Nov 2021
 

