@@ -2824,6 +2824,10 @@ Steal keytab
 kinit administrator@CORP1.COM -k -t /tmp/administrator.keytab
 ```
 
+##### Resources
+- https://github.com/sosdave/KeyTabExtract
+- https://packages.debian.org/stretch/krb5-user
+
 #### Credential Cache File Basics
 
 Search for credential cache file

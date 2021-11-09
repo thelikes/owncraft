@@ -20,6 +20,54 @@
 - [Sitecore Experience Platform Pre-Auth RCE - assetnote](https://blog.assetnote.io/2021/11/02/sitecore-rce/)
     - desc: 0day writeup
     - tags: web, exploit
+- [Go’s best friend: UPX, the executable compressor](https://jmrobles.medium.com/gos-best-friend-upx-the-executable-compressor-e4f4872f1d8a)
+    - desc: packing/compressing go bins
+    - tags: malwaredev
+- [Cybersecurity Collaboration Report - noraj](https://github.com/noraj/rawsec-cybersecurity-inventory/blob/640c8928a89cd3725d086547e7f5b9a0119acc0c/data/tools/collaboration_report.json)
+    - desc: list of report collaboration tools
+    - tags: utility
+- [This is how I bypassed almost every EDR!](https://medium.com/@omribaso/this-is-how-i-bypassed-almost-every-edr-6e9792cf6c44)
+    - desc: EDR evasion research
+    - tags: malwaredev
+- [SAML and SAML Attacks - RedSiege](https://www.redsiege.com/blog/2021/11/attacking-saml-implementations/)
+    - desc: SAML exploitation research
+    - tags: web
+- [Master of Puppets Part II – How to tamper the EDR? - infosec.tirol](https://www.infosec.tirol/master-of-puppets-part-ii-how-to-tamper-the-edr/)
+    - desc: EDR evasion research
+    - tags: malwaredev
+- [Kerberoast with OpSec - m365internals](https://m365internals.com/2021/11/08/kerberoast-with-opsec/)
+    - desc: Kerberoasting opsec considerations and research
+    - tags: redteam
+- [Malicious Document Analysis: Example 1 - Alexandre Borges](https://exploitreversing.com/2021/11/02/malicious-document-analysis-example-1/)
+    - desc: analysis of a malware doc
+    - tags: redteam, malwaredev
+- [Windows Red Team Persistence Techniques | Persistence With PowerShell Empire - HackerSploit](https://www.youtube.com/watch?v=7h_5BJHIpnU)
+    - desc: overview of persistence techniques using Empire
+    - tags: redteam
+- [How to exploit CVE-2021-40539 on ManageEngine ADSelfService Plus - SynAcktiv](https://www.synacktiv.com/en/publications/how-to-exploit-cve-2021-40539-on-manageengine-adselfservice-plus.html)
+    - desc: ManageEngine Nday exploit research
+    - tags: web, exploit
+- [Servers are overrated – Bypassing corporate proxies (ab)using serverless for fun and profit - Jean Maes](https://redteamer.tips/servers-are-overrated-bypassing-corporate-proxies-abusing-serverless-for-fun-and-profit/)
+    - desc: proxy bypasses and abuses
+    - tags: redteam
+- [Attacking Access Control Models In Modern Web Applications - snapsec](https://snapsec.co/blog/2021/09/25/Attacking-Access-Control-Models-In-Modern-Web-Applications.html)
+    - desc: ACL bypass research
+    - tags: web, exploit
+- [Finding An Unauthenticated RCE Vulnerability In MovableType - nemesis.sh](https://nemesis.sh/posts/movable-type-0day/)
+    - desc: MovableType vuln research/disclosure
+    - tags: web, exploit, research
+- [Auth Bypass in Google Assistant - xdavidhu](https://feed.bugs.xdavidhu.me/bugs/0011)
+    - desc: Webpage can execute Google Assistant commands without any permissions
+    - tags: exploit, research
+- [Escalating XSS to Sainthood with Nagios](https://blog.grimm-co.com/2021/11/escalating-xss-to-sainthood-with-nagios.html)
+    - desc: Nagios exploitation research and disclosure
+    - tags: web, exploit
+- [From Zero to Domain Admin - the dfir report](https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/)
+    - desc: Google Feed Proxy campaign IR report
+    - tags: research, phish, redteam
+- [D/Invoke Baguette - rastamouse](http://rastamouse.me/d-invoke-baguette/)
+    - desc: Introduction of new, related DInvoke projects
+    - tags: malwaredev
 
 ### tools
 - [gwen001/DataExtractor](https://github.com/gwen001/DataExtractor)
@@ -61,6 +109,45 @@
 - [gfek/Lepus](https://github.com/gfek/Lepus)
     - desc: Subdomain finder 
     - tags: web
+- [mgeeky/VisualBasicObfuscator](https://github.com/mgeeky/VisualBasicObfuscator)
+    - desc: Universal VBA obfuscator
+    - tags: malwaredev
+- [checkymander/Carbuncle](https://github.com/checkymander/Carbuncle)
+    - desc: Outlook interop tool
+    - tags: redteam, windows
+- [scriptchildie/powershelletwbypass](https://github.com/scriptchildie/powershelletwbypass)
+    - desc: Powershell ScriptBlock Log Bypass / ETW bypass
+    - tags: windows, malwaredev
+- [mobdk/WinBoost](https://github.com/mobdk/WinBoost)
+    - desc: Execute Mimikatz with different technique 
+    - tags: windows, redteam
+- [lesnuages/CredManBOF](https://github.com/lesnuages/CredManBOF)
+    - desc: BOF to dump credential manager
+    - tags: redteam
+- [secdev-01/AllTheThingsExec](https://github.com/secdev-01/AllTheThingsExec/blob/main/AlltheThings.cs)
+    - desc: rundll32 compatible c#
+    - tags: malwaredev
+- [C-Sto/gosecretsdump](https://github.com/C-Sto/gosecretsdump)
+    - desc: stupid fast ntds dumper written in go
+    - tags: windows, redteam
+- [chr0n1k/AH2021Workshop](https://github.com/chr0n1k/AH2021Workshop)
+    - desc: Malware development for red teaming workshop
+    - tags: malwaredev
+- [Charterino/AsStrongAsFuck](https://github.com/Charterino/AsStrongAsFuck)
+    - desc: C# obfuscation engine
+    - tags: malwaredev
+- [SecuProject/ADenum](https://github.com/SecuProject/ADenum)
+    - desc: AD Enum is a pentesting tool that allows to find misconfiguration through the the protocol LDAP and exploit some of those weaknesses with kerberos. 
+    - tags: windows, redteam
+- [LordNoteworthy/al-khaser](https://github.com/LordNoteworthy/al-khaser)
+    - desc: Public malware techniques used in the wild
+    - tags: malwaredev
+- [cyberark/DLLSpy](https://github.com/cyberark/DLLSpy)
+    - desc: DLL hijacking detection tool
+    - tags: utility, malwaredev
+- [bytecode77/self-morphing-csharp-binary](https://github.com/bytecode77/self-morphing-csharp-binary)
+    - desc: Executable that mutates its own code 
+    - tags: malwaredev
 
 ## Issue 021 - Nov 2021
 

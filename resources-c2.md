@@ -84,6 +84,10 @@
 - [aggrokatz](https://github.com/sec-consult/aggrokatz)
     - pypykatz beacon interface to parse LSASS
 
+### Persistence
+- [0xthirteen/StayKit](https://github.com/0xthirteen/StayKit)
+    - CS kit for persistence
+
 ### Heavy Lifting
 - [CSSG](https://github.com/RCStep/CSSG)
     - Cobalt Strike Shellcode Generator
@@ -101,4 +105,5 @@
 * [boku7/injectAmsiBypass](https://github.com/boku7/injectAmsiBypass)
 * [CCob/BOF.NET](https://github.com/CCob/BOF.NET)
 * [boku7/spawn](https://github.com/boku7/spawn)
-- [EncodeGroup/BOF-RegSave](https://github.com/EncodeGroup/BOF-RegSave)
+* [EncodeGroup/BOF-RegSave](https://github.com/EncodeGroup/BOF-RegSave)
+* [lesnuages/CredManBOF](https://github.com/lesnuages/CredManBOF)

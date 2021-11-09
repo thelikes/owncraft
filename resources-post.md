@@ -27,7 +27,7 @@
 * [pspy - linux process monitoring](https://github.com/DominicBreuker/pspy)
 * [Windows File Type Manager](https://www.nirsoft.net/utils/file_types_manager.html)
 * [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) [blog post](https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/)
-    - alternatives: {hot,juicy}Potato, [RoguePotato](https://github.com/antonioCoco/RoguePotato), [SweetPotato](https://github.com/CCob/SweetPotato)
+    - alternatives: {hot,juicy}Potato, [RoguePotato](https://github.com/antonioCoco/RoguePotato), [SweetPotato](https://github.com/CCob/SweetPotato), [zcgonvh/EfsPotato](https://github.com/zcgonvh/EfsPotato)
 * [Hwacha (linux ssh swiss army knife)](https://github.com/n00py/Hwacha)
 * [sshgobrute (static binary for ssh brute)](https://github.com/aldenso/sshgobrute)
 * [recipeforroot.com](https://recipeforroot.com/)
