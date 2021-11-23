@@ -14,6 +14,8 @@
 * [ciphey](https://github.com/Ciphey/Ciphey)
 * [Search That Hash](https://github.com/HashPals/Search-That-Hash)
     * Tool to search hashes across various hashing services
+* [c6fc/npk](https://github.com/c6fc/npk)
+    - distributed hash-cracking platform for AWS
 
 ## Wordlists
 * [Kaonashi Wordlists](https://github.com/kaonashi-passwords/Kaonashi)

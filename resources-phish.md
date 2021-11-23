@@ -45,13 +45,8 @@
 * [EXCELntDonut](https://github.com/FortyNorthSecurity/EXCELntDonut)
 * [NameMash](https://gist.github.com/superkojiman/11076951)
 * [www.mail-tester.com - Test the Spammyness of your Emails](https://www.mail-tester.com/)
+- [Living Off Trusted Sites (LOTS) Project](https://lots-project.com/)
 
-### Lookup
-* [Free Online Tools for Looking up Potentially Malicious Websites - zeltser](https://zeltser.com/lookup-malicious-websites/)
-    - compilation of various tools for lookups
-* [IPVoid](https://www.ipvoid.com/)
-    - Various IP/domain check tools
-* [Bluecoat Lookup](https://sitereview.bluecoat.com/)
-    - domain safety check
-* [checkphish.ai](https://checkphish.ai/)
-* [urlvoid.com](https://www.urlvoid.com/)
+### DNS Health Check
+
+See [infra resource](./resources-infra.md)
