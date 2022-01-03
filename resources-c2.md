@@ -36,7 +36,8 @@
 - [c2concealer (fortynorth) cobalstrike profiler generator](https://github.com/FortyNorthSecurity/C2concealer)
 - [Cobalt Strike and Tradecraft](https://hausec.com/2021/07/26/cobalt-strike-and-tradecraft/)
     - desc: various CS commands' opsec considerations
-    
+- [Implementing Syscalls In The Cobaltstrike Artifact Kit](https://br-sn.github.io/Implementing-Syscalls-In-The-CobaltStrike-Artifact-Kit/)   
+
 ### Misc
 - [InlineExecute-Assembly](https://github.com/xforcered/InlineExecute-Assembly)
 - [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
