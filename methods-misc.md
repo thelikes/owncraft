@@ -63,6 +63,8 @@ sudo umount "$MOUNT_POINT" && sudo qemu-nbd -d /dev/nbd0 && sudo rmmod nbd
 ### Access Tokens
 
 ```
+# source: @thesubtlety 
+
 # list repos
 curl -v -k -H "Content-type:application/json" -H "Authorization: Token <token> " https://github.domain.com/api/v3/user/repos | tee repos.txt
 
