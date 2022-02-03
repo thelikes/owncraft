@@ -29,6 +29,7 @@
 - [gophish documentation for Template References](https://docs.getgophish.com/user-guide/template-reference)
 - [Never had a bad day phishing. How to set up GoPhish to evade security controls](https://www.sprocketsecurity.com/blog/never-had-a-bad-day-phishing-how-to-set-up-gophish-to-evade-security-controls)
     - [puzzlepeaches/sneaky_gophish](https://github.com/puzzlepeaches/sneaky_gophish)
+    - [Gophish MODs](https://www.redteam.cafe/phishing/gophish-mods)
 
 ### Mail
 - [Email Security (SPF, DKIM, and DMARC)](https://www.praetorian.com/blog/email-security/)

@@ -1,6 +1,39 @@
 # Tagged + Uncategorized
 
-## Issue 025 - Dec 2022
+## Issue 026 - Jan 2022
+
+### writeups
+- [Domain Persistence – AdminSDHolder - pentestlab](https://pentestlab.blog/2022/01/04/domain-persistence-adminsdholder/)
+    - desc: persistence research
+    - tags: windows, redteam
+- [Staging Cobalt Strike with mTLS using Caddy - improsec](https://improsec.com/tech-blog/staging-cobalt-strike-with-mtls-using-caddy)
+    - desc: caddy relay/redirector research
+    - tags: redteam
+- [Converting C# Tools to PowerShell - Icyguider](https://icyguider.github.io/2022/01/03/Convert-CSharp-Tools-To-PowerShell.html)
+    - desc: Packing C# tools into powershell scripts
+    - tags: malwaredev, windows
+
+### tools
+- [FULLSHADE/WARFOX-C2](https://github.com/FULLSHADE/WARFOX-C2)
+    - desc: An HTTPS beaconing Windows implant and multi-layered proxy C2 network designed for covert APT emulation focused offensive operations 
+    - tags: redteam
+- [notdodo/adduser-dll](https://github.com/notdodo/adduser-dll)
+    - desc: Simple DLL that add a user to the local Administrators group
+    - tags: malwaredev
+- [icyguider/Shhhloader](https://github.com/icyguider/Shhhloader)
+    - desc: SysWhispers Shellcode Loader
+    - tags: malwaredev
+- [improsec/CaddyStager](https://github.com/improsec/CaddyStager)
+    - desc: caddy relay/redirector for use with cobalstrike
+    - tags: redteam
+- [kyleavery/inject-assembly](https://github.com/kyleavery/inject-assembly)
+    - desc: inject .net into existing process
+    - tags: malwaredev, redteam
+- [2vg/blackcat-rs](https://github.com/2vg/blackcat-rs)
+    - desc: rust runners
+    - tags: malwaredev
+
+## Issue 025 - Jan 2022
 
 ### writeups
 - [Dumping LSASS with Duplicated Handles - Rasta Mouse](https://rastamouse.me/dumping-lsass-with-duplicated-handles/)
