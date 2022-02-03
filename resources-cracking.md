@@ -22,3 +22,4 @@
 * [password-list](https://github.com/scipag/password-list)
 * [weakpasswords.net](http://weakpasswords.net/)
 * [PasswordList (Cyb3r4rch3r)](https://github.com/Cyb3r4rch3r/PasswordList)
+* [pry0cc/relevant-wordlist](https://github.com/pry0cc/relevant-wordlist)

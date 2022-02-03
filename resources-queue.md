@@ -12,6 +12,25 @@
 - [Converting C# Tools to PowerShell - Icyguider](https://icyguider.github.io/2022/01/03/Convert-CSharp-Tools-To-PowerShell.html)
     - desc: Packing C# tools into powershell scripts
     - tags: malwaredev, windows
+- [How to install Elastic SIEM and Elastic EDR - On the Hunt](https://newtonpaul.com/how-to-install-elastic-siem-and-elastic-edr/)
+    - desc: OSS EDR installation tut
+    - tags: malwaredev
+- [PKI Abuse Cheatsheet - Flangvik](https://gist.github.com/Flangvik/15c3007dcd57b742d4ee99502440b250)
+    - desc: ADCS cheatsheet
+    - tags: redteam, windows
+- [From LoadLibrary to Manually Mapping, the Art of DLL Injection - Abraxu](https://kasimir123.github.io/blog-posts/DLL%20Injection.html)
+    - desc: dll injection research
+    - tags: malwaredev
+- [10 real-world stories of how we’ve compromised CI/CD pipelines - NCCGroup](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/)
+    - desc: CI/CD exploitation research
+    - tags: exploit
+- [Recon Weekly #1 : Attack Surface Basics - sshell](https://www.sshell.co/attack-surface-basics/)
+    - desc: recon research
+    - tags: web, recon
+- [EDR Parallel-asis through Analysis - MDSec](https://www.mdsec.co.uk/2022/01/edr-parallel-asis-through-analysis/)
+    - desc: Syscall alternative research
+    - tags: malwaredev
+
 
 ### tools
 - [FULLSHADE/WARFOX-C2](https://github.com/FULLSHADE/WARFOX-C2)
@@ -32,6 +51,48 @@
 - [2vg/blackcat-rs](https://github.com/2vg/blackcat-rs)
     - desc: rust runners
     - tags: malwaredev
+- [fiatjaf/jiq](https://github.com/fiatjaf/jiq)
+    - desc: interactive JSON query tool
+    - tags: utility
+- [qtc-de/remote-method-guesser](https://github.com/qtc-de/remote-method-guesser)
+    - desc: Java RMI Vuln Scanner
+    - tags: web, exploit
+- [pry0cc/relevant-wordlist](https://github.com/pry0cc/relevant-wordlist)
+    - desc: Headlines related wordlist
+    - tags: cracking, utility
+- [Boku7/BokuLoader](https://github.com/Boku7/BokuLoader)
+    - desc: Cobalt Strike User-Defined Reflective Loader
+    - tags: malwaredev
+- [CravateRouge/bloodyAD](https://github.com/CravateRouge/bloodyAD)
+    - desc: AD Priv Esc framework built on Impacket
+    - tags: windows, redteam
+- [Ccob/MirrorDump](https://github.com/Ccob/MirrorDump)
+    - desc: LSASS dumper
+    - tags: windows
+- [paranoidninja/EtwTi-Syscall-Hook](https://github.com/paranoidninja/EtwTi-Syscall-Hook)
+    - desc: Syscall hunter
+    - tags: malwaredev
+- [cube0x0/ParallelSyscalls/](https://github.com/cube0x0/ParallelSyscalls/)
+    - desc: C# implementation of MDSec's Parallel-asys
+    - tags: malwaredev
+- [thiagomayllart/Harvis](https://github.com/thiagomayllart/Harvis)
+    - desc: c2 infra automation
+    - tags: redteam
+- [tothi/azure-function-proxy](https://github.com/tothi/azure-function-proxy)
+    - desc: azure function proxy serverless app
+    - tags: redteam, cloud
+- [lz520520/Stowaway](https://github.com/lz520520/Stowaway)
+    - desc: multi-hop proxy tool
+    - tags: redteam, utility
+- [Cerbersec/Ares](https://github.com/Cerbersec/Ares)
+    - desc: C/C++ transacted hollowing PoC
+    - tags: malwaredev
+- [mrd0x/pe2shc-to-cdb](https://github.com/mrd0x/pe2shc-to-cdb)
+    - desc: CDB lolbin shellcode converter
+    - tags: malwaredev
+- [filesec.io](https://filesec.io/)
+    - desc: attacker file extension reference
+    - tags: windows, redteam
 
 ## Issue 025 - Jan 2022
 
