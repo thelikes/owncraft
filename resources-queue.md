@@ -1,6 +1,6 @@
 # Tagged + Uncategorized
 
-## Issue 026 - Jan 2022
+## Issue 027 - Feb 2022
 
 ### writeups
 - [Alternative Process Injection - Netero1010](https://www.netero1010-securitylab.com/evasion/alternative-process-injection)
@@ -9,6 +9,45 @@
 - [Sandboxing Antimalware Products for Fun and Profit - Elastic Security Research](https://elastic.github.io/security-research/whitepapers/2022/02/02.sandboxing-antimalware-products-for-fun-and-profit/article/)
     - desc: nerfing PPL research
     - tags: redteam, windows
+- [Object Overloading - TrustedSec](https://www.trustedsec.com/blog/object-overloading/)
+    - desc: dll loading research
+    - tags: malwaredev
+- [Shadow Credentials - Penetration Testing Lab](https://pentestlab.blog/2022/02/07/shadow-credentials/)
+    - desc: Windows Hello for Business (WHfB) research
+    - tags: windows, redteam
+- [Custom Previews For Malicious Attachments - Mrd0x](https://mrd0x.com/phishing-google-users-by-spoofing-previews/)
+    - desc: gdrive esq previews phishing pretext research
+    - tags: phishing, redteam
+- [Adding DCSync Permissions from Linux - n00py](https://www.n00py.io/2022/01/adding-dcsync-permissions-from-linux/)
+    - desc: DCSync attack from linux
+    - tags: windows, redteam
+- [Unpacking CVE-2021-40444: A Deep Technical Analysis of an Office RCE Exploit - Bill Demirkapi](https://billdemirkapi.me/unpacking-cve-2021-40444-microsoft-office-rce/)
+    - desc: Maldoc technique investigation
+    - tags: phishing, redteam, exploit
+- [Defeating EDRs with Office Products - Ivy](https://www.optiv.com/insights/source-zero/blog/defeating-edrs-office-products)
+    - desc: WSH evasion and generation
+    - tags: malwaredev
+- [Exploiting URL Parsing Confusion - Claroty](https://claroty.com/2022/01/10/blog-research-exploiting-url-parsing-confusion/)
+    - desc: URL parser research
+    - tags: web, exploit
+- [Delegate to KRBTGT service - Skyblue](https://skyblue.team/posts/delegate-krbtgt/)
+    - desc: Kerberos delegation research
+    - tags: windows, redteam
+- [How To Extract Credentials from Azure Kubernetes Service (AKS) - NetSpi](https://www.netspi.com/blog/technical/cloud-penetration-testing/extract-credentials-from-azure-kubernetes-service/)
+    - desc: Azure credential theft research
+    - tags: cloud, redteam
+- [Pass the Cloud with a Cookie - misconfig.io](https://misconfig.io/pass-the-cloud-with-cookie/)
+    - desc: Cloud cookie research
+    - tags: cloud, redteam
+- [Hacking the Apple Webcam (again) - ryanpickren](https://www.ryanpickren.com/safari-uxss)
+    - desc: macos vuln research
+    - tags: mac, exploit
+- [.NET Remoting Revisited - codewhite](https://codewhitesec.blogspot.com/2022/01/dotnet-remoting-revisited.html)
+    - desc: .net vuln/dev research
+    - tags: windows, malwaredev
+- [ZohOwned :: A Critical Authentication Bypass on Zoho ManageEngine Desktop Central - srcincite](https://srcincite.io/blog/2022/01/20/zohowned-a-critical-authentication-bypass-on-zoho-manageengine-desktop-central.html)
+    - desc: vuln research manageengine
+    - tags: exploit
 
 ### tools
 - [elastic/PPLGuard](https://github.com/elastic/PPLGuard)
@@ -161,6 +200,9 @@
 - [login-securite/DonPAPI](https://github.com/login-securite/DonPAPI)
     - desc: DPAPI remote dumper
     - tags: windows, redteam
+- [fyoorer/ShadowClone](https://github.com/fyoorer/ShadowClone)
+    - desc: tool to distribute local command to N servers
+    - tags: utility
 
 ## Issue 026 - Jan 2022
 
