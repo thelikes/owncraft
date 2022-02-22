@@ -68,6 +68,10 @@ Windows save to file
 
 #### Generate Self-Signed Certificate
 
+##### Metasploit Self Signed Certificates
+
+*Anyting but msf's own self signed gets you much further!*
+
 Generate
 
 ```
@@ -82,31 +86,50 @@ Use with msf
 cat priv.key cert.crt > nasa.pem
 
 # use
-set HandlerSSLCert /home/kali/self_cert/yolo.pem
+set HandlerSSLCert /home/kali/self_cert/nasa.pem
 ```
 
-Use with Covenant
+##### Covenant
+
+Give it a password, remember it, and enter it into Covenant. Make sure covenant has permissions to access the file. 
 
 ```
 # Convert to PFX
 openssl pkcs12 -inkey skeler.pem -in cert.crt -export -out skeler.pfx
 ```
 
-#### LetsEncrypt
+##### Sliver
 
 Generate
+
+```
+openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+```
+
+Use
+
+```
+https -c /opt/sliver/ssl/cert.pem -k /opt/sliver/ssl/key.pem -L 0.0.0.0 -l 443 -p
+```
+
+#### LetsEncrypt
+
+##### Generate
 
 ```
 certbot certonly --agree-tos --standalone -m goodguy@gmail.com -d fw.vaultsec.xyz
 ```
 
-Use with metasploit
+##### metasploit
 
 ```
-cat privkey.pem cert.pem
+cat privkey.pem cert.pem > nasa.pem
+
+# use
+set HandlerSSLCert /home/kali/self_cert/nasa.pem
 ```
 
-Use with Covenant
+##### Covenant
 
 ```
 # Feed the `.pfx` file to Cov in the web interface, set the password.
@@ -1227,6 +1250,9 @@ MATCH (u:User {owned:true}), (c:Computer {unconstraineddelegation:true}), p=shor
 
 # find domain users with SQLAdmin
 MATCH p=(u:User)-[:SQLAdmin]->(c:Computer) RETURN p
+
+# find machines that do not have LAPS
+MATCH (n:Computer {haslaps:false}) RETURN n.name
 ```
 
 #### Powershell
