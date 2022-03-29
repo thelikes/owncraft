@@ -1,7 +1,7 @@
 # Tagged + Uncategorized
 
 ## Issue 028 - Feb 2022
-
+https://mez0.cc/posts/exploring-dll-loads/
 ### writeups
 - [A primer on DCSync attack and detection - alteredsecurity](https://www.alteredsecurity.com/post/a-primer-on-dcsync-attack-and-detection)
     - desc: dsync attack research
