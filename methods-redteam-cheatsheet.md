@@ -17,7 +17,8 @@
 - [HackTricks](https://book.hacktricks.xyz/windows/basic-powershell-for-pentesters)
 - [LOLBAS](https://lolbas-project.github.io/)
 - [Malleable C2 Profile Collection](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
-- [PowerSploit - Active Fork (ZeroDayLab)](https://github.com/ZeroDayLab/PowerSploit)
+- [0xe7/PowerSploit - Active Fork](https://github.com/0xe7/PowerSploit)
+    - (old) [PowerSploit - Active Fork (ZeroDayLab)](https://github.com/ZeroDayLab/PowerSploit)
 
 ### Guides
 - [Custom BloodHound Queries](https://github.com/hausec/Bloodhound-Custom-Queries)
