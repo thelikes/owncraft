@@ -1,10 +1,93 @@
 # Tagged + Uncategorized
 
-## Issue 031 - June 2022
+## Issue 032 - June 2022
 
 ### writeups
 
+#### Publish
+- [DriftingCloud: Zero-Day Sophos Firewall Exploitation and an Insidious Breach - Volexity](https://www.volexity.com/blog/2022/06/15/driftingcloud-zero-day-sophos-firewall-exploitation-and-an-insidious-breach/)
+    - desc: "DriftingCloud" APT investigation
+    - tags: malwaredev
+- [Chaining vulnerabilities to criticality in Progress WhatsUp Gold - assetnote.io](https://blog.assetnote.io/2022/06/09/whatsup-gold-exploit/)
+    - desc: bounty writeup
+    - tags: web, exploit
+- [ProcEnvInjection - Remote code injection by abusing process environment strings - x86mathew](https://www.x86matthew.com/view_post?id=proc_env_injection)
+    - desc: abuse of lpEnvironment to execute code in CreateProcess
+    - tags: malwaredev
+- [Multi-factor Authentication In-The-Wild bypass methods - Yuval Fischer](https://medium.com/proferosec-osm/multi-factor-authentication-in-the-wild-bypass-methods-689f53f0b62b)
+    - desc: mfa bypass research
+    - tags: redteam
+- [Extracting Clear-Text Credentials Directly From Chromium’s Memory - cyberark](https://www.cyberark.com/resources/threat-research-blog/extracting-clear-text-credentials-directly-from-chromium-s-memory)
+    - desc: investigating stored secrets in chrome browser
+    - tags: redteam, postex
+- [Rust BOFs for Cobalt Strike](https://rustrepo.com/repo/wumb0-rust_bof)
+    - desc: Building BOFs in Rust
+    - tags: redteam, malwaredev
+- [Hang Fire: Challenging our Mental Model of Initial Access - SpecterOps](https://posts.specterops.io/hang-fire-challenging-our-mental-model-of-initial-access-513c71878767)
+    - desc: initial access research
+    - tags: redteam
+- [Spear Phishing on Modern Platforms - optiv](https://www.optiv.com/insights/source-zero/blog/spear-phishing-modern-platforms)
+    - desc: cloud spear phish research
+    - tags: cloud
+
+#### Note
+- [Running Shellcode Through Windows Callbacks - marcoramili](https://marcoramilli.com/2022/06/15/running-shellcode-through-windows-callbacks/)
+    - desc: windows callback research
+    - tags: malwaredev
+- [Yours Truly, Signed AV Driver: Weaponizing an Antivirus Driver - aon](https://www.aon.com/cyber-solutions/aon_cyber_labs/yours-truly-signed-av-driver-weaponizing-an-antivirus-driver/)
+    - desc: investigation of abuse of AV vendor code signing certificates
+    - tags: malwaredev
+- [Managed Identity Attack Paths, Part 2: Logic Apps - SpecdterOps](https://posts.specterops.io/managed-identity-attack-paths-part-2-logic-apps-52b29354fc54)
+    - desc: Managed Identity research
+    - tags: cloud
+- [Relaying 101](https://luemmelsec.github.io/Relaying-101/#ntlm-downgrade-attack)
+    - desc: relaying overview
+    - tags: windows, exploit
+- [Arbitrary File Upload Tricks In Java - pyn3rd](https://pyn3rd.github.io/2022/05/07/Arbitrary-File-Upload-Tricks-In-Java/)
+    - desc: java file upload abuse
+    - tags: web
+- [Enumeration and lateral movement in GCP environments - Security Shenanigans](https://infosecwriteups.com/enumeration-and-lateral-movement-in-gcp-environments-c3b82d342794)
+    - desc: GCP pivot research
+    - tags: cloud
+
 ### tools
+
+#### Publish
+- [S3cur3Th1sSh1t/Nim_DInvoke](https://github.com/S3cur3Th1sSh1t/Nim_DInvoke)
+    - desc: D/Invoke implementation in Nim
+    - tags: malwaredev
+- [icyguider/Shhhloader](https://github.com/icyguider/Shhhloader)
+    - desc: SysWhispers Shellcode Loader (Work in Progress)
+    - tags: malwaredev
+- [D00MFist/PersistentJXA](https://github.com/D00MFist/PersistentJXA)
+    - desc: Collection of macOS persistence methods and miscellaneous tools in JXA
+    - tags: mac
+- [improsec/SharpEventPersist](https://github.com/improsec/SharpEventPersist)
+    - desc: Persistence by writing/reading shellcode from Event Log
+    - tags: windows, postex
+
+#### Note
+- [WhiteOakSecurity/GoAWSConsoleSpray](https://github.com/WhiteOakSecurity/GoAWSConsoleSpray)
+    - desc: Tool to spray AWS Console IAM Logins
+    - tags: utility
+- [ChoiSG/sNanoDumpInject](https://github.com/ChoiSG/sNanoDumpInject)
+    - desc: NanoDumpInject from https://s3cur3th1ssh1t.github.io/Reflective-Dump-Tools/ , minor edits with a few syscalls
+    - tags: windows, postex
+ [mgeeky/ShellcodeFluctuation](https://github.com/mgeeky/ShellcodeFluctuation)
+    - desc: An advanced in-memory evasion technique fluctuating shellcode's memory protection between RW/NoAccess & RX and then encrypting/decrypting its contents
+    - tags: malwaredev
+- [mattifestation/AntimalwareBlight](https://github.com/mattifestation/AntimalwareBlight)
+    - desc: Execute PowerShell code at the antimalware-light protection level.
+    - tags: windows, redteam
+- [Idov31/Nidhogg](https://github.com/Idov31/Nidhogg)
+    - desc: Nidhogg is an all-in-one simple to use rootkit for red teams.
+    - tags: malwaredev
+- [firefart/gosocks](https://github.com/firefart/gosocks)
+    - desc: gosocks is a golang based implementation of a socks5 server which supports custom handlers
+    - tags: utility
+- [lawiet47/STFUEDR](https://github.com/lawiet47/STFUEDR)
+    - desc: Silence EDRs by removing kernel callbacks
+    - tags: malwaredev
 
 ## Issue 031 - May 2022
 

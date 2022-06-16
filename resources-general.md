@@ -20,6 +20,7 @@
 - [Password Cracking 201: Beyond the Basics - Royce Williams](https://www.youtube.com/watch?v=cSOjQI0qbuU)
 - [Networking VMs for HTB](https://0xdf.gitlab.io/2021/05/04/networking-vms-for-htb.html)
 - [SSH Konami Code](https://www.sans.org/blog/using-the-ssh-konami-code-ssh-control-sequences/)
+- [infosecstreams.github.io](https://infosecstreams.github.io/)
 
 ## Tools
 
@@ -44,3 +45,7 @@
 ### Git Secrets
 - [truffleHo](https://github.com/trufflesecurity/truffleHog)
 - [eth0izzle/shhgit](https://github.com/eth0izzle/shhgit)
+- [michenriksen/gitrob](https://github.com/michenriksen/gitrob)
+- [zricethezav/gitleaks](https://github.com/zricethezav/gitleaks)
+- [digininja/GitHunter](https://github.com/digininja/GitHunter)
+- [internetwache/GitTools](https://github.com/internetwache/GitTools)

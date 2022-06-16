@@ -12,7 +12,10 @@
 * [Parent Process Spoof](https://blog.christophetd.fr/building-an-office-macro-to-spoof-process-parent-and-command-line/)
 * [Various Visual Basic Macros (rvrsh3ll)](https://gist.github.com/rvrsh3ll/e60073fabf46f380f75773fd865dfd07)
 * [The Art of the Device Code Phish - Bobby Cooke](https://0xboku.com/2021/07/12/ArtOfDeviceCodePhish.html)
-
+- [Spear Phishing on Modern Platforms - optiv](https://www.optiv.com/insights/source-zero/blog/spear-phishing-modern-platforms)
+    - desc: cloud spear phish research
+    - tags: cloud
+    
 ### Techniques
 
 * [htmlsmuggling - outflank](https://outflank.nl/blog/2018/08/14/html-smuggling-explained/)
