@@ -1,5 +1,216 @@
 # Tagged + Uncategorized
 
+## Issue 036 - Sep 2022
+
+### writeups
+
+#### publish
+- [Masky release (v0.0.3)](https://z4ksec.github.io/posts/masky-release-v0.0.3/)
+    - desc: ADCS credential harvester
+    - tags: windows, redteam
+
+### tools
+
+#### publish
+- [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)
+    - desc: OSINT automation for hackers.
+    - tags: web, osint, utility
+
+## Issue 035 - Aug 2022
+
+### writeups
+
+#### publish
+- [Bypassing AppLocker by abusing HashInfo - shell.systems](https://shells.systems/post-bypassing-applocker-by-abusing-hashinfo/)
+    - desc: applocker bypass research
+    - tags: redteam,  windows
+- [Break me out of sandbox in old pipe - CVE-2022-22715 Windows Dirty Pipe - k0shl](http://whereisk0shl.top/post/break-me-out-of-sandbox-in-old-pipe-cve-2022-22715-windows-dirty-pipe)
+    - desc: Windows LPE disclosure
+    - tags: windows, privesc
+- [Investigating .NET CLR Usage Log Tampering Techniques For EDR Evasion (Part 2) - bohops.com](https://bohops.com/2022/08/22/investigating-net-clr-usage-log-tampering-techniques-for-edr-evasion-part-2/)
+    - desc: EDR evasion research
+    - tags: redteam, windows
+- [Guide to DLL Sideloading - Ahmed Sher](https://crypt0ace.github.io/posts/DLL-Sideloading/)
+    - desc: Windows DLL hijack research
+    - tags: windows, redteam
+- [Hijacking DLLs in Windows - wietzebeukema](https://www.wietzebeukema.nl/blog/hijacking-dlls-in-windows)
+    - desc: Windows DLL hijack research
+    - tags: windows, redteam
+
+### tools
+
+- [redballoonsecurity/ofrak](https://github.com/redballoonsecurity/ofrak)
+    - desc: OFRAK: unpack, modify, and repack binaries.
+    - tags: utility
+- [sneakerhax/Arsenal](https://github.com/sneakerhax/Arsenal)
+    - desc: Offensive security tools weaponized
+    - tags: utility
+
+#### publish
+- [secureworks/whiskeysamlandfriends](https://github.com/secureworks/whiskeysamlandfriends)
+    - desc: GoldenSAML Attack Libraries and Framework
+    - tags: cloud
+- [httptoolkit/httptoolkit](https://github.com/httptoolkit/httptoolkit)
+    - desc: HTTP Toolkit is a beautiful & open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux & Mac 🎉 Open an issue here to give feedback or ask for help.
+    - tags: utility
+- [hahwul/WebHackersWeapons](https://github.com/hahwul/WebHackersWeapons)
+    - desc: ⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
+    - tags: web, utility
+
+## Issue 034 - July 2022
+
+### write ups
+
+#### publish
+- [Give Me Some (macOS) Context… - cedowens](https://cedowens.medium.com/give-me-some-macos-context-c13aecbd4c5b)
+    - desc: macos redteam research regarding TCC (Transparency, Consent, and Control) 
+    - tags: mac, redteam
+- [Res260/conti_202202_leak_procedures](https://github.com/Res260/conti_202202_leak_procedures)
+    - desc: This repository contains procedures found in the Feb 2022 conti leaks. They were taken from the "manual_teams_c" rocketchat channel in the leak and posted on may 10th, 2021 in the channel.
+    - tags: misc
+- [Plugins for Persistence - vivi](https://thevivi.net/blog/pentesting/2022-03-05-plugins-for-persistence/)
+    - desc: common software plugin persistence research
+    - tags: redteam
+
+#### notes
+- [productivity_text_file/](https://jeffhuang.com/productivity_text_file/)
+    - desc: ...
+    - tags: utility
+- [Bypassing EDR real-time injection detection logic](https://blog.redbluepurple.io/offensive-research/bypassing-injection-detection)
+    - desc: driploader investigation
+    - tags: malwaredev
+
+### tools
+
+#### publish
+- [V3ded/ToolDump-v1](https://github.com/V3ded/ToolDump-v1)
+    - desc: Some of my custom "tools".
+    - tags: malwaredev
+- [N7WEra/BofAllTheThings](https://github.com/N7WEra/BofAllTheThings)
+    - desc: Creating a repository with all public Beacon Object Files (BoFs)
+    - tags: redteam, utility
+- [Allevon412/TeamsImplant](https://github.com/Allevon412/TeamsImplant)
+    - desc: evasive, proxied-dll for MS Teams
+    - tags: malwaredev, redteam
+- [cipher387/Dorks-collections-list](https://github.com/cipher387/Dorks-collections-list)
+    - desc: List of Github repositories and articles with list of dorks for different search engines
+    - tags: utility
+- [shogunlab/Sukoshi](https://github.com/shogunlab/Sukoshi)
+    - desc: Sukoshi is a proof-of-concept Python/C++ implant that leverages the MQTT protocol for C2 and uses AWS IoT Core as infrastructure.
+    - tags: malwaredev, redteam
+
+#### notes
+- [c-sto/bananaphone](https://github.com/c-sto/bananaphone)
+    - desc: It's a go variant of Hells gate! (directly calling windows kernel functions, but from Go!)
+    - tags: malwaredev
+- [optiv/talon](https://github.com/optiv/talon)
+    - desc: A password guessing tool that targets the Kerberos and LDAP services within the Windows Active Directory environment.
+    - tags: windows
+- [CorrieOnly/google-dorks](https://github.com/CorrieOnly/google-dorks)
+    - desc: collection of google dorks
+    - tags: utility
+
+## Issue 033 - July 2022
+
+### write ups
+
+#### publish
+- [In-Process Patchless AMSI Bypass - ethicalchaos](https://ethicalchaos.dev/2022/04/17/in-process-patchless-amsi-bypass/)
+    - desc: In-Process Patchless AMSI Bypass
+    - malwaredev
+- [Anatomy of the Process Environment Block (PEB) (Windows Internals) - ntopcode](https://ntopcode.wordpress.com/2018/02/26/anatomy-of-the-process-environment-block-peb-windows-internals/)
+    - desc: windows internals research
+    - tags: malwaredev
+- [Introducing the Golden GMSA Attack - semperis](https://www.semperis.com/blog/golden-gmsa-attack/)
+    - desc: windows GMSA persistence
+    - tags: redteam, windows
+- [macOS Red Teaming: Get Active Directory credentials from NoMAD - wojciechregula](https://wojciechregula.blog/post/macos-red-teaming-get-ad-credentials-from-nomad/)
+    - desc: NoMAD research
+    - tags: mac, redteam
+- [macOS Red Teaming: Initial access via AppleScript URL - wojciechregula](https://wojciechregula.blog/post/macos-red-teaming-initial-access-via-applescript-url/)
+    - desc: macos initial access
+    - tags: redteam, malwaredev
+- [LSASS dumping in 2021/2022 - from memory - without C2 - s3cur3th1ss1t](https://s3cur3th1ssh1t.github.io/Reflective-Dump-Tools/)
+    - desc: modern lsass dumping
+    - tags: windows, postex, redteam
+    
+#### notes
+
+### tools
+
+#### publish
+- [code-scrap/DynamicWrapperDotNet](https://github.com/code-scrap/DynamicWrapperDotNet)
+    - desc: Dynamically Loads Assembly and Calls Methods from JScript
+    - tags: malwaredev
+- [CompassSecurity/BloodHoundQueries](https://github.com/CompassSecurity/BloodHoundQueries)
+    - desc: Custom bloodhound queries
+    - tags: utility
+- [warhorse/warhorse](https://github.com/warhorse/warhorse)
+    - desc: Warhorse consists of a fully-featured Ansible playbook to deploy infrastructure in the cloud for conducting security assessments. 
+    - tags: infra, utility
+- [Orange-Cyberdefense/arsenal](https://github.com/Orange-Cyberdefense/arsenal)
+    - desc: Arsenal is just a quick inventory and launcher for hacking programs
+    - tags: utility
+- [S4ntiagoP/freeBokuLoader](https://github.com/S4ntiagoP/freeBokuLoader)
+    - desc: A simple BOF that frees UDRLs
+    - tags: malwaredev
+- [dhondta/awesome-executable-packing](https://github.com/dhondta/awesome-executable-packing)
+    - desc: A curated list of awesome resources related to executable packing
+    - tags: malwaredev, utility
+- [thefLink/DeepSleep](https://github.com/thefLink/DeepSleep)
+    - desc: A variant of Gargoyle for x64 to hide memory artifacts using ROP only and PIC
+    - tags: malwaredev
+- [fortalice/bofhound](https://github.com/fortalice/bofhound)
+    - desc: Generate BloodHound compatible JSON from logs written by ldapsearch BOF and pyldapsearch
+    - tags: windows, postex, redteam
+- [mandiant/DueDLLigence](https://github.com/mandiant/DueDLLigence)
+    - desc: Shellcode runner framework for application whitelisting bypasses and DLL side-loading
+    - tags: malwaredev
+
+#### notes
+- [AdrianVollmer/PowerHub](https://github.com/AdrianVollmer/PowerHub)
+    - desc: A post exploitation tool based on a web application, focusing on bypassing endpoint protection and application whitelisting
+    - tags: windows, postex
+- [xct/elevatedrv](https://github.com/xct/elevatedrv)
+    - desc: Simple Driver that elevates any process to SYSTEM
+    - tags: windows, postex, redteam
+- [cocomelonc/peekaboo](https://github.com/cocomelonc/peekaboo)
+    - desc: Simple undetectable shellcode and code injector launcher example. Inspired by RTO malware development course.
+    - tags: malwaredev
+- [antonioCoco/SharPyShell](https://github.com/antonioCoco/SharPyShell)
+    - desc: SharPyShell - tiny and obfuscated ASP.NET webshell for C# web applications
+    - tags: web, exploit, malwaredev
+- [frkngksl/HintInject](https://github.com/frkngksl/HintInject)
+    - desc: A PoC project for embedding shellcode to Hint/Name Table
+    - tags: malwaredev
+- [morph3/Windows-RPC-Backdoor](https://github.com/morph3/Windows-RPC-Backdoor)
+    - desc: Simple windows rpc server for research purposes only
+    - tags: malwaredev
+- [Luct0r/KerberOPSEC](https://github.com/Luct0r/KerberOPSEC)
+    - desc: OPSEC safe Kerberoasting in C#
+    - tags: windows, postex, redteam
+- [abdulkadir-gungor/JPGtoMalware](https://github.com/abdulkadir-gungor/JPGtoMalware)
+    - desc: It embeds the executable file or payload inside the jpg file. The method the program uses isn't exactly called one of the steganography methods. For this reason, it does not cause any distortion in the JPG file. The JPG file size and payload do not have to be proportional.The JPG file is displayed normally in any viewing application or web appli…
+    - tags: malwaredev
+- [nick-frischkorn/SysWhispers-FunctionRandomizer](https://github.com/nick-frischkorn/SysWhispers-FunctionRandomizer)
+    - desc: Quick python script to replace the NtAPI functions within SysWhispers' assembly and header files with random strings
+    - tags: malwaredev
+- [Octoberfest7/XLL_Phishing](https://github.com/Octoberfest7/XLL_Phishing)
+    - desc: XLL Phishing Tradecraft
+    - tags: phish
+- [DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team)
+    - desc: ☁️ ⚡ Granular, Actionable Adversary Emulation for the Cloud
+    - tags: utility, blue
+- [cheat/cheatsheets](https://github.com/cheat/cheatsheets)
+    - desc: Community-sourced cheatsheets
+    - tags: resources
+- [trickster0/OffensiveRust](https://github.com/trickster0/OffensiveRust/)
+    - desc: Rust Weaponization for Red Team Engagements.
+    - tags: malwaredev
+- [sherlocksecurity/VMware-CVE-2022-22954](https://github.com/sherlocksecurity/VMware-CVE-2022-22954)
+    - desc: POC for VMWARE CVE-2022-22954
+    - tags: web, exploit
+
 ## Issue 032 - June 2022
 
 ### writeups

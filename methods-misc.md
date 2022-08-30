@@ -73,4 +73,7 @@ cat repos.txt | jq '.[] | select(.private==true)' | jq '.url'
 
 # nab repo
 curl -L -v -k -H "Content-type:application/json" -H "Authorization: Token <token>" https://github.domain.com/api/v3/repos/USER/REPO/tarball/master > repo.tar.gz
+
+# or
+git clone https://<username>:<githubtoken>@github.com/repo/path
 ```

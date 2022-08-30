@@ -43,9 +43,10 @@
 - [JustDecompile .NET Assembly Decompiler](https://www.telerik.com/products/decompiler.aspx)
 
 ### Git Secrets
-- [truffleHo](https://github.com/trufflesecurity/truffleHog)
+- [trufflesecurity/truffleHog](https://github.com/trufflesecurity/truffleHog)
 - [eth0izzle/shhgit](https://github.com/eth0izzle/shhgit)
 - [michenriksen/gitrob](https://github.com/michenriksen/gitrob)
 - [zricethezav/gitleaks](https://github.com/zricethezav/gitleaks)
 - [digininja/GitHunter](https://github.com/digininja/GitHunter)
 - [internetwache/GitTools](https://github.com/internetwache/GitTools)
+- [tillson/git-hound](https://github.com/tillson/git-hound)
