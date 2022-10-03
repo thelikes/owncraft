@@ -77,3 +77,11 @@ curl -L -v -k -H "Content-type:application/json" -H "Authorization: Token <token
 # or
 git clone https://<username>:<githubtoken>@github.com/repo/path
 ```
+
+## Proxied DNS Lookups (proxychains+dig)
+
+Specify the internal DNS server and force the connection over TCP:
+
+```
+proxychains4 dig sub.domain.local @INTERNAL_DNS_SRV +vc
+```

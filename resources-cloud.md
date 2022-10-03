@@ -7,7 +7,11 @@
 * [salesforce/cloudsplaining](https://github.com/salesforce/cloudsplaining)
 * [FSecureLABS/awspx](https://github.com/FSecureLABS/awspx)
 * [nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite)
-
+- [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals)
+    - desc: AADInternals PowerShell module for administering Azure AD and Office 365
+- [rvrsh3ll/TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
+    - desc: Azure JWT Token Manipulation Toolset
+    
 ## Guides
 * [Well, That Escalated Quickly: Privilege Escalation in AWS - BishopFox](https://bishopfox.com/blog/privilege-escalation-in-aws)
 * [Azure AD Introduction for Red Teamers](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)

@@ -54,7 +54,11 @@ Useful services for Out of Band exploitation.
 * [gowitness](https://github.com/sensepost/gowitness)
 * [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness)
 * [github-search](https://github.com/gwen001/github-search)
-
+- [rverton/webanalyze](https://github.com/rverton/webanalyze)
+    - desc: Port of Wappalyzer (uncovers technologies used on websites) to automate mass scanning.
+- [projectdiscovery/wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)
+    - desc: A high performance go implementation of Wappalyzer Technology Detection Library
+        
 ### OSINT
 * [SpiderFoot](https://github.com/smicallef/spiderfoot)
 * [ODIN](https://github.com/chrismaddalena/ODIN)
