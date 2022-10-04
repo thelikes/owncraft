@@ -3,7 +3,13 @@
 ## Guides
 * [Enumeration (0daysecurity)](http://www.0daysecurity.com/penetration-testing/enumeration.html)
 * [Asset Discovery - Doing Reconnaissance the Hard Way (Patrick Hudak)](https://0xpatrik.com/asset-discovery/)
+* [How to Hunt](https://github.com/KathanP19/HowToHunt)
+* [Just Another Recon Guide for Pentesters and Bug Bounty Hunters - Offensity](https://www.offensity.com/de/blog/just-another-recon-guide-pentesters-and-bug-bounty-hunters/)
+* [Subdomain Enumeration - 0xpatrik](https://0xpatrik.com/subdomain-enumeration-2019/)
 
+## Methodology
+- [Bug Hunting Methodology (Pt 1) - Shankar](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
+- [Bug Hunting Methodology (pt 2) - Shankar](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150)
 ### NMAP
 - [Nmap limit the scan rate for each host, without limiting the scan rate for the scan as a whole](https://github.com/nmap/nmap/issues/1360#issuecomment-431233462)
 - [Nmap Firewall Evasion (infosecinstitute)](https://resources.infosecinstitute.com/nmap-evade-firewall-scripting/)
@@ -15,6 +21,7 @@
 * [xmap](https://github.com/idealeer/xmap)
 * [fi6s](https://github.com/sfan5/fi6s)
 * [naabu](https://github.com/projectdiscovery/naabu)
+* [RustScan](https://github.com/RustScan/RustScan)
 
 ### Call/Ping Back
 
@@ -35,11 +42,7 @@ Useful services for Out of Band exploitation.
 * [altdns](https://github.com/infosec-au/altdns)
 * [goaltdns](https://github.com/subfinder/goaltdns)
 * [dnsgen](https://github.com/ProjectAnte/dnsgen)
-
-### Services
-* [RustScan](https://github.com/RustScan/RustScan)
-* [naabu](https://github.com/projectdiscovery/naabu)
-* [fi6s](https://github.com/sfan5/fi6s)
+* [projectdiscovery/asnmap](https://github.com/projectdiscovery/asnmap)
 
 ### Web
 * [bluto](https://github.com/darryllane/Bluto)

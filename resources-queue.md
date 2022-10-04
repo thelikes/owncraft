@@ -1,5 +1,177 @@
 # Tagged + Uncategorized
 
+## Issue 037 - Oct 2022
+
+### writeups
+- [Defeating Javascript Obfuscation - perimeterx](https://www.perimeterx.com/tech-blog/2022/defeating-javascript-obfuscation/)
+    - desc: deobfuscate javascript research
+    - tags: utility
+- [Automating C2 Infrastructure with Terraform, Nebula, Caddy and Cobalt Strike - malicious.group](https://blog.malicious.group/automating-c2-infrastructure-with-terraform-nebula-caddy-and-cobalt-strike/)
+    - desc: infrastructure as code research
+    - tags: utility, infrastructure
+- [Myths About External C2 - xret2pwn](https://xret2pwn.github.io/Myths-About-External-C2/)
+    - desc: External C2 development research
+    - tags: redteam
+
+#### publish
+- [Scraping Login Credentials With XSS - trustedsec](https://www.trustedsec.com/blog/scraping-login-credentials-with-xss/)
+    - desc: xss post exploitation research
+    - tags: web, exploit, phish
+- [Bypassing Firefox's HTML Sanitizer API - portswigger](https://portswigger.net/research/bypassing-firefoxs-html-sanitizer-api)
+    - desc: Firefox xss bypass research
+    - tags: web, exploit
+- [Did You Know Your Browser’s Autofill Credentials Could Be Stolen via Cross-Site Scripting (XSS) - GoSecure](https://www.gosecure.net/blog/2022/06/29/did-you-know-your-browsers-autofill-credentials-could-be-stolen-via-cross-site-scripting-xss/)
+    - desc: Browser credential theft research
+    - tags: web, exploit
+- [Researching Open Source apps for XSS to RCE flaws - ptswarm](https://swarm.ptsecurity.com/researching-open-source-apps-for-xss-to-rce-flaws/)
+    - desc: Xss in desktop app for RCE research
+    - tags: exploit
+- [Browser-Powered Desync Attacks: A New Frontier in HTTP Request Smuggling - portswigger](https://portswigger.net/research/browser-powered-desync-attacks)
+    - desc: NTLM theft via request smuggling research
+    - tags: web, windows, exploit
+- [Tool Release – Project Kubescout: Adding Kubernetes Support to Scout Suite - nccgroup](https://research.nccgroup.com/2022/09/22/tool-release-project-kubescout-adding-kubernetes-support-to-scout-suite/)
+    - desc: Scoutsuite updated with kerberos
+    - tags: cloud
+- [Giving JuicyPotato a second chance: JuicyPotatoNG - decoder](https://decoder.cloud/2022/09/21/giving-juicypotato-a-second-chance-juicypotatong/)
+    - desc: Windows privilege escalation research
+    - tags: windows, exploit
+- [Find threats: Cloud credential theft on Windows endpoints - sumo logic](https://www.sumologic.com/blog/threat-labs-cloud-theft-windows-credentials/)
+    - desc: credential harvesting post exploitation research
+    - tags: cloud
+- [Spoofing Calendar Invites Using .ics Files - mrd0x](https://mrd0x.com/spoofing-calendar-invites-using-ics-files/)
+    - desc: novel phishing research
+    - tags: phish
+- [Skidaddle Skideldi - I just pwnd your PKI - luemmelsec](https://luemmelsec.github.io/Skidaddle-Skideldi-I-just-pwnd-your-PKI/)
+    - desc: ADCS research and guide
+    - tags: windows, redteam
+- [New Attack Paths? AS Requested Service Tickets - semperis](https://www.semperis.com/blog/new-attack-paths-as-requested-sts/)
+    - desc: Kerberoast research
+    - tags: windows, redteam
+- [I Wanna Go Fast, Really Fast, like (Kerberos) FAST - trustedsec](https://www.trustedsec.com/blog/i-wanna-go-fast-really-fast-like-kerberos-fast/)
+    - desc: Kerberos FAST research
+    - tags: windows, redteam
+- [WireSocks for Easy Proxied Routing - sensepost](https://sensepost.com/blog/2022/wiresocks-for-easy-proxied-routing/)
+    - desc: Proxy support via wireguard research
+    - tags: utility
+- [Phishing With Chromium's Application Mode - mrd0x](https://mrd0x.com/phishing-with-chromium-application-mode/?no-cache=1)
+    - desc: novel phishing research
+    - tags: phish, redteam
+- [How we Abused Repository Webhooks to Access Internal CI Systems at Scale - cidersecurity](https://www.cidersecurity.io/blog/research/how-we-abused-repository-webhooks-to-access-internal-ci-systems-at-scale/)
+    - desc: CI/CD post exploitation
+    - tags: redteam
+- [Relaying YubiKeys - cube0x0](https://cube0x0.github.io/Relaying-YubiKeys/)
+    - desc: Yubikey relay research
+    - tags: windows, redteam
+
+### tools
+- [HackmichNet/AzTokenFinder](https://github.com/HackmichNet/AzTokenFinder)
+    - desc: extract JWT (or JWT like looking data) from different processes, like PowerShell, Excel, Word or others
+    - tags: windows, postex
+- [D1rkMtr/ChTimeStamp](https://github.com/D1rkMtr/ChTimeStamp/)
+    - desc: Changing the Creation time and the Last Written time of a dropped file by the timestamp of other one , like the "kernel32.dll" timestamp
+    - tags: malwaredev
+- [m417z/winapiexec](https://github.com/m417z/winapiexec)
+    - desc: A small tool that allows to run WinAPI functions through command line parameters
+    - tags: malwaredev
+- [CCob/PinSwipe](https://github.com/CCob/PinSwipe)
+    - desc: Smart Card PIN swiping DLL
+    - tags: windows, redteam
+- [Ge0rg3/requests-ip-rotator](https://github.com/Ge0rg3/requests-ip-rotator)
+    - desc: A Python library to utilize AWS API Gateway's large IP pool as a proxy to generate pseudo-infinite IPs for web scraping and brute forcing.
+    - tags: utility
+- [CrackerCat/evildll](https://github.com/CrackerCat/evildll)
+    - desc: Malicious DLL (Reverse Shell) generator for DLL Hijacking
+    - tags: malwaredev
+- [cepxeo/dll4shell](https://github.com/cepxeo/dll4shell)
+    - desc: Shellcode launcher for AV bypass
+    - tags: malwaredev
+- [jazzpizazz/BloodHound.py-Kerberos](https://github.com/jazzpizazz/BloodHound.py-Kerberos)
+    - desc: A Python based ingestor for BloodHound
+    - tags: windows, redteam
+- [punk-security/dnsReaper](https://github.com/punk-security/dnsReaper)
+    - desc: dnsReaper - subdomain takeover tool for attackers, bug bounty hunters and the blue team!
+    - tags: web, exploit
+- [ORCx41/Syscallslib](https://github.com/ORCx41/Syscallslib)
+    - desc: a library that automates some clean syscalls to make it easier to implement
+    - tags: malwaredev
+- [ORCx41/KnownDllUnhook](https://github.com/ORCx41/KnownDllUnhook)
+    - desc: Replace the .txt section of the current loaded modules from \KnownDlls\ to bypass edrs
+    - tags: malwaredev
+- [D1rkMtr/DumpThatLSASS](https://github.com/D1rkMtr/DumpThatLSASS)
+    - desc: Dumping LSASS by Unhooking MiniDumpWriteDump by getting a fresh DbgHelp.dll copy from the disk , plus functions and strings obfuscation , it contains Anti-sandbox , if you run it under unperformant Virtual Machine you need to uncomment the code related to it and recompile.
+    - tags: windows, redteam, postex
+- [smokeme/airstrike](https://github.com/smokeme/airstrike)
+    - desc: lite c2 poc
+    - tags: redteam
+- [D1rkMtr/UUIDRegistryShellcode](https://github.com/D1rkMtr/UUIDRegistryShellcode)
+    - desc: Write and Hide each UUID in the char* array of UUIDS shellcode in a registry key value location as REG_SZ (the location could be different from the other), then retrieve them and assemble them in UUIDs char* array shellcode and Run it
+    - tags: malwaredev
+- [epi052/feroxfuzz](https://github.com/epi052/feroxfuzz)
+    - desc: A structure-aware HTTP fuzzing library
+    - tags: web, recon
+- [daem0nc0re/TangledWinExec](https://github.com/daem0nc0re/TangledWinExec)
+    - desc: C# PoCs for investigation of Windows process execution techniques
+    - tags: malwaredev
+- [redeye-framework/Redeye](https://github.com/redeye-framework/Redeye)
+    - desc: Collaborative pen testing framework
+    - tags: utility
+- [n0kovo/awesome-password-cracking](https://github.com/n0kovo/awesome-password-cracking)
+    - desc: A curated list of awesome tools, research, papers and other projects related to password cracking and password security.
+    - tags: cracking
+- [lkarlslund/ldapnomnom](https://github.com/lkarlslund/ldapnomnom)
+    - desc: Anonymously bruteforce Active Directory usernames from Domain Controllers by abusing LDAP Ping requests (cLDAP)
+    - tags: windows, redteam
+- [D1rkMtr/MasqueradingPEB](https://github.com/D1rkMtr/MasqueradingPEB)
+    - desc: Maquerade any legitimate Windows binary by changing some fields in the PEB structure
+    - tags: malwaredev
+
+#### publish
+- [soxoj/maigret](https://github.com/soxoj/maigret)
+    - desc: 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites
+    - tags: osint, recon
+- [projectdiscovery/asnmap](https://github.com/projectdiscovery/asnmap)
+    - desc: Go CLI and Library for quickly mapping organization network ranges using ASN information.
+    - tags: recon
+- [PortSwigger/oauth-scan](https://github.com/PortSwigger/oauth-scan)
+    - desc: Burp Suite Extension useful to verify OAUTHv2 and OpenID security
+    - tags: utility
+- [fin3ss3g0d/evilgophish](https://github.com/fin3ss3g0d/evilgophish)
+    - desc: evilginx2 + gophish
+    - tags: phish, redteam
+- [silverhack/monkey365](https://github.com/silverhack/monkey365)
+    - desc: Monkey365 provides a tool for security consultants to easily conduct not only Microsoft 365, but also Azure subscriptions and Azure Active Directory security configuration reviews.
+    - tags: cloud
+- [iustin24/chameleon](https://github.com/iustin24/chameleon)
+    - desc: Content discovery by using wappalyzer's set of technology fingerprints alongside custom wordlists tailored to each detected technologies
+    - tags: web, recon
+- [nccgroup/scrying](https://github.com/nccgroup/scrying)
+    - desc: A tool for collecting RDP, web and VNC screenshots all in one place
+    - tags: recon, utility
+- [xRET2pwn/Teamsniper](https://github.com/xRET2pwn/Teamsniper)
+    - desc: Teamsniper is a tool for fetching keywords in a Microsoft Teams such as (passwords, emails, database, etc.).
+    - tags: redteam
+- [blacklanternsecurity/offensive-azure](https://github.com/blacklanternsecurity/offensive-azure)
+    - desc: Collection of offensive tools targeting Microsoft Azure
+    - tags: cloud
+- [memN0ps/srdi-rs](https://github.com/memN0ps/srdi-rs)
+    - desc: Rusty Shellcode Reflective DLL Injection (sRDI)
+    - tags: malwaredev
+- [gkucherin/de4dot](https://github.com/gkucherin/de4dot)
+    - desc: .NET deobfuscator and unpacker (with a control flow unflattener for DoubleZero added).
+    - tags: malwaredev
+- [optiv/Freeze](https://github.com/optiv/Freeze)
+    - desc: Freeze is a payload toolkit for bypassing EDRs using suspended processes, direct syscalls, and alternative execution methods
+    - tags: malwaredev
+- [Mr-Un1k0d3r/ATP-PowerShell-Scripts](https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts)
+    - desc: Microsoft Signed PowerShell scripts
+    - tags: windows, redteam
+- [BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
+    - desc: Automating situational awareness for cloud penetration tests.
+    - tags: cloud
+- [ezra-buckingham/terry-the-terraformer](https://github.com/ezra-buckingham/terry-the-terraformer)
+    - desc: A CLI for deploying red team infrastructure across mutliple cloud providers, all integrated with a virtual Nebula network, and full ELK integration
+    - tags: utility, infrastructure
+    
 ## Issue 036 - Sep 2022
 
 ### writeups
@@ -16,7 +188,7 @@
     - tags: redteam, c2
 - [Bad VIB(E)s Part One: Investigating Novel Malware Persistence Within ESXi Hypervisors - mandiant](https://www.mandiant.com/resources/blog/esxi-hypervisors-malware-persistence)
     - desc: Unknown APT research
-    - tags: ir, malwardev
+    - tags: ir, malwaredev
 - [The Blind Spots of BloodHound - syss](https://blog.syss.com/posts/bloodhound-blindspots/)
     - desc: Methods to increase BloodHound edge visibility
     - tags: windows, redteam
@@ -48,13 +220,13 @@
     - tags: windows, redteam, cloud
 - [emcghee/PayloadAutomation](https://github.com/emcghee/PayloadAutomation)
     - desc: Python classes to serve as a bridge between Sleep and Python which can be used to help automate payload development
-    - tags: malwardev
+    - tags: malwaredev
 - [Running Shellcode Through Windows Callbacks - marcoramilli](https://marcoramilli.com/2022/06/15/running-shellcode-through-windows-callbacks/)
     - desc: callback shellcode execution research
-    - tags: malwardev
+    - tags: malwaredev
 - [ProcEnvInjection - Remote code injection by abusing process environment strings - x86mathew](https://www.x86matthew.com/view_post?id=proc_env_injection)
     - desc: Code injection research
-    - tags: malwardev
+    - tags: malwaredev
 
 ## Issue 035 - Aug 2022
 
@@ -81,14 +253,14 @@
     - tags:utility
 - [Concealed code execution: Techniques and detection - huntandhackett](https://www.huntandhackett.com/blog/concealed-code-execution-techniques-and-detection)
     - desc: Evasive code execution research
-    - tags: malwardev, redteam
+    - tags: malwaredev, redteam
 - [Multi-factor Authentication In-The-Wild bypass methods - yuval fischer](https://medium.com/proferosec-osm/multi-factor-authentication-in-the-wild-bypass-methods-689f53f0b62b)
     - desc: mfa bypass research
     - tags: web, exploit
 - [Vulnerable GitHub Actions Workflows Part 1: Privilege Escalation Inside Your CI/CD Pipeline - legitsecurity](https://www.legitsecurity.com/blog/github-privilege-escalation-vulnerability)
     - desc: CI/CD exploitation research
     - tags: redteam
-    
+
 ### tools
 
 - [redballoonsecurity/ofrak](https://github.com/redballoonsecurity/ofrak)
@@ -99,7 +271,7 @@
     - tags: utility
 - [D1rkMtr/FileLessRemoteShellcode](https://github.com/D1rkMtr/FileLessRemoteShellcode)
     - desc: Run Fileless Remote Shellcode directly in memory with Module Unhooking , Module Stomping, No New Thread. This repository contains the TeamServer and the Stager
-    - tags: malwardev
+    - tags: malwaredev
 
 #### publish
 - [secureworks/whiskeysamlandfriends](https://github.com/secureworks/whiskeysamlandfriends)
@@ -116,7 +288,7 @@
     - tags: phish, redteam
 - [subglitch1/osripper](https://github.com/subglitch1/osripper)
     - desc: AV evading OSX Backdoor and Crypter Framework
-    - tags: mac, redteam, malwardev
+    - tags: mac, redteam, malwaredev
 
 ## Issue 034 - July 2022
 
@@ -422,7 +594,7 @@
     - tags: malwaredev
 - [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate)
     - desc: An easily modifiable shellcode template for Windows x64/x86 
-    - tags: malwardev
+    - tags: malwaredev
 
 ## Issue 030 - Apr 2022
 
@@ -1229,7 +1401,7 @@
     - tags: windows, exploit, privesc
 - [wavestone-cdt/EDRSandblast](https://github.com/wavestone-cdt/EDRSandblast)
     - desc: tool written in C that weaponize a vulnerable signed driver to bypass EDR detections
-    - tags: malwardev
+    - tags: malwaredev
 - [netmeld/netmeld](https://github.com/netmeld/netmeld)
     - desc: A tool suite for use during system assessments. 
     - tags: utility
