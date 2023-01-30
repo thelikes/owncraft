@@ -11,7 +11,11 @@
     - desc: AADInternals PowerShell module for administering Azure AD and Office 365
 - [rvrsh3ll/TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
     - desc: Azure JWT Token Manipulation Toolset
-    
+
+### Spray
+- [blacklanternsecurity/TREVORspray](https://github.com/blacklanternsecurity/TREVORspray)
+- [MarkoH17/Spray365](https://github.com/MarkoH17/Spray365)
+
 ## Guides
 * [Well, That Escalated Quickly: Privilege Escalation in AWS - BishopFox](https://bishopfox.com/blog/privilege-escalation-in-aws)
 * [Azure AD Introduction for Red Teamers](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)

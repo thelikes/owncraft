@@ -24,6 +24,9 @@
 
 ## Tools
 
+### General
+- [andrew-d/static-binaries](https://github.com/andrew-d/static-binaries)
+
 ### Reverse Shells
 - [Reverse Shell Generator](https://www.revshells.com/)
 - [Reverse Shell as a Service](https://resh.vercel.app/)

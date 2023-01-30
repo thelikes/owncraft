@@ -15,6 +15,9 @@
 - [Spear Phishing on Modern Platforms - optiv](https://www.optiv.com/insights/source-zero/blog/spear-phishing-modern-platforms)
     - desc: cloud spear phish research
     - tags: cloud
+* [Modern Initial Access and Evasion Tactics](https://mgeeky.tech/uploads/WarCon22%20-%20Modern%20Initial%20Access%20and%20Evasion%20Tactics.pdf)
+    - desc: Moder (2022) initial access research
+    - tags: phish, redteam
     
 ### Techniques
 
