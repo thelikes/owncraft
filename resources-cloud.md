@@ -11,6 +11,16 @@
     - desc: AADInternals PowerShell module for administering Azure AD and Office 365
 - [rvrsh3ll/TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
     - desc: Azure JWT Token Manipulation Toolset
+- [initstring/cloud_enum](https://github.com/initstring/cloud_enum)
+    - desc: Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
+- (dafthack/MFASweep)[https://github.com/dafthack/MFASweep]
+    - desc: AAD spray/recon
+- [Flangvik/TeamFiltration](https://github.com/Flangvik/TeamFiltration)
+    - desc: TeamFiltration is a cross-platform framework for enumerating, spraying, exfiltrating, and backdooring O365 AAD accounts
+- [NetSPI/MicroBurst](https://github.com/NetSPI/MicroBurst)
+    - desc: A collection of scripts for assessing Microsoft Azure security
+- [nyxgeek/onedrive_user_enum](https://github.com/nyxgeek/onedrive_user_enum)
+    - desc: onedrive user enumeration - pentest tool to enumerate valid o365 users
 
 ### Spray
 - [blacklanternsecurity/TREVORspray](https://github.com/blacklanternsecurity/TREVORspray)
