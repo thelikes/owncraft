@@ -1,5 +1,240 @@
 # Tagged + Uncategorized
 
+## Issue 042 - Mar 2023
+
+### writeups
+- [Using Power Automate for Covert Data Exfiltration in Microsoft 365](https://www.varonis.com/blog/power-automate-data-exfiltration)
+    - desc: Using Power Automate for Covert Data Exfiltration in Microsoft 365
+    - tags: redteam
+- [Persistence with Azure Policy Guest Configuration - Cloudbrothers](https://cloudbrothers.info/en/azure-persistence-azure-policy-guest-configuration/)
+    - desc: Persistence with Azure Policy Guest Configuration - Cloudbrothers
+    - tags: redteam
+- [x86matthew - CreateSvcRpc - A custom RPC client to execute programs as the SYSTEM user](https://www.x86matthew.com/view_post?id=create_svc_rpc)
+    - desc: x86matthew - CreateSvcRpc - A custom RPC client to execute programs as the SYSTEM user
+    - tags: redteam
+- [Password spraying and MFA bypasses in the modern security landscape | Sprocket Security](https://www.sprocketsecurity.com/resources/how-to-bypass-mfa-all-day)
+    - desc: Password spraying and MFA bypasses in the modern security landscape | Sprocket Security
+    - tags: redteam
+- [Zero Day Initiative — Abusing Arbitrary File Deletes to Escalate Privilege and Other Great Tricks](https://www.zerodayinitiative.com/blog/2022/3/16/abusing-arbitrary-file-deletes-to-escalate-privilege-and-other-great-tricks)
+    - desc: Zero Day Initiative — Abusing Arbitrary File Deletes to Escalate Privilege and Other Great Tricks
+    - tags: windows, exploit
+- [Uncommon office malware stagers. This article discusses the TTPs to… | by Max chee | CSG @ GovTech | Medium](https://medium.com/csg-govtech/uncommon-office-malware-stagers-dad49a8f2054)
+    - desc: Uncommon office malware stagers. This article discusses the TTPs to… | by Max chee | CSG @ GovTech | Medium
+    - tags: windows, redteam, phish
+- [Azure Attack Paths - Cloudbrothers](https://cloudbrothers.info/en/azure-attack-paths/)
+    - desc: Azure Attack Paths - Cloudbrothers
+    - tags: cloud
+- [What to look for when reviewing a company's infrastructure | Marco Lancini's Blog](https://blog.marcolancini.it/2022/blog-cloud-security-infrastructure-review/)
+    - desc: What to look for when reviewing a company's infrastructure | Marco Lancini's Blog
+    - tags: recon
+- [Make phishing great again. VSTO office files are the new macro nightmare? | by Daniel Schell | Medium](https://medium.com/@airlockdigital/make-phishing-great-again-vsto-office-files-are-the-new-macro-nightmare-e09fcadef010)
+    - desc: Make phishing great again. VSTO office files are the new macro nightmare? | by Daniel Schell | Medium
+    - tags: phish, redteam
+- [quora](https://vanmieghem.io/blueprint-for-evading-edr-in-2022/)
+    - desc: quora
+    - tags: malwaredev
+- [Malware AV/VM evasion - part 12: encrypt/decrypt payload via TEA. Simple C++ example. - cocomelonc](https://cocomelonc.github.io/malware/2023/02/20/malware-av-evasion-12.html)
+    - desc: Malware AV/VM evasion - part 12: encrypt/decrypt payload via TEA. Simple C++ example. xor
+    - tags: malwaredev
+- [Windows Credential Dumping | ](https://emptydc.com/2022/06/08/windows-credential-dumping/)
+    - desc: Windows Credential Dumping | 
+    - tags: windows, redteam
+- [Call function in unmanaged DLL from C# ](https://dev.to/gabbersepp/call-function-in-unmanaged-dll-from-c-and-pass-custom-data-types-marshal-5c31)
+    - desc: Call function in unmanaged DLL from C# 
+    - tags: malwaredev
+- [Azure AD: Pentesting Fundamentals - cobalt](https://www.cobalt.io/blog/azure-ad-pentesting-fundamentals)
+    - desc: Azure AD: Pentesting Fundamentals
+    - tags: cloud
+- [Mez0: Vulpes: Obfuscating Memory Regions with Timers](https://mez0.cc/posts/vulpes-obfuscating-memory-regions/)
+    - desc: Mez0: Vulpes: Obfuscating Memory Regions with Timers
+    - tags: malwaredev
+
+#### publish
+- [Token Impersonation in C# – Rasta Mouse](https://rastamouse.me/token-impersonation-in-csharp/)
+    - desc: Token Impersonation in C# – Rasta Mouse
+    - tags: redteam
+- [Home Grown Red Team: Let’s Make Some Malware In C: Part 2 | by assume-breach | Medium](https://assume-breach.medium.com/home-grown-red-team-lets-make-some-malware-in-c-part-2-27a9a6def9b0)
+    - desc: Home Grown Red Team: Let’s Make Some Malware In C: Part 2 | by assume-breach | Medium
+    - tags: redteam
+- [Avoiding Detection with Shellcode Mutator - Nettitude Labs](https://labs.nettitude.com/blog/shellcode-source-mutations/)
+    - desc: Avoiding Detection with Shellcode Mutator - Nettitude Labs
+    - tags: malwaredev
+- [Pass-the-Challenge: Defeating Windows Defender Credential Guard | by Oliver Lyak | IFCR](https://research.ifcr.dk/pass-the-challenge-defeating-windows-defender-credential-guard-31a892eee22)
+    - desc: Pass-the-Challenge: Defeating Windows Defender Credential Guard | by Oliver Lyak | IFCR
+    - tags: windows, redteam
+- [Screenshot Tool: Part 6 - Which Tool Is Best? | White Oak Security](https://www.whiteoaksecurity.com/blog/screenshot-tool-part-6-which-tool-is-best/)
+    - desc: Screenshot Tool: Part 6 - Which Tool Is Best? | White Oak Security
+    - tags: recon, utility
+- [.NET Startup Hooks – Rasta Mouse](https://rastamouse.me/net-startup-hooks/)
+    - desc: .NET Startup Hooks – Rasta Mouse
+    - tags: malwaredev
+- [Windows Incident Response: Persistence and LOLBins](http://windowsir.blogspot.com/2022/12/persistence-and-lolbins.html)
+    - desc: Windows Incident Response: Persistence and LOLBins , registry
+    - tags: windows, redteam
+- [DLL Sideloading not by DLLMain - Intruder](https://www.redteam.cafe/red-team/dll-sideloading/dll-sideloading-not-by-dllmain)
+    - desc: DLL Sideloading not by DLLMain - Intruder
+    - tags: malwaredev
+- [Bypassing host security checks on a modern VPN solution - RiskInsight](https://www.riskinsight-wavestone.com/en/2023/01/bypassing-host-security-checks-on-a-modern-vpn-solution/)
+    - desc: Bypassing host security checks on a modern VPN solution - RiskInsight
+    - tags: redteam
+- [SCCM Site Takeover via Automatic Client Push Installation | by Chris Thompson | Jan, 2023 | Posts By SpecterOps Team Members](https://posts.specterops.io/sccm-site-takeover-via-automatic-client-push-installation-f567ec80d5b1)
+    - desc: SCCM Site Takeover via Automatic Client Push Installation | by Chris Thompson | Jan, 2023 | Posts By SpecterOps Team Members
+    - tags: redteam
+- [Active Directory: Using LDAP Queries for Stealthy Enumeration - ](https://snikt.net/blog/2023/01/25/active-directory-using-ldap-queries-for-stealthy-enumeration/)
+    - desc: Active Directory: Using LDAP Queries for Stealthy Enumeration - 
+    - tags: redteam, windows
+- [snovvcrash/PPN](https://github.com/snovvcrash/PPN)
+    - desc: Pentester's Promiscuous Notebook
+    - tags: learn
+- [Kerberoast with OpSec | Microsoft 365 Security](https://m365internals.com/2021/11/08/kerberoast-with-opsec/)
+    - desc: Kerberoast with OpSec | Microsoft 365 Security
+    - tags: redteam, windows
+- [Reconnaissance – Geek Freak](https://dhiyaneshgeek.github.io/red/teaming/2022/04/28/reconnaissance-red-teaming/)
+    - desc: Reconnaissance – Geek Freak
+    - tags: recon
+- [An introduction to privileged file operation abuse on Windows - Almond Offensive Security Blog](https://offsec.almond.consulting/intro-to-file-operation-abuse-on-Windows.html)
+    - desc: An introduction to privileged file operation abuse on Windows - Almond Offensive Security Blog
+    - tags: windows, privesc, redteam
+- [API Unhooking with Perun's Fart - Blog by Dosxuz](https://dosxuz.gitlab.io/post/perunsfart/)
+    - desc: API Unhooking with Perun's Fart - Blog by Dosxuz
+    - tags: malwaredev
+- [A few Tailscale tricks for Security Testers](https://pulsesecurity.co.nz/articles/some-tailscale-tricks)
+    - desc: A few Tailscale tricks for Security Testers
+    - tags: redteam
+- [Miracle - One Vulnerability To Rule Them All | by Peterjson | Medium](https://peterjson.medium.com/miracle-one-vulnerability-to-rule-them-all-c3aed9edeea2)
+    - desc: Miracle - One Vulnerability To Rule Them All | by Peterjson | Medium
+    - tags: web, exploit
+
+### tools
+- [warhorse/warhorse](https://github.com/warhorse/warhorse)
+    - desc: Infrastructure Automation
+    - tags: utility
+- [ax/apk.sh](https://github.com/ax/apk.sh)
+    - desc: apk.sh makes reverse engineering Android apps easier, automating some repetitive tasks like pulling, decoding, rebuilding and patching an APK.
+    - tags: mobile
+- [google/osv-scanner](https://github.com/google/osv-scanner)
+    - desc: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+    - tags: utility
+- [dr4k0nia/MurkyStrings](https://github.com/dr4k0nia/MurkyStrings)
+    - desc: A string obfuscator for .NET apps, built to evade static string analysis.
+    - tags: malwaredev
+- [CymulateResearch/Blindside](https://github.com/CymulateResearch/Blindside)
+    - desc: Utilizing hardware breakpoints to evade monitoring by Endpoint Detection and Response platforms
+    - tags: malwaredev
+- [mgeeky/msi-shenanigans](https://github.com/mgeeky/msi-shenanigans)
+    - desc: Proof of Concept code and samples presenting emerging threat of MSI installer files.
+    - tags: redteam, windows, phish
+- [gh0x0st/wanderer](https://github.com/gh0x0st/wanderer)
+    - desc: An open-source process injection enumeration tool written in C#
+    - tags: malwaredev
+- [namazso/linux_injector](https://github.com/namazso/linux_injector)
+    - desc: A simple ptrace-less shared library injector for x64 Linux
+    - tags: malwaredev, linux
+- [asluppiter/Somnium](https://github.com/asluppiter/Somnium)
+    - desc: Script to test network prevention and detection capabilities.
+    - tags: purpleteam, redteam, utility
+- [D1rkMtr/ExplorerPersist](https://github.com/D1rkMtr/ExplorerPersist)
+    - desc: Explorer Persistence technique : Hijacking cscapi.dll order loading path and writing our malicious dll into C:\Windows\cscapi.dll , when it's get loaded into the explorer process , our malicoius code get executed 
+    - tags: malwaredev
+- [h4wkst3r/InvisibilityCloak](https://github.com/h4wkst3r/InvisibilityCloak)
+    - desc: Proof-of-concept obfuscation toolkit for C# post-exploitation tools
+    - tags: malwaredev
+- [Accenture/Codecepticon](https://github.com/Accenture/Codecepticon)
+    - desc: .NET/PowerShell/VBA Offensive Security Obfuscator
+    - tags: malwaredev
+- [mkaring/ConfuserEx](https://github.com/mkaring/ConfuserEx)
+    - desc: An open-source, free protector for .NET applications
+    - tags: malwaredev
+- [C-Sto/BananaPhone](https://github.com/C-Sto/BananaPhone)
+    - desc: It's a go variant of Hells gate! (directly calling windows kernel functions, but from Go!)
+    - tags: malwaredev
+- [S3cur3Th1sSh1t/Nim-RunPE](https://github.com/S3cur3Th1sSh1t/Nim-RunPE)
+    - desc: A Nim implementation of reflective PE-Loading from memory
+    - tags: malwaredev
+- [Tw1sm/AesKrbKeyGen](https://github.com/Tw1sm/AesKrbKeyGen)
+    - desc: Generate AES128/256 Kerberos keys for an AD account using a plaintext password and Python3
+    - tags: utility, windows
+- [LordNoteworthy/al-khaser](https://github.com/LordNoteworthy/al-khaser)
+    - desc: Public malware techniques used in the wild: Virtual Machine, Emulation, Debuggers, Sandbox detection.
+    - tags: malwaredev
+- [sc0tfree/updog](https://github.com/sc0tfree/updog)
+    - desc: Updog is a replacement for Python's SimpleHTTPServer. It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates and use http basic auth.
+    - tags: utility, web
+- [TROUBLE-1/Vajra](https://github.com/TROUBLE-1/Vajra)
+    - desc: Vajra is a UI-based tool with multiple techniques for attacking and enumerating in the target's Azure and AWS environment. It features an intuitive web-based user interface built with the Python Flask module for a better user experience. The primary focus of this tool is to have different attacking techniques all at one place with web UI interfa…
+    - tags: cloud
+- [chvancooten/CloudLabsAD](https://github.com/chvancooten/CloudLabsAD)
+    - desc: Terraform + Ansible deployment scripts for an Active Directory lab environment.
+    - tags: utility
+- [NetSPI/NetblockTool](https://github.com/NetSPI/NetblockTool)
+    - desc: Find netblocks owned by a company
+    - tags: web, recon
+- [hakluke/hakip2host](https://github.com/hakluke/hakip2host)
+    - desc: hakip2host takes a list of IP addresses via stdin, then does a series of checks to return associated domain names.
+    - tags: recon
+- [Qazeer/OffensivePythonPipeline](https://github.com/Qazeer/OffensivePythonPipeline)
+    - desc: Static standalone binaries for Linux and Windows (x64) of Python offensive tools. Compiled using PyInstaller, Docker for Windows, WSL2, and Make.
+    - tags: redteam, utility
+- [xnl-h4ck3r/xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder)
+    - desc: A python tool used to discover endpoints (and potential parameters) for a given target
+    - tags: recon, web, bounty
+- [Stealerium/Stealerium](https://github.com/Stealerium/Stealerium)
+    - desc: Stealer + Clipper + Keylogger
+    - tags: malwaredev
+
+#### publish
+- [deepinstinct/Dirty-Vanity](https://github.com/deepinstinct/Dirty-Vanity)
+    - desc: A POC for the new injection technique, abusing windows fork API to evade EDRs. https://www.blackhat.com/eu-22/briefings/schedule/index.html#dirty-vanity-a-new-approach-to-code-injection--edr-bypass-28417
+    - tags: malwaredev
+- [bw3ll/sharem](https://github.com/bw3ll/sharem)
+    - desc: SHAREM is a shellcode analysis framework, capable of emulating more than 12,000 WinAPIs and virutally all Windows syscalls. It also contains its own custom disassembler, with many innovative features, such as being able to show the deobfuscated disassembly of an encoded shellcode, or integrating emulation data to enhance the disassembly.
+    - tags: utility, malwaredev
+- [KINGSABRI/ServerlessRedirector](https://github.com/KINGSABRI/ServerlessRedirector)
+    - desc: Serverless Redirector in various cloud vendor for red team
+    - tags: redteam, phish
+- [jackmichalak/phishim](https://github.com/jackmichalak/phishim)
+    - desc: Easy red team phishing with Puppeteer
+    - tags: phish
+- [Octoberfest7/Inline-Execute-PE](https://github.com/Octoberfest7/Inline-Execute-PE)
+    - desc: Execute unmanaged Windows executables in CobaltStrike Beacons
+    - tags: c2, redteam
+- [Aetsu/OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
+    - desc: OfensivePipeline allows you to download and build C# tools, applying certain modifications in order to improve their evasion for Red Team exercises.
+    - tags: malwaredev, utility
+- [mgeeky/ProtectMyTooling](https://github.com/mgeeky/ProtectMyTooling)
+    - desc: Multi-Packer wrapper letting us daisy-chain various packers, obfuscators and other Red Team oriented weaponry. Featured with artifacts watermarking, IOCs collection & PE Backdooring. You feed it with your implant, it does a lot of sneaky things and spits out obfuscated executable.
+    - tags: malwaredev, utility
+- [SygniaLabs/ScallOps](https://github.com/SygniaLabs/ScallOps)
+    - desc: infra / payload automation
+    - tags: malwaredev, utility
+- [Anof-cyber/PyCript](https://github.com/Anof-cyber/PyCript)
+    - desc: Burp Suite extension that allows for bypassing client-side encryption using custom logic for manual and automation testing with Python and NodeJS. It enables efficient testing of encryption methods and identification of vulnerabilities in the encryption process.
+    - tags: web, utility
+- [xforcered/SQLRecon](https://github.com/xforcered/SQLRecon)
+    - desc: A C# MS SQL toolkit designed for offensive reconnaissance and post-exploitation.
+    - tags: windows, redteam
+- [google/gcp_scanner](https://github.com/google/gcp_scanner)
+    - desc: gcp recon tool
+    - tags: recon, cloud
+- [AutomoxSecurity/iShelly](https://github.com/AutomoxSecurity/iShelly)
+    - desc: A tool to generate macOS initial access vectors using Prelude Operator payloads
+    - tags: macos, redteam, phish
+- [yrutschle/sslh](https://github.com/yrutschle/sslh)
+    - desc: Applicative Protocol Multiplexer (e.g. share SSH and HTTPS on the same port)
+    - tags: utility
+- [ariary/Dogwalk-rce-poc](https://github.com/ariary/Dogwalk-rce-poc)
+    - desc: 🐾Dogwalk PoC (using diagcab file to obtain RCE on windows)
+    - tags: phish, windows, redteam
+- [fr0gger/Unprotect_Submission](https://github.com/fr0gger/Unprotect_Submission)
+    - desc: Repository to publish your evasion techniques and contribute to the project
+    - tags: malwaredev
+- [optiv/Mangle](https://github.com/optiv/Mangle)
+    - desc: Mangle is a tool that manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs
+    - tags: malwaredev
+- [Azure/aztfy](https://github.com/Azure/aztfy)
+    - desc: A tool to bring existing Azure resources under Terraform's management
+    - tags: utility, cloud
+
 ## Issue 041 - Mar 2023
 
 ### writeups

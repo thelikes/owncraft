@@ -21,7 +21,9 @@
     - desc: A collection of scripts for assessing Microsoft Azure security
 - [nyxgeek/onedrive_user_enum](https://github.com/nyxgeek/onedrive_user_enum)
     - desc: onedrive user enumeration - pentest tool to enumerate valid o365 users
-
+- [google/gcp_scanner](https://github.com/google/gcp_scanner)
+    - desc: gcp recon tool
+    
 ### Spray
 - [blacklanternsecurity/TREVORspray](https://github.com/blacklanternsecurity/TREVORspray)
 - [MarkoH17/Spray365](https://github.com/MarkoH17/Spray365)
@@ -31,3 +33,7 @@
 * [Azure AD Introduction for Red Teamers](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)
 * [AWS - Hacking the Cloud](https://hackingthe.cloud/aws/)
 * [rootsecdev/Azure-Red-Team](https://github.com/rootsecdev/Azure-Red-Team)
+* [Azure Attack Paths - Cloudbrothers](https://cloudbrothers.info/en/azure-attack-paths/)
+    - desc: Azure Attack Paths - Cloudbrothers
+* [What to look for when reviewing a company's infrastructure | Marco Lancini's Blog](https://blog.marcolancini.it/2022/blog-cloud-security-infrastructure-review/)
+    - desc: What to look for when reviewing a company's infrastructure | Marco Lancini's Blog
