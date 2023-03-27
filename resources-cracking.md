@@ -17,6 +17,9 @@
 * [c6fc/npk](https://github.com/c6fc/npk)
     - distributed hash-cracking platform for AWS
 
+### Analysis
+* [digininja/pipal](https://github.com/digininja/pipal)
+
 ## Wordlists
 * [Kaonashi Wordlists](https://github.com/kaonashi-passwords/Kaonashi)
 * [password-list](https://github.com/scipag/password-list)

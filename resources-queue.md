@@ -1,5 +1,27 @@
 # Tagged + Uncategorized
 
+## Issue 044 - Apr 2023
+
+### writeups
+
+#### publish
+- [LocalPotato - When Swapping The Context Leads You To SYSTEM](https://www.localpotato.com/localpotato_html/LocalPotato.html)
+    - desc: potato privesc research
+    - tags: windows, privesc
+- [](https://www.proofpoint.com/us/blog/threat-insight/ta569-socgholish-and-beyond)
+    - desc: socgolish research - dynamic payload / environment keying
+    - tags: malwaredev
+
+### tools
+
+#### publish
+- [trustedsec/orpheus](https://github.com/trustedsec/orpheus)
+    - desc: opsec oriented kerberoast
+    - tags: redteam, windows
+- [login-securite/DonPAPI](https://github.com/login-securite/DonPAPI)
+    - desc: Dumping DPAPI creds remotely
+    - tags: windows, redteam
+    
 ## Issue 043 - Mar 2023
 
 ### writeups
