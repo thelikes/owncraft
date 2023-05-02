@@ -68,7 +68,7 @@
 - [From on-prem to Global Admin without password reset - Cloudbrothers](https://cloudbrothers.info/en/prem-global-admin-password-reset/)
     - desc: From on-prem to Global Admin without password reset - Cloudbrothers
     - tags: redteam, cloud
-
+https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 ### tools
 - [icyguider/NewPowerDNS](https://github.com/icyguider/NewPowerDNS)
     - desc: Updated version of PowerDNS by @domchell. Adds support for transfers over DNS A records and a few other useful features.
@@ -174,7 +174,10 @@
 - [NUL0x4C/AtomLdr](https://github.com/NUL0x4C/AtomLdr)
     - desc: A DLL loader with advanced evasive features
     - tags: maldev
-
+https://github.com/DataDog/stratus-red-team
+https://kind.sigs.k8s.io/
+https://github.com/moonD4rk/HackBrowserData
+https://github.com/dosyago/BrowserBox
 ## Issue 043 - Mar 2023
 
 ### writeups
