@@ -174,10 +174,14 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 - [NUL0x4C/AtomLdr](https://github.com/NUL0x4C/AtomLdr)
     - desc: A DLL loader with advanced evasive features
     - tags: maldev
-https://github.com/DataDog/stratus-red-team
+https://github.com/DataDog/stratus-red-team + https://stratus-red-team.cloud/attack-techniques/list/
 https://kind.sigs.k8s.io/
 https://github.com/moonD4rk/HackBrowserData
 https://github.com/dosyago/BrowserBox
+https://github.com/mvelazc0/defcon27_csharp_workshop
+https://github.com/lsecqt/OffensiveCpp
+https://github.com/frank2/packer-tutorial
+
 ## Issue 043 - Mar 2023
 
 ### writeups
