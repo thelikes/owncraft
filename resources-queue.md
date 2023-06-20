@@ -181,6 +181,12 @@ https://github.com/dosyago/BrowserBox
 https://github.com/mvelazc0/defcon27_csharp_workshop
 https://github.com/lsecqt/OffensiveCpp
 https://github.com/frank2/packer-tutorial
+https://github.com/ihebski/DefaultCreds-cheat-sheet
+https://github.com/secretsquirrel/SigThief
+https://securitycafe.ro/2023/04/19/7-lesser-known-aws-ssm-document-techniques-for-code-execution/
+https://mrd0x.com/file-archiver-in-the-browser/
+https://github.com/CMEPW/BypassAV
+https://michal.sapka.me/2023/passkeys/
 
 ## Issue 043 - Mar 2023
 
