@@ -187,7 +187,12 @@ https://securitycafe.ro/2023/04/19/7-lesser-known-aws-ssm-document-techniques-fo
 https://mrd0x.com/file-archiver-in-the-browser/
 https://github.com/CMEPW/BypassAV
 https://michal.sapka.me/2023/passkeys/
-
+https://aadinternals.com/talks/Dumping%20NTHashes%20from%20AAD.pdf
+https://github.com/plackyhacker/Peruns-Fart
+https://github.com/mansk1es/GhostFart
+https://github.com/infosecB/LOOBins
+https://github.com/Hacking-the-Cloud/hackingthe.cloud
+https://github.com/sufyandaredevil/MALWARE_DEV
 ## Issue 043 - Mar 2023
 
 ### writeups
