@@ -193,6 +193,12 @@ https://github.com/mansk1es/GhostFart
 https://github.com/infosecB/LOOBins
 https://github.com/Hacking-the-Cloud/hackingthe.cloud
 https://github.com/sufyandaredevil/MALWARE_DEV
+https://sveinbjorn.org/platypus
+https://github.com/hallazzang/syso
+https://github.com/peasead/elastic-container
+https://github.com/m8sec/CrossLinked
+https://github.com/ultrafunkamsterdam/undetected-chromedriver
+
 ## Issue 043 - Mar 2023
 
 ### writeups
