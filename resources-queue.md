@@ -198,6 +198,12 @@ https://github.com/hallazzang/syso
 https://github.com/peasead/elastic-container
 https://github.com/m8sec/CrossLinked
 https://github.com/ultrafunkamsterdam/undetected-chromedriver
+https://github.com/fkasler/cuddlephish
+https://github.com/pushsecurity/saas-attacks
+https://github.com/reveng007/DarkWidow
+https://github.com/CanIPhish/Phishious
+https://github.com/arget13/DDexec
+https://speakerdeck.com/masatokinugawa/how-i-hacked-microsoft-teams-and-got-150000-dollars-in-pwn2own
 
 ## Issue 043 - Mar 2023
 
