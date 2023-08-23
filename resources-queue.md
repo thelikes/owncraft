@@ -204,6 +204,10 @@ https://github.com/reveng007/DarkWidow
 https://github.com/CanIPhish/Phishious
 https://github.com/arget13/DDexec
 https://speakerdeck.com/masatokinugawa/how-i-hacked-microsoft-teams-and-got-150000-dollars-in-pwn2own
+https://github.com/DingyShark/BurpSuiteCertifiedPractitioner
+https://shorsec.io/blog/dll-notification-injection/
+https://www.recordedfuture.com/threat-actors-leverage-internet-services-to-enhance-data-theft-and-weaken-security-defenses
+https://www.optiv.com/insights/source-zero/blog/spear-phishing-modern-platforms
 
 ## Issue 043 - Mar 2023
 
