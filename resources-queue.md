@@ -208,6 +208,11 @@ https://github.com/DingyShark/BurpSuiteCertifiedPractitioner
 https://shorsec.io/blog/dll-notification-injection/
 https://www.recordedfuture.com/threat-actors-leverage-internet-services-to-enhance-data-theft-and-weaken-security-defenses
 https://www.optiv.com/insights/source-zero/blog/spear-phishing-modern-platforms
+https://web-assets.esetstatic.com/wls/en/papers/white-papers/Eset-Turla-Outlook-Backdoor.pdf
+https://github.com/tastypepperoni/PPLBlade
+https://github.com/adamyaxley/Obfuscate
+https://github.com/iangcarroll/cookiemonster
+https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet
 
 ## Issue 043 - Mar 2023
 
