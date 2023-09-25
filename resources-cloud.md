@@ -1,5 +1,10 @@
 # Cloud Exploitation Resources
 
+## General
+* - [Home - Stratus Red Team](https://stratus-red-team.cloud/)
+    - desc: Home - Stratus Red Team
+    - tags: 
+
 ## Tools
 * [arsenal of aws sec tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
 * [AWS API call that return credentials](https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a)
@@ -23,7 +28,14 @@
     - desc: onedrive user enumeration - pentest tool to enumerate valid o365 users
 - [google/gcp_scanner](https://github.com/google/gcp_scanner)
     - desc: gcp recon tool
+- [BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
+    - desc: Automating situational awareness for cloud penetration tests.
     
+## Labs
+- [BishopFox/cloudfoxable](https://github.com/BishopFox/cloudfoxable)
+    - desc: Create your own vulnerable by design AWS penetration testing playground
+    - tags: 
+
 ### Spray
 - [blacklanternsecurity/TREVORspray](https://github.com/blacklanternsecurity/TREVORspray)
 - [MarkoH17/Spray365](https://github.com/MarkoH17/Spray365)

@@ -69,6 +69,7 @@
     - desc: From on-prem to Global Admin without password reset - Cloudbrothers
     - tags: redteam, cloud
 https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
+
 ### tools
 - [icyguider/NewPowerDNS](https://github.com/icyguider/NewPowerDNS)
     - desc: Updated version of PowerDNS by @domchell. Adds support for transfers over DNS A records and a few other useful features.
@@ -174,45 +175,6 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 - [NUL0x4C/AtomLdr](https://github.com/NUL0x4C/AtomLdr)
     - desc: A DLL loader with advanced evasive features
     - tags: maldev
-https://github.com/DataDog/stratus-red-team + https://stratus-red-team.cloud/attack-techniques/list/
-https://kind.sigs.k8s.io/
-https://github.com/moonD4rk/HackBrowserData
-https://github.com/dosyago/BrowserBox
-https://github.com/mvelazc0/defcon27_csharp_workshop
-https://github.com/lsecqt/OffensiveCpp
-https://github.com/frank2/packer-tutorial
-https://github.com/ihebski/DefaultCreds-cheat-sheet
-https://github.com/secretsquirrel/SigThief
-https://securitycafe.ro/2023/04/19/7-lesser-known-aws-ssm-document-techniques-for-code-execution/
-https://mrd0x.com/file-archiver-in-the-browser/
-https://github.com/CMEPW/BypassAV
-https://michal.sapka.me/2023/passkeys/
-https://aadinternals.com/talks/Dumping%20NTHashes%20from%20AAD.pdf
-https://github.com/plackyhacker/Peruns-Fart
-https://github.com/mansk1es/GhostFart
-https://github.com/infosecB/LOOBins
-https://github.com/Hacking-the-Cloud/hackingthe.cloud
-https://github.com/sufyandaredevil/MALWARE_DEV
-https://sveinbjorn.org/platypus
-https://github.com/hallazzang/syso
-https://github.com/peasead/elastic-container
-https://github.com/m8sec/CrossLinked
-https://github.com/ultrafunkamsterdam/undetected-chromedriver
-https://github.com/fkasler/cuddlephish
-https://github.com/pushsecurity/saas-attacks
-https://github.com/reveng007/DarkWidow
-https://github.com/CanIPhish/Phishious
-https://github.com/arget13/DDexec
-https://speakerdeck.com/masatokinugawa/how-i-hacked-microsoft-teams-and-got-150000-dollars-in-pwn2own
-https://github.com/DingyShark/BurpSuiteCertifiedPractitioner
-https://shorsec.io/blog/dll-notification-injection/
-https://www.recordedfuture.com/threat-actors-leverage-internet-services-to-enhance-data-theft-and-weaken-security-defenses
-https://www.optiv.com/insights/source-zero/blog/spear-phishing-modern-platforms
-https://web-assets.esetstatic.com/wls/en/papers/white-papers/Eset-Turla-Outlook-Backdoor.pdf
-https://github.com/tastypepperoni/PPLBlade
-https://github.com/adamyaxley/Obfuscate
-https://github.com/iangcarroll/cookiemonster
-https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet
 
 ## Issue 043 - Mar 2023
 
