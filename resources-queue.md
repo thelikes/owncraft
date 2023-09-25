@@ -1,6 +1,6 @@
 # Tagged + Uncategorized
 
-## Issue 045 - Sep 2023
+## Issue 046 - Sep 2023
 ### writeups
 - [Analyzing Malware with Hooks, Stomps and Return-addresses](https://www.cyberark.com/resources/threat-research-blog/analyzing-malware-with-hooks-stomps-and-return-addresses-2)
     - desc: Analyzing Malware with Hooks, Stomps and Return-addresses
@@ -99,7 +99,7 @@
 - [WSP-LAB/FUGIO](https://github.com/WSP-LAB/FUGIO)
     - desc: FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities
     - tags: exploit, web
-    
+
 #### publish
 - [arget13/DDexec](https://github.com/arget13/DDexec)
     - desc: A technique to run binaries filelessly and stealthily on Linux by "overwriting" the shell's process with another.
