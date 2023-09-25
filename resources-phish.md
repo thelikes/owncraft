@@ -54,7 +54,11 @@
 * [NameMash](https://gist.github.com/superkojiman/11076951)
 * [www.mail-tester.com - Test the Spammyness of your Emails](https://www.mail-tester.com/)
 - [Living Off Trusted Sites (LOTS) Project](https://lots-project.com/)
-
+- [CanIPhish/Phishious](https://github.com/CanIPhish/Phishious)
+    - desc: An open-source Secure Email Gateway (SEG) evaluation toolkit designed for red-teamers.
+- [fkasler/cuddlephish](https://github.com/fkasler/cuddlephish)
+    - desc: Weaponized Browser-in-the-Middle (BitM) for Penetration Testers
+    
 ### DNS Health Check
 
 See [infra resource](./resources-infra.md)

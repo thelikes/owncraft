@@ -1,5 +1,131 @@
 # Tagged + Uncategorized
 
+## Issue 045 - Sep 2023
+### writeups
+- [Analyzing Malware with Hooks, Stomps and Return-addresses](https://www.cyberark.com/resources/threat-research-blog/analyzing-malware-with-hooks-stomps-and-return-addresses-2)
+    - desc: Analyzing Malware with Hooks, Stomps and Return-addresses
+    - tags: maldev
+- [DLL Notification Injection - ShoreSec](https://shorsec.io/blog/dll-notification-injection/)
+    - desc: dll injection research
+    - tags: research, maldev
+- [Dumping NTHashes from Azure AD - SecureWorks](https://aadinternals.com/talks/Dumping%20NTHashes%20from%20AAD.pdf)
+    - desc: Attacking AADDS to dump NTHashes
+    - tags: redteam, cloud
+- [File Archiver In The Browser | mr.d0x](https://mrd0x.com/file-archiver-in-the-browser/)
+    - desc: File Archiver In The Browser | mr.d0x
+    - tags: redteam, phish
+
+#### publish
+- [Threat Actors Leverage Internet Services to Enhance Data Theft and Weaken Security Defenses | Recorded Future](https://www.recordedfuture.com/threat-actors-leverage-internet-services-to-enhance-data-theft-and-weaken-security-defenses)
+    - desc: Threat Actors Leverage Internet Services to Enhance Data Theft and Weaken Security Defenses | Recorded Future
+    - tags: redteam, c2, phish
+- [Spear Phishing on Modern Platforms | Optiv](https://www.optiv.com/insights/source-zero/blog/spear-phishing-modern-platforms)
+    - desc: Spear Phishing on Modern Platforms | Optiv
+    - tags: redteam, phish
+- [TURLA OUTLOOK BACKDOOR - ESET](https://web-assets.esetstatic.com/wls/en/papers/white-papers/Eset-Turla-Outlook-Backdoor.pdf)
+    - desc: Analysis of an unusual Turla backdoor
+    - tags: research, redteam, novel, c2
+- [How I Hacked Microsoft Teams and got $150,000 in Pwn2Own - Speaker Deck](https://speakerdeck.com/masatokinugawa/how-i-hacked-microsoft-teams-and-got-150000-dollars-in-pwn2own)
+    - desc: How I Hacked Microsoft Teams and got $150,000 in Pwn2Own - Speaker Deck
+    - tags: research, microsoft
+- [Understanding Passkeys - Michał Sapka](https://michal.sapka.me/2023/passkeys/)
+    - desc: [Michał Sapka's website] Understanding Passkeys
+    - tags: research, web
+- [7 lesser-known AWS SSM Document techniques for code execution – Security Café](https://securitycafe.ro/2023/04/19/7-lesser-known-aws-ssm-document-techniques-for-code-execution/)
+    - desc: 7 lesser-known AWS SSM Document techniques for code execution – Security Café
+    - tags: redteam, cloud
+- [can I speak to your manager? hacking root EPP servers to take control of zones — hackcompute](https://hackcompute.com/hacking-epp-servers/)
+    - desc: can I speak to your manager? hacking root EPP servers to take control of zones — hackcompute
+    - tags: web
+
+### tools
+- [vulncheck-oss/go-exploit](https://github.com/vulncheck-oss/go-exploit)
+    - desc: A Go-based Exploit Framework
+    - tags: util
+- [TheD1rkMtr/UnhookingPatch](https://github.com/TheD1rkMtr/UnhookingPatch)
+    - desc: Bypass EDR Hooks by patching NT API stub, and resolving SSNs and syscall instructions at runtime
+    - tags: maldev
+- [redskal/SharpAzbelt](https://github.com/redskal/SharpAzbelt)
+    - desc: .NET port of Leron Gray's azbelt tool.
+    - tags: windows, postex
+- [JitPatro/sliver-snap](https://github.com/JitPatro/sliver-snap)
+    - desc: Adversary Emulation Framework
+    - tags: redteam, util
+- [musana/fuzzuli](https://github.com/musana/fuzzuli)
+    - desc: fuzzuli is a url fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain.
+    - tags: web, recon
+- [reveng007/DarkWidow](https://github.com/reveng007/DarkWidow)
+    - desc: Indirect Dynamic Syscall, SSN + Syscall address sorting via Modified TartarusGate approach + Remote Process Injection via APC Early Bird + Spawns a sacrificial Process as target process + (ACG+BlockDll) mitigation policy on spawned process + PPID spoofing + Api resolving from TIB + API hashing
+    - tags: maldev
+- [m8sec/CrossLinked](https://github.com/m8sec/CrossLinked)
+    - desc: LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping
+    - tags: redteam, utils
+- [hallazzang/syso](https://github.com/hallazzang/syso)
+    - desc: 🔧 tool for embedding various type of resources in go Windows executable
+    - tags: maldev, util
+- [sufyandaredevil/MALWARE_DEV](https://github.com/sufyandaredevil/MALWARE_DEV)
+    - desc: Repo containing different types of malware writing concepts
+    - tags: maldev
+- [mansk1es/GhostFart](https://github.com/mansk1es/GhostFart)
+    - desc: Leveraging NTAPI to grab NTDLL for unhooking without triggering "PspCreateProcessNotifyRoutine"
+    - tags: maldev
+- [plackyhacker/Peruns-Fart](https://github.com/plackyhacker/Peruns-Fart)
+    - desc: Perun's Fart (Slavic God's Luck). Another method for unhooking AV and EDR, this is my C# version.
+    - tags: maldev
+- [ihebski/DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)
+    - desc: One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password 🛡️
+    - tags: utils
+- [frank2/packer-tutorial](https://github.com/frank2/packer-tutorial)
+    - desc: A tutorial on how to write a packer for Windows!
+    - tags: maldev
+ [lsecqt/OffensiveCpp](https://github.com/lsecqt/OffensiveCpp)
+    - desc: This repo contains C/C++ snippets that can be handy in specific offensive scenarios.
+    - tags: maldev
+- [mvelazc0/defcon27_csharp_workshop](https://github.com/mvelazc0/defcon27_csharp_workshop)
+    - desc: Writing custom backdoor payloads with C# - Defcon 27 Workshop
+    - tags: maldev
+- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData)
+    - desc: Decrypt passwords/cookies/history/bookmarks from the browser. 一款可全平台运行的浏览器数据导出解密工具。
+    - tags: redteam, util
+- [g3tsyst3m/elevationstation](https://github.com/g3tsyst3m/elevationstation)
+    - desc: elevate to SYSTEM any way we can! Metasploit and PSEXEC getsystem alternative
+    - tags: windows, redteam
+- [frkngksl/NimExec](https://github.com/frkngksl/NimExec)
+    - desc: Fileless Command Execution for Lateral Movement in Nim
+    - tags: maldev
+- [persistent-security/hermes-the-messenger](https://github.com/persistent-security/hermes-the-messenger)
+    - desc: A PoC for achieving persistence via push notifications on Windows
+    - tags: windows, redteam
+- [WSP-LAB/FUGIO](https://github.com/WSP-LAB/FUGIO)
+    - desc: FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities
+    - tags: exploit, web
+    
+#### publish
+- [arget13/DDexec](https://github.com/arget13/DDexec)
+    - desc: A technique to run binaries filelessly and stealthily on Linux by "overwriting" the shell's process with another.
+    - tags: redteam, linux, maldev
+- [tastypepperoni/PPLBlade](https://github.com/tastypepperoni/PPLBlade)
+    - desc: Protected Process Dumper Tool
+    - tags: redteam, windows
+- [Stage 0 to Hero](https://d-sec.net/2023/08/16/stage-0-to-hero/)
+    - desc: Stage 0 to Hero
+    - tags: redteam, infra
+- [vulncheck-oss/go-exploit](https://github.com/vulncheck-oss/go-exploit)
+    - desc: A Go-based Exploit Framework
+    - tags: util
+- [pushsecurity/saas-attacks](https://github.com/pushsecurity/saas-attacks)
+    - desc: Offensive security drives defensive security. We're sharing a collection of SaaS attack techniques to help defenders understand the threats they face. #nolockdown
+    - tags: redteam, cloud
+- [fkasler/cuddlephish](https://github.com/fkasler/cuddlephish)
+    - desc: Weaponized Browser-in-the-Middle (BitM) for Penetration Testers
+    - tags: redteam, phish
+- [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
+    - desc: Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)
+    - tags: utils
+- [jojonas/db_nmap](https://github.com/jojonas/db_nmap)
+    - desc: Standalone Go implementation of Metasploit's "db_nmap" and "db_import" commands.
+    - tags: utils
+
 ## Issue 044 - Apr 2023
 
 ### writeups

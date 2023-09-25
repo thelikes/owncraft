@@ -30,11 +30,14 @@
     - desc: gcp recon tool
 - [BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
     - desc: Automating situational awareness for cloud penetration tests.
-    
+- [pushsecurity/saas-attacks](https://github.com/pushsecurity/saas-attacks)
+    - desc: Offensive security drives defensive security. We're sharing a collection of SaaS attack techniques to help defenders understand the threats they face. #nolockdown
+- [kind](https://kind.sigs.k8s.io/)
+    - desc: a tool for running local Kubernetes clusters using Docker container “nodes”
+
 ## Labs
 - [BishopFox/cloudfoxable](https://github.com/BishopFox/cloudfoxable)
     - desc: Create your own vulnerable by design AWS penetration testing playground
-    - tags: 
 
 ### Spray
 - [blacklanternsecurity/TREVORspray](https://github.com/blacklanternsecurity/TREVORspray)
@@ -49,3 +52,7 @@
     - desc: Azure Attack Paths - Cloudbrothers
 * [What to look for when reviewing a company's infrastructure | Marco Lancini's Blog](https://blog.marcolancini.it/2022/blog-cloud-security-infrastructure-review/)
     - desc: What to look for when reviewing a company's infrastructure | Marco Lancini's Blog
+- [Hacking-the-Cloud/hackingthe.cloud](https://github.com/Hacking-the-Cloud/hackingthe.cloud)
+    - desc: An encyclopedia for offensive and defensive security knowledge in cloud native technologies.
+- [7 lesser-known AWS SSM Document techniques for code execution – Security Café](https://securitycafe.ro/2023/04/19/7-lesser-known-aws-ssm-document-techniques-for-code-execution/)
+    - desc: 7 lesser-known AWS SSM Document techniques for code execution – Security Café
