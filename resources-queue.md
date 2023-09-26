@@ -1,5 +1,72 @@
 # Tagged + Uncategorized
 
+## Issue 047 - Sep 2023
+
+### writeups
+- [Attacking and Defending Azure & M365](https://training.xintra.org/attacking-and-defending-azure-m365)
+    - desc: Attacking and Defending Azure & M365
+    - tags: cloud, training
+- [Building a (slightly) better Melkor – Rasta Mouse](https://rastamouse.me/building-a-slightly-better-melkor/)
+    - desc: Building a (slightly) better Melkor – Rasta Mouse
+    - tags: maldev
+- [From C, with inline assembly, to shellcode - 0xTriboulet](https://steve-s.gitbook.io/0xtriboulet/just-malicious/from-c-with-inline-assembly-to-shellcode)
+    - desc: From C, with inline assembly, to shellcode - 0xTriboulet
+    - tags: maldev
+- [Knocking on Hell’s Gate - EDR Evasion Through Direct Syscalls | Enigma Labs](https://labs.en1gma.co/malwaredevelopment/evasion/security/2023/08/14/syscalls.html)
+    - desc: Knocking on Hell’s Gate - EDR Evasion Through Direct Syscalls | Enigma Labs
+    - tags: maldev
+- [Offensive Tool Development - The Shellcode Compiler Was Right There All Along… (Part 1) | Sh3llSp4wn’s Malware Conservatory](https://sh3llsp4wn.github.io/Shellcode-With-The-Default-Linux-Toolchain/)
+    - desc: Offensive Tool Development - The Shellcode Compiler Was Right There All Along… (Part 1) | Sh3llSp4wn’s Malware Conservatory
+    - tags: maldev
+
+#### publish
+- [How to Rob a Bank – DMCXBLUE](https://dmcxblue.net/2023/09/19/how-to-rob-a-bank/)
+    - desc: How to Rob a Bank – DMCXBLUE
+    - tags: redteam
+- [BlacMass Vol2](https://samples.vx-underground.org/root/Papers/Other/VXUG%20Zines/2023-09-19%20-%20Black%20Mass%20Volume%20II.pdf)
+    - desc: VXUNDERGROUND VOL 2
+    - tags: maldev
+- [Creating Fully Undetectable JavaScript Payloads to Evade Next-Generation Firewalls | Elliot on Security](https://elliotonsecurity.com/creating-fully-undetectable-javscript-payloads-to-evade-next-generation-firewalls/)
+    - desc: Creating Fully Undetectable JavaScript Payloads to Evade Next-Generation Firewalls | Elliot on Security
+    - tags: maldev
+- [Living Off the Foreign Land - Part 1/3: Setup Linux VM for SOCKS routing « BITSADMIN Blog - Mystery guest in your IT infrastructure](https://blog.bitsadmin.com/living-off-the-foreign-land-windows-as-offensive-platform)
+    - desc: Living Off the Foreign Land - Part 1/3: Setup Linux VM for SOCKS routing « BITSADMIN Blog - Mystery guest in your IT infrastructure
+    - tags: redteam, util
+- [#NoFilter - Abusing Windows Filtering Platform for Privilege Escalation | Deep Instinct](https://www.deepinstinct.com/blog/nofilter-abusing-windows-filtering-platform-for-privilege-escalation)
+    - desc: #NoFilter - Abusing Windows Filtering Platform for Privilege Escalation | Deep Instinct
+    - tags: windows, redteam, privesc
+    
+### tools
+- [powerseb/NoPhish](https://github.com/powerseb/NoPhish)
+    - desc: VNC phish framework
+    - tags: phish, redteam
+- [LuemmelSec/Client-Checker](https://github.com/LuemmelSec/Client-Checker)
+    - desc: Windows audit framework
+    - tags: windows, redteam, pentest
+- [surajpkhetani/AutoSmuggle](https://github.com/surajpkhetani/AutoSmuggle)
+    - desc: Utility to craft HTML or SVG smuggled files for Red Team engagements
+    - tags: redteam, phish
+- [GPOddity: exploiting Active Directory GPOs through NTLM relaying, and](https://www.synacktiv.com/publications/gpoddity-exploiting-active-directory-gpos-through-ntlm-relaying-and-more)
+    - desc: GPOddity: exploiting Active Directory GPOs through NTLM relaying, and
+    - tags: windows, redteam
+- [XiaoliChan/wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)
+    - desc: New generation of wmiexec.py
+    - tags: windows
+- [nickvourd/Supernova](https://github.com/nickvourd/Supernova)
+    - desc: Real fucking shellcode encryption tool.
+    - tags: maldev
+
+#### publish
+- [0xthirteen/AssemblyHunter](https://github.com/0xthirteen/AssemblyHunter)
+    - desc: ClickOnce Abuse for Trusted Code
+    - tags: redteam, windows
+- [nyxgeek/teamstracker](https://github.com/nyxgeek/teamstracker)
+    - desc: using graph proxy to monitor teams user presence
+    - tags: redteam, windows
+- [dwisiswant0/ipfuscator](https://github.com/dwisiswant0/ipfuscator)
+    - desc: A blazing-fast, thread-safe, straightforward and zero memory allocations tool to swiftly generate alternative IP(v4) address representations in Go.
+    - tags: utils, web
+
 ## Issue 046 - Sep 2023
 ### writeups
 - [Analyzing Malware with Hooks, Stomps and Return-addresses](https://www.cyberark.com/resources/threat-research-blog/analyzing-malware-with-hooks-stomps-and-return-addresses-2)
