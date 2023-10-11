@@ -1,5 +1,15 @@
 # Tagged + Uncategorized
-
+https://www.paloaltonetworks.com/blog/prisma-cloud/github-actions-worm-dependencies/
+https://github.com/EvanMcBroom/fuse-loader
+https://aadinternals.com/tools/
+https://github.com/FoxIO-LLC/ja4/tree/main/python
+https://g3tsyst3m.github.io/edr%20bypass/Malware-EDR-Evasion-Techniques/
+https://www.welivesecurity.com/en/eset-research/oilrigs-outer-space-juicy-mix-same-ol-rig-new-drill-pipes/
+https://www.dig.security/post/redshift-security-attack-surface-explained
+https://github.com/tastypepperoni/PPLBlade
+https://github.com/peak/s5cmd
+https://ophionsecurity.com/blog/phishing-the-anti-phishers
+https://www.trellix.com/en-us/about/newsroom/stories/research/beyond-file-search-a-novel-method.html
 ## Issue 047 - Sep 2023
 
 ### writeups
