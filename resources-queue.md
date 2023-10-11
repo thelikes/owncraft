@@ -18,6 +18,12 @@
 - [Offensive Tool Development - The Shellcode Compiler Was Right There All Along… (Part 1) | Sh3llSp4wn’s Malware Conservatory](https://sh3llsp4wn.github.io/Shellcode-With-The-Default-Linux-Toolchain/)
     - desc: Offensive Tool Development - The Shellcode Compiler Was Right There All Along… (Part 1) | Sh3llSp4wn’s Malware Conservatory
     - tags: maldev
+- [Improving the stealthiness of memory injections techniques | Naksyn’s blog](https://www.naksyn.com/edr%20evasion/2023/06/01/improving-the-stealthiness-of-memory-injections.html)
+    - desc: Improving the stealthiness of memory injections techniques | Naksyn’s blog
+    - tags: maldev
+- [Revisiting a UAC Bypass By Abusing Kerberos Tickets | WHOAMI](https://whoamianony.top/posts/revisiting-a-uac-bypass-by-abusing-kerberos-tickets/)
+    - desc: Revisiting a UAC Bypass By Abusing Kerberos Tickets | WHOAMI
+    - tags: windows, privesc
 
 #### publish
 - [How to Rob a Bank – DMCXBLUE](https://dmcxblue.net/2023/09/19/how-to-rob-a-bank/)
@@ -35,7 +41,25 @@
 - [#NoFilter - Abusing Windows Filtering Platform for Privilege Escalation | Deep Instinct](https://www.deepinstinct.com/blog/nofilter-abusing-windows-filtering-platform-for-privilege-escalation)
     - desc: #NoFilter - Abusing Windows Filtering Platform for Privilege Escalation | Deep Instinct
     - tags: windows, redteam, privesc
-    
+- [Understanding Syscalls: Direct, Indirect, and Cobalt Strike Implementation - d01a](https://d01a.github.io/syscalls/)
+    - desc: Understanding Syscalls: Direct, Indirect, and Cobalt Strike Implementation - d01a
+    - tags: maldev
+- [Methods to Backdoor an AWS Account | Mystic0x1](https://mystic0x1.github.io/posts/methods-to-backdoor-an-aws-account/)
+    - desc: Methods to Backdoor an AWS Account | Mystic0x1
+    - tags: cloud
+- [A Deep Dive into Penetration Testing of macOS Applications (Part 2)](https://www.cyberark.com/resources/threat-research-blog/a-deep-dive-into-penetration-testing-of-macos-applications-part-2)
+    - desc: A Deep Dive into Penetration Testing of macOS Applications (Part 2)
+    - tags: mac, redteam
+- [25 Methods for Pipeline Attacks(RTC0011) | RedTeamRecipe](https://redteamrecipe.com/25-Method-For-Pipeline-Attacks/)
+    - desc: 25 Methods for Pipeline Attacks(RTC0011) | RedTeamRecipe
+    - tags: cloud, redteam
+- [Attacking an EDR - Part 1](https://riccardoancarani.github.io/2023-08-03-attacking-an-edr-part-1/)
+    - desc: Attacking an EDR - Part 1
+    - tags: maldev
+- [PNG Steganography from First Principles - XPN InfoSec Blog](https://blog.xpnsec.com/png-steganography/)
+    - desc: PNG Steganography from First Principles - XPN InfoSec Blog
+    - tags: maldev
+     
 ### tools
 - [powerseb/NoPhish](https://github.com/powerseb/NoPhish)
     - desc: VNC phish framework
@@ -55,6 +79,15 @@
 - [nickvourd/Supernova](https://github.com/nickvourd/Supernova)
     - desc: Real fucking shellcode encryption tool.
     - tags: maldev
+- [zimnyaa/grpc-ssh-socks](https://github.com/zimnyaa/grpc-ssh-socks)
+    - desc: A minimal reverse proxy implementation over gRPC
+    - tags: redteam, infra
+- [fin3ss3g0d/cypherhound](https://github.com/fin3ss3g0d/cypherhound)
+    - desc: Python3 terminal application that contains 400 Neo4j cyphers for BloodHound data sets and 383 GUI cyphers
+    - tags: redteam, utils
+- [wh0amitz/S4UTomato](https://github.com/wh0amitz/S4UTomato)
+    - desc: Escalate Service Account To LocalSystem via Kerberos
+    - tags: privesc, windows, redteam
 
 #### publish
 - [0xthirteen/AssemblyHunter](https://github.com/0xthirteen/AssemblyHunter)
@@ -66,8 +99,15 @@
 - [dwisiswant0/ipfuscator](https://github.com/dwisiswant0/ipfuscator)
     - desc: A blazing-fast, thread-safe, straightforward and zero memory allocations tool to swiftly generate alternative IP(v4) address representations in Go.
     - tags: utils, web
+- [ShorSec/DllNotificationInjection](https://github.com/ShorSec/DllNotificationInjection)
+    - desc: A POC of a new “threadless” process injection technique that works by utilizing the concept of DLL Notification Callbacks in local and remote processes.
+    - tags: maldev
+- [pushsecurity/saas-attacks](https://github.com/pushsecurity/saas-attacks)
+    - desc: Offensive security drives defensive security. We're sharing a collection of SaaS attack techniques to help defenders understand the threats they face. #nolockdown
+    - tags: cloud, redteam
 
 ## Issue 046 - Sep 2023
+
 ### writeups
 - [Analyzing Malware with Hooks, Stomps and Return-addresses](https://www.cyberark.com/resources/threat-research-blog/analyzing-malware-with-hooks-stomps-and-return-addresses-2)
     - desc: Analyzing Malware with Hooks, Stomps and Return-addresses
