@@ -1,16 +1,6 @@
 # Tagged + Uncategorized
-https://www.paloaltonetworks.com/blog/prisma-cloud/github-actions-worm-dependencies/
-https://github.com/EvanMcBroom/fuse-loader
-https://aadinternals.com/tools/
-https://github.com/FoxIO-LLC/ja4/tree/main/python
-https://g3tsyst3m.github.io/edr%20bypass/Malware-EDR-Evasion-Techniques/
-https://www.welivesecurity.com/en/eset-research/oilrigs-outer-space-juicy-mix-same-ol-rig-new-drill-pipes/
-https://www.dig.security/post/redshift-security-attack-surface-explained
-https://github.com/tastypepperoni/PPLBlade
-https://github.com/peak/s5cmd
-https://ophionsecurity.com/blog/phishing-the-anti-phishers
-https://www.trellix.com/en-us/about/newsroom/stories/research/beyond-file-search-a-novel-method.html
-## Issue 047 - Sep 2023
+
+## Issue 047 - Oct 2023
 
 ### writeups
 - [Attacking and Defending Azure & M365](https://training.xintra.org/attacking-and-defending-azure-m365)
@@ -34,6 +24,9 @@ https://www.trellix.com/en-us/about/newsroom/stories/research/beyond-file-search
 - [Revisiting a UAC Bypass By Abusing Kerberos Tickets | WHOAMI](https://whoamianony.top/posts/revisiting-a-uac-bypass-by-abusing-kerberos-tickets/)
     - desc: Revisiting a UAC Bypass By Abusing Kerberos Tickets | WHOAMI
     - tags: windows, privesc
+- [Malware EDR Evasion Techniques - G3tSyst3m’s Infosec Blog](https://g3tsyst3m.github.io/edr%20bypass/Malware-EDR-Evasion-Techniques/)
+    - desc: Malware EDR Evasion Techniques - G3tSyst3m’s Infosec Blog
+    - tags: maldev
 
 #### publish
 - [How to Rob a Bank – DMCXBLUE](https://dmcxblue.net/2023/09/19/how-to-rob-a-bank/)
@@ -69,7 +62,19 @@ https://www.trellix.com/en-us/about/newsroom/stories/research/beyond-file-search
 - [PNG Steganography from First Principles - XPN InfoSec Blog](https://blog.xpnsec.com/png-steganography/)
     - desc: PNG Steganography from First Principles - XPN InfoSec Blog
     - tags: maldev
-     
+- [The GitHub Actions Worm: Compromising GitHub Repositories Through the Actions Dependency Tree](https://www.paloaltonetworks.com/blog/prisma-cloud/github-actions-worm-dependencies/)
+    - desc: The GitHub Actions Worm: Compromising GitHub Repositories Through the Actions Dependency Tree
+    - tags: cloud, devops
+- [Redshift Security: Attack Surface Explained](https://www.dig.security/post/redshift-security-attack-surface-explained)
+    - desc: Redshift Security: Attack Surface Explained
+    - tags: redteam, cloud
+- [Phishing the anti-phishers: Exploiting anti-phishing tools for internal access — Ophion Security](https://ophionsecurity.com/blog/phishing-the-anti-phishers)
+    - desc: Phishing the anti-phishers: Exploiting anti-phishing tools for internal access — Ophion Security
+    - tags: phish, redteam
+- [Unraveling the Illusion of Trust: The Innovative Attack Methodology Leveraging the "search-ms" URI Protocol Handler ](https://www.trellix.com/en-us/about/newsroom/stories/research/beyond-file-search-a-novel-method.html)
+    - desc: Unraveling the Illusion of Trust: The Innovative Attack Methodology Leveraging the "search-ms" URI Protocol Handler 
+    - tags: redteam, phish, windows
+
 ### tools
 - [powerseb/NoPhish](https://github.com/powerseb/NoPhish)
     - desc: VNC phish framework
@@ -115,6 +120,12 @@ https://www.trellix.com/en-us/about/newsroom/stories/research/beyond-file-search
 - [pushsecurity/saas-attacks](https://github.com/pushsecurity/saas-attacks)
     - desc: Offensive security drives defensive security. We're sharing a collection of SaaS attack techniques to help defenders understand the threats they face. #nolockdown
     - tags: cloud, redteam
+- [EvanMcBroom/fuse-loader](https://github.com/EvanMcBroom/fuse-loader)
+    - desc: Load a dynamic library from memory using a fuse mount
+    - tags: maldev
+- [FoxIO-LLC/ja4](https://github.com/FoxIO-LLC/ja4/)
+    - desc: JA4+ is a suite of network fingerprinting standards
+    - tags: util, blueteam
 
 ## Issue 046 - Sep 2023
 

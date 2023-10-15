@@ -3,7 +3,8 @@
 ## General
 * - [Home - Stratus Red Team](https://stratus-red-team.cloud/)
     - desc: Home - Stratus Red Team
-    - tags: 
+- [AADInternals.com](https://aadinternals.com/)
+    - desc: AADInternals tools & guides
 
 ## Tools
 * [arsenal of aws sec tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
@@ -34,6 +35,8 @@
     - desc: Offensive security drives defensive security. We're sharing a collection of SaaS attack techniques to help defenders understand the threats they face. #nolockdown
 - [kind](https://kind.sigs.k8s.io/)
     - desc: a tool for running local Kubernetes clusters using Docker container “nodes”
+- [peak/s5cmd](https://github.com/peak/s5cmd)
+    - desc: Parallel S3 and local filesystem execution tool.
 
 ## Labs
 - [BishopFox/cloudfoxable](https://github.com/BishopFox/cloudfoxable)
