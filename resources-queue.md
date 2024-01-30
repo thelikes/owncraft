@@ -1,5 +1,12 @@
 # Tagged + Uncategorized
-
+https://labs.nettitude.com/blog/creating-an-opsec-safe-loader-for-red-team-operations/
+https://pushsecurity.com/blog/oktajacking/
+https://rastamouse.me/evilginx-meet-bitb/
+https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/#h-new-anti-sandbox-technique-using-trigonometry-to-detect-human-behavior
+https://www.trellix.com/about/newsroom/stories/research/beyond-file-search-a-novel-method/
+https://pushsecurity.com/blog/slack-phishing-for-initial-access/
+https://badoption.eu/blog/2023/09/28/ZipLink.html
+https://v3ded.github.io/redteam/abusing-lnk-features-for-initial-access-and-persistence
 ## Issue 048 - Nov 2023
 
 ### writeups
