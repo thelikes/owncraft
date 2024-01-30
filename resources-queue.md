@@ -7,6 +7,17 @@ https://www.trellix.com/about/newsroom/stories/research/beyond-file-search-a-nov
 https://pushsecurity.com/blog/slack-phishing-for-initial-access/
 https://badoption.eu/blog/2023/09/28/ZipLink.html
 https://v3ded.github.io/redteam/abusing-lnk-features-for-initial-access-and-persistence
+https://threats.wiz.io/
+https://adepts.of0x.cc/gtbcc-pwned/
+https://medium.com/falconforce/soaphound-tool-to-collect-active-directory-data-via-adws-165aca78288c
+https://github.com/zblurx/certsync
+https://github.com/AlmondOffSec/PassTheCert
+https://github.com/netero1010/EDRSilencer
+https://talkback.sh/
+https://github.com/TheCyb3rAlpha/BobTheSmuggler
+https://github.com/unknownhad/CloudIntel
+https://github.com/Mr-Un1k0d3r/.NetConfigLoader
+https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489
 ## Issue 048 - Nov 2023
 
 ### writeups
