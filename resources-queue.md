@@ -18,6 +18,13 @@ https://github.com/TheCyb3rAlpha/BobTheSmuggler
 https://github.com/unknownhad/CloudIntel
 https://github.com/Mr-Un1k0d3r/.NetConfigLoader
 https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489
+https://blog.compass-security.com/2024/01/device-code-phishing-add-your-own-sign-in-methods-on-entra-id/
+https://orca.security/resources/blog/sys-all-google-kubernetes-engine-risk/
+https://github.com/The-Z-Labs/bof-launcher
+https://itm4n.github.io/printnightmare-exploitation/
+https://github.com/jacob-baines/concealed_position
+https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/trusted-domain-hidden-danger-deceptive-url-redirections-in-email-phishing-attacks/
+https://github.com/Krook9d/PurpleLab
 ## Issue 048 - Nov 2023
 
 ### writeups
