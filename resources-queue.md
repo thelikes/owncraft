@@ -28,6 +28,7 @@ https://github.com/Krook9d/PurpleLab
 https://specterops.io/blog/2024/01/24/adcs-attack-paths-in-bloodhound-part-1/
 https://github.com/h4wkst3r/ADOKit
 https://www.trendmicro.com/en_us/research/24/a/pawn-storm-uses-brute-force-and-stealth.html
+https://github.com/narfindustries/http-garden
 ## Issue 048 - Nov 2023
 
 ### writeups
