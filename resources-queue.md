@@ -1,34 +1,98 @@
 # Tagged + Uncategorized
-https://labs.nettitude.com/blog/creating-an-opsec-safe-loader-for-red-team-operations/
-https://pushsecurity.com/blog/oktajacking/
-https://rastamouse.me/evilginx-meet-bitb/
-https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/#h-new-anti-sandbox-technique-using-trigonometry-to-detect-human-behavior
-https://www.trellix.com/about/newsroom/stories/research/beyond-file-search-a-novel-method/
-https://pushsecurity.com/blog/slack-phishing-for-initial-access/
-https://badoption.eu/blog/2023/09/28/ZipLink.html
-https://v3ded.github.io/redteam/abusing-lnk-features-for-initial-access-and-persistence
-https://threats.wiz.io/
-https://adepts.of0x.cc/gtbcc-pwned/
-https://medium.com/falconforce/soaphound-tool-to-collect-active-directory-data-via-adws-165aca78288c
-https://github.com/zblurx/certsync
-https://github.com/AlmondOffSec/PassTheCert
-https://github.com/netero1010/EDRSilencer
-https://talkback.sh/
-https://github.com/TheCyb3rAlpha/BobTheSmuggler
-https://github.com/unknownhad/CloudIntel
-https://github.com/Mr-Un1k0d3r/.NetConfigLoader
-https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489
-https://blog.compass-security.com/2024/01/device-code-phishing-add-your-own-sign-in-methods-on-entra-id/
-https://orca.security/resources/blog/sys-all-google-kubernetes-engine-risk/
-https://github.com/The-Z-Labs/bof-launcher
-https://itm4n.github.io/printnightmare-exploitation/
-https://github.com/jacob-baines/concealed_position
-https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/trusted-domain-hidden-danger-deceptive-url-redirections-in-email-phishing-attacks/
-https://github.com/Krook9d/PurpleLab
-https://specterops.io/blog/2024/01/24/adcs-attack-paths-in-bloodhound-part-1/
-https://github.com/h4wkst3r/ADOKit
-https://www.trendmicro.com/en_us/research/24/a/pawn-storm-uses-brute-force-and-stealth.html
-https://github.com/narfindustries/http-garden
+
+## Issue 049 - Feb 2024
+
+### writeups
+- [Creating an OPSEC safe loader for Red Team Operations - LRQA Nettitude Labs](https://labs.nettitude.com/blog/creating-an-opsec-safe-loader-for-red-team-operations/)
+    - desc: Creating an OPSEC safe loader for Red Team Operations - LRQA Nettitude Labs
+    - tags: mal
+- [Making Okta do keylogging for you](https://pushsecurity.com/blog/oktajacking/)
+    - desc: Making Okta do keylogging for you
+    - tags: redteam, phish
+- [Evilginx, meet BITB – Rasta Mouse](https://rastamouse.me/evilginx-meet-bitb/)
+    - desc: Evilginx, meet BITB – Rasta Mouse
+    - tags: redteam, phish
+- [Unveiling LummaC2 stealer’s novel Anti-Sandbox technique: Leveraging trigonometry for human behavior detection - Outpost24](https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/#h-new-anti-sandbox-technique-using-trigonometry-to-detect-human-behavior)
+    - desc: Unveiling LummaC2 stealer’s novel Anti-Sandbox technique: Leveraging trigonometry for human behavior detection - Outpost24
+    - tags: maldev, redteam
+- [ ](https://www.trellix.com/about/newsroom/stories/research/beyond-file-search-a-novel-method/)
+    - desc: "search-ms" URI Protocol Handler initial access research
+    - tags: phish
+- [Phishing through Slack for initial access](https://pushsecurity.com/blog/slack-phishing-for-initial-access/)
+    - desc: Phishing through Slack for initial access
+    - tags: phish
+- [ZipLink - Combine Zips and Lnk for fun and profit | BadOption.eu](https://badoption.eu/blog/2023/09/28/ZipLink.html)
+    - desc: ZipLink - Combine Zips and Lnk for fun and profit | BadOption.eu
+    - tags: phish
+- [Abusing LNK "Features" for Initial Access and Persistence ](https://v3ded.github.io/redteam/abusing-lnk-features-for-initial-access-and-persistence)
+    - desc: Abusing LNK "Features" for Initial Access and Persistence
+    - tags: phish
+- [Cloud Threat Landscape](https://threats.wiz.io/)
+    - desc: Cloud Threat Landscape
+    - tags: cloud
+- [A christmas tale: pwning GTB Central Console (CVE-2024-22107 & CVE-2024-22108)](https://adepts.of0x.cc/gtbcc-pwned/)
+    - desc: DLP software called “GTB” exploit research
+    - tags: writeup
+- [Talkback](https://talkback.sh/)
+    - desc: Talkback
+    - tags: utils
+- [A short note on AWS KEY ID. As I was playing with AWS… | by Tal Be'ery | Medium](https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489)
+    - desc: A short note on AWS KEY ID. As I was playing with AWS… | by Tal Be'ery | Medium
+    - tags: cloud
+- [Device Code Phishing – Add Your Own Sign-In Methods on Entra ID – Compass Security Blog](https://blog.compass-security.com/2024/01/device-code-phishing-add-your-own-sign-in-methods-on-entra-id/)
+    - desc: Device Code Phishing – Add Your Own Sign-In Methods on Entra ID – Compass Security Blog
+    - tags: cloud, azure
+- [A Practical Guide to PrintNightmare in 2024 | itm4n's blog](https://itm4n.github.io/printnightmare-exploitation/)
+    - desc: A Practical Guide to PrintNightmare in 2024 | itm4n's blog
+    - tags: windows, redteam, exploit, privesc
+- [Trusted Domain, Hidden Danger: Deceptive URL Redirections in Email Phishing Attacks](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/trusted-domain-hidden-danger-deceptive-url-redirections-in-email-phishing-attacks/)
+    - desc: Trusted Domain, Hidden Danger: Deceptive URL Redirections in Email Phishing Attacks
+    - tags: phish, redteam
+- [ADCS Attack Paths in BloodHound — Part 1 - SpecterOps](https://specterops.io/blog/2024/01/24/adcs-attack-paths-in-bloodhound-part-1/)
+    - desc: ADCS Attack Paths in BloodHound — Part 1 - SpecterOps
+    - tags: windows, redteam
+- [Pawn Storm Uses Brute Force and Stealth Against High-Value Targets ](https://www.trendmicro.com/en_us/research/24/a/pawn-storm-uses-brute-force-and-stealth.html)
+    - desc: Pawn Storm Uses Brute Force and Stealth Against High-Value Targets
+    - tags: windows, redtream
+    
+### tools
+- [zblurx/certsync](https://github.com/zblurx/certsync)
+    - desc: Dump NTDS with golden certificates and UnPAC the hash
+    - tags: windows
+- [AlmondOffSec/PassTheCert](https://github.com/AlmondOffSec/PassTheCert)
+    - desc: Proof-of-Concept tool to authenticate to an LDAP/S server with a certificate through Schannel
+    - tags: windows
+- [netero1010/EDRSilencer](https://github.com/netero1010/EDRSilencer)
+    - desc: A tool uses Windows Filtering Platform (WFP) to block Endpoint Detection and Response (EDR) agents from reporting security events to the server.
+    - tags: windows
+- [TheCyb3rAlpha/BobTheSmuggler](https://github.com/TheCyb3rAlpha/BobTheSmuggler)
+    - desc: "Bob the Smuggler": A tool that leverages HTML Smuggling Attack and allows you to create HTML files with embedded 7z/zip archive.
+    - tags: maldev
+- [unknownhad/CloudIntel](https://github.com/unknownhad/CloudIntel)
+    - desc: This repo contains IOC, malware and malware analysis associated with Public cloud
+    - tags: cloud, malware
+- [Mr-Un1k0d3r/.NetConfigLoader](https://github.com/Mr-Un1k0d3r/.NetConfigLoader)
+    - desc: .net config loader
+    - tags: malware
+- [The-Z-Labs/bof-launcher](https://github.com/The-Z-Labs/bof-launcher)
+    - desc: Beacon Object File (BOF) launcher - library for executing BOF files in C/C++/Zig applications
+    - tags: c2
+- [jacob-baines/concealed_position](https://github.com/jacob-baines/concealed_position)
+    - desc: Bring your own print driver privilege escalation tool
+    - tags: windows, exploit, maldev
+- [Krook9d/PurpleLab](https://github.com/Krook9d/PurpleLab)
+    - desc: PurpleLab is an efficient and readily deployable lab solution
+    - tags: redteam, util
+- [h4wkst3r/ADOKit](https://github.com/h4wkst3r/ADOKit)
+    - desc: Azure DevOps Services Attack Toolkit
+    - tags: cloud
+- [narfindustries/http-garden](https://github.com/narfindustries/http-garden)
+    - desc: Differential testing and fuzzing of HTTP servers and proxies
+    - tags: web, exploit
+- [FalconForceTeam/SOAPHound](https://github.com/FalconForceTeam/SOAPHound)
+    - desc: SOAPHound is a custom-developed .NET data collector tool which can be used to enumerate Active Directory environments via the Active Directory Web Services (ADWS) protocol.
+    - tags: windows, redteam
+
 ## Issue 048 - Nov 2023
 
 ### writeups
@@ -390,7 +454,7 @@ https://github.com/narfindustries/http-garden
     - tags: windows, privesc
 - [socgolish and beyond - proofpoint](https://www.proofpoint.com/us/blog/threat-insight/ta569-socgholish-and-beyond)
     - desc: socgolish research - dynamic payload / environment keying
-    - tags: malwaredev
+    - tags: maldev
 - [A Novel Method for Bypassing ETW | shellz.club](https://shellz.club/posts/a-novel-method-for-bypass-ETW/)
     - desc: A Novel Method for Bypassing ETW | shellz.club
     - tags: maldev
@@ -540,7 +604,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 ### writeups
 - [ TamperingSyscalls](https://fool.ish.wtf/2022/08/tamperingsyscalls.html)
     - desc: Hardware breakpoit EDR evasion
-    - tags: malwaredev
+    - tags: maldev
 
 #### publish
 - [Evicting the Adversary](https://www.huntress.com/blog/evicting-the-adversary)
@@ -551,7 +615,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, windows
 - [Obfuscating Rubeus using Codecepticon - pavel](https://www.pavel.gr/blog/obfuscating-rubeus-using-codecepticon)
     - desc: Obfuscating Rubeus using Codecepticon
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [Attacking .NET Web Services – Securifera](https://www.securifera.com/blog/2023/03/06/attacking-net-web-services/)
     - desc: Attacking .NET Web Services – Securifera
     - tags: web, exploit
@@ -560,7 +624,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [Defining the Cobalt Strike Reflective Loader - boku](https://securityintelligence.com/posts/defining-cobalt-strike-reflective-loader/)
     - desc: Defining the Cobalt Strike Reflective Loader
-    - tags: malwaredev
+    - tags: maldev
 - [Persistence Techniques That Persist](https://www.cyberark.com/resources/threat-research-blog/persistence-techniques-that-persist)
     - desc: Persistence Techniques That Persist
     - tags: redteam, c2
@@ -578,10 +642,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [Navigating the Vast Ocean of Sandbox Evasions](https://unit42.paloaltonetworks.com/sandbox-evasion-memory-detection/)
     - desc: Navigating the Vast Ocean of Sandbox Evasions
-    - tags: malwaredev
+    - tags: maldev
 - [pre.empt.dev: An Introduction](https://pre.empt.dev/posts/maelstrom-an-introduction/)
     - desc: pre.empt.dev: An Introduction
-    - tags: windows, redteam, malwaredev
+    - tags: windows, redteam, maldev
 - [Discovering Domains via a Time-Correlation Attack on Certificate Transparency – PT SWARM](https://swarm.ptsecurity.com/discovering-domains-via-a-time-correlation-attack/)
     - desc: Discovering Domains via a Time-Correlation Attack on Certificate Transparency – PT SWARM
     - tags: recon, web, osint
@@ -604,7 +668,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam, exploit
 - [werdhaihai/SharpAltShellCodeExec](https://github.com/werdhaihai/SharpAltShellCodeExec)
     - desc: Alternative Shellcode Execution Via Callbacks in C# with P/Invoke
-    - tags: malwaredev
+    - tags: maldev
 - [snovvcrash/BOFs](https://github.com/snovvcrash/BOFs)
     - desc: Beacon Object Files (not Buffer Overflows)
     - tags: c2
@@ -613,7 +677,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web, recon
 - [kleiton0x00/Shelltropy](https://github.com/kleiton0x00/Shelltropy)
     - desc: A technique of hiding malicious shellcode via Shannon encoding.
-    - tags: malwaredev
+    - tags: maldev
 - [InitRoot/wodat](https://github.com/InitRoot/wodat)
     - desc: Windows Oracle Database Attack Toolkit
     - tags: redteam
@@ -627,7 +691,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [nettitude/Aladdin](https://github.com/nettitude/Aladdin/)
     - desc: deseriallization of a .NET payload and execution in memory
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [praetorian-inc/fingerprintx](https://github.com/praetorian-inc/fingerprintx)
     - desc: Standalone utility for service discovery on open ports!
     - tags: recon, redteam
@@ -657,7 +721,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, utility
 - [Wra7h/FlavorTown](https://github.com/Wra7h/FlavorTown)
     - desc: Various ways to execute shellcode
-    - tags: malwaredev
+    - tags: maldev
     
 ## Issue 042 - Mar 2023
 
@@ -691,22 +755,22 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: phish, redteam
 - [quora](https://vanmieghem.io/blueprint-for-evading-edr-in-2022/)
     - desc: quora
-    - tags: malwaredev
+    - tags: maldev
 - [Malware AV/VM evasion - part 12: encrypt/decrypt payload via TEA. Simple C++ example. - cocomelonc](https://cocomelonc.github.io/malware/2023/02/20/malware-av-evasion-12.html)
     - desc: Malware AV/VM evasion - part 12: encrypt/decrypt payload via TEA. Simple C++ example. xor
-    - tags: malwaredev
+    - tags: maldev
 - [Windows Credential Dumping | ](https://emptydc.com/2022/06/08/windows-credential-dumping/)
     - desc: Windows Credential Dumping | 
     - tags: windows, redteam
 - [Call function in unmanaged DLL from C# ](https://dev.to/gabbersepp/call-function-in-unmanaged-dll-from-c-and-pass-custom-data-types-marshal-5c31)
     - desc: Call function in unmanaged DLL from C# 
-    - tags: malwaredev
+    - tags: maldev
 - [Azure AD: Pentesting Fundamentals - cobalt](https://www.cobalt.io/blog/azure-ad-pentesting-fundamentals)
     - desc: Azure AD: Pentesting Fundamentals
     - tags: cloud
 - [Mez0: Vulpes: Obfuscating Memory Regions with Timers](https://mez0.cc/posts/vulpes-obfuscating-memory-regions/)
     - desc: Mez0: Vulpes: Obfuscating Memory Regions with Timers
-    - tags: malwaredev
+    - tags: maldev
 
 #### publish
 - [Token Impersonation in C# – Rasta Mouse](https://rastamouse.me/token-impersonation-in-csharp/)
@@ -717,7 +781,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [Avoiding Detection with Shellcode Mutator - Nettitude Labs](https://labs.nettitude.com/blog/shellcode-source-mutations/)
     - desc: Avoiding Detection with Shellcode Mutator - Nettitude Labs
-    - tags: malwaredev
+    - tags: maldev
 - [Pass-the-Challenge: Defeating Windows Defender Credential Guard | by Oliver Lyak | IFCR](https://research.ifcr.dk/pass-the-challenge-defeating-windows-defender-credential-guard-31a892eee22)
     - desc: Pass-the-Challenge: Defeating Windows Defender Credential Guard | by Oliver Lyak | IFCR
     - tags: windows, redteam
@@ -726,13 +790,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: recon, utility
 - [.NET Startup Hooks – Rasta Mouse](https://rastamouse.me/net-startup-hooks/)
     - desc: .NET Startup Hooks – Rasta Mouse
-    - tags: malwaredev
+    - tags: maldev
 - [Windows Incident Response: Persistence and LOLBins](http://windowsir.blogspot.com/2022/12/persistence-and-lolbins.html)
     - desc: Windows Incident Response: Persistence and LOLBins , registry
     - tags: windows, redteam
 - [DLL Sideloading not by DLLMain - Intruder](https://www.redteam.cafe/red-team/dll-sideloading/dll-sideloading-not-by-dllmain)
     - desc: DLL Sideloading not by DLLMain - Intruder
-    - tags: malwaredev
+    - tags: maldev
 - [Bypassing host security checks on a modern VPN solution - RiskInsight](https://www.riskinsight-wavestone.com/en/2023/01/bypassing-host-security-checks-on-a-modern-vpn-solution/)
     - desc: Bypassing host security checks on a modern VPN solution - RiskInsight
     - tags: redteam
@@ -756,7 +820,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, privesc, redteam
 - [API Unhooking with Perun's Fart - Blog by Dosxuz](https://dosxuz.gitlab.io/post/perunsfart/)
     - desc: API Unhooking with Perun's Fart - Blog by Dosxuz
-    - tags: malwaredev
+    - tags: maldev
 - [A few Tailscale tricks for Security Testers](https://pulsesecurity.co.nz/articles/some-tailscale-tricks)
     - desc: A few Tailscale tricks for Security Testers
     - tags: redteam
@@ -776,46 +840,46 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [dr4k0nia/MurkyStrings](https://github.com/dr4k0nia/MurkyStrings)
     - desc: A string obfuscator for .NET apps, built to evade static string analysis.
-    - tags: malwaredev
+    - tags: maldev
 - [CymulateResearch/Blindside](https://github.com/CymulateResearch/Blindside)
     - desc: Utilizing hardware breakpoints to evade monitoring by Endpoint Detection and Response platforms
-    - tags: malwaredev
+    - tags: maldev
 - [mgeeky/msi-shenanigans](https://github.com/mgeeky/msi-shenanigans)
     - desc: Proof of Concept code and samples presenting emerging threat of MSI installer files.
     - tags: redteam, windows, phish
 - [gh0x0st/wanderer](https://github.com/gh0x0st/wanderer)
     - desc: An open-source process injection enumeration tool written in C#
-    - tags: malwaredev
+    - tags: maldev
 - [namazso/linux_injector](https://github.com/namazso/linux_injector)
     - desc: A simple ptrace-less shared library injector for x64 Linux
-    - tags: malwaredev, linux
+    - tags: maldev, linux
 - [asluppiter/Somnium](https://github.com/asluppiter/Somnium)
     - desc: Script to test network prevention and detection capabilities.
     - tags: purpleteam, redteam, utility
 - [D1rkMtr/ExplorerPersist](https://github.com/D1rkMtr/ExplorerPersist)
     - desc: Explorer Persistence technique : Hijacking cscapi.dll order loading path and writing our malicious dll into C:\Windows\cscapi.dll , when it's get loaded into the explorer process , our malicoius code get executed 
-    - tags: malwaredev
+    - tags: maldev
 - [h4wkst3r/InvisibilityCloak](https://github.com/h4wkst3r/InvisibilityCloak)
     - desc: Proof-of-concept obfuscation toolkit for C# post-exploitation tools
-    - tags: malwaredev
+    - tags: maldev
 - [Accenture/Codecepticon](https://github.com/Accenture/Codecepticon)
     - desc: .NET/PowerShell/VBA Offensive Security Obfuscator
-    - tags: malwaredev
+    - tags: maldev
 - [mkaring/ConfuserEx](https://github.com/mkaring/ConfuserEx)
     - desc: An open-source, free protector for .NET applications
-    - tags: malwaredev
+    - tags: maldev
 - [C-Sto/BananaPhone](https://github.com/C-Sto/BananaPhone)
     - desc: It's a go variant of Hells gate! (directly calling windows kernel functions, but from Go!)
-    - tags: malwaredev
+    - tags: maldev
 - [S3cur3Th1sSh1t/Nim-RunPE](https://github.com/S3cur3Th1sSh1t/Nim-RunPE)
     - desc: A Nim implementation of reflective PE-Loading from memory
-    - tags: malwaredev
+    - tags: maldev
 - [Tw1sm/AesKrbKeyGen](https://github.com/Tw1sm/AesKrbKeyGen)
     - desc: Generate AES128/256 Kerberos keys for an AD account using a plaintext password and Python3
     - tags: utility, windows
 - [LordNoteworthy/al-khaser](https://github.com/LordNoteworthy/al-khaser)
     - desc: Public malware techniques used in the wild: Virtual Machine, Emulation, Debuggers, Sandbox detection.
-    - tags: malwaredev
+    - tags: maldev
 - [sc0tfree/updog](https://github.com/sc0tfree/updog)
     - desc: Updog is a replacement for Python's SimpleHTTPServer. It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates and use http basic auth.
     - tags: utility, web
@@ -839,15 +903,15 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: recon, web, bounty
 - [Stealerium/Stealerium](https://github.com/Stealerium/Stealerium)
     - desc: Stealer + Clipper + Keylogger
-    - tags: malwaredev
+    - tags: maldev
 
 #### publish
 - [deepinstinct/Dirty-Vanity](https://github.com/deepinstinct/Dirty-Vanity)
     - desc: A POC for the new injection technique, abusing windows fork API to evade EDRs. https://www.blackhat.com/eu-22/briefings/schedule/index.html#dirty-vanity-a-new-approach-to-code-injection--edr-bypass-28417
-    - tags: malwaredev
+    - tags: maldev
 - [bw3ll/sharem](https://github.com/bw3ll/sharem)
     - desc: SHAREM is a shellcode analysis framework, capable of emulating more than 12,000 WinAPIs and virutally all Windows syscalls. It also contains its own custom disassembler, with many innovative features, such as being able to show the deobfuscated disassembly of an encoded shellcode, or integrating emulation data to enhance the disassembly.
-    - tags: utility, malwaredev
+    - tags: utility, maldev
 - [KINGSABRI/ServerlessRedirector](https://github.com/KINGSABRI/ServerlessRedirector)
     - desc: Serverless Redirector in various cloud vendor for red team
     - tags: redteam, phish
@@ -859,13 +923,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: c2, redteam
 - [Aetsu/OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
     - desc: OfensivePipeline allows you to download and build C# tools, applying certain modifications in order to improve their evasion for Red Team exercises.
-    - tags: malwaredev, utility
+    - tags: maldev, utility
 - [mgeeky/ProtectMyTooling](https://github.com/mgeeky/ProtectMyTooling)
     - desc: Multi-Packer wrapper letting us daisy-chain various packers, obfuscators and other Red Team oriented weaponry. Featured with artifacts watermarking, IOCs collection & PE Backdooring. You feed it with your implant, it does a lot of sneaky things and spits out obfuscated executable.
-    - tags: malwaredev, utility
+    - tags: maldev, utility
 - [SygniaLabs/ScallOps](https://github.com/SygniaLabs/ScallOps)
     - desc: infra / payload automation
-    - tags: malwaredev, utility
+    - tags: maldev, utility
 - [Anof-cyber/PyCript](https://github.com/Anof-cyber/PyCript)
     - desc: Burp Suite extension that allows for bypassing client-side encryption using custom logic for manual and automation testing with Python and NodeJS. It enables efficient testing of encryption methods and identification of vulnerabilities in the encryption process.
     - tags: web, utility
@@ -886,10 +950,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: phish, windows, redteam
 - [fr0gger/Unprotect_Submission](https://github.com/fr0gger/Unprotect_Submission)
     - desc: Repository to publish your evasion techniques and contribute to the project
-    - tags: malwaredev
+    - tags: maldev
 - [optiv/Mangle](https://github.com/optiv/Mangle)
     - desc: Mangle is a tool that manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs
-    - tags: malwaredev
+    - tags: maldev
 - [Azure/aztfy](https://github.com/Azure/aztfy)
     - desc: A tool to bring existing Azure resources under Terraform's management
     - tags: utility, cloud
@@ -901,10 +965,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 #### publish
 - [Writing Tiny, Stealthy & Reliable Malware - ruptura](https://ruptura-infosec.com/blog/writing-tiny-stealthy-reliable-malware/)
     - desc: Writing Tiny, Stealthy & Reliable Malware
-    - tags: malwaredev
+    - tags: maldev
 - [Home Grown Red Team: From Workstation To Domain Controller With Havoc C2 and Microsoft EDR - assume-breach](https://assume-breach.medium.com/home-grown-red-team-from-workstation-to-domain-controller-with-havoc-c2-and-microsoft-edr-6b17018e32f6)
     - desc: malware evasion research
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [Bug Writeup: RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass - h1pmnh](https://h1pmnh.github.io/post/writeup_spring_el_waf_bypass/)
     - desc: rce via ssti vs akamai waf writeup
     - tags: bounty, web, exploit
@@ -913,16 +977,16 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, phish
 - [Detecting and Evading Sandboxing through Time based evasion - shubakki](https://shubakki.github.io/posts/2022/12/detecting-and-evading-sandboxing-through-time-based-evasion/)
     - desc: malware evasion via sleep research
-    - tags: malwaredev
+    - tags: maldev
 - [Hooking System Calls in Windows 11 22H2 like Avast Antivirus. Research, analysis and bypass - the-deniss](https://the-deniss.github.io/posts/2022/12/08/hooking-system-calls-in-windows-11-22h2-like-avast-antivirus.html)
     - desc: Hooking System Calls in Windows 11 22H2 like Avast Antivirus. Research, analysis and bypass
-    - tags: malwaredev
+    - tags: maldev
 - [Unmanaged Code Execution with .NET Dynamic PInvoke - bohops](https://bohops.com/2022/04/02/unmanaged-code-execution-with-net-dynamic-pinvoke/)
     - desc: Unmanaged Code Execution with .NET Dynamic PInvoke
-    - tags: malwaredev
+    - tags: maldev
 - [String Obfuscation The Malware Way | dr4k0nia](https://dr4k0nia.github.io/posts/String-Obfuscation-The-Malware-Way/)
     - desc: String Obfuscation The Malware Way | dr4k0nia
-    - tags: malwaredev
+    - tags: maldev
     
 ### tools
 - [C-Sto/goWMIExec](https://github.com/C-Sto/goWMIExec)
@@ -936,16 +1000,16 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, pivot
 - [NUL0x4C/TerraLdr](https://github.com/NUL0x4C/TerraLdr)
     - desc: A Payload Loader Designed With Advanced Evasion Features
-    - tags: malwaredev
+    - tags: maldev
 - [0xAbdullah/Offensive-Snippets](https://github.com/0xAbdullah/Offensive-Snippets)
     - desc: A repository with my code snippets for research/education purposes.
-    - tags: malwaredev
+    - tags: maldev
 - [ustayready/wnfexec](https://github.com/ustayready/wnfexec)
     - desc: WNF Code Execution Library Using C#
-    - tags: malwaredev
+    - tags: maldev
 - [wsummerhill/CSharp-Alt-Shellcode-Callbacks](https://github.com/wsummerhill/CSharp-Alt-Shellcode-Callbacks)
     - desc: A collection of (even more) alternative shellcode callback methods in CSharp
-    - tags: malwaredev
+    - tags: maldev
 
 #### publish
 - [daddycocoaman/azbelt](https://github.com/daddycocoaman/azbelt)
@@ -962,7 +1026,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility, recon
 - [rad9800/WTSRM](https://github.com/rad9800/WTSRM)
     - desc: WTSRM
-    - tags: malwaredev
+    - tags: maldev
 - [ironmansoftware/psmsi](https://github.com/ironmansoftware/psmsi)
     - desc: Create MSIs using PowerShell.
     - tags: phish, utility
@@ -1008,7 +1072,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: cloud
 - [capt-meelo/laZzzy](https://github.com/capt-meelo/laZzzy)
     - desc: laZzzy is a shellcode loader, developed using different open-source libraries, that demonstrates different execution techniques.
-    - tags: malware, framework
+    - tags: maldev, framework
 - [daem0nc0re/PrivFu](https://github.com/daem0nc0re/PrivFu)
     - desc: Kernel mode WinDbg extension and PoCs for testing how token privileges work
     - tags: windows, privesc
@@ -1029,12 +1093,12 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: cloud
 - [Confusing .NET Decompilers: The Call OpCode - washi.dev](https://washi.dev/blog/posts/confusing-decompilers-with-call/)\
     - desc: .net obfuscation research
-    - tags: malwaredev
+    - tags: maldev
 
 ### tools
 - [alfarom256/MCP-PoC](https://github.com/alfarom256/MCP-PoC)
     - desc: Minifilter Callback Patching Proof-of-Concept
-    - tags: malwaredev
+    - tags: maldev
 
 #### publish
 - [Z4kSec/Masky](https://github.com/Z4kSec/Masky)
@@ -1045,13 +1109,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: osint
 - [D1rkMtr/IORI_Loader](https://github.com/D1rkMtr/IORI_Loader)
     - desc: UUID shellcode Loader with dynamic indirect syscall implementation, syscall number/instruction get resolved dynamicaly at runtime, and the syscall number/instruction get unhooked using Halosgate technique. Function address get resolved from the PEB by offsets and comparaison by hashes
-    - tags: malwaredev
+    - tags: maldev
 - [Accenture/Spartacus](https://github.com/Accenture/Spartacus)
     - desc: Spartacus DLL Hijacking Discovery Tool
-    - tags: postex, malwaredev
+    - tags: postex, maldev
 - [FuzzySecurity/AdvSim.Compression](https://github.com/FuzzySecurity/AdvSim.Compression)
     - desc: Simple and sane compression wrapper library.
-    - tags: malwaredev
+    - tags: maldev
 - [mdsecactivebreach/DragonCastle](https://github.com/mdsecactivebreach/DragonCastle)
     - desc: A PoC that combines AutodialDLL lateral movement technique and SSP to scrape NTLM hashes from LSASS process.
     - tags: postex, windows
@@ -1066,7 +1130,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: recon, osint, web
 - [fr0gger/Awesome_Malware_Techniques](https://github.com/fr0gger/Awesome_Malware_Techniques)
     - desc: This is a repository of resource about Malware techniques
-    - tags: malwaredev
+    - tags: maldev
 - [ccob/volumiser](https://github.com/ccob/volumiser)
     - desc: Utility for working with virtual machine images
     - tags: postex, windows, linux
@@ -1081,7 +1145,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 #### publish
 - [Lessons Learned from Cloning Windows Binaries and Code Signing Implants](https://captmeelo.com/redteam/maldev/2022/11/07/cloning-signing.html)
     - desc: assembly/cert clonging research
-    - tags: malwaredev
+    - tags: maldev
 - [Divin'n'phishin with executable filetypes on Windows](https://www.bencteux.fr/posts/filetypes/)
     - desc: windows executable file type research
     - tags: windows, phish, redteam
@@ -1090,7 +1154,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [Engineering antivirus evasion (Part III) - scrt](https://blog.scrt.ch/2022/04/19/3432/)
     - desc: syscall-based evasion techniques
-    - tags: malwaredev
+    - tags: maldev
 - [WireSocks for Easy Proxied Routing - sensepost](https://sensepost.com/blog/2022/wiresocks-for-easy-proxied-routing/)
     - desc: network options with a wireguard-based socks proxy
     - tags: postex, redteam, util
@@ -1115,13 +1179,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [daem0nc0re/AtomicSyscall](https://github.com/daem0nc0re/AtomicSyscall)
     - desc: Tools and PoCs for Windows syscall investigation.
-    - tags: malwaredev
+    - tags: maldev
 - [d3lb3/KeeFarceReborn](https://github.com/d3lb3/KeeFarceReborn)
     - desc: A standalone DLL that exports databases in cleartext once injected in the KeePass process.
     - tags: windows, postex, redteam
 - [Mr-Un1k0d3r/AMSI-ETW-Patch](https://github.com/Mr-Un1k0d3r/AMSI-ETW-Patch)
     - desc: Patch AMSI and ETW
-    - tags: malwaredev
+    - tags: maldev
 - [Idov31/Sandman](https://github.com/Idov31/Sandman)
     - desc: Sandman is a NTP based backdoor for red team engagements in hardened networks.
     - tags: redteam
@@ -1133,7 +1197,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: util
 - [DISREL/Ring0VBA](https://github.com/DISREL/Ring0VBA)
     - desc: CVE-2018-6066 using VBA
-    - tags: malwaredev, Nday
+    - tags: maldev, Nday
 - [knavesec/max](https://github.com/knavesec/max)
     - desc: Maximizing BloodHound. Max is a good boy.
     - tags: windows, redteam, postex
@@ -1207,10 +1271,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, postex
 - [D1rkMtr/ChTimeStamp](https://github.com/D1rkMtr/ChTimeStamp/)
     - desc: Changing the Creation time and the Last Written time of a dropped file by the timestamp of other one , like the "kernel32.dll" timestamp
-    - tags: malwaredev
+    - tags: maldev
 - [m417z/winapiexec](https://github.com/m417z/winapiexec)
     - desc: A small tool that allows to run WinAPI functions through command line parameters
-    - tags: malwaredev
+    - tags: maldev
 - [CCob/PinSwipe](https://github.com/CCob/PinSwipe)
     - desc: Smart Card PIN swiping DLL
     - tags: windows, redteam
@@ -1219,10 +1283,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [CrackerCat/evildll](https://github.com/CrackerCat/evildll)
     - desc: Malicious DLL (Reverse Shell) generator for DLL Hijacking
-    - tags: malwaredev
+    - tags: maldev
 - [cepxeo/dll4shell](https://github.com/cepxeo/dll4shell)
     - desc: Shellcode launcher for AV bypass
-    - tags: malwaredev
+    - tags: maldev
 - [jazzpizazz/BloodHound.py-Kerberos](https://github.com/jazzpizazz/BloodHound.py-Kerberos)
     - desc: A Python based ingestor for BloodHound
     - tags: windows, redteam
@@ -1231,10 +1295,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web, exploit
 - [ORCx41/Syscallslib](https://github.com/ORCx41/Syscallslib)
     - desc: a library that automates some clean syscalls to make it easier to implement
-    - tags: malwaredev
+    - tags: maldev
 - [ORCx41/KnownDllUnhook](https://github.com/ORCx41/KnownDllUnhook)
     - desc: Replace the .txt section of the current loaded modules from \KnownDlls\ to bypass edrs
-    - tags: malwaredev
+    - tags: maldev
 - [D1rkMtr/DumpThatLSASS](https://github.com/D1rkMtr/DumpThatLSASS)
     - desc: Dumping LSASS by Unhooking MiniDumpWriteDump by getting a fresh DbgHelp.dll copy from the disk , plus functions and strings obfuscation , it contains Anti-sandbox , if you run it under unperformant Virtual Machine you need to uncomment the code related to it and recompile.
     - tags: windows, redteam, postex
@@ -1243,13 +1307,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [D1rkMtr/UUIDRegistryShellcode](https://github.com/D1rkMtr/UUIDRegistryShellcode)
     - desc: Write and Hide each UUID in the char* array of UUIDS shellcode in a registry key value location as REG_SZ (the location could be different from the other), then retrieve them and assemble them in UUIDs char* array shellcode and Run it
-    - tags: malwaredev
+    - tags: maldev
 - [epi052/feroxfuzz](https://github.com/epi052/feroxfuzz)
     - desc: A structure-aware HTTP fuzzing library
     - tags: web, recon
 - [daem0nc0re/TangledWinExec](https://github.com/daem0nc0re/TangledWinExec)
     - desc: C# PoCs for investigation of Windows process execution techniques
-    - tags: malwaredev
+    - tags: maldev
 - [redeye-framework/Redeye](https://github.com/redeye-framework/Redeye)
     - desc: Collaborative pen testing framework
     - tags: utility
@@ -1261,7 +1325,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [D1rkMtr/MasqueradingPEB](https://github.com/D1rkMtr/MasqueradingPEB)
     - desc: Maquerade any legitimate Windows binary by changing some fields in the PEB structure
-    - tags: malwaredev
+    - tags: maldev
 
 #### publish
 - [soxoj/maigret](https://github.com/soxoj/maigret)
@@ -1293,13 +1357,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: cloud
 - [memN0ps/srdi-rs](https://github.com/memN0ps/srdi-rs)
     - desc: Rusty Shellcode Reflective DLL Injection (sRDI)
-    - tags: malwaredev
+    - tags: maldev
 - [gkucherin/de4dot](https://github.com/gkucherin/de4dot)
     - desc: .NET deobfuscator and unpacker (with a control flow unflattener for DoubleZero added).
-    - tags: malwaredev
+    - tags: maldev
 - [optiv/Freeze](https://github.com/optiv/Freeze)
     - desc: Freeze is a payload toolkit for bypassing EDRs using suspended processes, direct syscalls, and alternative execution methods
-    - tags: malwaredev
+    - tags: maldev
 - [Mr-Un1k0d3r/ATP-PowerShell-Scripts](https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts)
     - desc: Microsoft Signed PowerShell scripts
     - tags: windows, redteam
@@ -1326,7 +1390,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, c2
 - [Bad VIB(E)s Part One: Investigating Novel Malware Persistence Within ESXi Hypervisors - mandiant](https://www.mandiant.com/resources/blog/esxi-hypervisors-malware-persistence)
     - desc: Unknown APT research
-    - tags: ir, malwaredev
+    - tags: ir, maldev
 - [The Blind Spots of BloodHound - syss](https://blog.syss.com/posts/bloodhound-blindspots/)
     - desc: Methods to increase BloodHound edge visibility
     - tags: windows, redteam
@@ -1358,13 +1422,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam, cloud
 - [emcghee/PayloadAutomation](https://github.com/emcghee/PayloadAutomation)
     - desc: Python classes to serve as a bridge between Sleep and Python which can be used to help automate payload development
-    - tags: malwaredev
+    - tags: maldev
 - [Running Shellcode Through Windows Callbacks - marcoramilli](https://marcoramilli.com/2022/06/15/running-shellcode-through-windows-callbacks/)
     - desc: callback shellcode execution research
-    - tags: malwaredev
+    - tags: maldev
 - [ProcEnvInjection - Remote code injection by abusing process environment strings - x86mathew](https://www.x86matthew.com/view_post?id=proc_env_injection)
     - desc: Code injection research
-    - tags: malwaredev
+    - tags: maldev
 
 ## Issue 035 - Aug 2022
 
@@ -1391,7 +1455,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags:utility
 - [Concealed code execution: Techniques and detection - huntandhackett](https://www.huntandhackett.com/blog/concealed-code-execution-techniques-and-detection)
     - desc: Evasive code execution research
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [Multi-factor Authentication In-The-Wild bypass methods - yuval fischer](https://medium.com/proferosec-osm/multi-factor-authentication-in-the-wild-bypass-methods-689f53f0b62b)
     - desc: mfa bypass research
     - tags: web, exploit
@@ -1409,7 +1473,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [D1rkMtr/FileLessRemoteShellcode](https://github.com/D1rkMtr/FileLessRemoteShellcode)
     - desc: Run Fileless Remote Shellcode directly in memory with Module Unhooking , Module Stomping, No New Thread. This repository contains the TeamServer and the Stager
-    - tags: malwaredev
+    - tags: maldev
 
 #### publish
 - [secureworks/whiskeysamlandfriends](https://github.com/secureworks/whiskeysamlandfriends)
@@ -1426,7 +1490,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: phish, redteam
 - [subglitch1/osripper](https://github.com/subglitch1/osripper)
     - desc: AV evading OSX Backdoor and Crypter Framework
-    - tags: mac, redteam, malwaredev
+    - tags: mac, redteam, maldev
 
 ## Issue 034 - July 2022
 
@@ -1449,31 +1513,31 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [Bypassing EDR real-time injection detection logic](https://blog.redbluepurple.io/offensive-research/bypassing-injection-detection)
     - desc: driploader investigation
-    - tags: malwaredev
+    - tags: maldev
 
 ### tools
 
 #### publish
 - [V3ded/ToolDump-v1](https://github.com/V3ded/ToolDump-v1)
     - desc: Some of my custom "tools".
-    - tags: malwaredev
+    - tags: maldev
 - [N7WEra/BofAllTheThings](https://github.com/N7WEra/BofAllTheThings)
     - desc: Creating a repository with all public Beacon Object Files (BoFs)
     - tags: redteam, utility
 - [Allevon412/TeamsImplant](https://github.com/Allevon412/TeamsImplant)
     - desc: evasive, proxied-dll for MS Teams
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [cipher387/Dorks-collections-list](https://github.com/cipher387/Dorks-collections-list)
     - desc: List of Github repositories and articles with list of dorks for different search engines
     - tags: utility
 - [shogunlab/Sukoshi](https://github.com/shogunlab/Sukoshi)
     - desc: Sukoshi is a proof-of-concept Python/C++ implant that leverages the MQTT protocol for C2 and uses AWS IoT Core as infrastructure.
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 
 #### notes
 - [c-sto/bananaphone](https://github.com/c-sto/bananaphone)
     - desc: It's a go variant of Hells gate! (directly calling windows kernel functions, but from Go!)
-    - tags: malwaredev
+    - tags: maldev
 - [optiv/talon](https://github.com/optiv/talon)
     - desc: A password guessing tool that targets the Kerberos and LDAP services within the Windows Active Directory environment.
     - tags: windows
@@ -1491,7 +1555,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - malwaredev
 - [Anatomy of the Process Environment Block (PEB) (Windows Internals) - ntopcode](https://ntopcode.wordpress.com/2018/02/26/anatomy-of-the-process-environment-block-peb-windows-internals/)
     - desc: windows internals research
-    - tags: malwaredev
+    - tags: maldev
 - [Introducing the Golden GMSA Attack - semperis](https://www.semperis.com/blog/golden-gmsa-attack/)
     - desc: windows GMSA persistence
     - tags: redteam, windows
@@ -1500,7 +1564,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: mac, redteam
 - [macOS Red Teaming: Initial access via AppleScript URL - wojciechregula](https://wojciechregula.blog/post/macos-red-teaming-initial-access-via-applescript-url/)
     - desc: macos initial access
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [LSASS dumping in 2021/2022 - from memory - without C2 - s3cur3th1ss1t](https://s3cur3th1ssh1t.github.io/Reflective-Dump-Tools/)
     - desc: modern lsass dumping
     - tags: windows, postex, redteam
@@ -1512,7 +1576,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 #### publish
 - [code-scrap/DynamicWrapperDotNet](https://github.com/code-scrap/DynamicWrapperDotNet)
     - desc: Dynamically Loads Assembly and Calls Methods from JScript
-    - tags: malwaredev
+    - tags: maldev
 - [CompassSecurity/BloodHoundQueries](https://github.com/CompassSecurity/BloodHoundQueries)
     - desc: Custom bloodhound queries
     - tags: utility
@@ -1524,19 +1588,19 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [S4ntiagoP/freeBokuLoader](https://github.com/S4ntiagoP/freeBokuLoader)
     - desc: A simple BOF that frees UDRLs
-    - tags: malwaredev
+    - tags: maldev
 - [dhondta/awesome-executable-packing](https://github.com/dhondta/awesome-executable-packing)
     - desc: A curated list of awesome resources related to executable packing
-    - tags: malwaredev, utility
+    - tags: maldev, utility
 - [thefLink/DeepSleep](https://github.com/thefLink/DeepSleep)
     - desc: A variant of Gargoyle for x64 to hide memory artifacts using ROP only and PIC
-    - tags: malwaredev
+    - tags: maldev
 - [fortalice/bofhound](https://github.com/fortalice/bofhound)
     - desc: Generate BloodHound compatible JSON from logs written by ldapsearch BOF and pyldapsearch
     - tags: windows, postex, redteam
 - [mandiant/DueDLLigence](https://github.com/mandiant/DueDLLigence)
     - desc: Shellcode runner framework for application whitelisting bypasses and DLL side-loading
-    - tags: malwaredev
+    - tags: maldev
 
 #### notes
 - [AdrianVollmer/PowerHub](https://github.com/AdrianVollmer/PowerHub)
@@ -1547,25 +1611,25 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, postex, redteam
 - [cocomelonc/peekaboo](https://github.com/cocomelonc/peekaboo)
     - desc: Simple undetectable shellcode and code injector launcher example. Inspired by RTO malware development course.
-    - tags: malwaredev
+    - tags: maldev
 - [antonioCoco/SharPyShell](https://github.com/antonioCoco/SharPyShell)
     - desc: SharPyShell - tiny and obfuscated ASP.NET webshell for C# web applications
-    - tags: web, exploit, malwaredev
+    - tags: web, exploit, maldev
 - [frkngksl/HintInject](https://github.com/frkngksl/HintInject)
     - desc: A PoC project for embedding shellcode to Hint/Name Table
-    - tags: malwaredev
+    - tags: maldev
 - [morph3/Windows-RPC-Backdoor](https://github.com/morph3/Windows-RPC-Backdoor)
     - desc: Simple windows rpc server for research purposes only
-    - tags: malwaredev
+    - tags: maldev
 - [Luct0r/KerberOPSEC](https://github.com/Luct0r/KerberOPSEC)
     - desc: OPSEC safe Kerberoasting in C#
     - tags: windows, postex, redteam
 - [abdulkadir-gungor/JPGtoMalware](https://github.com/abdulkadir-gungor/JPGtoMalware)
     - desc: It embeds the executable file or payload inside the jpg file. The method the program uses isn't exactly called one of the steganography methods. For this reason, it does not cause any distortion in the JPG file. The JPG file size and payload do not have to be proportional.The JPG file is displayed normally in any viewing application or web appli…
-    - tags: malwaredev
+    - tags: maldev
 - [nick-frischkorn/SysWhispers-FunctionRandomizer](https://github.com/nick-frischkorn/SysWhispers-FunctionRandomizer)
     - desc: Quick python script to replace the NtAPI functions within SysWhispers' assembly and header files with random strings
-    - tags: malwaredev
+    - tags: maldev
 - [Octoberfest7/XLL_Phishing](https://github.com/Octoberfest7/XLL_Phishing)
     - desc: XLL Phishing Tradecraft
     - tags: phish
@@ -1577,7 +1641,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: resources
 - [trickster0/OffensiveRust](https://github.com/trickster0/OffensiveRust/)
     - desc: Rust Weaponization for Red Team Engagements.
-    - tags: malwaredev
+    - tags: maldev
 - [sherlocksecurity/VMware-CVE-2022-22954](https://github.com/sherlocksecurity/VMware-CVE-2022-22954)
     - desc: POC for VMWARE CVE-2022-22954
     - tags: web, exploit
@@ -1589,13 +1653,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 #### Publish
 - [DriftingCloud: Zero-Day Sophos Firewall Exploitation and an Insidious Breach - Volexity](https://www.volexity.com/blog/2022/06/15/driftingcloud-zero-day-sophos-firewall-exploitation-and-an-insidious-breach/)
     - desc: "DriftingCloud" APT investigation
-    - tags: malwaredev
+    - tags: maldev
 - [Chaining vulnerabilities to criticality in Progress WhatsUp Gold - assetnote.io](https://blog.assetnote.io/2022/06/09/whatsup-gold-exploit/)
     - desc: bounty writeup
     - tags: web, exploit
 - [ProcEnvInjection - Remote code injection by abusing process environment strings - x86mathew](https://www.x86matthew.com/view_post?id=proc_env_injection)
     - desc: abuse of lpEnvironment to execute code in CreateProcess
-    - tags: malwaredev
+    - tags: maldev
 - [Multi-factor Authentication In-The-Wild bypass methods - Yuval Fischer](https://medium.com/proferosec-osm/multi-factor-authentication-in-the-wild-bypass-methods-689f53f0b62b)
     - desc: mfa bypass research
     - tags: redteam
@@ -1604,7 +1668,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, postex
 - [Rust BOFs for Cobalt Strike](https://rustrepo.com/repo/wumb0-rust_bof)
     - desc: Building BOFs in Rust
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [Hang Fire: Challenging our Mental Model of Initial Access - SpecterOps](https://posts.specterops.io/hang-fire-challenging-our-mental-model-of-initial-access-513c71878767)
     - desc: initial access research
     - tags: redteam
@@ -1615,10 +1679,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 #### Note
 - [Running Shellcode Through Windows Callbacks - marcoramili](https://marcoramilli.com/2022/06/15/running-shellcode-through-windows-callbacks/)
     - desc: windows callback research
-    - tags: malwaredev
+    - tags: maldev
 - [Yours Truly, Signed AV Driver: Weaponizing an Antivirus Driver - aon](https://www.aon.com/cyber-solutions/aon_cyber_labs/yours-truly-signed-av-driver-weaponizing-an-antivirus-driver/)
     - desc: investigation of abuse of AV vendor code signing certificates
-    - tags: malwaredev
+    - tags: maldev
 - [Managed Identity Attack Paths, Part 2: Logic Apps - SpecdterOps](https://posts.specterops.io/managed-identity-attack-paths-part-2-logic-apps-52b29354fc54)
     - desc: Managed Identity research
     - tags: cloud
@@ -1637,10 +1701,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 #### Publish
 - [S3cur3Th1sSh1t/Nim_DInvoke](https://github.com/S3cur3Th1sSh1t/Nim_DInvoke)
     - desc: D/Invoke implementation in Nim
-    - tags: malwaredev
+    - tags: maldev
 - [icyguider/Shhhloader](https://github.com/icyguider/Shhhloader)
     - desc: SysWhispers Shellcode Loader (Work in Progress)
-    - tags: malwaredev
+    - tags: maldev
 - [D00MFist/PersistentJXA](https://github.com/D00MFist/PersistentJXA)
     - desc: Collection of macOS persistence methods and miscellaneous tools in JXA
     - tags: mac
@@ -1657,19 +1721,19 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, postex
  [mgeeky/ShellcodeFluctuation](https://github.com/mgeeky/ShellcodeFluctuation)
     - desc: An advanced in-memory evasion technique fluctuating shellcode's memory protection between RW/NoAccess & RX and then encrypting/decrypting its contents
-    - tags: malwaredev
+    - tags: maldev
 - [mattifestation/AntimalwareBlight](https://github.com/mattifestation/AntimalwareBlight)
     - desc: Execute PowerShell code at the antimalware-light protection level.
     - tags: windows, redteam
 - [Idov31/Nidhogg](https://github.com/Idov31/Nidhogg)
     - desc: Nidhogg is an all-in-one simple to use rootkit for red teams.
-    - tags: malwaredev
+    - tags: maldev
 - [firefart/gosocks](https://github.com/firefart/gosocks)
     - desc: gosocks is a golang based implementation of a socks5 server which supports custom handlers
     - tags: utility
 - [lawiet47/STFUEDR](https://github.com/lawiet47/STFUEDR)
     - desc: Silence EDRs by removing kernel callbacks
-    - tags: malwaredev
+    - tags: maldev
 
 ## Issue 031 - May 2022
 
@@ -1682,10 +1746,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: recon, osint, web
 - [Making NtCreateUserProcess Work - Capt Meelo](https://captmeelo.com/redteam/maldev/2022/05/10/ntcreateuserprocess.html)
     - desc: NtCreateUserProcess research
-    - tags: malwaredev
+    - tags: maldev
 - [malapi.io](https://malapi.io/)
     - desc:MalAPI.io maps Windows APIs to common techniques used by malware. 
-    - tags: malwaredev
+    - tags: maldev
 - [Steal Credentials & Bypass 2FA Using noVNC - mr.d0x](https://mrd0x.com/bypass-2fa-using-novnc)
     - desc: noVNC credential harvesting technique
     - tags: phish
@@ -1699,19 +1763,19 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: osint, recon, web
 - [HuskyHacks/RustyProcessInjectors](https://github.com/HuskyHacks/RustyProcessInjectors)
     - desc: Just some Rust process injector POCs, nothing weird. 
-    - tags: malwaredev
+    - tags: maldev
 - [Hurn99/ImitateCobaltStrikeShellcode](https://github.com/Hurn99/ImitateCobaltStrikeShellcode)
     - desc: Imitate CobaltStrike's Shellcode Generation 
-    - tags: malwaredev
+    - tags: maldev
 - [klezVirus/SysWhispers3](https://github.com/klezVirus/SysWhispers3)
     - desc: SysWhispers on Steroids - AV/EDR evasion via direct system calls
-    - tags: malwaredev
+    - tags: maldev
 - [paranoidninja/O365-Doppelganger](https://github.com/paranoidninja/O365-Doppelganger)
     - desc: A quick handy script to harvest credentials off of a user during a Red Team and get execution of a file from the user 
     - tags: phish
 - [cube0x0/SyscallPack](https://github.com/cube0x0/SyscallPack)
     - desc: BOF and Shellcode for full DLL unhooking using dynamic syscalls 
-    - tags: c2, malwaredev
+    - tags: c2, maldev
 - [Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit)
     - desc: A root exploit for CVE-2022-0847 (Dirty Pipe) 
     - tags: exploit
@@ -1720,7 +1784,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [alfarom256/StinkyLoader](https://github.com/alfarom256/StinkyLoader)
     - desc: WIP implementation of a reflective loader written in C++
-    - tags: malwaredev
+    - tags: maldev
 - [citronneur/rdpy](https://github.com/citronneur/rdpy)
     - desc: Remote Desktop Protocol in Twisted Python 
     - tags: windows, utility
@@ -1729,10 +1793,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, postex
 - [crummie5/FreshyCalls](https://github.com/crummie5/FreshyCalls)
     - desc: FreshyCalls tries to make the use of syscalls comfortable and simple, without generating too much boilerplate and in modern C++17! 
-    - tags: malwaredev
+    - tags: maldev
 - [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate)
     - desc: An easily modifiable shellcode template for Windows x64/x86 
-    - tags: malwaredev
+    - tags: maldev
 
 ## Issue 030 - Apr 2022
 
@@ -1774,16 +1838,16 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 ### tools
 - [VirtualAlllocEx/Payload-Download-Cradles](https://github.com/VirtualAlllocEx/Payload-Download-Cradles)
     - desc: Download cradle PoCs
-    - tags: malwaredev
+    - tags: maldev
 - [VirtualAlllocEx/Shellcode-Downloader-CreateThread-Execution](https://github.com/VirtualAlllocEx/Shellcode-Downloader-CreateThread-Execution)
     - desc: CreateThread download cradle loader
-    - tags: malwaredev
+    - tags: maldev
 - [shogunlab/Mochi](https://github.com/shogunlab/Mochi)
     - desc: shaiscript loader
-    - tags: malwaredev
+    - tags: maldev
 - [skahwah/hollow.cs](https://gist.github.com/skahwah/a585e176e4a5cf319b0c759637f5c410)
     - desc: Custom assembly that is compatible with SQL CLR attacks. 
-    - tags: malwaredev, windows, exploit
+    - tags: maldev, windows, exploit
 - [shellfarmer/WeakestLink](https://github.com/shellfarmer/WeakestLink)
     - desc: LinkedIn exfil browser extension 
     - tags: osint
@@ -1814,7 +1878,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: cloud
 - [Bind Payload using SFX archive with Trojanizer - Raj Chandel](https://www.hackingarticles.in/bind-payload-using-sfx-archive-trojanizer/)
     - desc: SFX malware
-    - tags: malwaredev
+    - tags: maldev
 
 ### tools
 - [posts/exploring-dll-loads](https://mez0.cc/posts/exploring-dll-loads/)
@@ -1837,7 +1901,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility, recon
 - [adamsvoboda/nim-loader](https://github.com/adamsvoboda/nim-loader)
     - desc: WIP shellcode loader in nim with EDR evasion techniques 
-    - tags: malwaredev
+    - tags: maldev
 - [pathtofile/bad-bpf](https://github.com/pathtofile/bad-bpf)
     - desc: bad eBPF programs
     - tags: exploit
@@ -1846,7 +1910,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, postex
 - [daem0nc0re/AtomicSyscall](https://github.com/daem0nc0re/AtomicSyscall)
     - desc: Tools/PoC for windows syscall investigation
-    - tags: malwaredev
+    - tags: maldev
 - [qeeqbox/octopus](https://github.com/qeeqbox/octopus)
     - desc: Pure Honeypots with an automated bash script
     - tags: utility, blue
@@ -1855,7 +1919,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: recon, web, bounty
 - [NtQuerySystemInformation/CustomKeyboardLayoutPersistence](https://github.com/NtQuerySystemInformation/CustomKeyboardLayoutPersistence)
     - desc: Persistence PoC using Custom Keyboard Layout
-    - tags: malwaredev
+    - tags: maldev
 - [Orange-Cyberdefense/fenrir-ocd](https://github.com/Orange-Cyberdefense/fenrir-ocd)
     - desc: WiFi attack tool
     - tags: wireless
@@ -1877,13 +1941,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit, redteam
 - [Hacking .Net Games With DnSpy - Brandon Roldan](https://noob3xploiter.medium.com/hacking-net-games-with-dnspy-73e1441f81c1)
     - desc: DnSpy how to 
-    - tags: malwaredev
+    - tags: maldev
 - [EmbedExeLnk - Embedding an EXE inside a LNK with automatic execution - x86mathew](https://www.x86matthew.com/view_post?id=embed_exe_lnk)
     - desc: LNK research
-    - tags: malwaredev, phishing, redteam
+    - tags: maldev, phishing, redteam
 - [Reading and writing remote process data without using ReadProcessMemory / WriteProcessMemory - x86mathew](https://www.x86matthew.com/view_post?id=read_write_proc_memory)
     - desc: ReadProcessMemroy alternative - malwaredev
-    - tags: malwaredev
+    - tags: maldev
 - [Downloads and the Mark-of-the-Web - textslashplain](https://textslashplain.com/2016/04/04/downloads-and-the-mark-of-the-web/)
     - desc: Mark of the web research
     - tags: windows
@@ -1901,22 +1965,22 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [(Rust) Parallel Syscalls - memn0ps](https://memn0ps.github.io/Parallel-Syscalls/)
     - desc: rust based parallel syscalls
-    - tags: malwaredev
+    - tags: maldev
 - [Abusing Exceptions for Code Execution, Part 1 - Bill Demirkapi](https://billdemirkapi.me/exception-oriented-programming-abusing-exceptions-for-code-execution-part-1/)
     - desc: executing just-in-time code by abusing existing memory regions [tool](https://github.com/D4stiny/ExceptionOrientedProgramming)
-    - tags: malwaredev
+    - tags: maldev
 - [Retrieving Syscall ID with Hell's Gate, Halo's Gate, FreshyCalls and Syswhispers2 - Alice Climent Pommeret](https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/)
     - desc: process injection research
-    - tags: malwaredev
+    - tags: maldev
 - [Staged vs Stageless Payloads - spookysec](https://blog.spookysec.net/stage-v-stageless-1/)
     - desc: malware evasion research
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [10 ways of gaining control over Azure function Apps - Billuk21](https://medium.com/xm-cyber/10-ways-of-gaining-control-over-azure-function-apps-7e7b84367ce6)
     - desc: azure functions exploit research
     - tags: cloud
 - [Useful Libraries for Malware Development - captmeelo](https://captmeelo.com/redteam/maldev/2022/02/16/libraries-for-maldev.html)
     - desc: collection of useful malwaredev libs
-    - tags: malwaredev
+    - tags: maldev
 - [GitHub: The Red-Teamer’s Cheat-Sheet - Komodo Consulting](https://medium.com/@TheKomodoconsulting/github-the-red-teamers-cheat-sheet-56e36a792cdb)
     - desc: github hacking guide
     - tags: web, osint
@@ -1939,7 +2003,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web
 - [dosxuz/ProcessGhosting](https://github.com/dosxuz/ProcessGhosting)
     - desc: ghosting poc - [blog](https://dosxuz.gitlab.io/post/processghosting/)
-    - tags: malwaredev
+    - tags: maldev
 - [chdav/GoWard](https://github.com/chdav/GoWard)
     - desc: golang redteam proxy
     - tags: utilities
@@ -1954,7 +2018,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit
 - [RedTeamOperations/Advanced-Process-Injection-Workshop](https://github.com/RedTeamOperations/Advanced-Process-Injection-Workshop)
     - desc: malware dev research
-    - tags: malwaredev
+    - tags: maldev
 - [bugch3ck/SharpLdapWhoami](https://github.com/bugch3ck/SharpLdapWhoami)
     - desc: whoami alternative using ldap
     - tags: windows
@@ -1966,7 +2030,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [icyguider/Shhhloader](https://github.com/icyguider/Shhhloader)
     - desc: SysWhispers Shellcode Loader
-    - tags: malwaredev
+    - tags: maldev
 - [Tw1sm/spraycharles](https://github.com/Tw1sm/spraycharles) 
     - desc: low and slow password sprayer
     - tags: windows
@@ -1978,10 +2042,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [ChadMotivation/TymSpecial](https://github.com/ChadMotivation/TymSpecial)
     - desc: SysWhispers integrated shellcode loader w/ ETW patching, anti-sandboxing, & spoofed code signing certificates 
-    - tags: malwaredev
+    - tags: maldev
 - [sbasu7241/HellsGate](https://github.com/sbasu7241/HellsGate)
     - desc: hellsgate poc
-    - tags: malwaredev
+    - tags: maldev
 - [Allevon412/PPL_Sandboxer](https://github.com/Allevon412/PPL_Sandboxer)
     - desc: defender token integrity poc
     - tags: windows, exploit
@@ -1999,22 +2063,22 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web, exploit
 - [whydee86/SnD_AMSI](https://github.com/whydee86/SnD_AMSI)
     - desc: start new powershell without etw and amsi in pure nim
-    - tags: windows, redteam, malwaredev
+    - tags: windows, redteam, maldev
 - [adrianyy/KeInject](https://github.com/adrianyy/KeInject)
     - desc: kernel LdrLoadDll injector
-    - tags: malwaredev
+    - tags: maldev
 - [alexfrancow/offensive-vlang](https://github.com/alexfrancow/offensive-vlang)
     - desc: V lang pocs
-    - tags: malwaredev
+    - tags: maldev
 - [ly4k/SpoolFool](https://github.com/ly4k/SpoolFool)
     - desc: CVE-2022-21999 poc
     - tags: windows, exploit
 - [mgeeky/PackMyPayload](https://github.com/mgeeky/PackMyPayload)
     - desc: python payload packer
-    - tags: malwaredev
+    - tags: maldev
 - [dadas190/Heavens-Gate-2.0](https://github.com/dadas190/Heavens-Gate-2.0)
     - desc: heaven's gate poc
-    - tags: malwaredev
+    - tags: maldev
 - [Puliczek/awesome-list-of-secrets-in-environment-variables](https://github.com/Puliczek/awesome-list-of-secrets-in-environment-variables)
     - desc: env var secret db
     - tags: utility
@@ -2023,13 +2087,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [Arno0x/ShellcodeWrapper](https://github.com/Arno0x/ShellcodeWrapper)
     - desc: shellcode packer (python)
-    - tags: malwaredev
+    - tags: maldev
 - [mkellerman/Invoke-CommandAs](https://github.com/mkellerman/Invoke-CommandAs)
     - desc: Invoke Command As System/Interactive/GMSA/User on Local/Remote machine & returns PSObjects. 
     - tags: windows
 - [asherezade/process_overwriting](https://github.com/hasherezade/process_overwriting)
     - desc: Yet another variant of Process Hollowing 
-    - tags: malwaredev
+    - tags: maldev
 - [horizon3ai/backup_dc_registry](https://github.com/horizon3ai/backup_dc_registry)
     - desc: Backup Operator priv esc poc
     - tags: windows, redteam
@@ -2042,13 +2106,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 ### writeups
 - [Alternative Process Injection - Netero1010](https://www.netero1010-securitylab.com/evasion/alternative-process-injection)
     - desc: alternative process injection research
-    - tags: malwaredev
+    - tags: maldev
 - [Sandboxing Antimalware Products for Fun and Profit - Elastic Security Research](https://elastic.github.io/security-research/whitepapers/2022/02/02.sandboxing-antimalware-products-for-fun-and-profit/article/)
     - desc: nerfing PPL research
     - tags: redteam, windows
 - [Object Overloading - TrustedSec](https://www.trustedsec.com/blog/object-overloading/)
     - desc: dll loading research - [poc](https://github.com/xpn/ObjectOverloadingPOC)
-    - tags: malwaredev
+    - tags: maldev
 - [Shadow Credentials - Penetration Testing Lab](https://pentestlab.blog/2022/02/07/shadow-credentials/)
     - desc: Windows Hello for Business (WHfB) research
     - tags: windows, redteam
@@ -2063,7 +2127,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: phishing, redteam, exploit
 - [Defeating EDRs with Office Products - Ivy](https://www.optiv.com/insights/source-zero/blog/defeating-edrs-office-products)
     - desc: WSH evasion and generation
-    - tags: malwaredev
+    - tags: maldev
 - [Exploiting URL Parsing Confusion - Claroty](https://claroty.com/2022/01/10/blog-research-exploiting-url-parsing-confusion/)
     - desc: URL parser research
     - tags: web, exploit
@@ -2081,7 +2145,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: mac, exploit
 - [.NET Remoting Revisited - codewhite](https://codewhitesec.blogspot.com/2022/01/dotnet-remoting-revisited.html)
     - desc: .net vuln/dev research
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [ZohOwned :: A Critical Authentication Bypass on Zoho ManageEngine Desktop Central - srcincite](https://srcincite.io/blog/2022/01/20/zohowned-a-critical-authentication-bypass-on-zoho-manageengine-desktop-central.html)
     - desc: vuln research manageengine
     - tags: exploit
@@ -2092,25 +2156,25 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, privesc
 - [thefLink/RecycledGate](https://github.com/thefLink/RecycledGate)
     - desc: Hellsgate + Halosgate/Tartarosgate. Ensures that all systemcalls go through ntdll.dll 
-    - tags: malwaredev
+    - tags: maldev
 - [juanfont/headscale](https://github.com/juanfont/headscale)
     - desc: OSS self-hosted Tailscale control server
     - tags: utility
 - [xenoscr/manual-syscall-detect](https://github.com/xenoscr/manual-syscall-detect)
     - desc: A tool for detecting manual/direct syscalls in x86 and x64 processes using Nirvana Hooks. 
-    - tags: malwaredev
+    - tags: maldev
 - [b1tg/Ox-C2](https://github.com/b1tg/Ox-C2)
     - desc: rust c2
     - tags: redteam
 - [Kudaes/DInvoke_rs](https://github.com/Kudaes/DInvoke_rs)
     - desc: Rust DInvoke port
-    - tags: malwaredev
+    - tags: maldev
 - [Idov31/FunctionStomping](https://github.com/Idov31/FunctionStomping)
     - desc: "novel" shellcode injection technique
-    - tags: malwaredev
+    - tags: maldev
 - [chvancooten/NimPackt-v1](https://github.com/chvancooten/NimPackt-v1)
     - desc: nim assembly packer and loader
-    - tags: malwaredev
+    - tags: maldev
 - [R4yGM/garlicshare](https://github.com/R4yGM/garlicshare)
     - desc: Private and self-hosted file sharing over the Tor network written in golang 
     - tags: utility
@@ -2122,37 +2186,37 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, privesc
 - [3xpl01tc0d3r/ProcessInjection](https://github.com/3xpl01tc0d3r/ProcessInjection)
     - desc: various process injection technique PoCs
-    - tags: malwaredev
+    - tags: maldev
 - [lkarlslund/adalanche](https://github.com/lkarlslund/adalanche)
     - desc: Active Directory ACL Visualizer and Explorer - who's really Domain Admin?
     - tags: redteam, windows
 - [0xsp-SRD/mortar](https://github.com/0xsp-SRD/mortar)
     - desc: memory stream encryption evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR) 
-    - tags: malwaredev
+    - tags: maldev
 - [theparanoids/ashirt-server](https://github.com/theparanoids/ashirt-server)
     - desc: Adversary Simulators High-Fidelity Intelligence and Reporting Toolkit 
     - tags: utility
 - [mdsecactivebreach/ParallelSyscalls](https://github.com/mdsecactivebreach/ParallelSyscalls)
     - desc: Syscall alternative PoC
-    - tags: malwaredewv
+    - tags: maldev
 - [DarkCoderSc/PowerRemoteDesktop](https://github.com/DarkCoderSc/PowerRemoteDesktop)
     - desc: RDP Powershell port
     - tags: utility
 - [ad-995/bluffy](https://github.com/ad-995/bluffy)
     - desc: Convert shellcode into different formats
-    - tags: malwaredev
+    - tags: maldev
 - [trickster0/LdrLoadDll-Unhooking](https://github.com/trickster0/LdrLoadDll-Unhooking)
     - desc: LdrLoadDll unhooking
-    - tags: malwaredev
+    - tags: maldev
 - [dhondta/awesome-executable-packing](https://github.com/dhondta/awesome-executable-packing)
     - desc: curated list of resources related to executable packing
-    - tags: malwaredev
+    - tags: maldev
 - [0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166)
     - desc: http.sys RCE PoC
     - tags: web, exploit
 - [zimawhit3/HellsGateNim](https://github.com/zimawhit3/HellsGateNim)
     - desc: Nim port Hellsgate
-    - tags: malwaredev
+    - tags: maldev
 - [voutilad/BloodHound-Tools](https://github.com/voutilad/BloodHound-Tools)
     - desc: misc. tools for bloodhound
     - tags: utility, redteam
@@ -2161,7 +2225,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows
 - [89luca89/pakkero](https://github.com/89luca89/pakkero)
     - desc: go binary packer
-    - tags: malwaredev
+    - tags: maldev
 - [trustedsec/SeeYouCM-Thief](https://github.com/trustedsec/SeeYouCM-Thief)
     - desc: Cisco phone raider
     - tags: exploit, infra
@@ -2173,16 +2237,16 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: exploit
 - [Wra7h/SharpGhosting](https://github.com/Wra7h/SharpGhosting)
     - desc: c# port process ghosting
-    - tags: malwaredev
+    - tags: maldev
 - [dosxuz/ProcessGhosting](https://github.com/dosxuz/ProcessGhosting)
     - desc: c# port process ghosting
-    - tags: malwaredev
+    - tags: maldev
 - [BishopFox/CVE-2021-35211](https://github.com/BishopFox/CVE-2021-35211)
     - desc: SERV-U RCE PoC
     - tags: exploit, web
 - [jfmaes/AmsiHooker](https://github.com/jfmaes/AmsiHooker)
     - desc: hook (not patch) amsi
-    - tags: malwaredev
+    - tags: maldev
 - [wireghoul/htshells](https://github.com/wireghoul/htshells)
     - desc: htaccess shell collection
     - tags: web, exploit
@@ -2191,7 +2255,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [nasbench/C2-Matrix-Indicators](https://github.com/nasbench/C2-Matrix-Indicators)
     - desc: c2 indicator collection
-    - tags: malwaredev
+    - tags: maldev
 - [AttackForge](https://attackforge.com/)
     - desc: pentest management platform
     - tags: utility
@@ -2200,19 +2264,19 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: recon, web
 - [hlldz/RefleXXion](https://github.com/hlldz/RefleXXion)
     - desc: Parralell-ysis like, Syscall collection / evasion
-    - tags: malwaredev
+    - tags: maldev
 - [Qianlitp/crawlergo](https://github.com/Qianlitp/crawlergo)
     - desc: go web crawler
     - tags: web, recon
 - [icyguider/nimcrypt](https://github.com/icyguider/nimcrypt)
     - desc: PE crypter written in Nim
-    - tags: malwaredev
+    - tags: maldev
 - [S3cur3Th1sSh1t/NimGetSyscallStub](https://github.com/S3cur3Th1sSh1t/NimGetSyscallStub)
     - desc: Syscall nim port
-    - tags: malwaredev
+    - tags: maldev
 - [frkngksl/ParallelNimcalls](https://github.com/frkngksl/ParallelNimcalls)
     - desc: Parallel-asis Nim port
-    - tags: malwaredev
+    - tags: maldev
 - [rustrat/rustrat](https://github.com/rustrat/rustrat)
     - desc: rust c2
     - tags: redteam
@@ -2221,16 +2285,16 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: exploit
 - [plackyhacker/Suspended-Thread-Injection](https://github.com/plackyhacker/Suspended-Thread-Injection)
     - desc: shellcode injection technique
-    - tags: malwaredev
+    - tags: maldev
 - [optiv/Ivy](https://github.com/optiv/Ivy)
     - desc: advanced WSH shellcode runner
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [knavesec/CredMaster](https://github.com/knavesec/CredMaster)
     - desc: CredKing port (pw spraying)
     - tags: exploit
 - [ORCA666/T.D.P](https://github.com/ORCA666/T.D.P)
     - desc: Shellcode runner using Thread Description Poisoning
-    - tags: malwaredev
+    - tags: maldev
 - [scythe-io/community-threats](https://github.com/scythe-io/community-threats)
     - desc: largest, public library of adversary emulation plans in JSON
     - tags: redteam
@@ -2252,16 +2316,16 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [Converting C# Tools to PowerShell - Icyguider](https://icyguider.github.io/2022/01/03/Convert-CSharp-Tools-To-PowerShell.html)
     - desc: Packing C# tools into powershell scripts
-    - tags: malwaredev, windows
+    - tags: maldev, windows
 - [How to install Elastic SIEM and Elastic EDR - On the Hunt](https://newtonpaul.com/how-to-install-elastic-siem-and-elastic-edr/)
     - desc: OSS EDR installation tut
-    - tags: malwaredev
+    - tags: maldev
 - [PKI Abuse Cheatsheet - Flangvik](https://gist.github.com/Flangvik/15c3007dcd57b742d4ee99502440b250)
     - desc: ADCS cheatsheet
     - tags: redteam, windows
 - [From LoadLibrary to Manually Mapping, the Art of DLL Injection - Abraxu](https://kasimir123.github.io/blog-posts/DLL%20Injection.html)
     - desc: dll injection research
-    - tags: malwaredev
+    - tags: maldev
 - [10 real-world stories of how we’ve compromised CI/CD pipelines - NCCGroup](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/)
     - desc: CI/CD exploitation research
     - tags: exploit
@@ -2270,7 +2334,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web, recon
 - [EDR Parallel-asis through Analysis - MDSec](https://www.mdsec.co.uk/2022/01/edr-parallel-asis-through-analysis/)
     - desc: Syscall alternative research
-    - tags: malwaredev
+    - tags: maldev
 
 ### tools
 - [FULLSHADE/WARFOX-C2](https://github.com/FULLSHADE/WARFOX-C2)
@@ -2278,19 +2342,19 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [notdodo/adduser-dll](https://github.com/notdodo/adduser-dll)
     - desc: Simple DLL that add a user to the local Administrators group
-    - tags: malwaredev
+    - tags: maldev
 - [icyguider/Shhhloader](https://github.com/icyguider/Shhhloader)
     - desc: SysWhispers Shellcode Loader
-    - tags: malwaredev
+    - tags: maldev
 - [improsec/CaddyStager](https://github.com/improsec/CaddyStager)
     - desc: caddy relay/redirector for use with cobalstrike
     - tags: redteam
 - [kyleavery/inject-assembly](https://github.com/kyleavery/inject-assembly)
     - desc: inject .net into existing process
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [2vg/blackcat-rs](https://github.com/2vg/blackcat-rs)
     - desc: rust runners
-    - tags: malwaredev
+    - tags: maldev
 - [fiatjaf/jiq](https://github.com/fiatjaf/jiq)
     - desc: interactive JSON query tool
     - tags: utility
@@ -2302,7 +2366,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: cracking, utility
 - [Boku7/BokuLoader](https://github.com/Boku7/BokuLoader)
     - desc: Cobalt Strike User-Defined Reflective Loader
-    - tags: malwaredev
+    - tags: maldev
 - [CravateRouge/bloodyAD](https://github.com/CravateRouge/bloodyAD)
     - desc: AD Priv Esc framework built on Impacket
     - tags: windows, redteam
@@ -2311,10 +2375,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows
 - [paranoidninja/EtwTi-Syscall-Hook](https://github.com/paranoidninja/EtwTi-Syscall-Hook)
     - desc: Syscall hunter
-    - tags: malwaredev
+    - tags: maldev
 - [cube0x0/ParallelSyscalls/](https://github.com/cube0x0/ParallelSyscalls/)
     - desc: C# implementation of MDSec's Parallel-asys
-    - tags: malwaredev
+    - tags: maldev
 - [thiagomayllart/Harvis](https://github.com/thiagomayllart/Harvis)
     - desc: c2 infra automation
     - tags: redteam
@@ -2326,10 +2390,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, utility
 - [Cerbersec/Ares](https://github.com/Cerbersec/Ares)
     - desc: C/C++ transacted hollowing PoC
-    - tags: malwaredev
+    - tags: maldev
 - [mrd0x/pe2shc-to-cdb](https://github.com/mrd0x/pe2shc-to-cdb)
     - desc: CDB lolbin shellcode converter
-    - tags: malwaredev
+    - tags: maldev
 - [filesec.io](https://filesec.io/)
     - desc: attacker file extension reference
     - tags: windows, redteam
@@ -2360,16 +2424,16 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web, exploit
 - [Antivirus evasion by user mode unhooking on Windows 10 - Broumels & Ubink](https://rp.os3.nl/2020-2021/p68/report.pdf)
     - desc: EDR/AV unhooking evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [Quick & Lazy Malware Development - capt. meelo](https://captmeelo.com/redteam/maldev/2021/12/15/lazy-maldev.html)
     - desc: malware evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [Why is Exposing the Docker Socket a Really Bad Idea? - Quarkslab](https://blog.quarkslab.com/why-is-exposing-the-docker-socket-a-really-bad-idea.html)
     - desc: docker exploitation research
     - tags: cloud
 - [This is how I bypassed almost every EDR! - omri baso](https://medium.com/@omribaso/this-is-how-i-bypassed-almost-every-edr-6e9792cf6c44)
     - desc: edr evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [RCE-0-day-for-GhostScript-9.50 - duc-nt](https://github.com/duc-nt/RCE-0-day-for-GhostScript-9.50)
     - desc: RCE 0-day for GhostScript 9.50 - Payload generator 
     - tags: web, exploit
@@ -2401,25 +2465,25 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit, redteam
 - [plackyhacker/CmdLineSpoofer](https://github.com/plackyhacker/CmdLineSpoofer)
     - desc: How to spoof the command line when spawning a new process from C#. 
-    - tags: malwaredev
+    - tags: maldev
 - [sliverarmory/armory](https://github.com/sliverarmory/armory)
     - desc: The Official Sliver Armory
     - tags: redteam
 - [Cracked5pider/KaynLdr](https://github.com/Cracked5pider/KaynLdr)
     - desc: KaynLdr is a Reflective Loader written in C/ASM
-    - tags: malwaredev
+    - tags: maldev
 - [trickster0/TartarusGate](https://github.com/trickster0/TartarusGate)
     - desc: TartarusGate, Bypassing EDRs 
-    - tags: malwaredev
+    - tags: maldev
 - [plackyhacker/Sys-Calls](https://github.com/plackyhacker/Sys-Calls)
     - desc: An example of using Syscalls in C# to get a meterpreter shell
-    - tags: malwaredev
+    - tags: maldev
 - [plackyhacker/Peruns-Fart](https://github.com/plackyhacker/Peruns-Fart)
     - desc: Perun's Fart (Slavic God's Luck). Another method for unhooking AV and EDR, this is my C# version
-    - tags: malwaredev
+    - tags: maldev
 - [boku7/CobaltStrikeReflectiveLoader](https://github.com/boku7/CobaltStrikeReflectiveLoader)
     - desc: Cobalt Strike User-Defined Reflective Loader written in Assembly & C for advanced evasion capabilities.
-    - tags: malwaredev
+    - tags: maldev
 - [enkomio/AlanFramework](https://github.com/enkomio/AlanFramework)
     - desc: A C2 post-exploitation framework
     - tags: redteam
@@ -2431,10 +2495,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [ajpc500/NimlineWhispers2](https://github.com/ajpc500/NimlineWhispers2)
     - desc: A tool for converting SysWhispers2 syscalls for use with Nim projects 
-    - tags: malwaredev
+    - tags: maldev
 - [adamcaudill/EquationGroupLeak HTA](https://github.com/adamcaudill/EquationGroupLeak/blob/master/oddjob/Binaries/oddjob_builder/ODDJOB_BUilder_v3.hta)
     - desc: equationgroup hta
-    - tags: malwaredev
+    - tags: maldev
 - [antonioCoco/MalSeclogon](https://github.com/antonioCoco/MalSeclogon)
     - desc: A little tool to play with the Seclogon service, lsass dump + PPID spoofing 
     - tags: windows, postex
@@ -2470,7 +2534,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [sbasu7241/kernelcallback.cs](https://gist.github.com/sbasu7241/5dd8c278762c6305b4b2009d44d60c13)
     - desc: edr evasion using kernel callbacks PoC
-    - tags: malwaredev
+    - tags: maldev
 - [noperator/panos-scanner](https://github.com/noperator/panos-scanner)
     - desc: pan os scanner
     - tags: web
@@ -2488,26 +2552,26 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [ariary/fileless-xec](https://github.com/ariary/fileless-xec)
     - desc: Stealth dropper executing remote binaries without dropping them on disk .(HTTP3 support, ICMP support, invisible tracks, cross-platform,...) 
-    - tags: malwaredev
+    - tags: maldev
 
 ## Issue 024 - Dec 2021
 
 ### writeups
 - [Blinding EDR On Windows - Zach Stein](https://synzack.github.io/Blinding-EDR-On-Windows/)
     - desc: edr evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [Alternative Process Injection - Netero1010](https://www.netero1010-securitylab.com/eavsion/alternative-process-injection)
     - desc: process injection research
-    - tags: malwaredev
+    - tags: maldev
 - [Writing Beacon Object Files: Flexible, Stealthy, and Compatible - Coresecurity](https://www.coresecurity.com/core-labs/articles/writing-beacon-object-files-flexibie-stealthy-and-compatible)
     - desc: bof creation research
     - tags: redteam
 - [Bypass the Detection & Prevention Obstacle: Red Teaming Technique - Lawrence Amer | CRESTCon Asia](https://www.youtube.com/watch?v=H7EMBz7GLMk)
     - desc: edr evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [Process Ghosting - pentestlaboratories.com](https://pentestlaboratories.com/2021/12/08/process-ghosting/)
     - desc: edr evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [CVE-2021-42287/CVE-2021-42278 Weaponisation - exploit-ph](https://exploit.ph/cve-2021-42287-cve-2021-42278-weaponisation.html)
     - desc: CVE-2021-42278, CVE-2021-42291, CVE-2021-42287 and CVE-2021-42282 research (nopac/sam-the-admin)
     - tags: windows, redteam
@@ -2516,19 +2580,19 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit
 - [Abusing Windows’ Implementation of Fork() for Stealthy Memory Operations - Bill Demirkapi](https://billdemirkapi.me/abusing-windows-implementation-of-fork-for-stealthy-memory-operations/)
     - desc: evasion research
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [DLL Hollowing - Dimitri Di Cristofaro](https://www.secforce.com/blog/dll-hollowing-a-deep-dive-into-a-stealthier-memory-allocation-variant/)
     - desc: evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [When You sysWhisper Loud Enough for AV to Hear You - capt. meelo](https://captmeelo.com/redteam/maldev/2021/11/18/av-evasion-syswhisper.html)
     - desc: evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [EDR, a closer look at protected services - infosec.tirol](https://www.infosec.tirol/edr-a-closer-look-at-protected-services/)
     - desc: edr workings research
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [Skrull: run malware on the victim using the Process Ghosting technique - do son](https://securityonline.info/skrull-run-malware-on-the-victim-using-the-process-ghosting-technique/)
     - desc: evasion research
-    - tags: malwaredev
+    - tags: maldev
     
 ### tools
 - [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
@@ -2539,7 +2603,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit, privesc
 - [wavestone-cdt/EDRSandblast](https://github.com/wavestone-cdt/EDRSandblast)
     - desc: tool written in C that weaponize a vulnerable signed driver to bypass EDR detections
-    - tags: malwaredev
+    - tags: maldev
 - [netmeld/netmeld](https://github.com/netmeld/netmeld)
     - desc: A tool suite for use during system assessments. 
     - tags: utility
@@ -2554,13 +2618,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [nettitude/RunPE](https://github.com/nettitude/RunPE)
     - desc: C# Reflective loader for unmanaged binaries.
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [DarkCoderSc/PowerRunAsAttached](https://github.com/DarkCoderSc/PowerRunAsAttached)
     - desc: This script allows to spawn a new interactive console as another user account in the same calling console (console instance/window). 
     - tags: windows, postex
 - [skahwah/SSHClient](https://github.com/skahwah/SSHClient)
     - desc: c# ssh client
-    - tags: malwaredev
+    - tags: maldev
 - [checkymander/Sharp-SMBExec](https://github.com/checkymander/Sharp-SMBExec)
     - desc: c# smbexec
     - tags: windows, redteam
@@ -2569,10 +2633,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: phish
 - [trickster0/OffensiveRust](https://github.com/trickster0/OffensiveRust)
     - desc: Rust Weaponization for Red Team Engagements. 
-    - tags: malwaredev
+    - tags: maldev
 - [mrthefakeperson/Excel-Virtual-Machine](https://github.com/mrthefakeperson/Excel-Virtual-Machine)
     - desc: c compiler which targets Excel
-    - tags: malwaredev
+    - tags: maldev
 - [zeronetworks/BloodHound-Tools](https://github.com/zeronetworks/BloodHound-Tools)
     - desc: collection of tools that reflect the network dimension into bloodhound's data
     - tags: windows
@@ -2581,7 +2645,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web
 - [9emin1/charlotte](https://github.com/9emin1/charlotte)
     - desc: c++ fully undetected shellcode launcher
-    - tags: malwaredev
+    - tags: maldev
 - [sdcampbell/Internal-Pentest-Playbook](https://github.com/sdcampbell/Internal-Pentest-Playbook)
     - desc: internal pentest playbook
     - tags: utility
@@ -2599,10 +2663,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [danports/cassia](https://github.com/danports/cassia)
     - desc: Cassia is a .NET library for accessing the native Windows Remote Desktop Services API 
-    - tags: malwaredev
+    - tags: maldev
 - [sbasu7241/findhooks.cs](https://gist.github.com/sbasu7241/4c2640fb6dd5bfdcfac07b83f1648ee0)
     - desc: identify edr hooks script
-    - tags: malwaredev
+    - tags: maldev
 - [KaLendsi/CVE-2021-43224-POC](https://github.com/KaLendsi/CVE-2021-43224-POC)
     - desc: Windows Common Log File System Driver POC 
     - tags: privesc
@@ -2617,19 +2681,19 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web
 - [EspressoCake/NativeFunctionStaticMap](https://github.com/EspressoCake/NativeFunctionStaticMap)
     - desc: A *very* imperfect attempt to correlate Kernel32 function calls to native API (Nt/Zw) counterparts/execution flow. 
-    - tags: malwaredev
+    - tags: maldev
 - [FULLSHADE/Jektor](https://github.com/FULLSHADE/Jektor)
     - desc: A Windows user-mode shellcode execution tool that demonstrates various techniques that malware uses 
-    - tags: malwaredev
+    - tags: maldev
 - [pwn1sher/uuid-loader](https://github.com/pwn1sher/uuid-loader)
     - desc: UUID based Shellcode loader for your favorite C2  (cpp)
-    - tags: malwaredev
+    - tags: maldev
 - [ricardojba/Invoke-noPac](https://github.com/ricardojba/Invoke-noPac)
     - desc: CVE-2021-42278 and CVE-2021-42287 exploitation (noPac/sam-the-admin)
     - tags: windows, redteam
 - [Yaxser/COFFLoader2](https://github.com/Yaxser/COFFLoader2)
     - desc: Load and execute COFF files and Cobalt Strike BOFs in-memory 
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [PalindromeLabs/STEWS](https://github.com/PalindromeLabs/STEWS)
     - desc: A Security Tool for Enumerating WebSockets 
     - tags: web
@@ -2638,7 +2702,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: phish, utility
 - [Souhardya/ChimeraLdr](https://github.com/Souhardya/ChimeraLdr)
     - desc: Multipurpose malware framework utilizing vk.com as c2 
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [cedowens/EntitlementCheck](https://github.com/cedowens/EntitlementCheck)
     - desc: Python3 script for macOS to recursively check for binaries with problematic/interesting entitlements.
     - tags: macos
@@ -2647,20 +2711,20 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit
 - [jthuraisamy/TelemetrySourcerer](https://github.com/jthuraisamy/TelemetrySourcerer)
     - desc: Enumerate and disable common sources of telemetry used by AV/EDR. 
-    - tags: malwaredev
+    - tags: maldev
 - [Retrospected/kerbmon](https://github.com/Retrospected/kerbmon)
     - desc: Continuous kerberoast monitor 
     - tags: windows, redteam
 - [bigb0sss/Bankai](https://github.com/bigb0sss/Bankai)
     - desc: Another Go Shellcode Loader using Windows APIs
-    - tags: malwaredev
+    - tags: maldev
 
 ## Issue 023 - Nov 2021
 
 ### writeups
 - [Evading EDR Detection with Reentrancy Abuse - deepinstinct](https://www.deepinstinct.com/blog/evading-antivirus-detection-with-inline-hooks)
     - desc: EDR evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [The Kerberos Key List Attack: The return of the Read Only Domain Controllers - secureauth](https://www.secureauth.com/blog/the-kerberos-key-list-attack-the-return-of-the-read-only-domain-controllers/)
     - desc: new credential gathering attack vector involving Read Only Domain Controllers
     - tags: redteam
@@ -2686,16 +2750,16 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [t3hbb/NSGenCS](https://github.com/t3hbb/NSGenCS)
     - desc: Extendable payload obfuscation and delivery framework
-    - tags: malwaredev
+    - tags: maldev
 - [N4kedTurtle/LocalDllParse](https://github.com/N4kedTurtle/LocalDllParse)
     - desc: Local DLL enum
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [helpsystems/nanodump](https://github.com/helpsystems/nanodump)
     - desc: Dumping LSASS has never been so stealthy 
     - tags: redteam, windows
 - [mai1zhi2/SharpBeacon](https://github.com/mai1zhi2/SharpBeacon)
     - desc: c# beacon
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [lkarlslund/azureimposter](https://github.com/lkarlslund/azureimposter)
     - desc: Go module that allows you to authenticate to Azure with a well known client ID using interactive logon and grab the token
     - tags: redteam
@@ -2707,18 +2771,18 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [Sh0ckFR/InlineWhispers2](https://github.com/Sh0ckFR/InlineWhispers2)
     - desc: Direct System Calls in Cobalt Strike's Beacon Object Files (BOF) via Syswhispers2 
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [filesec.io -  latest file extensions being used by attackers](https://filesec.io/)
     - desc: Stay up-to-date with the latest file extensions being used by attackers.
     - tags: redteam
 - [tothi/dll-hijack-by-proxying](https://github.com/tothi/dll-hijack-by-proxying)
     - desc: Exploiting DLL Hijacking by DLL Proxying Super Easily 
-    - tags: malwaredev
+    - tags: maldev
 - [rasta-mouse/ExternalC2.NET](https://github.com/rasta-mouse/ExternalC2.NET)
     - desc: .NET implementation of Cobalt Strike's External C2 Spec
 - [oXis/GPUSleep](https://github.com/oXis/GPUSleep)
     - desc: PoC Move CS beacon to GPU memory when sleeping 
-    - tags: malwaredev
+    - tags: maldev
 - [securifybv/Visual-Studio-BOF-template](https://github.com/securifybv/Visual-Studio-BOF-template)
     - desc: A Visual Studio template used to create Cobalt Strike BOFs 
     - tags: utility
@@ -2730,7 +2794,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, windows
 - [echtdefault/MalDoc-Embedded-EXE-Bin-](https://github.com/echtdefault/MalDoc-Embedded-EXE-Bin-)
     - desc: maldoc gen technique
-    - tags: malwaredev, phish
+    - tags: maldev, phish
 - [thalpius/Microsoft-Kerberos](https://github.com/thalpius/Microsoft-Kerberos)
     - desc: PoC KerberosSecurityTokenProvider tgs
     - tags: redteam, windows
@@ -2739,7 +2803,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, lpe
 - [two06/Inception](https://github.com/two06/Inception)
     - desc: Provides In-memory compilation and reflective loading of C# apps for AV evasion. 
-    - tags: malwaredev
+    - tags: maldev
 - [dievus/Firefox-Dumper](https://github.com/dievus/Firefox-Dumper)
     - desc: Tool to transfer credential files from Firefox to your local machine to decrypt offline. 
     - tags: utility
@@ -2770,7 +2834,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: misc
 - [Process Hollowing explanation](https://github.com/m0n0ph1/Process-Hollowing)
     - desc: process hollowing explanation
-    - tags: malwaredev
+    - tags: maldev
 - [Windows & Active Directory Exploitation Cheat Sheet and Command Reference - casvancooten](https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/)
     - desc: ad cheatsheet
     - tags: redteam, windows
@@ -2781,25 +2845,25 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web, exploit
 - [Go’s best friend: UPX, the executable compressor](https://jmrobles.medium.com/gos-best-friend-upx-the-executable-compressor-e4f4872f1d8a)
     - desc: packing/compressing go bins
-    - tags: malwaredev
+    - tags: maldev
 - [Cybersecurity Collaboration Report - noraj](https://github.com/noraj/rawsec-cybersecurity-inventory/blob/640c8928a89cd3725d086547e7f5b9a0119acc0c/data/tools/collaboration_report.json)
     - desc: list of report collaboration tools
     - tags: utility
 - [This is how I bypassed almost every EDR!](https://medium.com/@omribaso/this-is-how-i-bypassed-almost-every-edr-6e9792cf6c44)
     - desc: EDR evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [SAML and SAML Attacks - RedSiege](https://www.redsiege.com/blog/2021/11/attacking-saml-implementations/)
     - desc: SAML exploitation research
     - tags: web
 - [Master of Puppets Part II – How to tamper the EDR? - infosec.tirol](https://www.infosec.tirol/master-of-puppets-part-ii-how-to-tamper-the-edr/)
     - desc: EDR evasion research
-    - tags: malwaredev
+    - tags: maldev
 - [Kerberoast with OpSec - m365internals](https://m365internals.com/2021/11/08/kerberoast-with-opsec/)
     - desc: Kerberoasting opsec considerations and research
     - tags: redteam
 - [Malicious Document Analysis: Example 1 - Alexandre Borges](https://exploitreversing.com/2021/11/02/malicious-document-analysis-example-1/)
     - desc: analysis of a malware doc
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [Windows Red Team Persistence Techniques | Persistence With PowerShell Empire - HackerSploit](https://www.youtube.com/watch?v=7h_5BJHIpnU)
     - desc: overview of persistence techniques using Empire
     - tags: redteam
@@ -2826,7 +2890,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: research, phish, redteam
 - [D/Invoke Baguette - rastamouse](http://rastamouse.me/d-invoke-baguette/)
     - desc: Introduction of new, related DInvoke projects
-    - tags: malwaredev
+    - tags: maldev
 
 ### tools
 - [gwen001/DataExtractor](https://github.com/gwen001/DataExtractor)
@@ -2840,19 +2904,19 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: cloud
 - [Binject/forger](https://github.com/Binject/forger)
     - desc: varios code signing attacks against multiple byte binary types
-    - tags: malwaredev
+    - tags: maldev
 - [kkrypt0nn/Wordlists](https://github.com/kkrypt0nn/Wordlists)
     - desc: collection of wordlists
     - tags: utility
 - [ByteJunkies-co-uk/Metsubushi](https://github.com/ByteJunkies-co-uk/Metsubushi)
     - desc: go packer
-    - tags: malwaredev
+    - tags: maldev
 - [EspressoCake/DLL-Hijack-Search-Order-BOF](https://github.com/EspressoCake/DLL-Hijack-Search-Order-BOF)
     - desc: DLL Hijack Search Order Enumeration BOF
     - tags: redteam, windows
 - [plackyhacker/Sys-Calls](https://github.com/plackyhacker/Sys-Calls)
     - desc: c# syscall runner PoC
-    - tags: malwaredev
+    - tags: maldev
 - [evilsocket/ditto](https://github.com/evilsocket/ditto)
     - desc: tool for IDN homograph attacks and detection
     - tags: utility, phish, redteam
@@ -2870,13 +2934,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web
 - [mgeeky/VisualBasicObfuscator](https://github.com/mgeeky/VisualBasicObfuscator)
     - desc: Universal VBA obfuscator
-    - tags: malwaredev
+    - tags: maldev
 - [checkymander/Carbuncle](https://github.com/checkymander/Carbuncle)
     - desc: Outlook interop tool
     - tags: redteam, windows
 - [scriptchildie/powershelletwbypass](https://github.com/scriptchildie/powershelletwbypass)
     - desc: Powershell ScriptBlock Log Bypass / ETW bypass
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [mobdk/WinBoost](https://github.com/mobdk/WinBoost)
     - desc: Execute Mimikatz with different technique 
     - tags: windows, redteam
@@ -2885,28 +2949,28 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [secdev-01/AllTheThingsExec](https://github.com/secdev-01/AllTheThingsExec/blob/main/AlltheThings.cs)
     - desc: rundll32 compatible c#
-    - tags: malwaredev
+    - tags: maldev
 - [C-Sto/gosecretsdump](https://github.com/C-Sto/gosecretsdump)
     - desc: stupid fast ntds dumper written in go
     - tags: windows, redteam
 - [chr0n1k/AH2021Workshop](https://github.com/chr0n1k/AH2021Workshop)
     - desc: Malware development for red teaming workshop
-    - tags: malwaredev
+    - tags: maldev
 - [Charterino/AsStrongAsFuck](https://github.com/Charterino/AsStrongAsFuck)
     - desc: C# obfuscation engine
-    - tags: malwaredev
+    - tags: maldev
 - [SecuProject/ADenum](https://github.com/SecuProject/ADenum)
     - desc: AD Enum is a pentesting tool that allows to find misconfiguration through the the protocol LDAP and exploit some of those weaknesses with kerberos. 
     - tags: windows, redteam
 - [LordNoteworthy/al-khaser](https://github.com/LordNoteworthy/al-khaser)
     - desc: Public malware techniques used in the wild
-    - tags: malwaredev
+    - tags: maldev
 - [cyberark/DLLSpy](https://github.com/cyberark/DLLSpy)
     - desc: DLL hijacking detection tool
-    - tags: utility, malwaredev
+    - tags: utility, maldev
 - [bytecode77/self-morphing-csharp-binary](https://github.com/bytecode77/self-morphing-csharp-binary)
     - desc: Executable that mutates its own code 
-    - tags: malwaredev
+    - tags: maldev
 
 ## Issue 021 - Nov 2021
 
@@ -2944,7 +3008,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web, exploit
 - [Cobalt Strike: Using Known Private Keys To Decrypt Traffic – Part 2 - Nvisio Labs](https://blog.nviso.eu/2021/10/27/cobalt-strike-using-known-private-keys-to-decrypt-traffic-part-2/)
     - desc: Decrypting CS traffic
-    - tags: malwaredev, redteam, research
+    - tags: maldev, redteam, research
 - [Zimbra “zmslapd” Local Root Exploit - darren martyn](https://darrenmartyn.ie/2021/10/27/zimbra-zmslapd-local-root-exploit/)
     - desc: Zimbra LPE
     - tags: privesc
@@ -2976,10 +3040,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [klezVirus/SharpSelfDelete](https://github.com/klezVirus/SharpSelfDelete)
     - desc: C# implementation of the research by @jonaslyk and the drafted PoC from @LloydLabs self delete runner
-    - tags: malwaredev
+    - tags: maldev
 - [klezVirus/inceptor](https://github.com/klezVirus/inceptor)
     - desc: template driven av/edr evasion framework
-    - tags: malwaredev
+    - tags: maldev
 - [rvrsh3ll/TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
     - desc: Azure JWT Token Manipulation Toolset 
     - tags: cloud, web
@@ -2997,10 +3061,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [rasta-mouse/DInvoke](https://github.com/rasta-mouse/DInvoke)
     - desc: minimalist DInvoke
-    - tags: malwaredev
+    - tags: maldev
 - [michaelweber/Macrome](https://github.com/michaelweber/Macrome)
     - desc: Excel Macro Document Reader/Writer for Red Teamers & Analysts 
-    - tags: malwaredev, phish
+    - tags: maldev, phish
 - [N7WEra/SharpAllTheThings](https://github.com/N7WEra/SharpAllTheThings)
     - desc: collection of c# cobalt strike related projects
     - tags: redteam
@@ -3012,7 +3076,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [DarkCoderSc/PowerAssembly](https://github.com/DarkCoderSc/PowerAssembly)
     - desc: Map remote .NET assemblies to memory for further invocation
-    - tags: malwaredev
+    - tags: maldev
 - [VoidSec/DriverBuddyReloaded](https://github.com/VoidSec/DriverBuddyReloaded)
     - desc: Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks
     - tags: utility
@@ -3075,7 +3139,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [aead/minisign](https://github.com/aead/minisign)
     - desc: A dead simple tool to sign files and verify digital signatures. 
-    - tags: malwaredev
+    - tags: maldev
 - [shadow-workers/shadow-workers](https://github.com/shadow-workers/shadow-workers)
     - desc: Shadow Workers is a free and open source C2 and proxy designed for penetration testers to help in the exploitation of XSS and malicious Service Workers (SW) 
     - tags: web, exploit
@@ -3090,7 +3154,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, utility
 - [aaaddress1/Skrull](https://github.com/aaaddress1/Skrull)
     - desc: DRM malware, process ghosting
-    - tags: malwaredev
+    - tags: maldev
 - [six2dez/reconftw](https://github.com/six2dez/reconftw)
     - desc: automated recon
     - tags: web
@@ -3102,7 +3166,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [snovvcrash/DInjector](https://github.com/snovvcrash/DInjector)
     - desc: collection of injectors
-    - tags: malwaredev
+    - tags: maldev
 - [S3cur3Th1sSh1t/OffensiveVBA](https://github.com/S3cur3Th1sSh1t/OffensiveVBA)
     - desc: AV Evasion methods for Macros in Office documents 
     - tags: redteam, windows, phish
@@ -3114,7 +3178,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [MythicAgents/hermes](https://github.com/MythicAgents/hermes)
     - desc: Swift 5 macOS implant 
-    - tags: malwaredev
+    - tags: maldev
 - [im2nguyen/rover](https://github.com/im2nguyen/rover)
     - desc: terraform visualization
     - tags: utility
@@ -3123,13 +3187,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: exploit, web
 - [plackyhacker/Shellcode-Injection-Techniques](https://github.com/plackyhacker/Shellcode-Injection-Techniques)
     - desc: A collection of C# shellcode injection techniques. 
-    - tags: malwaredev
+    - tags: maldev
 - [Tylous/ZipExec](https://github.com/Tylous/ZipExec)
     - desc: A unique technique to execute binaries from a password protected zip 
-    - tags: malwaredev
+    - tags: maldev
 - [ideaslocas/aDLL](https://github.com/ideaslocas/aDLL)
     - desc: automatic discovery of DLL Hijacking vulnerabilities
-    - tags: malwaredev
+    - tags: maldev
 - [ptswarm/reFlutter](https://github.com/ptswarm/reFlutter)
     - desc: Flutter Reverse Engineering Framework
     - tags: reverse
@@ -3138,7 +3202,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, postex, redteam
 - [decay88/bytearray2exe.cs](https://gist.github.com/decay88/9a5a5250f066fe9d2b99387db59102c1)
     - desc: Execute base64 encoded byte array from memory without wrting to disk as a disguised process 
-    - tags: malwaredev
+    - tags: maldev
 - [p0dalirius/LDAPmonitor](https://github.com/p0dalirius/LDAPmonitor)
     - desc: real-time LDAP object monitor
     - tags: redteam, windows
@@ -3178,7 +3242,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web, exploit
 - [Backdoor .NET assemblies with… dnSpy 🤔  - Rasta Mouse](https://rastamouse.me/backdoor-net-assemblies-with-dnspy-%F0%9F%A4%94/)
     - desc: backdoor .net
-    - tags: malwaredev
+    - tags: maldev
 - [gcpHound : A Swiss Army Knife Offensive Toolkit for Google Cloud Platform (GCP) - desi-jarvis](https://desi-jarvis.medium.com/compromised-endpoint-to-compromised-gcp-gone-in-60-seconds-3229cc185863)
     - desc: gcp priv esc
     - tags: cloud
@@ -3186,7 +3250,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 ### tools
 - [dnSpyEx/dnSpy](https://github.com/dnSpyEx/dnSpy)
     - desc: Revival of the well known .NET debugger and assembly editor, dnSpy 
-    - tags: malwaredev, reverse
+    - tags: maldev, reverse
 - [klezVirus/CandyPotato](https://github.com/klezVirus/CandyPotato)
     - desc: Pure C++, weaponized, fully automated implementation of RottenPotatoNG 
     - tags: windows, postex
@@ -3198,13 +3262,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: postex
 - [0xrawsec/whids](https://github.com/0xrawsec/whids)
     - desc: foss edr
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [postrequest/link](https://github.com/postrequest/link)
     - desc: rust c2
     - tags: redteam
 - [N1ght-W0lf/WinDbgCheatSheet](https://github.com/N1ght-W0lf/WinDbgCheatSheet)
     - desc: windbg cheatsheet
-    - tags: malwaredev, reverse
+    - tags: maldev, reverse
 - [snovvcrash/GetZip.py](https://gist.github.com/snovvcrash/56c12d76628eafd4b82f09cc27687429)
     - desc: remote lsass
     - tags: windows, postex
@@ -3222,13 +3286,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: utility
 - [Dewera/Pluto](https://github.com/Dewera/Pluto)
     - desc: A manual system call library that supports functions from both ntdll.dll and win32u.dll 
-    - tags: malwaredev
+    - tags: maldev
 - [FunnyWolf/Viper](https://github.com/FunnyWolf/Viper)
     - desc: Intranet pentesting tool with webui
     - tags: redteam
 - [Kudaes/DInvoke_rs](https://github.com/Kudaes/DInvoke_rs)
     - desc: rustlang dinvoke
-    - tags: malwaredev
+    - tags: maldev
 
 ## Issue 018 - Oct 2021
 
@@ -3262,10 +3326,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [tanc7/EXOCET-AV-Evasion](https://github.com/tanc7/EXOCET-AV-Evasion)
     - desc: AV-evading, undetectable, payload delivery tool 
-    - tags: malwaredev
+    - tags: maldev
 - [trickster0/OffensiveRust](https://github.com/trickster0/OffensiveRust)
     - desc: Rust Weaponization for Red Team Engagements. 
-    - tags: malwaredev
+    - tags: maldev
 - [nyxgeek/AzureAD_Autologon_Brute](https://github.com/nyxgeek/AzureAD_Autologon_Brute)
     - desc: Brute force attack tool for Azure AD Autologon/Seamless SSO
     - tags: cloud, redteam
@@ -3274,13 +3338,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, windows
 - [jfmaes/DeepSleep](https://github.com/jfmaes/DeepSleep)
     - desc: shellcode sleeper
-    - tags: malwaredev
+    - tags: maldev
 - [Flangvik/RosFuscator](https://github.com/Flangvik/RosFuscator)
     - desc: project for obfuscating C# source code using Roslyn 
-    - tags: malwaredev
+    - tags: maldev
 - [mgeeky/ShellcodeFluctuation](https://github.com/mgeeky/ShellcodeFluctuation)
     - desc: A PoC implementation for an another in-memory evasion technique
-    - tags: malwaredev
+    - tags: maldev
 - [Unknow101/FuckThatSmuggler](https://github.com/Unknow101/FuckThatSmuggler)
     - desc: html smuggle generator
     - tags: redteam, phish
@@ -3292,13 +3356,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [w1u0u1/minidump](https://github.com/w1u0u1/minidump)
     - desc: Custom implementation of DbgHelp's MiniDumpWriteDump function. Uses static syscalls to replace low-level functions like NtReadVirtualMemory
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [Orange-Cyberdefense/arsenal](https://github.com/Orange-Cyberdefense/arsenal)
     - desc: Arsenal is just a quick inventory and launcher for hacking programs 
     - tags: utility
 - [GetRektBoy724/TripleS](https://github.com/GetRektBoy724/TripleS)
     - desc: Syscall Stub Stealer - Freshly steal Syscall stub straight from the disk, DInvoke-esq
-    - tags: malwaredev
+    - tags: maldev
 - [EspressoCake/PPLDump_BOF](https://github.com/EspressoCake/PPLDump_BOF)
     - desc: faithful transposition of the key features/functionality of @itm4n's PPLDump project as a BOF
     - tags: redteam
@@ -3316,13 +3380,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: mobile
 - [boku7/Ninja_UUID_Dropper](https://github.com/boku7/Ninja_UUID_Dropper)
     - desc: Module Stomping, No New Thread, HellsGate syscaller, UUID Dropper for x64 Windows 10! 
-    - tags: malwaredev
+    - tags: maldev
 - [vyrus001/go-mimikatz](https://github.com/vyrus001/go-mimikatz)
     - desc: A wrapper around a pre-compiled version of the Mimikatz executable for the purpose of anti-virus evasion. 
     - tags: windows, postex
 - [theepicpowner/dcom_av_exec](https://gitlab.com/theepicpowner/dcom_av_exec)
     - desc: "diskless" lateral movement to a target on the same network via DCOM
-    - tags: malwaredev
+    - tags: maldev
 - [rvrsh3ll/Nobelium-PdfDLRunAesShellcode](https://github.com/rvrsh3ll/Nobelium-PdfDLRunAesShellcode)
     - desc: A recreation of the "Nobelium" malware based on Microsofts Malware analysis - Part 1: PDF2Pwn 
     - tags: phish, redteam
@@ -3338,7 +3402,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web, exploit
 - [secret.club](https://secret.club/)
     - desc: game/malware hacking
-    - tags: malwaredev
+    - tags: maldev
 - [D/Invoke & GadgetToJScript (rastamouse)](https://rastamouse.me/d-invoke-gadgettojscript/)
     - desc: DInvoke GadgetToJscript
     - tags: windows, redteam, phish
@@ -3361,7 +3425,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 ### tools
 - [btbd/access](https://github.com/btbd/access)
     - desc: Access without a real handle 
-    - tags: malwaredev
+    - tags: maldev
 - [bohops/GhostBuild](https://github.com/bohops/GhostBuild)
     - desc: ghostpack msbuild automation
     - tags: windows, redteam
@@ -3370,7 +3434,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [SolomonSklash/SleepyCrypt](https://github.com/SolomonSklash/SleepyCrypt)
     - desc: memory encryptor ; [blog](https://www.solomonsklash.io/SleepyCrypt-shellcode-to-encrypt-a-running-image.html)
-    - tags: malwaredev
+    - tags: maldev
 - [outflanknl/Scripts/AMSIbypasses.vba](https://github.com/outflanknl/Scripts/blob/master/AMSIbypasses.vba)
     - desc: vba amsi patch 
     - tags: phish
@@ -3410,13 +3474,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: documentation
 - [Introducing Process Hiving & RunPE](https://labs.nettitude.com/blog/introducing-process-hiving-runpe/)
     - desc: pe runner
-    - tags: malwaredev
+    - tags: maldev
 - [Zero-Day Exploits in SonicWall Email Security Lead to Enterprise Compromise](https://www.fireeye.com/blog/threat-research/2021/04/zero-day-exploits-in-sonicwall-email-security-lead-to-compromise.html)
     - desc: SonicWall 0day 
     - tags: web, exploit
 - [SleepyCrypt: Encrypting a running PE image while it sleeps](https://www.solomonsklash.io/SleepyCrypt-shellcode-to-encrypt-a-running-image.html)
     - desc: Encrypting a running PE image while it sleeps
-    - tags: malwaredev
+    - tags: maldev
 - [CVE-2020-1300: Remote Code Execution Through Microsoft Windows CAB Files - ZeroDay Initiative](https://www.zerodayinitiative.com/blog/2020/7/8/cve-2020-1300-remote-code-execution-through-microsoft-windows-cab-files)
     - desc: office cab Nday
     - tags: phishing, redteam
@@ -3439,13 +3503,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, windows, exploit
 - [aaaddress1/PR0CESS](https://github.com/aaaddress1/PR0CESS/)
     - desc: fileless 'ghosting' malware poc
-    - tags: malwaredev
+    - tags: maldev
 - [mpast/mobileAudit](https://github.com/mpast/mobileAudit)
     - desc: Android APK scanner
     - tags: mobile
 - [SecIdiot/TitanLdr](https://github.com/SecIdiot/TitanLdr)
     - desc: reflective loader
-    - tags: malwaredev
+    - tags: maldev
 - [RCE-0-day-for-GhostScript-9.50](https://github.com/duc-nt/RCE-0-day-for-GhostScript-9.50)
     - desc: ghostscript Nday
     - tags: web, exploit
@@ -3454,13 +3518,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, cobalt
 - [TheCruZ/kdmapper](https://github.com/TheCruZ/kdmapper)
     - desc: exploits iqvw64e.sys Intel driver to manually map non-signed drivers in memory
-    - tags: malwaredev
+    - tags: maldev
 - [JKornev/hidden](https://github.com/JKornev/hidden)
     - desc: Windows driver with usermode interface which can hide processes, file-system and registry objects, protect processes and etc 
-    - tags: malwaredev
+    - tags: maldev
 - [nwork/WIN_JELLY](https://github.com/nwork/WIN_JELLY)
     - desc: GPU rootkit
-    - tags: malwaredev
+    - tags: maldev
 - [cube0x0/SharpSystemTriggers](https://github.com/cube0x0/SharpSystemTriggers) 
     - desc: collection of remote authentication triggers written in c#
     - tags: windows, exploit, redteam
@@ -3469,7 +3533,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [ASkyeye/ElusiveMice](https://github.com/ASkyeye/ElusiveMice)
     - desc: Cobalt Strike User-Defined Reflective Loader with AV/EDR Evasion in mind 
-    - tags: malwaredev, windows, redteam
+    - tags: maldev, windows, redteam
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
     - desc: office cab Nday
     - tags: phishing, redteam, exploit
@@ -3478,7 +3542,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: cloud
 - [NoOne-hub/bypass-BeaconEye](https://github.com/NoOne-hub/bypass-BeaconEye) 
     - desc: beacon hunter
-    - tags: malwaredev
+    - tags: maldev
 - [nccgroup/SocksOverRDP](https://github.com/nccgroup/SocksOverRDP)
     - desc: socks over RDP
     - tags: redteam
@@ -3499,7 +3563,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: blue
 - [Wra7h/Single-Dose](https://github.com/Wra7h/Single-Dose)
     - desc: Generate process injection binaries 
-    - tags: malwaredev
+    - tags: maldev
 - [ahmedkhlief/Ninja](https://github.com/ahmedkhlief/Ninja)
     - desc: Open source C2 server created for stealth red team operations 
     - tags: redteam
@@ -3511,10 +3575,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web
 - [analyticsearch/DllLoadAnythingViaScript](https://gist.github.com/analyticsearch/e4805b1e51197163ce8ea15ec6f8d9f0)    
     - desc: DLL load via WSH
-    - tags: windows, redteam, malwaredev
+    - tags: windows, redteam, maldev
 - [STMCyber/boobsnail](https://github.com/STMCyber/boobsnail)
     - desc: xlm excel 4.0 maldoc generator
-    - tags: phishing, malwaredev
+    - tags: phishing, maldev
 - [SDA-SE/cluster-image-scanner](https://github.com/SDA-SE/cluster-image-scanner)
     - desc: container vuln scanner
     - tags: cloud
@@ -3527,10 +3591,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 ### writeups
 - [Operation Bypass Catch My Payload If You Can - Matthew Eidelberg](https://www.youtube.com/watch?v=JXKNdWUs77w)
     - desc: av/edr evasion, ScareCrow & SourcePoint
-    - tags: malwaredev
+    - tags: maldev
 - [Blinding EDR On Windows](https://synzack.github.io/Blinding-EDR-On-Windows/)
     - desc: EDR intro 
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [AWS ReadOnlyAccess: Not Even Once - SpecterOps](https://posts.specterops.io/aws-readonlyaccess-not-even-once-ffbceb9fc908)
     - desc: AWS exploitation
     - tags: cloud
@@ -3581,7 +3645,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [Blinding EDR On Windows ](https://synzack.github.io/Blinding-EDR-On-Windows/)
     - desc: EDR evasion research
-    - tags: malwaredev
+    - tags: maldev
     
 ### tools
 - [j3ssie/goverview](https://github.com/j3ssie/goverview)
@@ -3592,7 +3656,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [mobdk/Upsilon](https://github.com/mobdk/Upsilon)
     - desc: syscall shellcode limited apis
-    - tags: malwaredev
+    - tags: maldev
 - [stacscan/stacs](https://github.com/stacscan/stacs)
     - desc: secrets static code analyzer
     - tags: utility, web
@@ -3610,7 +3674,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit, privesc
 - [frkngksl/Huan](https://github.com/frkngksl/Huan)
     - desc: encrypted pe loader
-    - tags: malwaredev
+    - tags: maldev
 - [rulz.py - silentbreak](https://gist.githubusercontent.com/monoxgas/7fec9ec0f3ab405773fc/raw/52bf6638e7214db40c383bf13582dd4c45c3e00b/Rulz.py)
     - desc: malicious Exchange rules generator
     - tags: redteam
@@ -3625,7 +3689,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: recon, utility
 - [t3hbb/NSGenCS](https://github.com/t3hbb/NSGenCS)
     - desc: AV/EDR evasion framework
-    - tags: malwaredev
+    - tags: maldev
 - [connormcgarr/LittleCorporal](https://github.com/connormcgarr/LittleCorporal)
     - desc: c# maldoc generator
     - tags: phishing
@@ -3655,7 +3719,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, phish
 - [capt-meelo/Beaconator](https://github.com/capt-meelo/Beaconator)
     - desc: Alaris, PEzor, & ScareCrow generator
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [signedsecurity/sigurlfind3r](https://github.com/signedsecurity/sigurlfind3r)
     - desc: passively fetch known URLs for a host
     - tags: web
@@ -3664,10 +3728,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: osint
 - [p3nt4/Nuages](https://github.com/p3nt4/Nuages)
     - desc: modular c2
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [Ne0nd0g/go-shellcode](https://github.com/Ne0nd0g/go-shellcode)
     - desc: extensive golang shellcode generator
-    - tags: malwaredev
+    - tags: maldev
 - [iomoath/sharpstrike](https://github.com/iomoath/sharpstrike)
     - desc: c# wmi/cim queries and command exec
     - tags: windows, exploit, postex, redteam
@@ -3682,7 +3746,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web
 - [pwn.college](https://pwn.college/)
     - desc: pwn dev beginner's course
-    - tags: malwaredev
+    - tags: maldev
 
 ## Issue 014 - Aug 2021
 
@@ -3730,7 +3794,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit
 - [boku7/AsmHalosGate](https://github.com/boku7/AsmHalosGate)
     - desc: x64 Assembly HalosGate direct System Caller
-    - tags: malwaredev
+    - tags: maldev
 - [jacob-baines/concealed_position](https://github.com/jacob-baines/concealed_position)
     - desc: Bring your own print driver privilege escalation tool. [more](https://media.defcon.org/DEF%20CON%2029/DEF%20CON%2029%20presentations/Jacob%20Baines%20-%20Bring%20Your%20Own%20Print%20Driver%20Vulnerability.pdf)
     - tags: windows, exploit
@@ -3739,7 +3803,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [med0x2e/SigFlip](https://github.com/med0x2e/SigFlip)
     - desc: SigFlip is a tool for patching authenticode signed PE files
-    - tags: malwaredev
+    - tags: maldev
 - [flaws.cloud](http://flaws.cloud/)
     - desc: damn vulnerable aws
     - tags: web, exploit
@@ -3748,7 +3812,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: exploit
 - [Tylous/Limelighter](https://github.com/Tylous/Limelighter)
     - desc: generate fake code signing certificates or signing real ones
-    - tags: malwaredev
+    - tags: maldev
 - [JamesCooteUK/BOFs](https://github.com/JamesCooteUK/BOFs)
     - desc: collection of BOFs
     - tags: redteam
@@ -3794,7 +3858,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [A pinch of XLL and a splash of rust has the potential to be a sharp combination](https://redteamer.tips/a-pinch-of-xll-and-a-splash-of-rust-has-the-potential-to-be-a-sharp-combination/)
     - desc: csharp and rust xll (dll) PoC
-    - tags: malwaredev
+    - tags: maldev
 - [HTTP/2: The Sequel is Always Worse](https://portswigger.net/research/http2)
     - desc: http/2 request smuggling
     - tags: web
@@ -3830,7 +3894,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: web
 - [Evading EDR in 15 Minutes with ScareCrow](https://adamsvoboda.net/evading-edr-with-scarecrow/)
     - desc: edr/av evasion
-    - tags: malwaredev
+    - tags: maldev
 - [Finding and Exploiting Unintended Functionality in Main Web App APIs](https://bendtheory.medium.com/finding-and-exploiting-unintended-functionality-in-main-web-app-apis-6eca3ef000af)
 - [The dying knight in the shiny armour](https://aptw.tf/2021/08/21/killing-defender.html)
     - desc: killing defender
@@ -3848,7 +3912,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: exploit, windows, redteam
 - [boku7/HellsGatePPID](https://github.com/boku7/HellsGatePPID)
     - desc: Assembly HellGate implementation that directly calls Windows System Calls and displays the PPID of the explorer.exe process 
-    - tags: malwaredev
+    - tags: maldev
 - [warhorse/ansible-role-cobaltstrike-docker](https://github.com/warhorse/ansible-role-cobaltstrike-docker)
     - desc: Ansible Cobalt Strike (Docker) 
     - tags: utils, redteam
@@ -3860,11 +3924,11 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, windows
 - [klezVirus/inceptor](https://github.com/klezVirus/inceptor)
     - desc: Template-Driven AV/EDR Evasion Framework
-    - tags: malwaredev
+    - tags: maldev
     - more: [The path to code execution in the era of EDR, Next-Gen AVs, and AMSI](https://klezvirus.github.io/RedTeaming/AV_Evasion/CodeExeNewDotNet/)
 - [boku7/injectAmsiBypass](https://github.com/boku7/injectAmsiBypass)
     - desc: Cobalt Strike BOF - Bypass AMSI in a remote process with code injection. 
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [ShutdownRepo/smartbrute](https://github.com/ShutdownRepo/smartbrute)
     - desc: Password spraying and bruteforcing tool for Active Directory Domain Services. 
     - tags: windows, redteam
@@ -3885,7 +3949,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: phishing
 - [jfmaes/Invoke-DLLClone](https://github.com/jfmaes/Invoke-DLLClone)
     - desc: dll side-load generator
-    - tags: malwaredev
+    - tags: maldev
 - [IlanKalendarov/PyHook](https://github.com/IlanKalendarov/PyHook)
     - desc: offensive API hooking tool written in python designed to catch various credentials
     - tags: windows, redteam
@@ -3897,7 +3961,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam
 - [DamonMohammadbagher/ETWProcessMon2](https://github.com/DamonMohammadbagher/ETWProcessMon2)
     - desc: ETWProcessMon2 is for Monitoring Process/Thread/Memory/Imageloads/TCPIP via ETW + Detection for Remote-Thread-Injection & Payload Detection by VirtualMemAlloc Events (in-memory) etc. 
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 
 ## Issue 12 - July 2021 pt2
 
@@ -3913,19 +3977,19 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: phish, redteam, windows, exploit
 - [Ten process injection techniques: A technical survey of common and trending process injection techniques](https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process)
     - desc: 10 proc injection techniques
-    - tags: malwaredev
+    - tags: maldev
 - [On Disk, The Devil’s In The Details](https://www.solomonsklash.io/devils-in-the-details.html)
     - desc: data about data
-    - tags: malwaredev
+    - tags: maldev
 - [A guide to non-conventional WAF/IDS evasion techniques](https://blog.0xffff.info/2021/07/24/a-guide-to-non-conventional-waf-ids-evasion-techniques/)
     - desc: waf bypass techniques
     - tags: web
 - [Shellcoding: Process Injection with Assembly](https://blog.xenoscr.net/2021/07/26/Process-Injection-with-Assembly.html)
     - desc: analysis and study of SK Chong’s work that was published in issue 62 of Prack in 2001
-    - tags: malwaredev
+    - tags: maldev
 - [Introduction to Threat Intelligence ETW](https://undev.ninja/introduction-to-threat-intelligence-etw/)
     - desc: A quick look into ETW capabilities against malicious API calls.
-    - tags: malwaredev, windows, redteam
+    - tags: maldev, windows, redteam
 - [Representing Password Reuse in BloodHound](https://porterhau5.com/blog/representing-password-reuse-in-bloodhound/)
     - desc: password reuse bloodhound paths
     - tags: windows, redteam
@@ -3979,7 +4043,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit, redteam
 - [Vanara](https://github.com/dahall/Vanara)
     - desc: A set of .NET libraries for Windows implementing PInvoke calls to many native Windows APIs with supporting wrappers. 
-    - tags: malwaredev
+    - tags: maldev
 - [Offensive VBA and XLS Entanglement](https://github.com/BC-SECURITY/Offensive-VBA-and-XLS-Entanglement)
     - desc: Offensive VBA examples
     - tags: phish, redteam
@@ -3995,13 +4059,13 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [SharpTransactedLoad](https://github.com/G0ldenGunSec/SharpTransactedLoad)
     - desc: Load .net assemblies from memory while having them appear to be loaded from an on-disk location. 
-    - tags: malwaredev
+    - tags: maldev
 - [LoGiC.NET](https://github.com/AnErrupTion/LoGiC.NET)
     - desc: A more advanced free and open .NET obfuscator using dnlib.
-    - tags: malwaredev
+    - tags: maldev
 - [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
     - desc: Cobalt Strike script for ScareCrow payloads 
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [bof-spawnSuspendedProcess](https://github.com/boku7/bof-spawnSuspendedProcess)
     - desc: CS BOF suspended state spawn
     - tags: redteam
@@ -4034,7 +4098,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, privesc
 - [MMInject](https://github.com/SDXT/MMInject)
     - desc: Kernel DLL Injector using NX Bit Swapping and VAD hide for hiding injected DLL
-    - tags: malwaredev
+    - tags: maldev
 - [PKINIT tools](https://github.com/dirkjanm/PKINITtools)
     - desc: Tools for Kerberos PKINIT and relaying to AD CS 
     - tags: windows, exploit, redteam
@@ -4044,7 +4108,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - blog: https://www.wietzebeukema.nl/blog/windows-command-line-obfuscation
 - [GoPEInjection](https://github.com/malware-unicorn/GoPEInjection)
     - desc: Golang PE injection on windows 
-    - tags: malwaredev
+    - tags: maldev
 - [Cent](https://github.com/xm1k3/cent)
     - desc:  Community edition nuclei templates, a simple tool that allows you to organize all the Nuclei templates offered by the community in one place 
     - tags: web
@@ -4063,10 +4127,10 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows
 - [Process Creation is Dead, Long Live Process Creation — Adding BOFs Support to PEzor](https://iwantmore.pizza/posts/PEzor4.html)
     - desc: PEzor BOF
-    - tags: malwaredev
+    - tags: maldev
 - [Don’t Be Rude, Stay: Avoiding Fork&Run .NET Execution With InlineExecute-Assembly](https://securityintelligence.com/posts/net-execution-inlineexecute-assembly/)
     - desc: BOF/Inline execute-assembly
-    - tags: redteam, malwaredev
+    - tags: redteam, maldev
 - [Abusing Resource-Based Constrained Delegation (RBCD) using Linux](https://www.alteredsecurity.com/post/resource-based-constrained-delegation-rbcd)
     - desc: RBCD with Linux
     - tags: redteam, windows, exploit
@@ -4089,7 +4153,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: privesc, linux
 - [dnMerge](https://github.com/CCob/dnMerge)
     - desc: A lightweight .NET assembly dependency merger that uses dnLib and 7zip's LZMA SDK for compressing dependant assemblies. 
-    - tags: malwaredev
+    - tags: maldev
     - more: [dnMerge intro](https://ethicalchaos.dev/2021/07/04/merging-c-assemblies-using-dnmerge/)
 - [Print Nightmare](https://github.com/afwu/PrintNightmare)
     - desc: C++ version of PrintNightmare
@@ -4099,7 +4163,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit
 - [Injector](https://github.com/0xDivyanshu/Injector)
     - desc: Complete arsenal of memory injection techniques
-    - tags: malwaredev
+    - tags: maldev
 - [Invoke-Nightmare](https://github.com/calebstewart/CVE-2021-1675)
     - desc: powershell PrintNightmare
     - tags: windows, exploit
@@ -4111,17 +4175,17 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: redteam, phish
 - [bflat](https://github.com/MichalStrehovsky/bflat)
     - desc: C# as you know it but with Go-inspired tooling
-    - tags: malwaredev
+    - tags: maldev
 - [PayloadAutomation](https://github.com/emcghee/PayloadAutomation)
     - desc: Runner/dropper payload automation framework
-    - tags: malwaredev
+    - tags: maldev
     - more: [Introducing Striker and the Payload Automation Libraries](http://blog.redxorblue.com/2021/06/introducing-striker-and-payload.html)
 - [Evasor](https://github.com/cyberark/Evasor)
     - desc: A tool to be used in post exploitation phase for blue and red teams to bypass APPLICATIONCONTROL policies 
-    - tags: redteam, windows, exploit, malwaredev
+    - tags: redteam, windows, exploit, maldev
 - [Backstab](https://github.com/Yaxser/Backstab)
     - desc: A tool to kill antimalware protected processes 
-    - tags: malwaredev
+    - tags: maldev
 - [InlineExecute-Assembly](https://github.com/anthemtotheego/InlineExecute-Assembly)
     - desc: BOF to perform in process .NET assembly execution
     - tags: redteam
@@ -4163,7 +4227,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, redteam
 - [What you need to know about Process Ghosting](https://www.elastic.co/blog/process-ghosting-a-new-executable-image-tampering-attack)
     - New Executable Image Tampering Attack
-    - tags: malwaredev
+    - tags: maldev
 - [ASP.NET Cryptography for Pentesters](https://blog.liquidsec.net/2021/06/01/asp-net-cryptography-for-pentesters/)
     - practical exploitation ASP.NET cryptography
     - tags: web, exploit
@@ -4179,7 +4243,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
     - tags: windows, exploit, privesc
 - [Bypassing Image Load Kernel Callbacks (DarkLoadLibrary Introduction)](https://www.mdsec.co.uk/2021/06/bypassing-image-load-kernel-callbacks/)
     - Introduction of DarkLoadLibrary
-    - tags: malwaredev
+    - tags: maldev
 
 ### tools
 - [polkadots](https://github.com/swapravo/polkadots)
@@ -4194,25 +4258,25 @@ https://github.com/passthehashbrowns/hiding-your-syscalls
     - tags: windows, post, redteam
 - [hiding-your-syscalls](https://github.com/passthehashbrowns/hiding-your-syscalls)
     - Detection bypass for using SysCalls in loaded copy of NTDLL
-    - tags: malwaredev
+    - tags: maldev
 - [ForgeCert](https://github.com/GhostPack/ForgeCert)
     - "Certified Pre-Owned: Abusing Active Directory Certificate Services" tool
     - tags: windows, redteam
 - [sRDI](https://github.com/monoxgas/sRDI)
     - Shellcode implementation of Reflective DLL Injection. Convert DLLs to position independent shellcode  
-    - tags: malwaredev
+    - tags: maldev
 - [transacted_hollowing](https://github.com/hasherezade/transacted_hollowing)
     - Transacted Hollowing - a PE injection technique, hybrid between ProcessHollowing and ProcessDoppelgänging 
-    - tags: malwaredev
+    - tags: maldev
 - [Zolom](https://github.com/checkymander/Zolom)
     - C# Executable with embedded Python that can be used reflectively to run python code on systems without Python installed
-    - tags: malwaredev
+    - tags: maldev
 - [SharpUnhooker](https://github.com/GetRektBoy724/SharpUnhooker)
     - C# Based Universal API Unhooker 
-    - tags: malwaredev
+    - tags: maldev
 - [openedr](https://github.com/ComodoSecurity/openedr)
     - Open EDR public repository 
-    - tags: malwaredev, redteam
+    - tags: maldev, redteam
 - [SharpWebServer](https://github.com/mgeeky/SharpWebServer)
     - Red Team oriented C# Simple HTTP & WebDAV Server with Net-NTLM hashes capture
     - tags: windows, exploit, redteam
@@ -4227,7 +4291,7 @@ https://github.com/passthehashbrowns/hiding-your-syscalls
     - tags: exploit, web
 - [HookDump](https://github.com/zeroperil/HookDump)
     - Security product hook detection 
-    - tags: malwaredev
+    - tags: maldev
 - [Whisker](https://github.com/eladshamir/Whisker)
     - manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account. 
     - tags: windows, redteam
@@ -4257,7 +4321,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
 ### writeups
 - [AV Evasion - a PE injection method ](https://blackcloud.me/av-evasion-1/)
     - Malware Development by Sektor7 exercise writeup
-    - tags: malwaredev
+    - tags: maldev
     - related: [sektor7 templates (cpp)](https://github.com/bolonobolo/av_evasion)
 - [Unveiling DNSStager: A tool to hide your payload in DNS](https://shells.systems/unveiling-dnsstager-a-tool-to-hide-your-payload-in-dns/)
     - DNSStager is is an open-source tool used to help Pentesters/RedTeamers to hide their payload in DNS and resolve it based on multiple DNS records
@@ -4269,14 +4333,14 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: redteam
 - [What the F#*%](https://fortynorthsecurity.com/blog/what-the-f/)
     - F# injection routines, evasion techniques, and an unmanaged F# loader
-    - tags: malwaredev, windows, exploit
+    - tags: maldev, windows, exploit
 - [Abusing LNK "Features" for Initial Access and Persistence](https://v3ded.github.io/redteam/abusing-lnk-features-for-initial-access-and-persistence)
     - tags: redteam, phish
 - [Cracking NetNTLMv1/v2 using NT hashes](https://github.com/hashcat/hashcat/pull/2607)
     - tags: windows
 - [WeaponisingCSharp-Fundamentals](https://github.com/fozavci/WeaponisingCSharp-Fundamentals)
     - Weaponising C# - Fundamentals Training Content
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [Relaying Potatoes: Another Unexpected Privilege Escalation Vulnerability in Windows RPC Protocol](https://labs.sentinelone.com/relaying-potatoes-dce-rpc-ntlm-relay-eop/)
     - NTLM Relay Privilege Escalation
     - tags: windows, exploit, privesc
@@ -4290,10 +4354,10 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, redteam
 - [Suspending-Techniques](https://github.com/diversenok/Suspending-Techniques)
     - Comparing, discussing, and bypassing various techniques for suspending and freezing processes on Windows. 
-    - tags: malwaredev
+    - tags: maldev
 - [UnhookMe](https://github.com/mgeeky/UnhookMe)
     - Windows API resolver & unhooker addressing problem of invoking unmonitored system calls 
-    - tags: malwaredev
+    - tags: maldev
 - [SharpRDPDump](https://github.com/jfmaes/SharpRDPDump)
     - Create a minidump of TermService for clear text pw extraction 
     - tags: windows
@@ -4309,7 +4373,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, exploit
 - [SyscallAmsiScanBufferBypass](https://github.com/S3cur3Th1sSh1t/SyscallAmsiScanBufferBypass)
     - AmsiScanBufferBypass using D/Invoke 
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [whoamsi](https://github.com/subat0mik/whoamsij)
     - An effort to track security vendors' use of Microsoft's Antimalware Scan Interface 
     - tags: windows, exploit
@@ -4322,7 +4386,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
 ### writeups
 - [Weird Ways to Run Unmanaged Code in .NET](https://blog.xpnsec.com/weird-ways-to-execute-dotnet/)
     -  benign looking functions to achieve unmanaged code execution in weird ways
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [Domain Borrowing: Catch My C2 Traffic if You Can](http://i.blackhat.com/asia-21/Thursday-Handouts/as-21-Ding-Domain-Borrowing-Catch-My-C2-Traffic-If-You-Can.pdf)
     - new method to hide your C2 traffic with CDN to circumvent censorship
     - tags: redteam
@@ -4339,16 +4403,16 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, exploit, homelab
 - [SharpTransactedLoad](https://github.com/G0ldenGunSec/SharpTransactedLoad)
     - Load .net assemblies from memory while having them appear to be loaded from an on-disk location. 
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [Awesome_Firebase_DomainFront](https://github.com/shantanu561993/Awesome_Firebase_DomainFront)
     - Firebase Domain Front Code 
     - tags: redteam
 - [NautilusProject](https://github.com/xpn/NautilusProject)
     - Collection of weird ways to execute unmanaged code in .NET
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [rewolf-wow64ext](https://github.com/rwfpl/rewolf-wow64ext)
     - library for x86 programs that runs under WOW64 layer on x64 windows
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [DomainBorrowing](https://github.com/Dliv3/DomainBorrowing)
     - new method to hide your C2 traffic with CDN to circumvent censorship
     - tags: redteam
@@ -4360,10 +4424,10 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, malwaredewv
 - [Dent](https://github.com/optiv/Dent)
     - framework for creating COM-based bypasses utilizing vulnerabilities in Microsoft's WDAPT sensors
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [charlotte](https://github.com/9emin1/charlotte)
     - c++ fully undetected shellcode launcher
-    - tags: malwaredev
+    - tags: maldev
 
 ## Issue 8 - Apr 2021 pt1
 
@@ -4372,7 +4436,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
 - [A Journey Into the Beauty of DNSRebinding - Part 1](https://blog.mindedsecurity.com/2021/02/journey-into-beauty-of-dnsrebinding.html)
 - [Executing Shellcode via Callbacks](https://osandamalith.com/2021/04/01/executing-shellcode-via-callbacks/)
     - evasion via function pointer execution
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 
 ### tools
 - [cook](https://github.com/giteshnxtlvl/cook)
@@ -4380,7 +4444,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: utility
 - [lunar](https://github.com/Dewera/Lunar)
     - DLL mapping library that supports mapping directly from memory
-    - tags: malwaredev
+    - tags: maldev
 - [kiterunner](https://github.com/assetnote/kiterunner)
     - Contextual content discovery
     - tags: recon, web
@@ -4395,7 +4459,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: web, recon
 - [EvasiveProcessHollowing](https://github.com/reevesrs24/EvasiveProcessHollowing)
     - evasive process hollowing techniques
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [Sim](https://github.com/IceMoonHSV/Sim)
     - C# User Simulation 
     - tags: windows
@@ -4404,7 +4468,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, 
 - [MineSweeper](https://github.com/ars3n11/MineSweeper)
     - User-land hooks manipulation tool
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [weirdhta](https://github.com/felamos/weirdhta)
     - generate obfuscated hta
     - tags: windows, exploit
@@ -4416,13 +4480,13 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: exploit, infra
 - [universal-syscall-64](https://github.com/jackullrich/universal-syscall-64)
     - Resolve syscall numbers at runtime for all Windows versions. 
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [spacerunner](https://github.com/Mr-B0b/SpaceRunner)
     - C# exec PowerShell code, without launching PowerShell processes through the use of runspace
     - tags: windows, exploit
 - [dll-exports](https://github.com/magnusstubman/dll-exports)
     - Collection of DLL function export forwards for DLL export function proxying
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [leaky-paths](https://github.com/ayoubfathi/leaky-paths)
     - Special content discovery paths
     - tags: web, recon
@@ -4434,7 +4498,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags:, windows, post
 - [DripLoader](https://github.com/xinbailu/DripLoader)
     - Evasive shellcode loader for bypassing event-based injection detection (PoC)
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [DoUCMe](https://github.com/ben0xa/doucme)
     - NetUserAdd Win32API to add machine accounts instead of user. Generates a 4741, not a 4720
     - tags: windows, post
@@ -4450,25 +4514,25 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, exploit
 - [Silencing the EDR](https://www.matteomalvica.com/blog/2020/07/15/silencing-the-edr/)
     - Disable process, threads, and image-loading detection callbacks
-    - tags: windows, malwaredev
+    - tags: windows, maldev
     - related: http://deniable.org/windows/windows-callbacks
 - [Malware Development Part 8](https://0xpat.github.io/Malware_development_part_8/)
     - Malicious software development series
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 
 ### tools
 - [DoppleGate](https://github.com/asaurusrex/DoppelGate)
     - reading ntdll on disk to grab syscall stubs, and patches these syscall stubs into desired functions 
-    - tags: windows, exploit, malwaredev, redteam
+    - tags: windows, exploit, maldev, redteam
 - [Mod_Rewrite_Automation](https://github.com/cedowens/Mod_Rewrite_Automation)
     - Scripts to automate standing up apache2 with mod_rewrite
     - tags: redteam
 - [RunDLL.Net](https://github.com/p3nt4/RunDLL.Net)
     - Execute .NET assemblies using Rundll32.exe
-    - tags: windows, exploit, malwaredev
+    - tags: windows, exploit, maldev
 - [AlternativeShellcodeExec](https://github.com/S4R1N/AlternativeShellcodeExec)
     - Alternative Shellcode Execution Via Callbacks
-    - tags: exploit, windows, malwaredev
+    - tags: exploit, windows, maldev
 - [CredBandit](https://github.com/anthemtotheego/CredBandit)
     - BOF , syscall , MiniDumpWriteDump
     - tags: exploit, windows, post
@@ -4518,7 +4582,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, exploit, phish
 - [WinAPI-Tricks](https://github.com/vxunderground/WinAPI-Tricks)
     - Collection of WINAPI tricks used by malware
-    - tags: windows, exploit, malwaredev
+    - tags: windows, exploit, maldev
 - [BadOutlook](https://github.com/S4R1N/BadOutlook)
     - Outlook Application Interface (COM Interface) execution
     - tags: windows, exploit, redteam
@@ -4546,7 +4610,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
 - [One thousand and one ways to copy your shellcode to memory](https://adepts.of0x.cc/alternatives-copy-shellcode/)
     - tags: windows, exploit
 - [Malware-Dev Course](https://silentbreaksecurity.com/training/malware-dev/)
-    - tags: malwaredev
+    - tags: maldev
 - [Laravel <= v8.4.2 debug mode: Remote code execution (ambionics.io)](https://www.ambionics.io/blog/laravel-debug-rce)
     - tags: web, exploit
 - [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
@@ -4559,7 +4623,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: web, exploit
 - [UsefulSources (malwarehenri)](https://github.com/malwarehenri/UsefulSources)
     - collection of interesting, malware related, resources
-    - tags: malwaredev, collection
+    - tags: maldev, collection
 - [Middleware Misconfigurations (detectify)](https://labs.detectify.com/2021/02/18/middleware-middleware-everywhere-and-lots-of-misconfigurations-to-fix/)
     - nginx proxy misconfigurations
     - tags: web, exploit
@@ -4577,13 +4641,13 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
 - [OffSecOps Stage Two](https://blog.xenoscr.net/OffSecOps-Stage-Two/)
     - Offensive Pipeline Development
     - related: [OffSecOps Basic Setup](https://blog.xenoscr.net/OffSecOps-Basic-Setup/)
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 
 ### tools
 - [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [PEzor Custom Cobalt Strike Artifacts](https://iwantmore.pizza/posts/PEzor3.html)
-    - tags: windows, redteam, malwaredev
+    - tags: windows, redteam, maldev
 - [SharpLAPS](https://github.com/swisskyrepo/SharpLAPS)
     - C# for Abusing LAPS
     - tags: windows, post
@@ -4616,7 +4680,7 @@ https://www.youtube.com/watch?v=jGpgreUY4H8
     - tags: windows, exploit, post
 - [ThrowBack (silentbreaksec)](https://github.com/silentbreaksec/Throwback)
     - HTTP/S Beaconing Implant 
-    - tags: windows, malwaredev
+    - tags: windows, maldev
 - [Mono](https://github.com/mono/mono)
     - Open Source ECMA CLI, C# and .NET Implementation
     - tags: windows, utility
