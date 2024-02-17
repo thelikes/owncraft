@@ -24,6 +24,10 @@
 * [htmlsmuggling - outflank](https://outflank.nl/blog/2018/08/14/html-smuggling-explained/)
 * [Fun with ClickOnce](http://blog.redxorblue.com/2020/07/one-click-to-compromise-fun-with.html)
 
+#### HTA
+* [ZipLink - Combine Zips and Lnk for fun and profit | BadOption.eu](https://badoption.eu/blog/2023/09/28/ZipLink.html)
+* [Hacking around HTA files - [ Sevagas]](https://blog.sevagas.com/?Hacking-around-HTA-files)
+
 ### Keyying Payloads
 * [Keying Payloads for Scripting Languages](https://adapt-and-attack.com/2017/11/15/keying-payloads-for-scripting-languages/)
 * [keyring](https://github.com/leoloobeek/keyring)
@@ -53,12 +57,11 @@
 * [EXCELntDonut](https://github.com/FortyNorthSecurity/EXCELntDonut)
 * [NameMash](https://gist.github.com/superkojiman/11076951)
 * [www.mail-tester.com - Test the Spammyness of your Emails](https://www.mail-tester.com/)
-- [Living Off Trusted Sites (LOTS) Project](https://lots-project.com/)
-- [CanIPhish/Phishious](https://github.com/CanIPhish/Phishious)
-    - desc: An open-source Secure Email Gateway (SEG) evaluation toolkit designed for red-teamers.
-- [fkasler/cuddlephish](https://github.com/fkasler/cuddlephish)
-    - desc: Weaponized Browser-in-the-Middle (BitM) for Penetration Testers
-    
+* [Living Off Trusted Sites (LOTS) Project](https://lots-project.com/)
+* [CanIPhish/Phishious](https://github.com/CanIPhish/Phishious) - An open-source Secure Email Gateway (SEG) evaluation toolkit designed for red-teamers.
+* [fkasler/cuddlephish](https://github.com/fkasler/cuddlephish) - Weaponized Browser-in-the-Middle (BitM) for Penetration Testers
+* [D00Movenok/BounceBack](https://github.com/D00Movenok/BounceBack) - Stealth redirector for your red team operation security
+
 ### DNS Health Check
 
 See [infra resource](./resources-infra.md)
