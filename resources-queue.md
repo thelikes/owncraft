@@ -1,5 +1,53 @@
 # Tagged + Uncategorized
 
+## Mar 2024
+
+### writeups
+- [MacOS CI/CD with Tart. How Snowflake’s Red Team uses Tart and… | by Justin Bui | Snowflake | Feb, 2024 | Medium](https://medium.com/snowflake/macos-ci-cd-with-tart-d3c0e511f3c9)
+    - desc: MacOS CI/CD with Tart. How Snowflake’s Red Team uses Tart and… | by Justin Bui | Snowflake | Feb, 2024 | Medium
+    - tags: infra, mac
+- [MSSQL linked servers: abusing ADSI for password retrieval](https://www.tarlogic.com/blog/linked-servers-adsi-passwords/)
+    - desc: MSSQL linked servers: abusing ADSI for password retrieval
+    - tags: redteam,windows
+- [Azure AD Security Defaults/MFA Bypass with Graph API | by Root ♊ | Medium](https://rootsecdev.medium.com/azure-ad-security-defaults-mfa-bypass-with-graph-api-86a5d6f57d4a)
+    - desc: Azure AD Security Defaults/MFA Bypass with Graph API | by Root ♊ | Medium
+    - tags: cloud,redteam
+- [Customizing Sliver - Part 1 - hn security](https://security.humanativaspa.it/customizing-sliver-part-1/)
+    - desc: Customizing Sliver - Part 1 - hn security
+    - tags: c2,redteam
+
+### tools
+- [Idov31/Nidhogg](https://github.com/Idov31/Nidhogg)
+    - desc: Nidhogg is an all-in-one simple to use rootkit.
+    - tags: redteam, maldev
+- [Hiding In PlainSight - Indirect Syscall is Dead! Long Live Custom Call Stacks](https://0xdarkvortex.dev/hiding-in-plainsight/)
+    - desc: Hiding In PlainSight - Indirect Syscall is Dead! Long Live Custom Call Stacks
+    - tags: maldev
+- [CDPSvc DLL Hijacking - From LOCAL SERVICE to SYSTEM | itm4n's blog](https://itm4n.github.io/cdpsvc-dll-hijacking/)
+    - desc: CDPSvc DLL Hijacking - From LOCAL SERVICE to SYSTEM | itm4n's blog
+    - tags: maldev
+- [Idov31/Jormungandr](https://github.com/Idov31/Jormungandr)
+    - desc: Jormungandr is a kernel implementation of a COFF loader, allowing kernel developers to load and execute their COFFs in the kernel.
+    - tags: maldev,kernel
+- [hakaioffsec/coffee](https://github.com/hakaioffsec/coffee)
+    - desc: A COFF loader made in Rust
+    - tags: maldev,redteam,c2
+- [mertdas/SharpTerminator](https://github.com/mertdas/SharpTerminator)
+    - desc: Terminate AV/EDR Processes using kernel driver
+    - tags: redteam,windows
+- [d3ext/hooka](https://github.com/d3ext/hooka)
+    - desc: Evasive shellcode loader, hooks detector and more
+    - tags: maldev
+- [r0oth3x49/ghauri](https://github.com/r0oth3x49/ghauri)
+    - desc: An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws
+    - tags: web
+- [Xacone/BestEdrOfThemarket](https://github.com/Xacone/BestEdrOfThemarket)
+    - desc: Little AV/EDR bypassing lab for training & learning purposes
+    - tags: c2,maldev,redteam,opsec
+ - [fortra/No-Consolation](https://github.com/fortra/No-Consolation)
+    - desc: A BOF that runs unmanaged PEs inline
+    - tags: maldev,c2
+
 ## Issue 050 - Feb 2024
 
 ### writeups
