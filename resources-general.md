@@ -22,6 +22,9 @@
 - [SSH Konami Code](https://www.sans.org/blog/using-the-ssh-konami-code-ssh-control-sequences/)
 - [infosecstreams.github.io](https://infosecstreams.github.io/)
 
+## School
+* [federico-busato/Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming) - Modern C++ Programming Course
+
 ## Tools
 
 ### General

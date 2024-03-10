@@ -1,6 +1,36 @@
 # Tagged + Uncategorized
 
-## Mar 2024
+## Issue 052 - Mar 2024
+
+### writeups
+- [Source Code Disclosure in ASP.NET apps – PT SWARM](https://swarm.ptsecurity.com/source-code-disclosure-in-asp-net-apps/)
+    - desc: Source Code Disclosure in ASP.NET apps – PT SWARM
+    - tags: web
+- [Evasive Panda leverages Monlam Festival to target Tibetans](https://www.welivesecurity.com/en/eset-research/evasive-panda-leverages-monlam-festival-target-tibetans/)
+    - desc: evasive c# loader, watering hole
+    - tags: apt
+- [CryptoChameleon: New Phishing Tactics Exhibited in FCC-Targeted Attack  | Lookout Threat Intelligence](https://www.lookout.com/threat-intelligence/article/cryptochameleon-fcc-phishing-kit)
+    - desc: Manual MiTM phishing kit
+    - tags: apt, phish
+- [Rise in Deceptive PDF: The Gateway to Malicious Payloads | McAfee Blog](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/rise-in-deceptive-pdf-the-gateway-to-malicious-payloads/)
+    - desc: Rise in Deceptive PDF: The Gateway to Malicious Payloads | McAfee Blog
+    - tags: phish,init
+
+### tools
+- [NilsIrl/dockerc](https://github.com/NilsIrl/dockerc)
+    - desc: container image to single executable compiler
+    - tags: util
+- [Xre0uS/MultiDump](https://github.com/Xre0uS/MultiDump)
+    - desc: MultiDump is a post-exploitation tool for dumping and extracting LSASS memory discreetly.
+    - tags: postex,windows
+- [skelsec/evilrdp](https://github.com/skelsec/evilrdp)
+    - desc: RDP execution framework
+    - tags: windows,util
+- [wh0amitz/SharpADWS](https://github.com/wh0amitz/SharpADWS)
+    - desc: Active Directory reconnaissance and exploitation for Red Teams via the Active Directory Web Services (ADWS).
+    - tags: ad
+   
+## Issue 051 - Mar 2024
 
 ### writeups
 - [MacOS CI/CD with Tart. How Snowflake’s Red Team uses Tart and… | by Justin Bui | Snowflake | Feb, 2024 | Medium](https://medium.com/snowflake/macos-ci-cd-with-tart-d3c0e511f3c9)
@@ -15,6 +45,27 @@
 - [Customizing Sliver - Part 1 - hn security](https://security.humanativaspa.it/customizing-sliver-part-1/)
     - desc: Customizing Sliver - Part 1 - hn security
     - tags: c2,redteam
+- [“Can't Stop the Phish” - Tips for Warming Up Your Email Domain Right - White Knight Labs](https://whiteknightlabs.com/2023/05/09/cant-stop-the-phish-tips-for-warming-up-your-email-domain-right/)
+    - desc: “Can't Stop the Phish” - Tips for Warming Up Your Email Domain Right - White Knight Labs
+    - tags: redteam,phish
+- [Hello: I’m your ADCS server and I want to  authenticate against you – Decoder's Blog](https://decoder.cloud/2024/02/26/hello-im-your-adcs-server-and-i-want-to-authenticate-against-you/)
+    - desc: Hello: I’m your ADCS server and I want to  authenticate against you – Decoder's Blog
+    - tags: ad
+- [Ransomware in the honeypot: how we capture keys with sticky canary files — Elastic Security Labs](https://www.elastic.co/security-labs/ransomware-in-the-honeypot-how-we-capture-keys)
+    - desc: Ransomware in the honeypot: how we capture keys with sticky canary files — Elastic Security Labs
+    - tags: detection
+- [.NET Threadless Process Injection | by Daniel Santos | Feb, 2024 | Medium](https://vovohelo.medium.com/net-threadless-process-injection-6c389a9ce585)
+    - desc: .NET Threadless Process Injection | by Daniel Santos | Feb, 2024 | Medium
+    - tags: maldev
+- [CharmingCypress: Innovating Persistence | Volexity](https://www.volexity.com/blog/2024/02/13/charmingcypress-innovating-persistence/)
+    - desc: CharmingCypress: Innovating Persistence | Volexity
+    - tags: phish,init
+- [The Untold Story of the Boldest Supply-Chain Hack Ever](https://www.wired.com/story/the-untold-story-of-solarwinds-the-boldest-supply-chain-hack-ever/)
+    - desc: Sunburst Orion CI CD compromise & software fix
+    - tags: apt
+- [You can not simply publicly access private secure links, can you? | Vin01’s Blog](https://vin01.github.io/piptagole/security-tools/soar/urlscan/hybrid-analysis/data-leaks/urlscan.io/cloudflare-radar%22/2024/03/07/url-database-leaks-private-urls.html)
+    - desc: You can not simply publicly access private secure links, can you? | Vin01’s Blog
+    - tags: research
 
 ### tools
 - [Idov31/Nidhogg](https://github.com/Idov31/Nidhogg)
@@ -47,6 +98,30 @@
  - [fortra/No-Consolation](https://github.com/fortra/No-Consolation)
     - desc: A BOF that runs unmanaged PEs inline
     - tags: maldev,c2
+- [jborean93/dpapi-ng](https://github.com/jborean93/dpapi-ng)
+    - desc: Python DPAPI NG Decryptor for non-Windows Platforms
+    - tags: windows
+- [RedTeamPentesting/resocks](https://github.com/RedTeamPentesting/resocks)
+    - desc: mTLS-Encrypted Back-Connect SOCKS5 Proxy
+    - tags: redteam,utility
+- [garrettfoster13/sccmhunter](https://github.com/garrettfoster13/sccmhunter)
+    - desc: tool for identifying, profiling, and attacking SCCM related assets 
+    - tags: ad,redteam
+- [nettitude/ETWHash](https://github.com/nettitude/ETWHash)
+    - desc: C# POC to extract NetNTLMv1/v2 hashes from ETW provider
+    - tags: ad
+- [0xNslabs/CanaryTokenScanner](https://github.com/0xNslabs/CanaryTokenScanner)
+    - desc: Script designed to identify Canary Tokens within Microsoft Office documents and Acrobat Reader PDF (docx, xlsx, pptx, pdf).
+    - tags: redteam,util
+- [Mr-Un1k0d3r/MsGraphFunzy](https://github.com/Mr-Un1k0d3r/MsGraphFunzy)
+    - desc: Scripts to interact with Microsoft Graph APIs
+    - tags: cloud,azure
+- [dockur/windows](https://github.com/dockur/windows)
+    - desc: Windows in a Docker container.
+    - tags: util
+- [Docker](https://hub.docker.com/r/snovvcrash/ollvm13)
+    - desc: Docker
+    - tags: maldev,util
 
 ## Issue 050 - Feb 2024
 
@@ -866,7 +941,7 @@ https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/
 - [Wra7h/FlavorTown](https://github.com/Wra7h/FlavorTown)
     - desc: Various ways to execute shellcode
     - tags: maldev
-    
+
 ## Issue 042 - Mar 2023
 
 ### writeups
