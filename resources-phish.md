@@ -61,6 +61,7 @@
 * [CanIPhish/Phishious](https://github.com/CanIPhish/Phishious) - An open-source Secure Email Gateway (SEG) evaluation toolkit designed for red-teamers.
 * [fkasler/cuddlephish](https://github.com/fkasler/cuddlephish) - Weaponized Browser-in-the-Middle (BitM) for Penetration Testers
 * [D00Movenok/BounceBack](https://github.com/D00Movenok/BounceBack) - Stealth redirector for your red team operation security
+* [Email Deliverability Tester: Inbox, Spam, or Promotions?](https://www.gmass.co/inbox) - Email Deliverability Tester: Inbox, Spam, or Promotions?
 
 ### DNS Health Check
 

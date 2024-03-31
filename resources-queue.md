@@ -15,6 +15,27 @@
 - [Rise in Deceptive PDF: The Gateway to Malicious Payloads | McAfee Blog](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/rise-in-deceptive-pdf-the-gateway-to-malicious-payloads/)
     - desc: Rise in Deceptive PDF: The Gateway to Malicious Payloads | McAfee Blog
     - tags: phish,init
+- [Unveiling malware behavior trends — Elastic Security Labs](https://www.elastic.co/security-labs/unveiling-malware-behavior-trends)
+    - desc: Unveiling malware behavior trends — Elastic Security Labs
+    - tags: maldev,redteam,detection
+- [Unveiling the depths of Residential Proxies providers - Sekoia.io Blog](https://blog.sekoia.io/unveiling-the-depths-of-residential-proxies-providers/)
+    - desc: Unveiling the depths of Residential Proxies providers - Sekoia.io Blog
+    - tags: redteam
+- [Building an AITM attack tool in Cloudflare Workers (174 LOC) – Zolder B.V.](https://zolder.io/aitm-attacks-using-cloudflare-workers/)
+    - desc: Building an AITM attack tool in Cloudflare Workers (174 LOC) – Zolder B.V.
+    - tags: phish
+- [Semi-Annual Chronicles of UAC-0006](https://scpc.gov.ua/api/files/8e300d33-6257-4d7f-8f72-457224268343)
+    - desc: Detailed analysis of UAC-006 operations
+    - tags: redteam,phish,lnk,javascript,initaccess
+- [Finding pastures new: An alternate approach for implant design | by Sapientflow | Mar, 2024 | Medium](https://medium.com/@sapientflow/finding-pastures-new-an-alternate-approach-for-implant-design-644611c526ca)
+    - desc: Finding pastures new: An alternate approach for implant design | by Sapientflow | Mar, 2024 | Medium
+    - tags: maldev
+- [Hook, Line and Sinker: Phishing Windows Hello for Business | by Yehuda Smirnov | Mar, 2024 | Medium](https://medium.com/@yudasm/bypassing-windows-hello-for-business-for-phishing-181f2271dc02)
+    - desc: Hook, Line and Sinker: Phishing Windows Hello for Business | by Yehuda Smirnov | Mar, 2024 | Medium
+    - tags: phish,redteam
+- [Identity Providers for RedTeamers - XPN InfoSec Blog](https://blog.xpnsec.com/identity-providers-redteamers/)
+    - desc: Identity Providers for RedTeamers - XPN InfoSec Blog
+    - tags: sso,redteam,postex
 
 ### tools
 - [NilsIrl/dockerc](https://github.com/NilsIrl/dockerc)
@@ -29,7 +50,13 @@
 - [wh0amitz/SharpADWS](https://github.com/wh0amitz/SharpADWS)
     - desc: Active Directory reconnaissance and exploitation for Red Teams via the Active Directory Web Services (ADWS).
     - tags: ad
-   
+- [zolderio/AITMWorker](https://github.com/zolderio/AITMWorker)
+    - desc: Proof of concept: using a Cloudflare worker for AITM attacks
+    - tags: phish
+- [Weaponizing Windows Thread Pool APIs: Proxying DLL Loads Using I/O Completion Callbacks - fin3ss3g0d's Blog](https://fin3ss3g0d.net/index.php/2024/03/18/weaponizing-windows-thread-pool-apis-proxying-dll-loads/)
+    - desc: Weaponizing Windows Thread Pool APIs: Proxying DLL Loads Using I/O Completion Callbacks - fin3ss3g0d's Blog
+    - tags: maldev
+    
 ## Issue 051 - Mar 2024
 
 ### writeups
