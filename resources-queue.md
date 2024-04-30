@@ -1,5 +1,107 @@
 # Tagged + Uncategorized
 
+## Issue 053 - Apr 2024
+
+### writeups
+- [Agent Tesla Targeting United States & Australia: Revealing the Attackers' Identities - Check Point Research](https://research.checkpoint.com/2024/agent-tesla-targeting-united-states-and-australia/)
+    - desc: Agent Tesla Targeting United States & Australia: Revealing the Attackers' Identities - Check Point Research
+    - tags: ir
+- [Bringing Python to Workers using Pyodide and WebAssembly](https://blog.cloudflare.com/python-workers)
+    - desc: Bringing Python to Workers using Pyodide and WebAssembly
+    - tags: phish, c2, redteam
+- [Bypass Intune Device Platform Enrollment Restrictions on Windows](https://powerstacks.com/how-to-bypass-intune-device-platform-enrollment-restrictions-on-windows/)
+    - desc: Bypass Intune Device Platform Enrollment Restrictions on Windows
+    - tags: windows, azure
+- [SVG Files Abused in Emerging Campaigns | Cofense](https://cofense.com/blog/svg-files-abused-in-emerging-campaigns/)
+    - desc: SVG Files Abused in Emerging Campaigns | Cofense
+    - tags: phish
+- [Writing Sliver C2 Extensions in Rust | by Luke Paris | Paradoxis](https://blog.paradoxis.nl/writing-sliver-c2-extensions-in-rust-a95f620266de)
+    - desc: Writing Sliver C2 Extensions in Rust | by Luke Paris | Paradoxis
+    - tags: c2
+- [AiTM Phishing with Azure Functions | by Nicola | Apr, 2024 | Medium](https://nicolasuter.medium.com/aitm-phishing-with-azure-functions-a1530b52df05)
+    - desc: Misusing Azure functions for social engineering
+    - tags: phish, creds
+- [Hijacking & Spoofing Context Menu Options | mr.d0x](https://mrd0x.com/sentinelone-persistence-via-menu-context/)
+    - desc: Hijacking & Spoofing Context Menu Options
+    - tags: phish
+- [Leaking NTLM Credentials Through Windows Themes](https://www.akamai.com/blog/security-research/2024/mar/leaking-ntlm-credentials-through-windows-themes)
+    - desc: NTLM phish leak
+    - tags: phish, reds
+- [MultiDump - Xre0uS](https://xre0us.io/posts/multidump/)
+    - desc: MultiDump - Xre0uS
+    - tags: postex
+- [Disable Windows Defender UAC Bypass, + Upgrade to SYSTEM – DSAS INJECT](https://blog.injectexp.dev/2024/02/28/disable-windows-defender-uac-bypass-upgrade-to-system/?amp=1)
+    - desc: Disable Windows Defender (+ UAC Bypass, + Upgrade to SYSTEM) – DSAS INJECT
+    - tags: windows, privesc
+- [TrustedSec | Behind the Code: Assessing Public Compile-Time…](https://trustedsec.com/blog/behind-the-code-assessing-public-compile-time-obfuscators-for-enhanced-opsec)
+    - desc: TrustedSec | Behind the Code: Assessing Public Compile-Time…
+    - tags: maldev
+- [TrustedSec | Weaponization of Token Theft – A Red Team Perspective](https://trustedsec.com/blog/weaponization-of-token-theft-a-red-team-perspective)
+    - desc: TrustedSec | Weaponization of Token Theft – A Red Team Perspective
+    - tags: redteam, postex
+- [ ThievingFox - Remotely retrieving credentials from password managers and Windows utilities - Slowerzs' blog ](https://blog.slowerzs.net/posts/thievingfox/)
+    - desc:  ThievingFox - Remotely retrieving credentials from password managers and Windows utilities
+    - tags: postex, redteam
+- [From Hidden Bee to Rhadamanthys - The Evolution of Custom Executable Formats - Check Point Research](https://research.checkpoint.com/2023/from-hidden-bee-to-rhadamanthys-the-evolution-of-custom-executable-formats/)
+    - desc: From Hidden Bee to Rhadamanthys - The Evolution of Custom Executable Formats - Check Point Research
+    - tags: apt, phish, ir
+- [GTPDOOR - A novel backdoor tailored for covert access over the roaming exchange](https://doubleagent.net/telecommunications/backdoor/gtp/2024/02/27/GTPDOOR-COVERT-TELCO-BACKDOOR#gtp-magic-packet-message-types)
+    - desc: GTPDOOR - A novel backdoor tailored for covert access over the roaming exchange
+    - tags: ir
+- [Earth Krahang Exploits Intergovernmental Trust to Launch Cross-Government Attacks | Trend Micro (US)](https://www.trendmicro.com/en_us/research/24/c/earth-krahang.html)
+    - desc: Earth Krahang Exploits Intergovernmental Trust to Launch Cross-Government Attacks | Trend Micro (US)
+    - tags: phish, ir
+- [Finding pastures new: An alternate approach for implant design | by Sapientflow | Mar, 2024 | Medium](https://medium.com/@sapientflow/finding-pastures-new-an-alternate-approach-for-implant-design-644611c526ca)
+    - desc: Finding pastures new: An alternate approach for implant design | by Sapientflow | Mar, 2024 | Medium
+    - tags: maldev
+- [Achieving DLL Side-Loading in the Original Process - Okiok](https://www.okiok.com/achieving-dll-side-loading-in-the-original-process/)
+    - desc: Achieving DLL Side-Loading in the Original Process - Okiok
+    - tags: maldev
+- [Bypass AMSI on Windows 11. Motivation | by Gustav Shen | Medium](https://gustavshen.medium.com/bypass-amsi-on-windows-11-75d231b2cac6)
+    - desc: Bypass AMSI on Windows 11. Motivation | by Gustav Shen | Medium
+    - tags: windows, postex
+- [Hidden GitHub Commits and How to Reveal Them — Neodyme](https://neodyme.io/en/blog/github_secrets/)
+    - desc: Hidden GitHub Commits and How to Reveal Them — Neodyme
+    - tags: redteam, creds
+
+### tools
+- [aforensics/HiddenVM](https://github.com/aforensics/HiddenVM)
+    - desc: HiddenVM — Use any desktop OS without leaving a trace.
+    - tags: redteam
+- [SaadAhla/dropper](https://github.com/SaadAhla/dropper)
+    - desc: Project that generates Malicious Office Macro Enabled Dropper for DLL SideLoading and Embed it in Lnk file to bypass MOTW
+    - tags: phish
+- [RedByte1337/GraphSpy](https://github.com/RedByte1337/GraphSpy)
+    - desc: Initial Access and Post-Exploitation Tool for AAD and O365 with a browser-based GUI
+    - tags: phish, azure
+- [xjasonlyu/tun2socks](https://github.com/xjasonlyu/tun2socks)
+    - desc: tun2socks - powered by gVisor TCP/IP stack
+    - tags: utils
+- [hmgle/graftcp](https://github.com/hmgle/graftcp)
+    - desc: A flexible tool for redirecting a given program's TCP traffic to SOCKS5 or HTTP proxy.
+    - tags: utils
+- [dunderhay/git-rotate](https://github.com/dunderhay/git-rotate)
+    - desc: Leveraging GitHub Actions to rotate IP addresses during password spraying attacks to bypass IP-Based blocking
+    - tags: utils, spray
+- [SySS-Research/azurenum](https://github.com/SySS-Research/azurenum)
+    - desc: Enumerate Microsoft Entra ID (Azure AD) fast
+    - tags: azure
+- [MultSec/MultCheck](https://github.com/MultSec/MultCheck)
+    - desc: Identifies bad bytes from static analysis with any Anti-Virus scanner.
+    - tags: maldev
+- [wikiZ/RedGuard](https://github.com/wikiZ/RedGuard)
+    - desc: RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.
+    - tags: utils, phish
+- [xpn/CloudInject](https://github.com/xpn/CloudInject)
+    - desc: Okta misuse
+    - tags: postex, redteam
+- [dsnezhkov/shutter](https://github.com/dsnezhkov/shutter)
+    - desc: Windows Filtering Platform network controls
+    - tags: util, postex, redteam
+- [xforcered/ADOKit](https://github.com/xforcered/ADOKit)
+    - desc: Azure DevOps Services Attack Toolkit
+    - tags: azure
+
 ## Issue 052 - Mar 2024
 
 ### writeups
@@ -36,7 +138,31 @@
 - [Identity Providers for RedTeamers - XPN InfoSec Blog](https://blog.xpnsec.com/identity-providers-redteamers/)
     - desc: Identity Providers for RedTeamers - XPN InfoSec Blog
     - tags: sso,redteam,postex
-
+- [Hidden GitHub Commits and How to Reveal Them — Neodyme](https://neodyme.io/en/blog/github_secrets)
+    - desc: Hidden GitHub Commits and How to Reveal Them — Neodyme
+    - tags: postex, redteam, bugbounty
+- [CODE WHITE - Finest Hacking](https://code-white.com/blog/leaking-objrefs-to-exploit-http-dotnet-remoting/)
+    - desc: CODE WHITE - Finest Hacking
+    - tags: web,exploit
+- [Unveiling custom packers: A comprehensive guide – Estrellas's Blog – Threat Research & Reverse Engineering.](https://estr3llas.github.io/unveiling-custom-packers-a-comprehensive-guide/)
+    - desc: Unveiling custom packers: A comprehensive guide – Estrellas's Blog – Threat Research & Reverse Engineering.
+    - tags: malware,re
+ - [How to find the AWS Account ID of any S3 Bucket](https://tracebit.com/blog/2024/02/finding-aws-account-id-of-any-s3-bucket/)
+    - desc: How to find the AWS Account ID of any S3 Bucket
+    - tags: aws
+- [An In-depth Exploration into WebClient Abuse | Redfox Security](https://redfoxsec.com/blog/an-in-depth-exploration-into-webclient-abuse/)
+    - desc: An In-depth Exploration into WebClient Abuse | Redfox Security
+    - tags: redteam,AD
+- [Automating C2 Infrastructure with Terraform, Nebula, Caddy and Cobalt Strike](https://blog.malicious.group/automating-c2-infrastructure-with-terraform-nebula-caddy-and-cobalt-strike/)
+    - desc: Automating C2 Infrastructure with Terraform, Nebula, Caddy and Cobalt Strike
+    - tags: utils,infra
+- [SensePost |   Mail in the middle – a tool to automate spear phishing campaigns](https://sensepost.com/blog/2024/mail-in-the-middle-a-tool-to-automate-spear-phishing-campaigns/)
+    - desc: SensePost |   Mail in the middle – a tool to automate spear phishing campaigns
+    - tags: phish
+- [TA577’s Unusual Attack Chain Leads to NTLM Data Theft  | Proofpoint US](https://www.proofpoint.com/us/blog/threat-insight/ta577s-unusual-attack-chain-leads-ntlm-data-theft)
+    - desc: TA577’s Unusual Attack Chain Leads to NTLM Data Theft  | Proofpoint US
+    - tags: phish,initaccess
+    
 ### tools
 - [NilsIrl/dockerc](https://github.com/NilsIrl/dockerc)
     - desc: container image to single executable compiler
@@ -56,7 +182,19 @@
 - [Weaponizing Windows Thread Pool APIs: Proxying DLL Loads Using I/O Completion Callbacks - fin3ss3g0d's Blog](https://fin3ss3g0d.net/index.php/2024/03/18/weaponizing-windows-thread-pool-apis-proxying-dll-loads/)
     - desc: Weaponizing Windows Thread Pool APIs: Proxying DLL Loads Using I/O Completion Callbacks - fin3ss3g0d's Blog
     - tags: maldev
-    
+- [mvelazc0/msInvader](https://github.com/mvelazc0/msInvader)
+    - desc: M365/Azure adversary simulation tool designed to simulate adversary techniques and generate attack telemetry.
+    - tags: azure
+- [Kudaes/Shelter](https://github.com/Kudaes/Shelter)
+    - desc: ROP-based sleep obfuscation to evade memory scanners
+    - tags: maldev,rust
+- [LOTP - Living Off the Pipeline](https://boostsecurityio.github.io/lotp/)
+    - desc: LOTP - Living Off the Pipeline
+    - tags: cicd,redteam
+- [SafeBreach-Labs/PoolParty](https://github.com/SafeBreach-Labs/PoolParty)
+    - desc: A set of fully-undetectable process injection techniques abusing Windows Thread Pools
+    - tags: maldev
+
 ## Issue 051 - Mar 2024
 
 ### writeups

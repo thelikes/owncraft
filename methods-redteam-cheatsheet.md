@@ -15,8 +15,10 @@
 - [PayloadAlltheThingsAD](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
 - [iRedTeam](https://www.ired.team/)
 - [HackTricks](https://book.hacktricks.xyz/windows/basic-powershell-for-pentesters)
-- [LOLBAS](https://lolbas-project.github.io/)
-
+* [LOLBAS](https://lolbas-project.github.io/) - LOLBAS
+* [GTFOBins](https://gtfobins.github.io/) - GTFOBins
+* [LOTS Project - Living Off Trusted Sites](https://lots-project.com/) - LOTS Project - Living Off Trusted Sites
+* [LOTP - Living Off the Pipeline](https://boostsecurityio.github.io/lotp/) - LOTP - Living Off the Pipeline
 - [0xe7/PowerSploit - Active Fork](https://github.com/0xe7/PowerSploit)
     - (old) [PowerSploit - Active Fork (ZeroDayLab)](https://github.com/ZeroDayLab/PowerSploit)
 
