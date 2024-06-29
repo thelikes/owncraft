@@ -1,5 +1,200 @@
 # Tagged + Uncategorized
 
+## Issue 054 - Jun 2024
+
+### writeups
+- [GrimResource - Microsoft Management Console for initial access and evasion — Elastic Security Labs](https://www.elastic.co/security-labs/grimresource)
+    - desc: GrimResource - Microsoft Management Console for initial access and evasion — Elastic Security Labs
+    - tags: blue,re,apt
+- [Cracking Zero Trust: On-Prem to Azure Pivots with Responder and Evilginx2 – nullg0re InfoSec](https://nullg0re.com/2024/05/cracking-zero-trust-on-prem-to-azure-pivots-with-responder-and-evilginx2/)
+    - desc: Cracking Zero Trust: On-Prem to Azure Pivots with Responder and Evilginx2 – nullg0re InfoSec
+    - tags: windows, azure, relay
+- [Doubling Down: Detecting In-Memory Threats with Kernel ETW Call Stacks — Elastic Security Labs](https://www.elastic.co/security-labs/doubling-down-etw-callstacks)
+    - desc: Doubling Down: Detecting In-Memory Threats with Kernel ETW Call Stacks — Elastic Security Labs
+    - tags: blue
+- [When the hunter becomes the hunted: Using custom callbacks to disable EDRs - alteredsecurity](https://www.alteredsecurity.com/post/when-the-hunter-becomes-the-hunted-using-custom-callbacks-to-disable-edrs)
+    - desc: Using custom callbacks to disable EDRs
+    - tags: maldev
+- [Offensive VBA - X-C3LL](https://github.com/X-C3LL/congresos-slides/blob/master/Offensive%20VBA.pdf)
+    - desc: Advanced VBA code execution techniques
+    - tags: phish, redteam
+- [ScriptBlock Smuggling: Spoofing PowerShell Security Logs and Bypassing AMSI Without Reflection or Patching – BC Security](https://bc-security.org/scriptblock-smuggling/)
+    - desc: ScriptBlock Smuggling: Spoofing PowerShell Security Logs and Bypassing AMSI Without Reflection or Patching – BC Security
+    - tags: maldev,redteam
+- [Old new email attacks - Slonser Notes](https://blog.slonser.info/posts/email-attacks/)
+    - desc: Old new email attacks - Slonser Notes
+    - tags: phish,research
+- [Rhadamanthys & the 40 thieves](https://download.scrt.ch/insomnihack/ins24-slides/Rhadamanthys%20and%20the%2040%20thieves.pdf)
+    - desc: The nuts, bolts and lineage of the multimodular stealer
+    - tags: re,blue
+- [Module Stomping](https://dtsec.us/2023-11-04-ModuleStompin/)
+    - desc: Module Stomping
+    - tags: maldev
+ [Scheduled Task Tampering – Purple Team](https://ipurple.team/2024/01/03/scheduled-task-tampering/)
+    - desc: Scheduled Task Tampering – Purple Team
+    - tags: windows,redteam,postex
+- [From Process Injection to Function Hijacking | CyberSecurity Blog](https://klezvirus.github.io/RedTeaming/AV_Evasion/FromInjectionToHijacking/)
+    - desc: From Process Injection to Function Hijacking | CyberSecurity Blog
+    - tags: maldev
+- [Writing a Sliver C2 Powershell Stager with Shellcode Compression and AES Encryption | by Ycf-Kel | Medium](https://medium.com/@youcef.s.kelouaz/writing-a-sliver-c2-powershell-stager-with-shellcode-compression-and-aes-encryption-9725c0201ea8)
+    - desc: Writing a Sliver C2 Powershell Stager with Shellcode Compression and AES Encryption | by Ycf-Kel | Medium
+    - tags: maldev
+- [Lateral Movement with the .NET Profiler | by Daniel Mayer | Jun, 2024 | Posts By SpecterOps Team Members](https://posts.specterops.io/lateral-movement-with-the-net-profiler-8772c86f9523)
+    - desc: Lateral Movement with the .NET Profiler | by Daniel Mayer | Jun, 2024 | Posts By SpecterOps Team Members
+    - tags: maldev
+- [Abusing auto mail responders to access internal workplaces | by Rikesh Baniya | Jun, 2024 | Medium](https://rikeshbaniya.medium.com/abusing-auto-mail-responders-to-access-internal-workplaces-04fcc8ba2c99)
+    - desc: Abusing auto mail responders to access internal workplaces | by Rikesh Baniya | Jun, 2024 | Medium
+    - tags: phish
+- [Monitor Cobalt Strike beacon for Windows tokens and gain Kerberos persistence | sokarepo](https://sokarepo.github.io/redteam/2024/04/18/monitor-cobaltstrike-windows-token-kerberos-persistence.html)
+    - desc: Monitor Cobalt Strike beacon for Windows tokens and gain Kerberos persistence | sokarepo
+    - tags: c2,redteam,postex
+- [Iconv, set the charset to RCE: Exploiting the glibc to hack the PHP engine (part 1)](https://www.ambionics.io/blog/iconv-cve-2024-2961-p1)
+    - desc: Iconv, set the charset to RCE: Exploiting the glibc to hack the PHP engine (part 1)
+    - tags: research,web
+- [Let Me Manage Your AppDomain](https://ipslav.github.io/2023-12-12-let-me-manage-your-appdomain/)
+    - desc: Let Me Manage Your AppDomain
+    - tags: maldev
+- [A case of missing bytes: bruteforcing your way through Jenkins’ CVE-2024-23897 | Guillaume Quéré](https://www.errno.fr/bruteforcing_CVE-2024-23897.html)
+    - desc: A case of missing bytes: bruteforcing your way through Jenkins’ CVE-2024-23897 | Guillaume Quéré
+    - tags: research
+- [Tyranid's Lair: Working your way Around an ACL](https://www.tiraniddo.dev/2024/06/working-your-way-around-acl.html)
+    - desc: Tyranid's Lair: Working your way Around an ACL
+    - tags: windows
+- [LNK or Swim: Analysis & Simulation of Recent LNK Phishing | Splunk](https://www.splunk.com/en_us/blog/security/lnk-phishing-analysis-simulation.html)
+    - desc: LNK or Swim: Analysis & Simulation of Recent LNK Phishing | Splunk
+    - tags: maldev,phish
+
+### tools
+- [system32 important files](https://redteamrecipe.com/system32-important-files)
+    - desc: system32 important files
+    - tags: windows, utils
+- [spellshift/realm](https://github.com/spellshift/realm)
+    - desc: Realm is a cross platform Red Team engagement platform with a focus on automation and reliability.
+    - tags: redteam, util
+- [nbaertsch/AutoAppDomainHijack](https://github.com/nbaertsch/AutoAppDomainHijack)
+    - desc: Automated .NET AppDomain hijack payload generation
+    - tags: maldev
+- [dmacvicar/terraform-provider-libvirt](https://github.com/dmacvicar/terraform-provider-libvirt)
+    - desc: Terraform provider to provision infrastructure with Linux's KVM using libvirt
+    - tags: lab, util
+- [jfmaes/LazySign](https://github.com/jfmaes/LazySign)
+    - desc: Create fake certs for binaries using windows binaries and the power of bat files
+    - tags: maldev
+- [jakobfriedl/BenevolentLoader](https://github.com/jakobfriedl/BenevolentLoader)
+    - desc: Shellcode loader using direct syscalls via Hell's Gate and payload encryption.
+    - tags: maldev
+- [coremedic/IndirectProxyCall](https://github.com/coremedic/IndirectProxyCall)
+    - desc: Proof of concept demonstrating a method of proxying syscalls indirectly
+    - tags: maldev
+- [sud0Ru/impacket-dcom](https://github.com/sud0Ru/impacket-dcom)
+    - desc: Adjusted version of the impacket-dcomexec script to work against Windows 10
+    - tags: windows, ad
+- [0xEr3bus/RdpStrike](https://github.com/0xEr3bus/RdpStrike)
+    - desc: Positional Independent Code to extract clear text password from mstsc.exe using API Hooking via HWBP.
+    - tags: redteam, ad
+- [0xsp-SRD/MDE_Enum](https://github.com/0xsp-SRD/MDE_Enum)
+    - desc: comprehensive .NET tool designed to extract and display detailed information about Windows Defender exclusions and Attack Surface Reduction (ASR) rules without Admin privileges
+    - tags: redteam, windows
+- [An0nUD4Y/Evilginx-Phishing-Infra-Setup](https://github.com/An0nUD4Y/Evilginx-Phishing-Infra-Setup)
+    - desc: Evilginx Phishing Engagement Infrastructure Setup Guide
+    - tags: phish, redteam
+- [CCob/okta-terrify](https://github.com/CCob/okta-terrify)
+    - desc: Okta Verify and Okta FastPass Abuse Tool
+    - tags: postex, cloud
+- [CICADA8-Research/RemoteKrbRelay](https://github.com/CICADA8-Research/RemoteKrbRelay)
+    - desc: Remote Kerberos Relay made easy! Advanced Kerberos Relay Framework
+    - tags: ad, relay, windows
+- [dchrastil/ScrapedIn](https://github.com/dchrastil/ScrapedIn)
+    - desc: A tool to scrape LinkedIn without API restrictions for data reconnaissance
+    - tags: utils, osint
+- [dreadnode/rigging](https://github.com/dreadnode/rigging)
+    - desc: Lightweight LLM Interaction Framework
+    - tags: llm
+- [evilsocket/nerve](https://github.com/evilsocket/nerve/)
+    - desc: stateless rag agent
+    - tags: llm
+- [Continue](https://www.continue.dev/)
+    - desc: Amplified developers, automated development
+    - tags: util,rag
+- [erebe/wstunnel](https://github.com/erebe/wstunnel)
+    - desc: Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
+    - tags: utils, postex
+- [fiddyschmitt/File-Tunnel](https://github.com/fiddyschmitt/File-Tunnel)
+    - desc: Tunnel TCP connections through a file
+    - tags: postex, utils
+- [fkkarakurt/reconic](https://github.com/fkkarakurt/reconic)
+    - desc: A Powerful Network Reconnaissance Tool for Security Professionals
+    - tags: osint
+- [iamunixtz/FireHawk](https://github.com/iamunixtz/FireHawk)
+    - desc: FireHawk: The Elite Firebase Security Testing Utility
+    - tags: osint, recon
+- [ipSlav/DirtyCLR](https://github.com/ipSlav/DirtyCLR)
+    - desc: An App Domain Manager Injection DLL PoC on steroids
+    - tags: maldev
+- [Kudaes/Dumpy](https://github.com/Kudaes/Dumpy)
+    - desc: Reuse open handles to dynamically dump LSASS.
+    - tags: postex
+- [Maldev-Academy/RemoteTLSCallbackInjection](https://github.com/Maldev-Academy/RemoteTLSCallbackInjection)
+    - desc: Utilizing TLS callbacks to execute a payload without spawning any threads in a remote process
+    - tags: maldev
+- [MayerDaniel/profiler-lateral-movement](https://github.com/MayerDaniel/profiler-lateral-movement)
+    - desc: Lateral Movement via the .NET Profiler
+    - tags: maldev, postex, phish
+- [mlcsec/SharpGraphView](https://github.com/mlcsec/SharpGraphView)
+    - desc: Microsoft Graph API post-exploitation toolkit
+    - tags: postex, osint
+- [MrTuxx/OffensiveGolang](https://github.com/MrTuxx/OffensiveGolang)
+    - desc: A collection of offensive Go packages inspired by different Go repositories.
+    - tags: maldev
+- [netero1010/GhostTask](https://github.com/netero1010/GhostTask)
+    - desc: A tool employs direct registry manipulation to create scheduled tasks without triggering the usual event logs.
+    - tags: postex, persistence
+- [p0dalirius/smbclient-ng](https://github.com/p0dalirius/smbclient-ng)
+    - desc: smbclient-ng, a fast and user friendly way to interact with SMB shares.
+    - tags: utils
+- [redteamsocietegenerale/DLLirant](https://github.com/redteamsocietegenerale/DLLirant)
+    - desc: DLLirant is a tool to automatize the DLL Hijacking researches on a specified binary.
+    - tags: maldev
+- [SafeBreach-Labs/DoubleDrive](https://github.com/SafeBreach-Labs/DoubleDrive)
+    - desc: A fully-undetectable ransomware that utilizes OneDrive & Google Drive to encrypt target local files
+    - tags: maldev, util
+- [sokaRepo/CoercedPotatoRDLL](https://github.com/sokaRepo/CoercedPotatoRDLL)
+    - desc: Reflective DLL to privesc from NT Service to SYSTEM using SeImpersonateToken privilege
+    - tags: privesc
+- [srlabs/Certiception](https://github.com/srlabs/Certiception)
+    - desc: An ADCS honeypot to catch attackers in your internal network.
+    - tags: lab, blue
+- [theokwebb/C-from-Scratch](https://github.com/theokwebb/C-from-Scratch)
+    - desc: A roadmap to learn C from Scratch
+    - tags: training
+- [umutcamliyurt/PingRAT](https://github.com/umutcamliyurt/PingRAT)
+    - desc: PingRAT secretly passes C2 traffic through firewalls using ICMP payloads.
+    - tags: maldev
+- [vxCrypt0r/Voidgate](https://github.com/vxCrypt0r/Voidgate)
+    - desc: A technique that can be used to bypass AV/EDR memory scanners. This can be used to hide well-known and detected shellcodes (such as msfvenom) by performing on-the-fly decryption of individual encrypted assembly instructions, thus rendering memory scanners useless for that specific memory page.
+    - tags: maldev
+- [Wh1t3Rh1n0/SlackEnum](https://github.com/Wh1t3Rh1n0/SlackEnum)
+    - desc: A user enumeration tool for Slack.
+    - tags: osint
+- [whokilleddb/SOAPHound](https://github.com/whokilleddb/SOAPHound)
+    - desc: SOAPHound is a custom-developed .NET data collector tool which can be used to enumerate Active Directory environments via the Active Directory Web Services (ADWS) protocol.
+    - tags: postex, windows
+- [Welcome to Comprehensive Rust 🦀 - Comprehensive Rust 🦀](https://google.github.io/comprehensive-rust/)
+    - desc: Welcome to Comprehensive Rust 🦀 - Comprehensive Rust 🦀
+    - tags: training
+- [LOOBins - Living Off the Orchard: macOS Binaries](https://www.loobins.io/)
+    - desc: LOOBins - Living Off the Orchard: macOS Binaries
+    - tags: macos
+- [DosX-dev/obfus.h](https://github.com/DosX-dev/obfus.h/)
+    - desc: Macro-header for compile-time C obfuscation (tcc, win x86/x64)
+    - tags: maldev
+- [ac3ss0r/obfusheader.h](https://github.com/ac3ss0r/obfusheader.h)
+    - desc: Obfusheader.h is a portable header file for C++14 compile-time obfuscation.
+    - tags: maldev
+- [lissy93/web-check](https://github.com/lissy93/web-check)
+    - desc: 🕵️‍♂️ All-in-one OSINT tool for analysing any website
+    - tags: web,recon
+    
 ## Issue 053 - Apr 2024
 
 ### writeups

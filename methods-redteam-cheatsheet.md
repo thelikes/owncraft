@@ -83,15 +83,6 @@ cat priv.key cert.crt > nasa.pem
 set HandlerSSLCert /home/kali/self_cert/nasa.pem
 ```
 
-##### Covenant
-
-Give it a password, remember it, and enter it into Covenant. Make sure covenant has permissions to access the file. 
-
-```
-# Convert to PFX
-openssl pkcs12 -inkey skeler.pem -in cert.crt -export -out skeler.pfx
-```
-
 ##### Sliver
 
 Generate
@@ -123,15 +114,6 @@ cat privkey.pem cert.pem > nasa.pem
 set HandlerSSLCert /home/kali/self_cert/nasa.pem
 ```
 
-##### Covenant
-
-```
-# Feed the `.pfx` file to Cov in the web interface, set the password.
-cd /etc/letsencrypt/live/fw.vaultsec.xyz/
-
-# set & remember the password
-openssl pkcs12 -export -out certificate.pfx -inkey privkey.pem -in cert.pem -certfile chain.pem
-```
 
 ### Create Network Share
 
