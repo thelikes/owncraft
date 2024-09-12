@@ -1,4 +1,36 @@
 # Tagged + Uncategorized
+## Issue 055 - Sep 2024
+
+### writeups
+- [Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover | by Nick Powers | Aug, 2024 | Posts By SpecterOps Team Members](https://posts.specterops.io/relay-your-heart-away-an-opsec-conscious-approach-to-445-takeover-1c9b4666c8ac)
+    - desc: Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover | by Nick Powers | Aug, 2024 | Posts By SpecterOps Team Members
+    - tags: windows, pentest
+- [Data-Bouncing - The art of indirect exfiltration. Using & Abusing Trusted Domains as a 2nd Order Transport.](https://thecontractor.io/data-bouncing/)
+    - desc: Advanced data exfiltration research
+    - tags: redteam
+- [The Lucrative Economics of API Hacking](https://danaepp.com/the-lucrative-economics-of-api-hacking)
+    - desc: The Lucrative Economics of API Hacking
+    - tags: web
+- [Operation Crimson Palace: A Technical Deep Dive – Sophos News](https://news.sophos.com/en-us/2024/06/05/operation-crimson-palace-a-technical-deep-dive/)
+    - desc: Operation Crimson Palace: A Technical Deep Dive – DLL Stitching
+    - tags: ir, redteam
+
+### tools
+- [mlcsec/Graphpython](https://github.com/mlcsec/Graphpython/)
+    - desc: Modular cross-platform Microsoft Graph API (Entra, o365, and Intune) enumeration and exploitation toolkit
+    - tags: redteam
+- [Ludus](https://ludus.cloud/)
+    - desc: Lab environment solution
+    - tags: util
+- [SecuraBV/Timeroast](https://github.com/SecuraBV/Timeroast)
+    - desc: Timeroasting scripts by Tom Tervoort
+    - tags: windows, exploit, redteam
+- [gravitl/netmaker](https://github.com/gravitl/netmaker)
+    - desc: Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.
+    - tags: infra
+- [Cobaltlad/LSA_reg2pdf](https://github.com/Cobaltlad/LSA_reg2pdf)
+    - desc: Dumping LSA secrets: a story about task decorrelation
+    - tags: redteam
 
 ## Issue 054 - Jun 2024
 

