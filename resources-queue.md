@@ -1,4 +1,26 @@
-# Tagged + Uncategorized
+# Tagged + 
+## Issue 055 - Sep 2024
+
+### writeups
+- [Zero Day Initiative — Exploiting Exchange PowerShell After ProxyNotShell: Part 2 - ApprovedApplicationCollection](https://www.zerodayinitiative.com/blog/2024/9/11/exploiting-exchange-powershell-after-proxynotshell-part-2-approvedapplicationcollection)
+    - desc: Zero Day Initiative — Exploiting Exchange PowerShell After ProxyNotShell: Part 2 - ApprovedApplicationCollection
+    - tags: microsoft
+- [Protection of privileged users and groups by Azure AD Restricted Management Administrative Units - Thomas Naunheim](https://www.cloud-architekt.net/restricted-management-administrative-unit/)
+    - desc: Protection of privileged users and groups by Azure AD Restricted Management Administrative Units - Thomas Naunheim
+    - tags: cloud,zure
+- [Using Open Groups to Escalate Privileges in Google Cloud](https://www.netspi.com/blog/technical-blog/cloud-pentesting/escalating-privileges-in-google-cloud-via-open-groups/)
+    - desc: Using Open Groups to Escalate Privileges in Google Cloud
+    - tags: cloud,gcp,privesc
+- [Pacific Rim: Inside the Counter-Offensive—The TTPs Used to Neutralize China-Based Threats – Sophos News](https://news.sophos.com/en-us/2024/10/31/pacific-rim-neutralizing-china-based-threat/)
+    - desc: Pacific Rim: Inside the Counter-Offensive—The TTPs Used to Neutralize China-Based Threats – Sophos News
+    - tags: gold
+    
+### tools
+- [Mayyhem/Maestro](https://github.com/Mayyhem/Maestro)
+    - desc: Abusing Intune for Lateral Movement over C2
+    - tags: redteam, c2
+
+
 ## Issue 055 - Sep 2024
 
 ### writeups
