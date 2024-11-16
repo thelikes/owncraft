@@ -1,5 +1,37 @@
 # Tagged + 
-## Issue 055 - Sep 2024
+## Issue 057 - Nov 2024
+### writeups
+- [Defender for Endpoint: Bypassing Lsass Dump with PowerShell](https://cyberdom.blog/defender-for-endpoint-bypassing-lsass-dump-with-powershell/)
+    - desc: Defender for Endpoint: Bypassing Lsass Dump with PowerShell
+    - tags: redteam
+ [Beyond the Basics: Exploring Uncommon NTLM Relay Attack Techniques](https://www.guidepointsecurity.com/blog/beyond-the-basics-exploring-uncommon-ntlm-relay-attack-techniques/)
+    - desc: lesser-known NTLM relay attacks that are potentially being overlooked 
+    - tags: redteam
+- [EDR Bypass Testing Reveals Extortion Actor's Toolkit](https://unit42.paloaltonetworks.com/edr-bypass-extortion-attempt-thwarted/)
+    - desc: EDR Bypass Testing Reveals Extortion Actor's Toolkit
+    - tags: blue
+- [Monitor Cobalt Strike beacon for Windows tokens and gain Kerberos persistence | sokarepo](https://sokarepo.github.io/redteam/2024/04/18/monitor-cobaltstrike-windows-token-kerberos-persistence.html)
+    - desc: Monitor Cobalt Strike beacon for Windows tokens and gain Kerberos persistence | sokarepo
+    - tags: c2,redteam
+- [LoadLibrary madness: dynamically load WinHTTP.dll - RiskInsight](https://www.riskinsight-wavestone.com/en/2024/10/loadlibrary-madness-dynamically-load-winhttp-dll/)
+    - desc: LoadLibrary madness: dynamically load WinHTTP.dll - RiskInsight
+    - tags: maldev,redteam,c2
+    
+### tools
+- [safedv/RustVEHSyscalls](https://github.com/safedv/RustVEHSyscalls)
+    - desc: Rust port of LayeredSyscall, designed to perform indirect syscalls while generating legitimate API call stack frames by abusing Vectored Exception Handling (VEH) to bypass user-land EDR hooks in Windows.
+    - tags: maldev
+- [safedv/RustiveDump](https://github.com/safedv/RustiveDump)
+    - desc: LSASS memory dumper using only NTAPIs, creating a minimal minidump, built in Rust with no_std and independent of the C runtime (CRT). It can be compiled as shellcode (PIC), supports XOR encryption, and remote file transmission.
+    - tags: maldev,redteam
+- [Maldev-Academy/ExecutePeFromPngViaLNK](https://github.com/Maldev-Academy/ExecutePeFromPngViaLNK)
+    - desc: Extract and execute a PE embedded within a PNG file using an LNK file.
+    - tags: phish,redteam,maldev
+- [NtDallas/KrakenMask](https://github.com/NtDallas/KrakenMask)
+    - desc: Sleep obfuscation
+    - tags: maldev
+
+## Issue 056 - Nov 2024
 
 ### writeups
 - [Zero Day Initiative — Exploiting Exchange PowerShell After ProxyNotShell: Part 2 - ApprovedApplicationCollection](https://www.zerodayinitiative.com/blog/2024/9/11/exploiting-exchange-powershell-after-proxynotshell-part-2-approvedapplicationcollection)
@@ -14,13 +46,48 @@
 - [Pacific Rim: Inside the Counter-Offensive—The TTPs Used to Neutralize China-Based Threats – Sophos News](https://news.sophos.com/en-us/2024/10/31/pacific-rim-neutralizing-china-based-threat/)
     - desc: Pacific Rim: Inside the Counter-Offensive—The TTPs Used to Neutralize China-Based Threats – Sophos News
     - tags: gold
-    
+- [Staying Hidden on the Endpoint: Evading Detection with Shellcode | Mandiant | Google Cloud Blog](https://cloud.google.com/blog/topics/threat-intelligence/staying-hidden-on-the-endpoint-evading-detection-with-shellcode/)
+    - desc: Staying Hidden on the Endpoint: Evading Detection with Shellcode | Mandiant | Google Cloud Blog
+    - tags: maldev
+- [Early Cascade Injection: From Windows Process Creation to Stealthy Injection - OutFLank](https://www.outflank.nl/blog/2024/10/15/introducing-early-cascade-injection-from-windows-process-creation-to-stealthy-injection/)
+    - desc: technique targets the user-mode part of process creation and combines elements of the well-known Early Bird APC Injection technique with the recently published EDR-Preloading technique by Marcus Hutchins 
+    - tags: maldev
+- [Katz and Mouse Game:  MaaS Infostealers Adapt to Patched Chrome Defenses — Elastic Security Labs](https://www.elastic.co/security-labs/katz-and-mouse-game)
+    - desc: Katz and Mouse Game:  MaaS Infostealers Adapt to Patched Chrome Defenses — Elastic Security Labs
+    - tags: redteam,stealer
+ - [CloudScout: Evasive Panda scouting cloud services](https://www.welivesecurity.com/en/eset-research/cloudscout-evasive-panda-scouting-cloud-services/)
+    - desc: CloudScout: Evasive Panda scouting cloud services
+    - tags: apt,maldev,stealer,redteam
+- [ZombAIs: From Prompt Injection to C2 with Claude Computer Use - Embrace The Red](https://embracethered.com/blog/posts/2024/claude-computer-use-c2-the-zombais-are-coming/)
+    - desc: Research on Prompt Injection to C2 implant deployment with Claude Computer Use 
+    - tags c2, ai
+- [Exploring Google Cloud Default Service Accounts: Deep Dive and Real-World Adoption Trends |  Datadog Security Labs](https://securitylabs.datadoghq.com/articles/google-cloud-default-service-accounts/)
+    - desc: Exploring Google Cloud Default Service Accounts: Deep Dive and Real-World Adoption Trends
+    - tags: cloud,gcp,redteam
+- [Abusing Azure Arc: From Service Principal Exposed to Reverse Shell - XYBYTES](https://xybytes.com/azure/Abusing-Azure-Arc/)
+    - desc: Abusing Azure Arc: From Service Principal Exposed to Reverse Shell - XYBYTES
+    - tags: cloud,redteam
+
 ### tools
 - [Mayyhem/Maestro](https://github.com/Mayyhem/Maestro)
     - desc: Abusing Intune for Lateral Movement over C2
     - tags: redteam, c2
-
-
+- [xjasonlyu/tun2socks](https://github.com/xjasonlyu/tun2socks)
+    - desc: tun2socks - powered by gVisor TCP/IP stack
+    - tags: redteam,util
+- [0xHossam/KernelCallbackTable-Injection-PoC](https://github.com/0xHossam/KernelCallbackTable-Injection-PoC/)
+    - desc: Proof of Concept for manipulating the Kernel Callback Table in the Process Environment Block (PEB) to perform process injection and hijack execution flow
+    - tags: maldev
+- [OtterHacker/Hooker](https://github.com/OtterHacker/Hooker)
+    - desc: Simple code to detect userland hook setup by the EDR on your process
+    - tags: maldev
+- [emiliensocchi/azurehound-queries](https://github.com/emiliensocchi/azurehound-queries)
+    - desc: 🌩️  Collection of BloodHound queries for Azure
+    - tags: cloud, azure
+- [0xthirteen/reg_snake](https://github.com/0xthirteen/reg_snake)
+    - desc: Python tool to interact with WMI StdRegProv
+    - tags: redteam,windows
+    
 ## Issue 055 - Sep 2024
 
 ### writeups
