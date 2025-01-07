@@ -1,4 +1,40 @@
 # Tagged + 
+
+## Issue 057 - Nov 2024
+### writeups
+- [Building a RuntimeInstaller Payload Pipeline to Evade AV Detection – Practical Security Analytics LLC](https://practicalsecurityanalytics.com/building-a-runtimeinstaller-payload-pipeline-to-evade-av-detection/)
+    - desc: Building a RuntimeInstaller Payload Pipeline to Evade AV Detection – Practical Security Analytics LLC
+    - tags: maldev,infra
+- [x86matthew - NTSockets - Downloading a file via HTTP using the NtCreateFile and NtDeviceIoControlFile syscalls](https://www.x86matthew.com/view_post?id=ntsockets)
+    - desc: x86matthew - NTSockets - Downloading a file via HTTP using the NtCreateFile and NtDeviceIoControlFile syscalls
+    - tags: maldev
+- [TCC bypasses via launch services](https://www.wojciechregula.blog/post/tcc-bypasses-via-launch-services/)
+    - desc: TCC bypasses via launch services
+    - tags: maldev,mac
+- [Introducing lightyear: a new way to dump PHP files](https://www.ambionics.io/blog/lightyear-file-dump)
+    - desc: Introducing lightyear: a new way to dump PHP files
+    - tags: web,exploit
+- [An unexpected journey into Microsoft Defender's signature World — retooling_](https://retooling.io/blog/an-unexpected-journey-into-microsoft-defenders-signature-world)
+    - desc: An unexpected journey into Microsoft Defender's signature World — retooling_
+    - tags: maldev,windows
+
+### tools
+- [alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger)
+    - desc: Automagically reverse-engineer REST APIs via capturing traffic
+    - tags: web,utils
+- [CICADA8-Research/Spyndicapped](https://github.com/CICADA8-Research/Spyndicapped)
+    - desc: COM ViewLogger — new malware keylogging technique
+    - tags: redteam
+- [xforcered/MLOKit](https://github.com/xforcered/MLOKit)
+    - desc: MLOps Attack Toolkit
+    - tags: windows,redteam
+- [safedv/RustPotato](https://github.com/safedv/RustPotato)
+    - desc: A Rust implementation of GodPotato — abusing SeImpersonate to gain SYSTEM privileges. Includes a TCP-based reverse shell and indirect NTAPI for various operations.
+    - tags: windows,postex
+- [safedv/RustVEHSyscalls](https://github.com/safedv/RustVEHSyscalls)
+    - desc: A Rust port of LayeredSyscall — performs indirect syscalls while generating legitimate API call stack frames by abusing VEH.
+    - tags: maldev
+    
 ## Issue 057 - Nov 2024
 ### writeups
 - [Defender for Endpoint: Bypassing Lsass Dump with PowerShell](https://cyberdom.blog/defender-for-endpoint-bypassing-lsass-dump-with-powershell/)
@@ -16,6 +52,15 @@
 - [LoadLibrary madness: dynamically load WinHTTP.dll - RiskInsight](https://www.riskinsight-wavestone.com/en/2024/10/loadlibrary-madness-dynamically-load-winhttp-dll/)
     - desc: LoadLibrary madness: dynamically load WinHTTP.dll - RiskInsight
     - tags: maldev,redteam,c2
+- [Local Admin + Disconnected RDP Sessions – secureyourit.co.uk](https://secureyourit.co.uk/wp/2024/11/07/local-admin-disconnected-rdp-sessions/)
+    - desc: Local Admin + Disconnected RDP Sessions – secureyourit.co.uk
+    - tags: redteam,windows
+- [A New Era of macOS Sandbox Escapes: Diving into an Overlooked Attack Surface and Uncovering 10+ New Vulnerabilities – Mickey's Blogs – Exploring the world with my sword of debugger :)](https://jhftss.github.io/A-New-Era-of-macOS-Sandbox-Escapes/)
+    - desc: A New Era of macOS Sandbox Escapes: Diving into an Overlooked Attack Surface and Uncovering 10+ New Vulnerabilities – Mickey's Blogs – Exploring the world with my sword of debugger :)
+    - tags: mac
+- [BlueNoroff Hidden Risk | Threat Actor Targets Macs with Fake Crypto News and Novel Persistence - SentinelOne](https://www.sentinelone.com/labs/bluenoroff-hidden-risk-threat-actor-targets-macs-with-fake-crypto-news-and-novel-persistence/)
+    - desc: BlueNoroff Hidden Risk | Threat Actor Targets Macs with Fake Crypto News and Novel Persistence - SentinelOne
+    - tags: blue,phish
     
 ### tools
 - [safedv/RustVEHSyscalls](https://github.com/safedv/RustVEHSyscalls)
@@ -29,6 +74,9 @@
     - tags: phish,redteam,maldev
 - [NtDallas/KrakenMask](https://github.com/NtDallas/KrakenMask)
     - desc: Sleep obfuscation
+    - tags: maldev
+- [Cracked5pider/earlycascade-injection](https://github.com/Cracked5pider/earlycascade-injection)
+    - desc: early cascade injection PoC based on Outflanks blog post
     - tags: maldev
 
 ## Issue 056 - Nov 2024
