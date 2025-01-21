@@ -1,4 +1,65 @@
 # Tagged + 
+## Issue 058 - Jan 2025
+### writeups
+- [Monitor Cobalt Strike beacon for Windows tokens and gain Kerberos persistence | sokarepo](https://sokarepo.github.io/redteam/2024/04/18/monitor-cobaltstrike-windows-token-kerberos-persistence.html)
+    - desc: Monitor Cobalt Strike beacon for Windows tokens and gain Kerberos persistence | sokarepo
+    - tags: maldev,windows,kerberos,postex
+- [Detonating Beacons to Illuminate Detection Gaps — Elastic Security Labs](https://www.elastic.co/security-labs/detonating-beacons-to-illuminate-detection-gaps)
+    - desc: Detonating Beacons to Illuminate Detection Gaps — Elastic Security Labs
+    - tags: maldev,windows,detection
+- [Breaking Control Flow Flattening: A Deep Technical Analysis | Zerotistic's blog](https://zerotistic.blog/posts/cff-remover/)
+    - desc: Breaking Control Flow Flattening: A Deep Technical Analysis | Zerotistic's blog
+    - tags: maldev,detection,obfuscation
+- [Analyzing AitM phish kits and the ways they evade detection](https://pushsecurity.com/blog/how-aitm-phishing-kits-evade-detection/)
+    - desc: Analyzing AitM phish kits and the ways they evade detection
+    - tags: redteam,phish
+- [How attackers defeat detections based on page signatures](https://pushsecurity.com/blog/how-aitm-phishing-kits-evade-detection-p2/)
+    - desc: How attackers defeat detections based on page signatures
+    - tags: redteam,phish
+- [Stealthy Attributes of Lazarus APT Group: Evading Detection with Extended Attributes - group-ib](https://www.group-ib.com/blog/stealthy-attributes-of-apt-lazarus/)
+    - desc: techniques regarding concealing codes in Extended Attributes in order to evade detection in macOS systems
+    - tags: apt,redteam,phish,macos
+- [From HTTP to RCE. How to leave backdoor in IIS | by CICADA8 | Medium](https://cicada-8.medium.com/from-http-to-rce-how-to-leave-backdoor-in-iis-cbef8249eba9)
+    - desc: From HTTP to RCE. How to leave backdoor in IIS | by CICADA8 | Medium
+    - tags: web,redteam
+
+### tools
+- [zero2504/FrostLock-Injection](https://github.com/zero2504/FrostLock-Injection)
+    - desc: FrostLock Injection is a freeze/thaw-based code injection technique that uses Windows Job Objects to temporarily freeze (suspend) a target process, inject shellcode, and then seamlessly resume (thaw) it.
+    - tags: maldev
+- [JayGLXR/MacOS-Stealer-in-Rust](https://github.com/JayGLXR/MacOS-Stealer-in-Rust)
+    - desc: MacOS Stealer written in Rust. For Legal and Ethical Research Purposes Only.
+    - tags: maldev,postex,macos
+- [roadwy/DefenderYara](https://github.com/roadwy/DefenderYara)
+    - desc: Extracted Yara rules from Windows Defender mpavbase and mpasbase
+    - tags: maldev
+- [arnetheduck/nlvm](https://github.com/arnetheduck/nlvm)
+    - desc: LLVM-based compiler for the Nim language
+    - tags: utils,maldev
+- [RePRGM/Nimpacket](https://github.com/RePRGM/Nimpacket)
+    - desc: A library for interacting with Windows through SMB written in Nim.
+    - tags: utils,windows
+- [RalfHacker/Kerbeus-BOF](https://github.com/RalfHacker/Kerbeus-BOF)
+    - desc: BOF for Kerberos abuse (an implementation of some important features of the Rubeus).
+    - tags: windows,postex,redteam
+- [xforcered/Being-A-Good-CLR-Host](https://github.com/xforcered/Being-A-Good-CLR-Host)
+    - desc:  ICLRRuntimeHost based proof-of-concept for using Common Language Runtime (CLR) customizations in offensive .NET tradecraft
+    - tags: maldev
+- [jthack/cewlai](https://github.com/jthack/cewlai)
+    - desc: ai-based domain name generation
+    - tags: web,utils
+- [kapellos/LNKSmuggler](https://github.com/kapellos/LNKSmuggler)
+    - desc: A Python script for creating `.lnk` (shortcut) files with embedded encoded data and packaging them into ZIP archives.
+    - tags: phish
+- [joaoviictorti/rustclr](https://github.com/joaoviictorti/rustclr)
+    - desc: Host CLR and run .NET binaries using Rust
+    - tags: maldev
+- [jakehildreth/Locksmith](https://github.com/jakehildreth/Locksmith)
+    - desc: A small tool built to find and fix common misconfigurations in Active Directory Certificate Services.
+    - tags: windows,redteam
+- [BlackSnufkin/LitterBox](https://github.com/BlackSnufkin/LitterBox)
+    - desc: sandbox approach for malware developers and red teamers to test payloads against detection mechanisms before deployment
+    - tags: maldev
 
 ## Issue 057 - Nov 2024
 ### writeups
@@ -363,7 +424,7 @@
 - [lissy93/web-check](https://github.com/lissy93/web-check)
     - desc: 🕵️‍♂️ All-in-one OSINT tool for analysing any website
     - tags: web,recon
-    
+
 ## Issue 053 - Apr 2024
 
 ### writeups
